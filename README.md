@@ -10,19 +10,21 @@ Modern USB racing wheels support 270-1080 degrees of rotation, but original arca
 
 The primary database is `data/wheel-rotation.json` -- a unified, game-centric JSON file where each entry represents a unique physical arcade game. Emulator-specific identifiers (MAME ROM names, TeknoParrot profiles, etc.) are stored as sub-entries so a game's rotation data is never duplicated across platforms.
 
-### Current Stats (v1.3.0)
+### Current Stats (v1.4.0)
 
 | Metric | Count |
 |--------|-------|
-| Total game entries | 192 |
-| With MAME mapping | 112 |
+| Total game entries | 636 |
+| With MAME mapping | 556 |
 | With TeknoParrot mapping | 81 |
-| Confidence: verified | 19 |
-| Confidence: high | 72 |
-| Confidence: medium | 71 |
-| Confidence: low | 28 |
+| With known rotation value | 182 |
+| Unknown (needs research) | 454 |
 
-**Rotation values:** 270 (122 games), 360 (27), 540 (9), 45 (9), infinite (6), 60 (3), 1080 (2), 150 (2), 90 (1), unknown (11)
+**Known rotation values:** 270 (123 games), 360 (27), 540 (9), 45 (9), infinite (6), 60 (3), 1080 (2), 150 (2), 90 (1)
+
+**Confidence levels (known entries):** verified (19), high (72), medium (72), low (28)
+
+The 454 unknown entries are primarily catver.ini-classified driving/racing games where MAME does not list wheel/paddle/dial controls — most likely joystick-controlled. They are included so the community can identify and correct any that actually use steering wheels.
 
 ### Special Values
 
@@ -63,10 +65,10 @@ All downloaded files go to `sources/downloads/` (gitignored).
 - [x] Setup-Dependencies script -- automates gathering catver.ini, controls.xml, nplayers.ini, MAME listxml
 - [x] Fixed controls.xml parsing (capitalized XML tags) and imported 40 verified rotation values
 - [x] MAME research phase (batch 1) -- researched 65 driving/racing parent games across Sega, Namco, Taito, Atari, Midway, Konami, SNK, and others. Added 63 new entries with rotation values from service manuals, parts catalogs, emulator communities, and forum sources
+- [x] MAME research phase (batch 2) -- triaged remaining 118 parent MAME games with paddle/dial controls. Only 1 was a real steering wheel game (Ace Driver: Victory Lap). The other 117 are paddle/breakout games (Arkanoid, Pong), spinners (Tempest, 720°), periscopes (Sea Wolf), music games (beatmania turntable), home computers (Atari 400/800), and other non-steering controls
+- [x] Catver driving game import -- added 443 catver.ini driving/racing games as unknown entries (rotation null) so the community can identify any that actually use steering wheels. Excluded horse racing/gambling/plug-and-play categories
 
 ### Next Up
-
-- [ ] **MAME research phase (batch 2)** -- ~116 remaining parent MAME games with paddle/dial controls (mostly non-driving: Pong variants, Arkanoid clones, etc.) need triage. Many of the ~812 catver-only "driving" games use joysticks, not wheels.
 - [ ] **Cross-mapping** -- Link TeknoParrot-only entries to MAME ROM names where the same game exists in both
 - [ ] **Validate-Database.ps1** -- Schema validation, duplicate detection, range checks
 - [ ] **Export-Formats.ps1** -- CSV and XML exports for frontend/emulator integration
@@ -84,7 +86,7 @@ All downloaded files go to `sources/downloads/` (gitignored).
 ```
 wheel-rotation-db/
   data/
-    wheel-rotation.json          # Primary database (192 games)
+    wheel-rotation.json          # Primary database (636 games)
     schema/
       wheel-rotation.schema.json # JSON Schema for validation
   scripts/
