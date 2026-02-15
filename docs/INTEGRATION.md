@@ -1,26 +1,27 @@
 # Integration Guide
 
-How to consume the wheel-rotation-db data in your application, frontend, or emulator configuration tool.
+How to consume the wheel-db data in your application, frontend, or emulator configuration tool.
 
 ## Quick Start
 
 Download the latest release assets from GitHub:
 
 ```
-https://github.com/d-b-c-e/wheel-rotation-db/releases/latest/download/wheel-rotation.json
-https://github.com/d-b-c-e/wheel-rotation-db/releases/latest/download/mame-wheel-rotation.csv
-https://github.com/d-b-c-e/wheel-rotation-db/releases/latest/download/mame-wheel-rotation.xml
+https://github.com/d-b-c-e/wheel-db/releases/latest/download/wheel-db.json
+https://github.com/d-b-c-e/wheel-db/releases/latest/download/mame-wheel-rotation.csv
+https://github.com/d-b-c-e/wheel-db/releases/latest/download/steam-wheel-support.csv
+https://github.com/d-b-c-e/wheel-db/releases/latest/download/wheel-db.csv
 ```
 
 Choose the format that fits your use case:
 
 | Format | Best For |
 |--------|----------|
-| **JSON** | Full database with all metadata, sources, multi-emulator mappings, and unknown entries |
-| **CSV** | Simple MAME ROM-to-rotation lookup table (known values only, one row per game) |
-| **XML** | Same as CSV but in XML for tools that prefer it |
-
-The CSV and XML exports only include MAME games with known rotation values. If you need TeknoParrot mappings, multi-emulator cross-references, or entries with unknown rotation, use the full JSON.
+| **JSON** (`wheel-db.json`) | Full database with all metadata, sources, multi-platform mappings |
+| **MAME CSV** (`mame-wheel-rotation.csv`) | Simple MAME ROM-to-rotation lookup (known values only) |
+| **MAME XML** (`mame-wheel-rotation.xml`) | Same as MAME CSV in XML format |
+| **Steam CSV** (`steam-wheel-support.csv`) | Steam games with wheel support, FFB, and rotation info |
+| **Unified CSV** (`wheel-db.csv`) | All 829 games in one flat CSV across all platforms |
 
 ---
 
@@ -32,37 +33,46 @@ The full database. Structure:
 
 ```json
 {
-  "version": "1.4.0",
-  "generated": "2026-02-01T20:32:50Z",
+  "version": "2.1.0",
+  "generated": "2026-02-15T00:00:00Z",
   "games": {
     "outrun": {
       "title": "Out Run",
       "manufacturer": "Sega",
+      "developer": null,
+      "publisher": null,
       "year": "1986",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
       "confidence": "high",
-      "sources": [
-        {
-          "type": "manual",
-          "description": "Sega Out Run Operator's Manual",
-          "url": null,
-          "date_accessed": "2026-01-31"
-        }
-      ],
+      "sources": [{ "type": "manual", "description": "Sega Out Run Operator's Manual", "url": null, "date_accessed": "2026-01-31" }],
       "notes": "Uses mechanical stops at 135 degrees each direction from center.",
-      "emulators": {
-        "mame": {
-          "romname": "outrun",
-          "clones_inherit": true
-        }
+      "pc": null,
+      "platforms": {
+        "mame": { "romname": "outrun", "clones_inherit": true }
+      }
+    },
+    "assetto_corsa": {
+      "title": "Assetto Corsa",
+      "manufacturer": null,
+      "developer": "Kunos Simulazioni",
+      "publisher": "505 Games",
+      "year": "2014",
+      "rotation_degrees": 900,
+      "rotation_type": null,
+      "confidence": "verified",
+      "sources": [{ "type": "pcgamingwiki", "description": "PCGamingWiki confirms full wheel and FFB support", "url": "https://www.pcgamingwiki.com/wiki/Assetto_Corsa", "date_accessed": "2026-02-14" }],
+      "notes": "Gold standard for PC sim racing.",
+      "pc": { "wheel_support": "native", "force_feedback": "native", "controller_support": "full" },
+      "platforms": {
+        "steam": { "appid": 244210, "tags": ["Racing", "Simulation"], "store_url": "https://store.steampowered.com/app/244210" }
       }
     }
   }
 }
 ```
 
-The `games` object is keyed by a unique game ID (typically the most common ROM name or a slug). Each game entry contains the fields described below.
+The `games` object is keyed by a unique slug (human-readable game ID). Each entry contains the fields described below. Arcade-only entries have `pc: null`; PC games have a `pc` sub-object with wheel support and force feedback info.
 
 ### CSV (MAME Lookup)
 
@@ -145,22 +155,31 @@ An array of objects documenting where the rotation data came from. Each source h
 
 You generally don't need to process sources programmatically -- they exist for transparency and to help contributors verify/update entries.
 
-### emulators
+### platforms
 
-A map of emulator platform keys to platform-specific identifiers. Possible keys:
+A map of platform keys to platform-specific identifiers. Possible keys:
 
 | Key | Identifier Field | Description |
 |-----|-----------------|-------------|
 | `mame` | `romname` | MAME parent ROM set name. Also has `clones_inherit` (boolean). |
-| `teknoparrot` | `profile` | TeknoParrot GameProfile filename (without `.xml`) |
+| `teknoparrot` | `profile`/`profiles` | TeknoParrot GameProfile filename(s) (without `.xml`) |
+| `steam` | `appid` | Steam app ID. Also: `tags`, `store_url`, `pcgamingwiki_url`, `popularity_rank`, `owners_estimate` |
 | `dolphin` | `game_id` | Triforce/GameCube game ID |
 | `supermodel` | `romname` | Supermodel ROM identifier |
 | `m2emulator` | `romname` | Model 2 Emulator ROM identifier |
 | `flycast` | `romname` | Flycast ROM identifier |
 
-A game may have entries under multiple emulators. For example, F-Zero AX has `mame`, `teknoparrot`, and `dolphin` mappings.
+A game may have entries under multiple platforms. For example, Crazy Taxi has `mame` and `steam` mappings.
 
-Not every game has every emulator mapping. TeknoParrot-only games (like modern Sega Lindbergh titles) may lack a MAME mapping and vice versa.
+### pc
+
+PC-specific metadata, present only for games playable on PC. `null` for arcade-only games.
+
+| Field | Values | Description |
+|-------|--------|-------------|
+| `wheel_support` | `native`, `partial`, `none`, `unknown` | Quality of steering wheel support |
+| `force_feedback` | `native`, `partial`, `none`, `unknown` | Force feedback support level |
+| `controller_support` | `full`, `partial`, `none`, `null` | Generic controller support flag |
 
 ---
 
@@ -172,19 +191,19 @@ To find the rotation for a MAME ROM:
 
 1. **Using CSV/XML**: Look up the `romname` column/attribute directly. These only contain parent ROMs with known values.
 
-2. **Using JSON**: Iterate `games` and check `emulators.mame.romname`:
+2. **Using JSON**: Iterate `games` and check `platforms.mame.romname`:
 
 ```python
 # Python example
 import json
 
-with open("wheel-rotation.json") as f:
+with open("wheel-db.json") as f:
     db = json.load(f)
 
 # Build a romname -> game lookup
 mame_lookup = {}
 for game_id, game in db["games"].items():
-    mame = game.get("emulators", {}).get("mame")
+    mame = game.get("platforms", {}).get("mame")
     if mame:
         mame_lookup[mame["romname"]] = game
 
@@ -196,14 +215,14 @@ if game and game["rotation_degrees"] is not None:
 
 ```csharp
 // C# example using System.Text.Json
-var json = File.ReadAllText("wheel-rotation.json");
+var json = File.ReadAllText("wheel-db.json");
 var db = JsonDocument.Parse(json);
 var games = db.RootElement.GetProperty("games");
 
 foreach (var game in games.EnumerateObject())
 {
-    if (game.Value.TryGetProperty("emulators", out var emulators) &&
-        emulators.TryGetProperty("mame", out var mame))
+    if (game.Value.TryGetProperty("platforms", out var platforms) &&
+        platforms.TryGetProperty("mame", out var mame))
     {
         var romname = mame.GetProperty("romname").GetString();
         if (romname == "outrun")
@@ -234,7 +253,7 @@ When `clones_inherit` is `true` (the default and most common case), apply the pa
 ```python
 tp_lookup = {}
 for game_id, game in db["games"].items():
-    tp = game.get("emulators", {}).get("teknoparrot")
+    tp = game.get("platforms", {}).get("teknoparrot")
     if tp:
         tp_lookup[tp["profile"]] = game
 
@@ -294,14 +313,15 @@ When a game is not in the database or has `null` rotation:
 
 ## Schema Validation
 
-The JSON schema is available at `data/schema/wheel-rotation.schema.json` in the repository. Use it to validate entries or to understand the exact type constraints for each field.
+The JSON schema is available at `data/schema/wheel-db.schema.json` in the repository. Use it to validate entries or to understand the exact type constraints for each field.
 
 Key constraints:
-- `rotation_degrees`: integer 90-1080, or `-1` (infinite), or `null` (unknown)
-- `rotation_type`: enum `mechanical_stop | optical_encoder | potentiometer | unknown`
+- `rotation_degrees`: integer 45-1080, or `-1` (infinite), or `null` (unknown)
+- `rotation_type`: enum `mechanical_stop | optical_encoder | potentiometer | unknown | null` (null for PC-only games)
 - `confidence`: enum `verified | high | medium | low | unknown`
 - `sources`: array with at least 1 entry (each has `type` and `description` required)
-- `emulators`: object with at least one platform key
+- `platforms`: object with platform-specific sub-entries (mame, steam, teknoparrot, etc.)
+- `pc`: object with `wheel_support` and `force_feedback` enums, or `null` for arcade-only
 
 ---
 
@@ -318,18 +338,18 @@ The `version` field in the JSON and the GitHub release tag (e.g., `v1.4.0`) alwa
 
 ## Example: Building a Lookup Cache
 
-For applications that need fast lookups across multiple emulators:
+For applications that need fast lookups across multiple platforms:
 
 ```python
 import json
 
-with open("wheel-rotation.json") as f:
+with open("wheel-db.json") as f:
     db = json.load(f)
 
 # Build multi-emulator lookup: { (platform, id): game_entry }
 lookup = {}
 for game_id, game in db["games"].items():
-    for platform, info in game.get("emulators", {}).items():
+    for platform, info in game.get("platforms", {}).items():
         if platform == "mame":
             lookup[("mame", info["romname"])] = game
         elif platform == "teknoparrot":

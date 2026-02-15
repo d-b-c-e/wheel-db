@@ -1,33 +1,20 @@
-# CLAUDE.md - wheel-rotation-db
+# CLAUDE.md - wheel-db
 
 ## Project Overview
 
-**wheel-rotation-db** is a community database of steering wheel rotation degrees for classic arcade racing/driving games. This metadata helps emulator users (MAME, Teknoparrot, etc.) configure their USB racing wheels to match the original arcade cabinet's wheel rotation, providing an authentic gameplay experience.
+**wheel-db** is a unified database of steering wheel metadata for racing/driving games across arcade emulators and PC platforms. It tracks rotation degrees, wheel support quality, force feedback compatibility, and platform-specific identifiers for MAME, TeknoParrot, Steam, and other platforms.
 
 ### Why This Matters
 
-Modern racing wheels typically support 270°, 540°, 900°, or 1080° rotation. Original arcade cabinets varied widely:
-- Some used ~180° (very twitchy, race car style)
-- Many used 270° (common for arcade racers)
-- Some used 360° or more (simulation-style games)
-- A few used infinite rotation optical encoders (spinners)
-
-Without this metadata, players must guess or manually research each game.
+Modern racing wheels typically support 270°, 540°, 900°, or 1080° rotation. Original arcade cabinets varied widely, and PC racing games each have their own recommended settings. Without this metadata, players must guess or manually research each game.
 
 ### Primary Goals
 
-1. **Build a complete inventory first** - Identify ALL games with wheel/steering controls across MAME and Teknoparrot before researching rotation values. Every wheel-equipped game should have an entry, even if the rotation is unknown initially.
-2. Create a comprehensive, machine-readable database of wheel rotation values for arcade racing games
-3. Document data sources and confidence levels for each entry
-4. Provide tooling to help frontends and emulators auto-configure wheel rotation
-5. Cover both MAME and Teknoparrot platforms from the start
-
-### Phased Approach
-
-- **Phase 1: Inventory** - Enumerate all wheel-equipped games from MAME (via `-listxml`, `controls.dat`, `catver.ini`) and Teknoparrot (via GameProfiles XML). Every game gets an entry with `rotation_degrees: null` (unknown) initially.
-- **Phase 2: Seed Known Values** - Populate well-known rotation values from manufacturer patterns, service manuals, and community consensus.
-- **Phase 3: Research** - Systematically research unknown games, starting with parent ROMs and popular titles.
-- **Phase 4: Community** - Accept contributions and corrections via pull requests.
+1. Create a comprehensive, machine-readable database of wheel metadata for all racing/driving games
+2. Cover arcade emulators (MAME, TeknoParrot, etc.) AND PC platforms (Steam, etc.)
+3. Track rotation degrees, wheel support quality, and force feedback for PC games
+4. Document data sources and confidence levels for each entry
+5. Provide tooling to help frontends and emulators auto-configure wheel settings
 
 ### Special Values
 
@@ -36,9 +23,9 @@ Without this metadata, players must guess or manually research each game.
 
 ### Unified Game-Centric Model
 
-A single physical arcade game may be emulated by multiple platforms (MAME, TeknoParrot, Supermodel, Model2 Emulator, Flycast, etc.). The database should have **one entry per game** with emulator-specific metadata as sub-entries, rather than duplicating game data across platform-specific files.
+A single game may exist on multiple platforms (MAME, TeknoParrot, Steam, Supermodel, etc.). The database has **one entry per game** with platform-specific identifiers in a `platforms` map. Games that exist on both arcade and PC (e.g., Crazy Taxi) have a single entry with both `platforms.mame` and `platforms.steam`.
 
-**Roadmap**: Migrate from per-platform files (`data/mame/`, `data/teknoparrot/`) to a unified structure where each game entry contains an `emulators` map linking to platform-specific identifiers (ROM names, profile filenames, etc.). This avoids data duplication and conflicting entries for the same physical cabinet.
+PC-specific metadata (wheel support quality, force feedback) is stored in a `pc` sub-object that only applies to games playable on PC.
 
 ### Other Emulators to Consider
 
@@ -61,30 +48,27 @@ A game like Daytona USA could be run on MAME, Model 2 Emulator, or even Supermod
 ## Repository Structure
 
 ```
-wheel-rotation-db/
+wheel-db/
 ├── CLAUDE.md                    # This file - AI assistant instructions
 ├── README.md                    # Project documentation for humans
-├── LICENSE                      # License file (recommend MIT or CC0)
+├── LICENSE                      # MIT License
 ├── data/
-│   ├── wheel-rotation.json      # Unified database (one entry per game)
-│   ├── wheel-rotation.csv       # CSV export for easy viewing
-│   ├── wheel-rotation.xml       # XML export for MAME ecosystem compatibility
+│   ├── wheel-db.json            # Unified database (829 games)
 │   └── schema/
-│       └── wheel-rotation.schema.json  # JSON Schema for validation
+│       └── wheel-db.schema.json # JSON Schema for validation
 ├── scripts/
-│   ├── Setup-Dependencies.ps1   # Downloads MAME, controls.dat, catver.ini, etc.
-│   ├── Get-MameGames.ps1        # Filters MAME games to racing/driving with wheel controls
-│   ├── Get-TeknoparrotGames.ps1 # Extracts wheel games from TeknoParrot installation
-│   ├── Research-WheelRotation.ps1  # Autonomous research script
-│   ├── Update-Database.ps1      # Merges research findings into database
+│   ├── Setup-Dependencies.ps1   # Downloads MAME data dependencies
+│   ├── Get-MameGames.ps1        # MAME wheel game inventory
+│   ├── Get-TeknoparrotGames.ps1 # TeknoParrot wheel game inventory
+│   ├── Get-SteamRacingGames.ps1 # Steam racing game discovery via APIs
 │   ├── Export-Formats.ps1       # Generates CSV, XML from JSON master
-│   └── Validate-Database.ps1    # Validates against schema
+│   ├── Validate-Database.ps1    # Validates against schema
+│   └── archive/                 # One-time migration scripts
 ├── sources/
 │   ├── downloads/               # Downloaded dependencies (gitignored)
-│   └── cache/                   # Cached research results (gitignored)
+│   └── cache/                   # Cached inventories (gitignored)
+├── dist/                        # Build artifacts (gitignored, in releases)
 └── docs/
-    ├── CONTRIBUTING.md          # How to contribute manual entries
-    ├── DATA-SOURCES.md          # Documents where data comes from
     └── INTEGRATION.md           # How to use this data in frontends/emulators
 ```
 
@@ -94,79 +78,47 @@ wheel-rotation-db/
 
 ### Primary Database Format (JSON)
 
-The database uses a **unified game-centric model**. Each entry represents a unique physical arcade game/cabinet. Emulator-specific identifiers are stored in an `emulators` map so a single game's rotation data is never duplicated.
+The database uses a **unified game-centric model**. Each entry represents a unique game (arcade or PC). Platform-specific identifiers are stored in a `platforms` map. PC-specific metadata (wheel support, force feedback) is in a `pc` sub-object.
 
 ```json
 {
-  "version": "1.0.0",
-  "generated": "2026-01-31T00:00:00Z",
+  "version": "2.1.0",
+  "generated": "2026-02-15T00:00:00Z",
   "games": {
     "outrun": {
       "title": "Out Run",
       "manufacturer": "Sega",
+      "developer": null,
+      "publisher": null,
       "year": "1986",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
       "confidence": "high",
-      "sources": [
-        {
-          "type": "manual",
-          "description": "Sega Out Run Operator's Manual",
-          "url": null,
-          "date_accessed": "2026-01-31"
-        }
-      ],
-      "notes": "Uses mechanical stops at 135 degrees each direction from center. Sega Super Scaler hardware.",
-      "emulators": {
-        "mame": {
-          "romname": "outrun",
-          "clones_inherit": true
-        }
+      "sources": [{ "type": "manual", "description": "Sega Out Run Operator's Manual", "url": null, "date_accessed": "2026-01-31" }],
+      "notes": "Uses mechanical stops at 135 degrees each direction from center.",
+      "pc": null,
+      "platforms": {
+        "mame": { "romname": "outrun", "clones_inherit": true }
       }
     },
-    "outrun2_sp_sdx": {
-      "title": "OutRun 2 SP SDX",
-      "manufacturer": "Sega",
-      "year": "2006",
-      "rotation_degrees": 270,
-      "rotation_type": "mechanical_stop",
+    "assetto_corsa": {
+      "title": "Assetto Corsa",
+      "manufacturer": null,
+      "developer": "Kunos Simulazioni",
+      "publisher": "505 Games",
+      "year": "2014",
+      "rotation_degrees": 900,
+      "rotation_type": null,
       "confidence": "verified",
-      "sources": [
-        {
-          "type": "other",
-          "description": "TeknoParrot Metadata - wheel_rotation field",
-          "url": null,
-          "date_accessed": "2026-01-31"
-        }
-      ],
-      "notes": "Sega Lindbergh Yellow hardware.",
-      "emulators": {
-        "teknoparrot": {
-          "profile": "or2spdlx"
-        }
-      }
-    },
-    "polepos": {
-      "title": "Pole Position",
-      "manufacturer": "Namco",
-      "year": "1982",
-      "rotation_degrees": -1,
-      "rotation_type": "optical_encoder",
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "manual",
-          "description": "Namco/Atari Pole Position uses optical encoder wheel with infinite rotation",
-          "url": null,
-          "date_accessed": "2026-01-31"
-        }
-      ],
-      "notes": "Infinite rotation optical encoder (spinner). Maps better to spinner/mouse input than modern wheel.",
-      "emulators": {
-        "mame": {
-          "romname": "polepos",
-          "clones_inherit": true
-        }
+      "sources": [{ "type": "pcgamingwiki", "description": "PCGamingWiki confirms full wheel and FFB support", "url": "https://www.pcgamingwiki.com/wiki/Assetto_Corsa", "date_accessed": "2026-02-14" }],
+      "notes": "Gold standard for PC sim racing.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": { "appid": 244210, "tags": ["Racing", "Simulation"], "store_url": "https://store.steampowered.com/app/244210", "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Assetto_Corsa", "popularity_rank": 10, "owners_estimate": null }
       }
     }
   }
@@ -178,29 +130,43 @@ The database uses a **unified game-centric model**. Each entry represents a uniq
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `title` | string | Yes | Full display title of the game |
-| `manufacturer` | string | No | Cabinet manufacturer (Sega, Namco, Midway, etc.) |
-| `year` | string | No | Release year |
-| `rotation_degrees` | number or null | Yes | Total rotation in degrees (e.g., 270 means ±135° from center). Use `-1` for infinite rotation (optical encoder/spinner). Use `null` if unknown/not yet researched. |
-| `rotation_type` | enum | Yes | `mechanical_stop`, `optical_encoder`, `potentiometer`, `unknown` |
-| `confidence` | enum | Yes | `verified` (manual/official), `high` (multiple sources), `medium` (single reliable source), `low` (inference/guess), `unknown` |
+| `manufacturer` | string/null | No | Arcade cabinet manufacturer. Null for PC-only games. |
+| `developer` | string/null | No | Game developer. Primarily for PC games. |
+| `publisher` | string/null | No | Game publisher. Primarily for PC games. |
+| `year` | string/null | No | Release year (YYYY) |
+| `rotation_degrees` | number/null | Yes | For arcade: exact cabinet spec. For PC: community recommended. `-1` = infinite. `null` = unknown. |
+| `rotation_type` | enum/null | No | `mechanical_stop`, `optical_encoder`, `potentiometer`, `unknown`, or `null` (PC-only). Non-null = arcade cabinet spec. |
+| `confidence` | enum | Yes | `verified`, `high`, `medium`, `low`, `unknown` |
 | `sources` | array | Yes | At least one source documenting where the data came from |
-| `notes` | string | No | Additional context about the control setup |
-| `emulators` | object | Yes | Map of emulator platform IDs to platform-specific metadata |
+| `notes` | string/null | No | Additional context |
+| `pc` | object/null | No | PC-specific: `wheel_support`, `force_feedback`, `controller_support`. Null for arcade-only. |
+| `platforms` | object | Yes | Map of platform keys to platform-specific metadata |
 
-### Emulator Sub-Entry Fields
+### PC Sub-Object Fields
 
-Each key in `emulators` is a platform identifier. Known platforms:
+Present only for games playable on PC.
 
-| Platform Key | Emulator | Identifier Field | Description |
+| Field | Type | Required | Values |
+|-------|------|----------|--------|
+| `wheel_support` | enum | Yes | `native`, `partial`, `none`, `unknown` |
+| `force_feedback` | enum | Yes | `native`, `partial`, `none`, `unknown` |
+| `controller_support` | enum/null | No | `full`, `partial`, `none` |
+
+### Platform Sub-Entry Fields
+
+Each key in `platforms` is a platform identifier. Known platforms:
+
+| Platform Key | Platform | Identifier Field | Description |
 |-------------|----------|-----------------|-------------|
 | `mame` | MAME | `romname` | MAME ROM set name. `clones_inherit`: whether clone ROMs share this value. |
-| `teknoparrot` | TeknoParrot | `profile` | GameProfile XML filename (without `.xml`) |
+| `teknoparrot` | TeknoParrot | `profile`/`profiles` | GameProfile XML filename(s) (without `.xml`) |
+| `steam` | Steam | `appid` | Steam app ID. Also: `tags`, `store_url`, `pcgamingwiki_url`, `popularity_rank`, `owners_estimate` |
 | `supermodel` | Supermodel | `romname` | Sega Model 3 ROM name |
 | `m2emulator` | Model 2 Emulator | `romname` | Sega Model 2 ROM name |
 | `flycast` | Flycast/Demul | `romname` | Naomi/Atomiswave ROM name |
 | `dolphin` | Dolphin | `game_id` | Triforce/GameCube game ID |
 
-Additional platform keys can be added as needed. The `emulators` map allows a single game to be linked to multiple emulation platforms.
+Additional platform keys can be added as needed. The `platforms` map allows a single game to be linked to multiple emulation platforms.
 
 ### Rotation Types Explained
 
@@ -273,20 +239,28 @@ Scans local TeknoParrot installation for wheel-equipped games. Reads GameProfile
 
 Results: 487 profiles scanned, 98 wheel-equipped, 25 with metadata rotation values.
 
-### Planned Scripts
-
 #### Export-Formats.ps1
-Generate CSV and XML exports from the JSON master database.
-- `data/wheel-rotation.csv` - Flat format for spreadsheets
-- `data/wheel-rotation.xml` - MAME ecosystem compatible format
+Generates multiple export formats from the JSON master database.
+- `dist/wheel-db.json` - Full database copy for releases
+- `dist/mame-wheel-rotation.csv` - Flat MAME ROM-to-rotation lookup
+- `dist/mame-wheel-rotation.xml` - MAME data in XML format
+- `dist/steam-wheel-support.csv` - Steam games with wheel support info
+- `dist/wheel-db.csv` - Unified flat CSV of all games
 
 #### Validate-Database.ps1
-Validate database against JSON schema and check for issues:
-- JSON schema compliance
-- No duplicate entries or conflicting emulator mappings
-- All required fields present
-- Rotation values are -1 (infinite), null (unknown), or within range (45-1080)
-- Confidence levels are valid enum values
+Validates database against v2.0 schema:
+- Required fields present on every entry
+- Enum values valid (rotation_type, confidence, source types, wheel_support, force_feedback)
+- Rotation values in range (45-1080, -1, or null)
+- No duplicate Steam appids or MAME romnames
+- Sources array non-empty
+- PC sub-object validity
+
+#### Get-SteamRacingGames.ps1
+Fetches top racing/driving games from SteamSpy and Steam Store APIs.
+- Queries SteamSpy for "Racing" and "Driving" tags
+- Enriches with Steam Store API details (release year, controller support)
+- Outputs ranked list to `sources/cache/steam-racing-games.json`
 
 ---
 
@@ -384,7 +358,7 @@ When starting a research session, Claude should:
    - For each game, perform web searches for rotation specs
    - Extract and validate rotation values against known manufacturer patterns
    - Document sources thoroughly with confidence levels
-   - Update `data/wheel-rotation.json` directly (no intermediate merge step needed)
+   - Update `data/wheel-db.json` directly (no intermediate merge step needed)
 
 4. **Validate & Export**
    ```powershell
@@ -525,7 +499,7 @@ param(
 If you have verified information about a game's wheel rotation:
 
 1. Fork the repository
-2. Edit `data/wheel-rotation.json`
+2. Edit `data/wheel-db.json`
 3. Add your entry with source documentation
 4. Submit a pull request
 

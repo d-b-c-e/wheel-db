@@ -1,100 +1,83 @@
-# wheel-rotation-db
+# wheel-db
 
-A community database of steering wheel rotation degrees for arcade racing/driving games. This metadata helps emulator users (MAME, TeknoParrot, etc.) configure their USB racing wheels to match the original arcade cabinet's wheel rotation for an authentic gameplay experience.
+A community database of steering wheel metadata for racing/driving games across arcade emulators and PC platforms. Helps users configure their USB racing wheels with correct rotation degrees, identify games with native wheel support, and check force feedback compatibility.
 
 ## Why This Exists
 
-Modern USB racing wheels support 270-1080 degrees of rotation, but original arcade cabinets varied widely -- 270 degrees was common for arcade racers, some used 360 degrees, early games used infinite-rotation optical encoders, and motorcycle games used as little as 45 degrees. Without this data, players must guess or manually research each game.
+Modern USB racing wheels support 270-1080 degrees of rotation, but original arcade cabinets varied widely -- 270 degrees was common for arcade racers, some used 360 degrees, early games used infinite-rotation optical encoders, and motorcycle games used as little as 45 degrees. PC racing games also have widely varying recommended rotation settings. Without this data, players must guess or manually research each game.
 
 ## Database
 
-The primary database is `data/wheel-rotation.json` -- a unified, game-centric JSON file where each entry represents a unique physical arcade game. Emulator-specific identifiers (MAME ROM names, TeknoParrot profiles, etc.) are stored as sub-entries so a game's rotation data is never duplicated across platforms.
+The primary database is `data/wheel-db.json` -- a unified, game-centric JSON file where each entry represents a unique game. Platform-specific identifiers (MAME ROM names, TeknoParrot profiles, Steam app IDs, etc.) are stored in a `platforms` map so a game's data is never duplicated across platforms.
 
-### Current Stats (v1.4.0)
+### Current Stats (v2.1.0)
 
 | Metric | Count |
 |--------|-------|
-| Total game entries | 636 |
+| Total game entries | 829 |
 | With MAME mapping | 556 |
 | With TeknoParrot mapping | 81 |
-| With known rotation value | 182 |
-| Unknown (needs research) | 454 |
+| With Steam mapping | 196 |
+| With known rotation value | 279 |
+| Unknown (needs research) | 544 |
+| Infinite rotation (encoders) | 6 |
 
-**Known rotation values:** 270 (123 games), 360 (27), 540 (9), 45 (9), infinite (6), 60 (3), 1080 (2), 150 (2), 90 (1)
+**Rotation values:** 270 (124 games), 360 (49), 540 (45), 900 (32), 45 (9), 60 (3), 150 (2), 200 (2), 1080 (2), 450 (2), 390 (3), 180 (1), 90 (1), 300 (1), 480 (1), 720 (1), 800 (1)
 
-**Confidence levels (known entries):** verified (19), high (72), medium (72), low (28)
+**PC wheel support:** native (103 games), partial (41), none (52)
 
-The 454 unknown entries are primarily catver.ini-classified driving/racing games where MAME does not list wheel/paddle/dial controls — most likely joystick-controlled. They are included so the community can identify and correct any that actually use steering wheels.
+**PC force feedback:** native (70), partial (35), none (88)
 
 ### Special Values
 
 - **`-1`** = Infinite rotation (optical encoder / spinner, no physical stops)
 - **`null`** = Unknown, needs research
 
+### Platform Coverage
+
+The database covers games across multiple platforms in a single entry:
+
+| Platform | Key | ID Field | Coverage |
+|----------|-----|----------|----------|
+| MAME | `mame` | `romname` | Arcade games emulated by MAME |
+| TeknoParrot | `teknoparrot` | `profile`/`profiles` | Modern arcade games |
+| Steam | `steam` | `appid` | PC games on Steam |
+| Supermodel | `supermodel` | `romname` | Sega Model 3 |
+| Model 2 Emulator | `m2emulator` | `romname` | Sega Model 2 |
+| Flycast | `flycast` | `romname` | Naomi/Atomiswave |
+| Dolphin | `dolphin` | `game_id` | Triforce/GameCube |
+
+Games that exist on multiple platforms (e.g., Crazy Taxi on both MAME and Steam) have a single entry with all platform mappings.
+
 ## Scripts
 
 All scripts are PowerShell 7+ and located in `scripts/`.
 
-| Script | Status | Description |
-|--------|--------|-------------|
-| `Setup-Dependencies.ps1` | Done | Downloads catver.ini, controls.xml, nplayers.ini; generates MAME listxml from local MAME install |
-| `Get-TeknoparrotGames.ps1` | Done | Scans local TeknoParrot installation for wheel-equipped games (98 found, 25 with rotation metadata) |
-| `Get-MameGames.ps1` | Done | Parses catver.ini + MAME listxml + controls.xml to inventory all MAME racing/driving games (1,488 found) |
-| `Export-Formats.ps1` | Done | Generates CSV and XML exports from JSON master into `dist/` |
-| `Validate-Database.ps1` | Not started | Validate database against JSON schema |
-
-## Dependencies
-
-Run `Setup-Dependencies.ps1` to gather data files. It checks local LaunchBox installations first, then downloads from:
-
-- **catver.ini** -- [progettosnaps.net](https://www.progettosnaps.net/catver/) or [GitHub mirror](https://github.com/AntoPISA/MAME_SupportFiles)
-- **controls.xml** -- [GitHub (ControlsDat)](https://github.com/benbaker76/ControlsDat)
-- **MAME listxml** -- Generated from a local MAME executable
-
-All downloaded files go to `sources/downloads/` (gitignored).
-
-## Roadmap
-
-### Completed
-
-- [x] Project structure, JSON schema, and seed data (9 games)
-- [x] Unified game-centric data model (one entry per game, multi-emulator mappings)
-- [x] TeknoParrot inventory script -- found 98 wheel games, extracted 25 rotation values from metadata
-- [x] TeknoParrot research phase -- researched 72 games, added 64 new entries from web sources
-- [x] MAME inventory script -- found 1,488 racing/driving games across catver.ini, MAME listxml, and controls.xml
-- [x] Setup-Dependencies script -- automates gathering catver.ini, controls.xml, nplayers.ini, MAME listxml
-- [x] Fixed controls.xml parsing (capitalized XML tags) and imported 40 verified rotation values
-- [x] MAME research phase (batch 1) -- researched 65 driving/racing parent games across Sega, Namco, Taito, Atari, Midway, Konami, SNK, and others. Added 63 new entries with rotation values from service manuals, parts catalogs, emulator communities, and forum sources
-- [x] MAME research phase (batch 2) -- triaged remaining 118 parent MAME games with paddle/dial controls. Only 1 was a real steering wheel game (Ace Driver: Victory Lap). The other 117 are paddle/breakout games (Arkanoid, Pong), spinners (Tempest, 720°), periscopes (Sea Wolf), music games (beatmania turntable), home computers (Atari 400/800), and other non-steering controls
-- [x] Catver driving game import -- added 443 catver.ini driving/racing games as unknown entries (rotation null) so the community can identify any that actually use steering wheels. Excluded horse racing/gambling/plug-and-play categories
-- [x] Export-Formats.ps1 -- generates MAME CSV and XML lookup files from the JSON database
-- [x] GitHub Actions release workflow -- auto-creates versioned GitHub releases with JSON, CSV, and XML assets when the database version changes
-
-### Next Up
-- [ ] **Cross-mapping** -- Link TeknoParrot-only entries to MAME ROM names where the same game exists in both
-- [ ] **Validate-Database.ps1** -- Schema validation, duplicate detection, range checks
-- [ ] **Other emulator mappings** -- Add Supermodel, Model 2 Emulator, Flycast, Dolphin identifiers to existing entries
-
-### Future
-
-- [ ] Community contributions via pull requests
-- [ ] Integration guides for emulator frontends (LaunchBox, RetroArch, etc.)
-- [ ] Paddle/dial games research (Arkanoid, etc. -- different use case from steering wheels)
-- [ ] **PC racing games** -- Community-recommended rotation values for Steam, Epic, GOG titles and arbitrary Windows executables. Unlike arcade cabinets, PC games rarely have an official "correct" rotation, so these would be community consensus recommendations for the best experience. Would need a new emulator/platform key (e.g., `steam`, `epic`, `gog`, or a generic `pc` with executable name matching).
+| Script | Description |
+|--------|-------------|
+| `Setup-Dependencies.ps1` | Downloads catver.ini, controls.xml, nplayers.ini; generates MAME listxml |
+| `Get-MameGames.ps1` | Parses MAME data sources to inventory all racing/driving games with wheel controls |
+| `Get-TeknoparrotGames.ps1` | Scans local TeknoParrot installation for wheel-equipped games |
+| `Get-SteamRacingGames.ps1` | Fetches top racing/driving games from SteamSpy and Steam Store APIs |
+| `Export-Formats.ps1` | Generates CSV and XML exports from JSON master into `dist/` |
+| `Validate-Database.ps1` | Validates database structure, enums, ranges, and uniqueness constraints |
 
 ## Repository Structure
 
 ```
-wheel-rotation-db/
+wheel-db/
   data/
-    wheel-rotation.json          # Primary database (636 games)
+    wheel-db.json                # Primary database (829 games)
     schema/
-      wheel-rotation.schema.json # JSON Schema for validation
+      wheel-db.schema.json       # JSON Schema for validation
   scripts/
     Setup-Dependencies.ps1       # Download/copy data dependencies
     Get-MameGames.ps1            # MAME wheel game inventory
     Get-TeknoparrotGames.ps1     # TeknoParrot wheel game inventory
+    Get-SteamRacingGames.ps1     # Steam racing game discovery
     Export-Formats.ps1           # Generate CSV/XML exports into dist/
+    Validate-Database.ps1        # Schema validation and data checks
+    archive/                     # One-time migration scripts
   .github/
     workflows/
       release.yml                # Auto-release on database version change
@@ -106,30 +89,25 @@ wheel-rotation-db/
 
 ## Consuming the Data
 
-Each [GitHub Release](../../releases) includes three artifacts:
+Each [GitHub Release](../../releases) includes these artifacts:
 
 | File | Format | Description |
 |------|--------|-------------|
-| `wheel-rotation.json` | JSON | Full database with all metadata, sources, and multi-emulator mappings |
-| `mame-wheel-rotation.csv` | CSV | Flat MAME ROM-to-rotation lookup (games with known values only) |
-| `mame-wheel-rotation.xml` | XML | Same MAME lookup data in XML format |
+| `wheel-db.json` | JSON | Full unified database with all metadata and multi-platform mappings |
+| `mame-wheel-rotation.csv` | CSV | Flat MAME ROM-to-rotation lookup (known values only) |
+| `mame-wheel-rotation.xml` | XML | Same MAME data in XML format |
+| `steam-wheel-support.csv` | CSV | Steam games with wheel support, FFB, and rotation info |
+| `wheel-db.csv` | CSV | Unified flat CSV of all 829 games across all platforms |
 
-**Quick access** (latest release):
-```
-https://github.com/d-b-c-e/wheel-rotation-db/releases/latest/download/wheel-rotation.json
-https://github.com/d-b-c-e/wheel-rotation-db/releases/latest/download/mame-wheel-rotation.csv
-https://github.com/d-b-c-e/wheel-rotation-db/releases/latest/download/mame-wheel-rotation.xml
-```
-
-For detailed parsing instructions, field reference, code examples, and emulator-specific guidance, see **[docs/INTEGRATION.md](docs/INTEGRATION.md)**.
+For detailed parsing instructions and code examples, see **[docs/INTEGRATION.md](docs/INTEGRATION.md)**.
 
 ## Contributing
 
-If you have verified information about an arcade game's wheel rotation:
+If you have verified information about a game's wheel rotation or support:
 
 1. Fork the repository
-2. Edit `data/wheel-rotation.json`
-3. Add your entry following the schema (see `data/schema/wheel-rotation.schema.json`)
+2. Edit `data/wheel-db.json`
+3. Add your entry following the schema (see `data/schema/wheel-db.schema.json`)
 4. Include at least one source documenting where the data came from
 5. Submit a pull request
 

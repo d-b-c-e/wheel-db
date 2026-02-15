@@ -1,36 +1,38 @@
 <#
 .SYNOPSIS
-    Generates CSV and XML exports from the wheel-rotation.json database.
+    Generates export formats from the unified wheel-db.json database.
 
 .DESCRIPTION
     Reads the primary JSON database and produces:
-    - wheel-rotation.json (copy for release artifact)
+    - wheel-db.json          (copy of full database for release)
     - mame-wheel-rotation.csv (flat MAME ROM-to-rotation lookup)
-    - mame-wheel-rotation.xml (same data in XML format)
+    - mame-wheel-rotation.xml (MAME data in XML format)
+    - steam-wheel-support.csv (Steam wheel support lookup)
+    - wheel-db.csv           (unified flat CSV of all games)
 
-    Only games with a MAME romname AND a known rotation value (non-null) are
-    included in the MAME-specific exports.
+    Only games with known values (non-null rotation or non-unknown wheel support)
+    are included in platform-specific exports.
 
 .PARAMETER DatabasePath
-    Path to the source wheel-rotation.json file.
+    Path to the source wheel-db.json file.
 
 .PARAMETER OutputDir
     Directory where export files are written. Created if it doesn't exist.
 #>
 param(
-    [string]$DatabasePath = "$PSScriptRoot/../data/wheel-rotation.json",
+    [string]$DatabasePath = "$PSScriptRoot/../data/wheel-db.json",
     [string]$OutputDir = "$PSScriptRoot/../dist"
 )
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
-# Resolve paths
 $DatabasePath = Resolve-Path $DatabasePath
 Write-Host "Reading database: $DatabasePath"
 
 $db = Get-Content -Raw $DatabasePath | ConvertFrom-Json
-Write-Host "Database version: $($db.version) | Total games: $(($db.games.PSObject.Properties | Measure-Object).Count)"
+$gameProps = @($db.games.PSObject.Properties)
+Write-Host "Database version: $($db.version) | Total games: $($gameProps.Count)"
 
 # Create output directory
 if (-not (Test-Path $OutputDir)) {
@@ -39,42 +41,42 @@ if (-not (Test-Path $OutputDir)) {
 $OutputDir = Resolve-Path $OutputDir
 
 # --- 1. Copy full JSON ---
-$jsonDest = Join-Path $OutputDir "wheel-rotation.json"
+$jsonDest = Join-Path $OutputDir "wheel-db.json"
 Copy-Item -Path $DatabasePath -Destination $jsonDest -Force
 Write-Host "Exported: $jsonDest"
 
-# --- 2. Build MAME game list (with romname + known rotation) ---
+# --- 2. MAME CSV/XML (games with MAME romname + known rotation) ---
 $mameGames = [System.Collections.ArrayList]::new()
 
-foreach ($prop in $db.games.PSObject.Properties) {
+foreach ($prop in $gameProps) {
     $game = $prop.Value
+    $plats = $game.platforms
 
-    if (-not $game.emulators -or -not $game.emulators.PSObject.Properties['mame']) { continue }
-    $mameInfo = $game.emulators.mame
+    if (-not $plats -or -not $plats.PSObject.Properties['mame']) { continue }
+    $mameInfo = $plats.mame
     if ($null -eq $game.rotation_degrees) { continue }
 
+    $gp = $game.PSObject.Properties
     [void]$mameGames.Add([PSCustomObject]@{
-        romname         = $mameInfo.romname
-        title           = $game.title
-        manufacturer    = if ($game.manufacturer) { $game.manufacturer } else { '' }
-        year            = if ($game.year) { $game.year } else { '' }
+        romname          = $mameInfo.romname
+        title            = $game.title
+        manufacturer     = if ($gp['manufacturer'] -and $game.manufacturer) { $game.manufacturer } else { '' }
+        year             = if ($gp['year'] -and $game.year) { $game.year } else { '' }
         rotation_degrees = $game.rotation_degrees
-        rotation_type   = $game.rotation_type
-        confidence      = $game.confidence
+        rotation_type    = if ($gp['rotation_type'] -and $game.rotation_type) { $game.rotation_type } else { '' }
+        confidence       = $game.confidence
     })
 }
 
-# Sort by romname
 $mameGames = $mameGames | Sort-Object romname
 Write-Host "MAME games with known rotation: $($mameGames.Count)"
 
-# --- 3. Generate CSV ---
+# MAME CSV
 $csvPath = Join-Path $OutputDir "mame-wheel-rotation.csv"
 $csvLines = [System.Collections.ArrayList]::new()
 [void]$csvLines.Add("romname,title,manufacturer,year,rotation_degrees,rotation_type,confidence")
 
 foreach ($g in $mameGames) {
-    # Escape CSV fields that might contain commas or quotes
     $title = $g.title -replace '"', '""'
     $mfr = $g.manufacturer -replace '"', '""'
     [void]$csvLines.Add("`"$($g.romname)`",`"$title`",`"$mfr`",`"$($g.year)`",$($g.rotation_degrees),`"$($g.rotation_type)`",`"$($g.confidence)`"")
@@ -83,7 +85,7 @@ foreach ($g in $mameGames) {
 $csvLines -join "`n" | Set-Content -Path $csvPath -Encoding UTF8 -NoNewline
 Write-Host "Exported: $csvPath ($($mameGames.Count) entries)"
 
-# --- 4. Generate XML ---
+# MAME XML
 $xmlPath = Join-Path $OutputDir "mame-wheel-rotation.xml"
 
 $xmlSettings = [System.Xml.XmlWriterSettings]::new()
@@ -119,4 +121,99 @@ $writer.Close()
 $stream.Close()
 
 Write-Host "Exported: $xmlPath ($($mameGames.Count) entries)"
+
+# --- 3. Steam CSV (games with Steam appid + known wheel support) ---
+$steamGames = [System.Collections.ArrayList]::new()
+
+foreach ($prop in $gameProps) {
+    $game = $prop.Value
+    $plats = $game.platforms
+    $gp = $game.PSObject.Properties
+
+    if (-not $plats -or -not $plats.PSObject.Properties['steam']) { continue }
+    if (-not $gp['pc'] -or $null -eq $game.pc) { continue }
+
+    $steamInfo = $plats.steam
+    $pc = $game.pc
+
+    # Skip unknown wheel support
+    if ($pc.wheel_support -eq 'unknown') { continue }
+
+    $rotation = if ($null -ne $game.rotation_degrees -and $game.rotation_degrees -ne -1) {
+        $game.rotation_degrees
+    } else { '' }
+
+    [void]$steamGames.Add([PSCustomObject]@{
+        appid                       = $steamInfo.appid
+        title                       = $game.title
+        developer                   = if ($gp['developer'] -and $game.developer) { $game.developer } else { '' }
+        publisher                   = if ($gp['publisher'] -and $game.publisher) { $game.publisher } else { '' }
+        year                        = if ($gp['year'] -and $game.year) { $game.year } else { '' }
+        wheel_support               = $pc.wheel_support
+        force_feedback              = $pc.force_feedback
+        recommended_rotation_degrees = $rotation
+        confidence                  = $game.confidence
+    })
+}
+
+$steamGames = $steamGames | Sort-Object appid
+Write-Host "Steam games with known wheel support: $($steamGames.Count)"
+
+$steamCsvPath = Join-Path $OutputDir "steam-wheel-support.csv"
+$steamCsvLines = [System.Collections.ArrayList]::new()
+[void]$steamCsvLines.Add("appid,title,developer,publisher,year,wheel_support,force_feedback,recommended_rotation_degrees,confidence")
+
+foreach ($g in $steamGames) {
+    $title = $g.title -replace '"', '""'
+    $dev = $g.developer -replace '"', '""'
+    $pub = $g.publisher -replace '"', '""'
+    [void]$steamCsvLines.Add("$($g.appid),`"$title`",`"$dev`",`"$pub`",`"$($g.year)`",`"$($g.wheel_support)`",`"$($g.force_feedback)`",$($g.recommended_rotation_degrees),`"$($g.confidence)`"")
+}
+
+$steamCsvLines -join "`n" | Set-Content -Path $steamCsvPath -Encoding UTF8 -NoNewline
+Write-Host "Exported: $steamCsvPath ($($steamGames.Count) entries)"
+
+# --- 4. Unified CSV (all games, all platforms) ---
+$unifiedCsvPath = Join-Path $OutputDir "wheel-db.csv"
+$unifiedLines = [System.Collections.ArrayList]::new()
+[void]$unifiedLines.Add("slug,title,manufacturer,developer,publisher,year,rotation_degrees,rotation_type,confidence,wheel_support,force_feedback,mame_romname,steam_appid,teknoparrot_profile")
+
+foreach ($prop in $gameProps) {
+    $game = $prop.Value
+    $gp = $game.PSObject.Properties
+    $plats = $game.platforms
+
+    $title = $game.title -replace '"', '""'
+    $mfr = if ($gp['manufacturer'] -and $game.manufacturer) { $game.manufacturer -replace '"', '""' } else { '' }
+    $dev = if ($gp['developer'] -and $game.developer) { $game.developer -replace '"', '""' } else { '' }
+    $pub = if ($gp['publisher'] -and $game.publisher) { $game.publisher -replace '"', '""' } else { '' }
+    $year = if ($gp['year'] -and $game.year) { $game.year } else { '' }
+    $rot = if ($null -ne $game.rotation_degrees) { $game.rotation_degrees } else { '' }
+    $rotType = if ($gp['rotation_type'] -and $game.rotation_type) { $game.rotation_type } else { '' }
+
+    $ws = ''
+    $ffb = ''
+    if ($gp['pc'] -and $null -ne $game.pc) {
+        $ws = $game.pc.wheel_support
+        $ffb = $game.pc.force_feedback
+    }
+
+    $mameRom = if ($plats.PSObject.Properties['mame']) { $plats.mame.romname } else { '' }
+    $steamId = if ($plats.PSObject.Properties['steam']) { $plats.steam.appid } else { '' }
+    $tpProfile = ''
+    if ($plats.PSObject.Properties['teknoparrot']) {
+        $tp = $plats.teknoparrot
+        if ($tp.PSObject.Properties['profiles']) {
+            $tpProfile = $tp.profiles -join ';'
+        } elseif ($tp.PSObject.Properties['profile']) {
+            $tpProfile = $tp.profile
+        }
+    }
+
+    [void]$unifiedLines.Add("`"$($prop.Name)`",`"$title`",`"$mfr`",`"$dev`",`"$pub`",`"$year`",$rot,`"$rotType`",`"$($game.confidence)`",`"$ws`",`"$ffb`",`"$mameRom`",$steamId,`"$tpProfile`"")
+}
+
+$unifiedLines -join "`n" | Set-Content -Path $unifiedCsvPath -Encoding UTF8 -NoNewline
+Write-Host "Exported: $unifiedCsvPath ($($gameProps.Count) entries)"
+
 Write-Host "`nExport complete. Files in: $OutputDir"

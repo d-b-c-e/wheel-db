@@ -1,0 +1,265 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/d-b-c-e/wheel-db/schema/wheel-db.schema.json",
+  "title": "Wheel Database",
+  "description": "Unified database of steering wheel metadata for racing/driving games across arcade emulators and PC platforms",
+  "type": "object",
+  "required": ["version", "generated", "games"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semantic version of the database"
+    },
+    "generated": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of when the database was last generated"
+    },
+    "games": {
+      "type": "object",
+      "description": "Map of game slugs to game entries. Each key is a unique game identifier.",
+      "additionalProperties": {
+        "$ref": "#/$defs/gameEntry"
+      }
+    }
+  },
+  "$defs": {
+    "gameEntry": {
+      "type": "object",
+      "required": ["title", "rotation_degrees", "confidence", "sources", "platforms"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Full display title of the game"
+        },
+        "manufacturer": {
+          "type": ["string", "null"],
+          "description": "Arcade cabinet manufacturer (Sega, Namco, Midway, etc.). Null for PC-only games."
+        },
+        "developer": {
+          "type": ["string", "null"],
+          "description": "Game developer. Primarily used for PC games."
+        },
+        "publisher": {
+          "type": ["string", "null"],
+          "description": "Game publisher. Primarily used for PC games."
+        },
+        "year": {
+          "type": ["string", "null"],
+          "pattern": "^\\d{4}$",
+          "description": "Release year (YYYY format)"
+        },
+        "rotation_degrees": {
+          "oneOf": [
+            {
+              "type": "number",
+              "minimum": 45,
+              "maximum": 1080
+            },
+            {
+              "type": "number",
+              "const": -1,
+              "description": "Infinite rotation (optical encoder / spinner)"
+            },
+            {
+              "type": "null",
+              "description": "Unknown / not yet researched"
+            }
+          ],
+          "description": "Wheel rotation in degrees. For arcade games: exact cabinet spec. For PC-only games: community-recommended setting. Use -1 for infinite rotation. Use null if unknown."
+        },
+        "rotation_type": {
+          "type": ["string", "null"],
+          "enum": ["mechanical_stop", "optical_encoder", "potentiometer", "unknown", null],
+          "description": "Type of rotation mechanism. Non-null values indicate an arcade cabinet spec. Null for PC-only games."
+        },
+        "confidence": {
+          "type": "string",
+          "enum": ["verified", "high", "medium", "low", "unknown"],
+          "description": "Confidence level in the data"
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/source"
+          },
+          "description": "Sources documenting where the data came from"
+        },
+        "notes": {
+          "type": ["string", "null"],
+          "description": "Additional context about the control setup or wheel support"
+        },
+        "pc": {
+          "oneOf": [
+            { "$ref": "#/$defs/pcMetadata" },
+            { "type": "null" }
+          ],
+          "description": "PC-specific metadata (wheel support quality, force feedback). Null for arcade-only games."
+        },
+        "platforms": {
+          "type": "object",
+          "description": "Map of platform keys to platform-specific metadata",
+          "properties": {
+            "mame": { "$ref": "#/$defs/platformMame" },
+            "teknoparrot": { "$ref": "#/$defs/platformTeknoparrot" },
+            "supermodel": { "$ref": "#/$defs/platformGeneric" },
+            "m2emulator": { "$ref": "#/$defs/platformGeneric" },
+            "flycast": { "$ref": "#/$defs/platformGeneric" },
+            "dolphin": { "$ref": "#/$defs/platformDolphin" },
+            "steam": { "$ref": "#/$defs/platformSteam" }
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/platformGeneric"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "required": ["type", "description"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "manual", "forum", "wiki", "video", "measurement", "inference", "other",
+            "api", "pcgamingwiki", "reddit", "steam_community", "youtube",
+            "developer", "manual_test",
+            "parts", "database", "emulator", "code", "reference", "research", "catver"
+          ],
+          "description": "Type of source"
+        },
+        "description": {
+          "type": "string",
+          "description": "Description of the source"
+        },
+        "url": {
+          "type": ["string", "null"],
+          "description": "URL of the source if available"
+        },
+        "date_accessed": {
+          "type": ["string", "null"],
+          "format": "date",
+          "description": "Date the source was accessed (YYYY-MM-DD)"
+        }
+      },
+      "additionalProperties": false
+    },
+    "pcMetadata": {
+      "type": "object",
+      "required": ["wheel_support", "force_feedback"],
+      "properties": {
+        "wheel_support": {
+          "type": "string",
+          "enum": ["native", "partial", "none", "unknown"],
+          "description": "Steering wheel support level"
+        },
+        "force_feedback": {
+          "type": "string",
+          "enum": ["native", "partial", "none", "unknown"],
+          "description": "Force feedback support level"
+        },
+        "controller_support": {
+          "type": ["string", "null"],
+          "enum": ["full", "partial", "none", null],
+          "description": "Generic controller support flag (from Steam)"
+        }
+      },
+      "additionalProperties": false
+    },
+    "platformMame": {
+      "type": "object",
+      "required": ["romname"],
+      "properties": {
+        "romname": {
+          "type": "string",
+          "description": "MAME ROM set name"
+        },
+        "clones_inherit": {
+          "type": "boolean",
+          "default": true,
+          "description": "Whether MAME clone ROMs should inherit this rotation value"
+        }
+      },
+      "additionalProperties": false
+    },
+    "platformTeknoparrot": {
+      "type": "object",
+      "properties": {
+        "profile": {
+          "type": "string",
+          "description": "Primary TeknoParrot GameProfile filename (without .xml). Deprecated in favor of profiles array."
+        },
+        "profiles": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1,
+          "description": "TeknoParrot GameProfile filenames (without .xml). Covers version/region variants."
+        }
+      },
+      "oneOf": [
+        { "required": ["profiles"] },
+        { "required": ["profile"] }
+      ],
+      "additionalProperties": false
+    },
+    "platformDolphin": {
+      "type": "object",
+      "required": ["game_id"],
+      "properties": {
+        "game_id": {
+          "type": "string",
+          "description": "Triforce/GameCube game ID"
+        }
+      },
+      "additionalProperties": false
+    },
+    "platformSteam": {
+      "type": "object",
+      "required": ["appid"],
+      "properties": {
+        "appid": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Steam application ID"
+        },
+        "tags": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Steam user tags"
+        },
+        "store_url": {
+          "type": ["string", "null"],
+          "description": "Steam store page URL"
+        },
+        "pcgamingwiki_url": {
+          "type": ["string", "null"],
+          "description": "Link to PCGamingWiki page"
+        },
+        "popularity_rank": {
+          "type": ["integer", "null"],
+          "minimum": 1,
+          "description": "Ranking by owners/players (lower is more popular)"
+        },
+        "owners_estimate": {
+          "type": ["string", "null"],
+          "description": "SteamSpy ownership range estimate"
+        }
+      },
+      "additionalProperties": false
+    },
+    "platformGeneric": {
+      "type": "object",
+      "required": ["romname"],
+      "properties": {
+        "romname": {
+          "type": "string",
+          "description": "ROM or game identifier for this emulator"
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}
