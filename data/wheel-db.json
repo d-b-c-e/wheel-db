@@ -1,6 +1,6 @@
 {
-  "version": "2.1.0",
-  "generated": "2026-02-15T01:27:08Z",
+  "version": "2.2.0",
+  "generated": "2026-02-14T00:00:00Z",
   "games": {
     "outrun": {
       "title": "Out Run",
@@ -16780,7 +16780,7 @@
       "developer": "Rockstar North",
       "publisher": "Rockstar Games",
       "year": "2015",
-      "rotation_degrees": null,
+      "rotation_degrees": 540,
       "rotation_type": null,
       "confidence": "high",
       "sources": [
@@ -16788,6 +16788,12 @@
           "type": "steam_community",
           "description": "No native wheel support. Manual Transmission mod by ikt provides full wheel/FFB/H-shifter support with 900 degree rotation",
           "url": "https://github.com/ikt32/GTAVManualTransmission",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "Requires Manual Transmission mod for proper wheel support. Community consensus is 540 degrees.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -16863,13 +16869,19 @@
       "developer": "Psyonix LLC",
       "publisher": "Psyonix LLC",
       "year": "2015",
-      "rotation_degrees": null,
+      "rotation_degrees": 180,
       "rotation_type": null,
       "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Wheels are plug-and-play compatible but lack sensitivity for competitive play. No FFB support.",
+          "url": null,
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "Natively compatible but not designed for wheel. Low rotation universally recommended.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -17022,13 +17034,19 @@
       "developer": "Rockstar North",
       "publisher": "Rockstar Games",
       "year": "2025",
-      "rotation_degrees": null,
+      "rotation_degrees": 540,
       "rotation_type": null,
       "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Same engine as GTA V Legacy. Manual Transmission mod may provide wheel support if compatible.",
+          "url": null,
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Same driving model as GTA V Legacy. 540 recommended with Manual Transmission mod.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -17059,13 +17077,19 @@
       "developer": "Avalanche Studios",
       "publisher": "Warner Bros. Interactive Entertainment",
       "year": "2015",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
           "description": "Requires x360ce to emulate Xbox controller. No force feedback. Mixed driving/combat gameplay.",
+          "url": null,
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "No native wheel support, requires x360ce. 270 for arcade combat driving.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -17404,13 +17428,19 @@
       "developer": "Criterion Games",
       "publisher": "Electronic Arts",
       "year": "2010",
-      "rotation_degrees": null,
+      "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "No official wheel support. Community workarounds via manual mapping exist but are unreliable.",
+          "url": null,
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "Multiple sources confirm 180 degrees minimizes the significant center dead zone.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -17479,13 +17509,19 @@
       "developer": "Rockstar Games",
       "publisher": "Rockstar Games",
       "year": "2004",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
           "description": "Supports steering wheel axis but NOT pedals for acceleration. Requires third-party tools for full mapping.",
+          "url": null,
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "Basic DirectInput wheel support. SAAC mod improves support. 270 recommended for arcade handling.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -17516,13 +17552,19 @@
       "developer": "Rockstar North",
       "publisher": "Rockstar Games",
       "year": "2010",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
       "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "Wheel controls require manual mapping via manufacturer software or x360ce. No native plug-and-play.",
+          "url": null,
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "No native wheel support, requires x360ce. 270 minimizes dead zone.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -17553,13 +17595,19 @@
       "developer": "2K Czech",
       "publisher": "2K",
       "year": "2010",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
       "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Requires x360ce to emulate Xbox controller. No native FFB.",
+          "url": null,
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "No native wheel support, requires x360ce. 270 recommended for analog stick emulation.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -17666,13 +17714,19 @@
       "developer": "Cengiz Duman",
       "publisher": "Cengiz Duman",
       "year": "2016",
-      "rotation_degrees": null,
+      "rotation_degrees": 540,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
           "description": "Basic wheel support added via update. Works with Logitech G27/G25 but no clutch. Minimal FFB (center return only).",
+          "url": null,
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "Dedicated drift game with in-game steering lock tuning. Developer posted wheel setup guide.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -17777,13 +17831,19 @@
       "developer": "Ghost Games",
       "publisher": "Electronic Arts",
       "year": "2013",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
       "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "EA officially stated no wheel support. Community workarounds via x360ce exist.",
+          "url": null,
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "No official wheel support. Workaround via x360ce. 270 minimizes dead zone.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -17815,13 +17875,19 @@
       "developer": "GIANTS Software",
       "publisher": "GIANTS Software",
       "year": "2014",
-      "rotation_degrees": null,
+      "rotation_degrees": 900,
       "rotation_type": null,
       "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Basic steering wheel support available but no force feedback. Users must enable wheel/gamepad option in menu.",
+          "url": null,
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "developer",
+          "description": "Official wheel support. Saitek Farming Simulator Wheel designed for 900 degrees.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -18054,13 +18120,19 @@
       "developer": "Cruderocks",
       "publisher": "Cruderocks",
       "year": "2017",
-      "rotation_degrees": null,
+      "rotation_degrees": 540,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
           "description": "Wheel can be bound in settings; reported working with G920 but G29 has ~90deg deadzone. Some FFB reported.",
+          "url": null,
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Drift racing game. 540 is drift genre standard.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -18174,13 +18246,19 @@
       "developer": "Ghost Games",
       "publisher": "Electronic Arts",
       "year": "2016",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
           "description": "Wheel support added via patch. Has FFB and in-game settings but quality limited. No H-shifter/clutch.",
+          "url": null,
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "Native wheel support for select wheels. 270 works best for arcade handling; 900 too slow.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -18248,7 +18326,7 @@
       "developer": "EA Black Box",
       "publisher": "Electronic Arts",
       "year": "2008",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
@@ -18256,6 +18334,12 @@
           "type": "pcgamingwiki",
           "description": "Wheel input recognized but no FFB on PC. Some wheels cause crashes.",
           "url": "https://www.pcgamingwiki.com/wiki/Need_for_Speed:_Undercover",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "Basic wheel support via control type switch. Lower rotation works best for arcade handling.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -18322,13 +18406,19 @@
       "developer": "Grease Monkey Games",
       "publisher": "Grease Monkey Games",
       "year": "2019",
-      "rotation_degrees": null,
+      "rotation_degrees": 540,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
           "description": "Wheel support added during Early Access. FFB with customizable settings. Supports Logitech G29/G920.",
+          "url": null,
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Competitive drift racing with FFB. 540 inferred from drift genre standard.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -18680,13 +18770,19 @@
       "developer": "Genesz",
       "publisher": "Genesz",
       "year": "2019",
-      "rotation_degrees": null,
+      "rotation_degrees": 900,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
           "description": "Dedicated wheel settings tab with axis, deadzone, sensitivity. Zero FFB.",
+          "url": null,
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "Open-world survival driving. Community uses 900 for realistic road car behavior.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -20333,13 +20429,19 @@
       "developer": "Monster and Monster",
       "publisher": "Raw Fury",
       "year": "2024",
-      "rotation_degrees": null,
+      "rotation_degrees": 360,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
           "description": "Space trucking sim with wheel support",
+          "url": null,
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "developer",
+          "description": "Space trucking game. Official Peripherals Guide recommends reduced wheel travel for spacecraft control.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -20633,13 +20735,19 @@
       "developer": "Stellar Entertainment",
       "publisher": "Electronic Arts",
       "year": "2018",
-      "rotation_degrees": null,
+      "rotation_degrees": 180,
       "rotation_type": null,
       "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Wheels work via controller mapping but no native wheel mode or FFB. Arcade racer best played with gamepad.",
+          "url": null,
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "No official wheel support. Community guide for G29/G920 recommends 180-degree range.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -20671,13 +20779,19 @@
       "developer": "Criterion Games",
       "publisher": "Electronic Arts",
       "year": "2009",
-      "rotation_degrees": null,
+      "rotation_degrees": 360,
       "rotation_type": null,
       "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Same as Remastered - wheels work via mapping but no native support or FFB.",
+          "url": null,
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "Basic wheel support with dead zone issues. Community recommends 360 in hardware driver.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -20933,13 +21047,19 @@
       "developer": "Team 6 Studios",
       "publisher": "Strategy First",
       "year": "2011",
-      "rotation_degrees": null,
+      "rotation_degrees": 360,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
           "description": "Poorly received FlatOut sequel. Basic wheel input, no FFB. Widely panned.",
+          "url": null,
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "FlatOut series community documents G29 settings at 360 degrees.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -21902,14 +22022,20 @@
       "developer": "Vae Victis",
       "publisher": "",
       "year": "2014",
-      "rotation_degrees": null,
+      "rotation_degrees": 240,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/264120",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "Hard-coded steering lock of ~240 degrees confirmed by multiple Steam discussions.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -21939,14 +22065,20 @@
       "developer": "Invictus Games",
       "publisher": "",
       "year": "2020",
-      "rotation_degrees": null,
+      "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/1112400",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "F2P MMO racer with Arcade and Simulation modes. Official guide recommends matching hardware rotation.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -21976,7 +22108,7 @@
       "developer": "KishMish Games",
       "publisher": "",
       "year": "2017",
-      "rotation_degrees": null,
+      "rotation_degrees": 900,
       "rotation_type": null,
       "confidence": "low",
       "sources": [
@@ -21984,6 +22116,12 @@
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/514970",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Driving school simulator. 900 inferred from driving education sim genre.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -22013,7 +22151,7 @@
       "developer": "Artefacts Studio",
       "publisher": "",
       "year": "2013",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
@@ -22021,6 +22159,12 @@
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/362930",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Arcade kart racer. 270 is the kart-style genre standard for minimal steering travel.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -22050,7 +22194,7 @@
       "developer": "Eutechnyx",
       "publisher": "",
       "year": "2004",
-      "rotation_degrees": null,
+      "rotation_degrees": 180,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
@@ -22058,6 +22202,12 @@
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/292410",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "Unchangeable built-in deadzone makes it unplayable above 200 degrees.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -22457,7 +22607,7 @@
       "developer": "Synetic",
       "publisher": "",
       "year": "2008",
-      "rotation_degrees": null,
+      "rotation_degrees": 360,
       "rotation_type": null,
       "confidence": "low",
       "sources": [
@@ -22465,6 +22615,12 @@
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/11390",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Arcade police chase game. 360 inferred for fast-paced arcade driving.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -22494,7 +22650,7 @@
       "developer": "Black Rock Studio",
       "publisher": "",
       "year": "2010",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
@@ -22502,6 +22658,12 @@
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/297860",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Arcade action racer. No native wheel support; requires x360ce. 270 matches arcade handling.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -22531,7 +22693,7 @@
       "developer": "Refract",
       "publisher": "",
       "year": "2018",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
@@ -22539,6 +22701,12 @@
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/233610",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Survival racing/platformer with flying. Low rotation needed for quick directional changes.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -22568,7 +22736,7 @@
       "developer": "Bugbear",
       "publisher": "",
       "year": "2012",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
@@ -22576,6 +22744,12 @@
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/202310",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "Arcade destruction racer. Ridge Racer arcade cabinets use 270; matches franchise standard.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -22642,7 +22816,7 @@
       "developer": "Rockstar San Diego",
       "publisher": "",
       "year": "2003",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
       "confidence": "low",
       "sources": [
@@ -22650,6 +22824,12 @@
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/12160",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Arcade street racer with snappy physics. 270 matches twitchy arcade handling.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -23086,7 +23266,7 @@
       "developer": "",
       "publisher": "",
       "year": "2024",
-      "rotation_degrees": null,
+      "rotation_degrees": 540,
       "rotation_type": null,
       "confidence": "high",
       "sources": [
@@ -23094,6 +23274,12 @@
           "type": "steam_community",
           "description": "Steam store page, community research",
           "url": "https://store.steampowered.com/app/2102520",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Sim-cade drift/street racer. 540 inferred from drift genre standard.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -23197,7 +23383,7 @@
       "developer": "",
       "publisher": "",
       "year": "2017",
-      "rotation_degrees": null,
+      "rotation_degrees": 540,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
@@ -23205,6 +23391,12 @@
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/547410",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "Online drift MMO with native wheel support. 540 matches drift sim genre and real drift car setups.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -23234,7 +23426,7 @@
       "developer": "Ubisoft Reflections",
       "publisher": "",
       "year": "2007",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
@@ -23242,6 +23434,12 @@
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/21780",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "No native wheel support, requires x360ce. 270 for arcade open-world driving.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -23271,7 +23469,7 @@
       "developer": "Acclaim Studios",
       "publisher": "",
       "year": "1999",
-      "rotation_degrees": null,
+      "rotation_degrees": 180,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
@@ -23279,6 +23477,12 @@
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/287310",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "RC car racer. RVGL community mod improves support. RC cars have extremely quick twitchy steering.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -23308,7 +23512,7 @@
       "developer": "Tero Lunkka",
       "publisher": "",
       "year": "2016",
-      "rotation_degrees": null,
+      "rotation_degrees": 360,
       "rotation_type": null,
       "confidence": "low",
       "sources": [
@@ -23316,6 +23520,12 @@
           "type": "steam_community",
           "description": "Steam store page research",
           "url": "https://store.steampowered.com/app/581200",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Small indie Unreal Engine racer. 360 is safe middle-ground default.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -23345,7 +23555,7 @@
       "developer": "",
       "publisher": "",
       "year": "2023",
-      "rotation_degrees": null,
+      "rotation_degrees": 540,
       "rotation_type": null,
       "confidence": "low",
       "sources": [
@@ -23353,6 +23563,12 @@
           "type": "steam_community",
           "description": "Steam store page research",
           "url": "https://store.steampowered.com/app/2305520",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Manga-style JDM drift game. 540 aligns with JDM drift genre standard.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -23382,7 +23598,7 @@
       "developer": "Funselektor Labs",
       "publisher": "",
       "year": "2015",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
@@ -23390,6 +23606,12 @@
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/320140",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "Top-down minimalist drift game. 900 unworkable; 270 recommended for responsive drift control.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -23419,7 +23641,7 @@
       "developer": "LucasArts",
       "publisher": "",
       "year": "2018",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
@@ -23427,6 +23649,12 @@
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/808910",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "steam_community",
+          "description": "Pod racing (1999/2018 re-release). Supports DirectX FFB. 270 matches era standard.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -23456,7 +23684,7 @@
       "developer": "Jonworks Interactive",
       "publisher": "",
       "year": "2023",
-      "rotation_degrees": null,
+      "rotation_degrees": 540,
       "rotation_type": null,
       "confidence": "low",
       "sources": [
@@ -23464,6 +23692,12 @@
           "type": "steam_community",
           "description": "Steam store page research",
           "url": "https://store.steampowered.com/app/1975860",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Physics-based multi-discipline driving. 540 balances drift responsiveness with racing precision.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],
@@ -23493,7 +23727,7 @@
       "developer": "",
       "publisher": "",
       "year": "2021",
-      "rotation_degrees": null,
+      "rotation_degrees": 540,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
@@ -23501,6 +23735,12 @@
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/1456200",
+          "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "F2P multiplayer touge drift racing. Real Initial D arcade cabinets use 540.",
+          "url": null,
           "date_accessed": "2026-02-14"
         }
       ],

@@ -10,7 +10,7 @@ Modern USB racing wheels support 270-1080 degrees of rotation, but original arca
 
 The primary database is `data/wheel-db.json` -- a unified, game-centric JSON file where each entry represents a unique game. Platform-specific identifiers (MAME ROM names, TeknoParrot profiles, Steam app IDs, etc.) are stored in a `platforms` map so a game's data is never duplicated across platforms.
 
-### Current Stats (v2.1.0)
+### Current Stats (v2.2.0)
 
 | Metric | Count |
 |--------|-------|
@@ -18,11 +18,11 @@ The primary database is `data/wheel-db.json` -- a unified, game-centric JSON fil
 | With MAME mapping | 556 |
 | With TeknoParrot mapping | 81 |
 | With Steam mapping | 196 |
-| With known rotation value | 279 |
-| Unknown (needs research) | 544 |
+| With known rotation value | 319 |
+| Unknown (needs research) | 504 |
 | Infinite rotation (encoders) | 6 |
 
-**Rotation values:** 270 (124 games), 360 (49), 540 (45), 900 (32), 45 (9), 60 (3), 150 (2), 200 (2), 1080 (2), 450 (2), 390 (3), 180 (1), 90 (1), 300 (1), 480 (1), 720 (1), 800 (1)
+**Rotation values:** 270 (139 games), 540 (56), 360 (54), 900 (35), 45 (9), 180 (6), 60 (3), 390 (3), 150 (2), 200 (2), 1080 (2), 450 (2), 240 (1), 90 (1), 300 (1), 480 (1), 720 (1), 800 (1)
 
 **PC wheel support:** native (103 games), partial (41), none (52)
 
