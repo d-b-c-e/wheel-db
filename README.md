@@ -22,11 +22,11 @@ The primary database is `data/wheel-db.json` -- a unified, game-centric JSON fil
 | Unknown (needs research) | 504 |
 | Infinite rotation (encoders) | 6 |
 
-**Rotation values:** 270 (139 games), 540 (56), 360 (54), 900 (35), 45 (9), 180 (6), 60 (3), 390 (3), 150 (2), 200 (2), 1080 (2), 450 (2), 240 (1), 90 (1), 300 (1), 480 (1), 720 (1), 800 (1)
+**Rotation values:** 270 (138 games), 540 (54), 360 (54), 900 (37), 45 (9), 180 (6), 450 (3), 60 (3), 390 (3), 150 (2), 200 (2), 1080 (2), 240 (1), 90 (1), 300 (1), 480 (1), 720 (1), 800 (1)
 
 **PC wheel support:** native (103 games), partial (41), none (52)
 
-**PC force feedback:** native (70), partial (35), none (88)
+**PC force feedback:** native (71), partial (34), none (90)
 
 ### Special Values
 
