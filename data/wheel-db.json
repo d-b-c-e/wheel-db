@@ -17734,7 +17734,7 @@
       "notes": "Basic wheel support added via update. Works with some Logitech wheels. Minimal FFB (centering only). No clutch support.",
       "pc": {
         "wheel_support": "partial",
-        "force_feedback": "partial",
+        "force_feedback": "none",
         "controller_support": null
       },
       "platforms": {
@@ -22042,7 +22042,7 @@
       "notes": "Dead game - servers shut down. Had native wheel support when active.",
       "pc": {
         "wheel_support": "native",
-        "force_feedback": "unknown",
+        "force_feedback": "native",
         "controller_support": "full"
       },
       "platforms": {
@@ -22065,7 +22065,7 @@
       "developer": "Invictus Games",
       "publisher": "",
       "year": "2020",
-      "rotation_degrees": 540,
+      "rotation_degrees": 900,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
@@ -22077,7 +22077,7 @@
         },
         {
           "type": "steam_community",
-          "description": "F2P MMO racer with Arcade and Simulation modes. Official guide recommends matching hardware rotation.",
+          "description": "Community guide says match wheel to in-game rotation. 900 is standard profile setting with 0% steering help.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -22128,7 +22128,7 @@
       "notes": "Open-world driving sim. Native wheel support reported.",
       "pc": {
         "wheel_support": "native",
-        "force_feedback": "unknown",
+        "force_feedback": "none",
         "controller_support": "full"
       },
       "platforms": {
@@ -23266,7 +23266,7 @@
       "developer": "",
       "publisher": "",
       "year": "2024",
-      "rotation_degrees": 540,
+      "rotation_degrees": 900,
       "rotation_type": null,
       "confidence": "high",
       "sources": [
@@ -23278,7 +23278,7 @@
         },
         {
           "type": "inference",
-          "description": "Sim-cade drift/street racer. 540 inferred from drift genre standard.",
+          "description": "Sim-oriented racer with drag, drift, street, and track modes. 900 matches sim racer standard. Has in-game visual wheel rotation settings.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -23598,7 +23598,7 @@
       "developer": "Funselektor Labs",
       "publisher": "",
       "year": "2015",
-      "rotation_degrees": 270,
+      "rotation_degrees": 450,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
@@ -23610,7 +23610,7 @@
         },
         {
           "type": "steam_community",
-          "description": "Top-down minimalist drift game. 900 unworkable; 270 recommended for responsive drift control.",
+          "description": "Community consensus: 900 too high, 400-500 recommended. 450 midpoint for responsive top-down drift control.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
