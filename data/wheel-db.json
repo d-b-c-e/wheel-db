@@ -909,7 +909,7 @@
       "year": "2012",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
@@ -999,7 +999,7 @@
       "year": "2006",
       "rotation_degrees": 90,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
@@ -1149,7 +1149,7 @@
       "year": "2010",
       "rotation_degrees": 60,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
@@ -1229,7 +1229,7 @@
       "year": "2011",
       "rotation_degrees": 60,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
@@ -1354,7 +1354,7 @@
       "year": "2000",
       "rotation_degrees": 60,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
@@ -1869,7 +1869,7 @@
       "year": "2003",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
@@ -1919,7 +1919,7 @@
       "year": "2001",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
@@ -1994,7 +1994,7 @@
       "year": "2006",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
@@ -2169,7 +2169,7 @@
       "year": "2007",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
@@ -2194,7 +2194,7 @@
       "year": "2015",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
@@ -2219,7 +2219,7 @@
       "year": "2016",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
@@ -2269,7 +2269,7 @@
       "year": "2015",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
@@ -2294,7 +2294,7 @@
       "year": "2013",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
@@ -4738,7 +4738,7 @@
       "year": "1987",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -4946,7 +4946,7 @@
       "year": "1997",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -22194,7 +22194,7 @@
       "developer": "Eutechnyx",
       "publisher": "",
       "year": "2004",
-      "rotation_degrees": 180,
+      "rotation_degrees": 200,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
@@ -22206,7 +22206,7 @@
         },
         {
           "type": "steam_community",
-          "description": "Unchangeable built-in deadzone makes it unplayable above 200 degrees.",
+          "description": "Community reports unchangeable built-in deadzone requires rotation under 200 degrees for playability.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
@@ -22781,7 +22781,7 @@
       "year": "2019",
       "rotation_degrees": 200,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -23469,7 +23469,7 @@
       "developer": "Acclaim Studios",
       "publisher": "",
       "year": "1999",
-      "rotation_degrees": 180,
+      "rotation_degrees": 90,
       "rotation_type": null,
       "confidence": "medium",
       "sources": [
@@ -23481,7 +23481,7 @@
         },
         {
           "type": "steam_community",
-          "description": "RC car racer. RVGL community mod improves support. RC cars have extremely quick twitchy steering.",
+          "description": "RVGL community forum recommends 90 degrees for RC car steering. Using all 270 degrees unsuitable for arcade games.",
           "url": null,
           "date_accessed": "2026-02-14"
         }
