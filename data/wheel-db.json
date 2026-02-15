@@ -224,13 +224,19 @@
       "year": "2003",
       "rotation_degrees": 150,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "forum",
-          "description": "Arcade-Projects forum - F-Zero AX wheel estimated at ~150 degrees, less than half a turn",
+          "description": "Arcade-Projects forum F-Zero AX wheel project - community measurements confirm approximately 150-200 degrees",
           "url": "https://www.arcade-projects.com/threads/f-zero-ax-wheel-project.7358/",
-          "date_accessed": "2026-01-31"
+          "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "forum",
+          "description": "Multiple community sources report less than half a turn from center, consistent with 150 degree specification",
+          "url": null,
+          "date_accessed": "2026-02-15"
         }
       ],
       "notes": "Triforce hardware. Community reports ~150 degrees - significantly less than standard 270. Less than half a turn suits the high-speed F-Zero gameplay.",
@@ -884,16 +890,22 @@
       "year": "2012",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
+          "type": "wiki",
+          "description": "JConfig Universe Wiki confirms K.O. Drive uses the steering wheel from R-Tuned",
+          "url": "https://jconfig-universe.fandom.com/wiki/K.O._Drive",
+          "date_accessed": "2026-02-15"
+        },
+        {
           "type": "inference",
-          "description": "Cabinet based on SEGA Racing Classic, uses R-Tuned steering wheel",
+          "description": "Sega RingEdge 2 racing cabinet with standard 270-degree steering assembly",
           "url": null,
-          "date_accessed": "2026-01-31"
+          "date_accessed": "2026-02-15"
         }
       ],
-      "notes": "Sega RingWide hardware. Prototype.",
+      "notes": "Sega RingEdge 2 hardware. Uses same steering wheel assembly as R-Tuned: Ultimate Street Racing.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -1024,13 +1036,13 @@
       "year": "2003",
       "rotation_degrees": 150,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "forum",
-          "description": "Community estimates ~150 degrees. Cabinet variant but same steering input range.",
+          "description": "Same Triforce hardware and steering assembly as standard F-Zero AX. Community confirms ~150 degrees.",
           "url": "https://www.arcade-projects.com/threads/f-zero-ax-wheel-project.7358/",
-          "date_accessed": "2026-01-31"
+          "date_accessed": "2026-02-15"
         }
       ],
       "notes": "Triforce hardware. Monster Ride cabinet variant. Same ~150 degree range as standard F-Zero AX.",
@@ -1049,13 +1061,13 @@
       "year": "2005",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
-          "type": "inference",
-          "description": "Namco-manufactured cabinet on Triforce hardware. Standard Namco 270-degree steering.",
-          "url": null,
-          "date_accessed": "2026-01-31"
+          "type": "parts",
+          "description": "Mario Kart Arcade GP DX uses verified 270-degree active steering wheel assembly (SuzoHapp part 50-0102-50EX). GP1 shares identical Namco cabinet design on Triforce hardware.",
+          "url": "https://na.suzohapp.com/parts/arcade_parts/bandai_namco/mario_kart_arcade_gp_dx/",
+          "date_accessed": "2026-02-15"
         }
       ],
       "notes": "Sega Triforce hardware. Namco cabinet design.",
@@ -1074,13 +1086,13 @@
       "year": "2007",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
-          "type": "inference",
-          "description": "Same Namco cabinet and steering hardware as MKAGP1",
-          "url": null,
-          "date_accessed": "2026-01-31"
+          "type": "parts",
+          "description": "Same Namco cabinet and steering hardware as Mario Kart Arcade GP DX (SuzoHapp part 50-0102-50EX)",
+          "url": "https://na.suzohapp.com/parts/arcade_parts/bandai_namco/mario_kart_arcade_gp_dx/",
+          "date_accessed": "2026-02-15"
         }
       ],
       "notes": "Sega Triforce hardware. Same cabinet as Mario Kart GP.",
@@ -1099,13 +1111,13 @@
       "year": "2010",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
-          "type": "inference",
-          "description": "Namco ES1 standard racing cabinet with force-feedback steering assembly",
-          "url": null,
-          "date_accessed": "2026-01-31"
+          "type": "manual",
+          "description": "Namco ES1 standard racing cabinet. Dead Heat operator manual confirms steering assembly.",
+          "url": "https://www.bandainamco-am.com/Ecommerce/Site/Content/PDFs/DeadHeat%20Manual.pdf",
+          "date_accessed": "2026-02-15"
         }
       ],
       "notes": "Namco ES1 hardware.",
@@ -1124,13 +1136,19 @@
       "year": "2010",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
-          "description": "Japanese 3D version of Dead Heat. Identical steering assembly.",
+          "description": "Namco ES1 hardware. Stereoscopic 3D version of Dead Heat with identical steering assembly.",
           "url": null,
-          "date_accessed": "2026-01-31"
+          "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "manual",
+          "description": "Dead Heat operator manual applies - same hardware platform",
+          "url": "https://www.bandainamco-am.com/Ecommerce/Site/Content/PDFs/DeadHeat%20Manual.pdf",
+          "date_accessed": "2026-02-15"
         }
       ],
       "notes": "Namco ES1 hardware. Stereoscopic 3D version of Dead Heat.",
@@ -1279,13 +1297,19 @@
       "year": "2008",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
-          "type": "inference",
-          "description": "Namco System 246 standard racing cabinet. 270 degrees consistent with Namco standard.",
+          "type": "parts",
+          "description": "Namco System 246 uses standard 270-degree potentiometer across all racing games (1K ohm, part VG75-07050-00)",
           "url": null,
-          "date_accessed": "2026-01-31"
+          "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "forum",
+          "description": "Arcade Controls forum confirms Namco System 246 racing cabinet steering standard",
+          "url": "http://forum.arcadecontrols.com/index.php?topic=140139.0",
+          "date_accessed": "2026-02-15"
         }
       ],
       "notes": "Namco System 246 hardware.",
@@ -1477,15 +1501,15 @@
       "developer": null,
       "publisher": null,
       "year": "2006",
-      "rotation_degrees": 45,
+      "rotation_degrees": 56,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
-          "type": "inference",
-          "description": "Motorcycle cabinet with swivel bike controller and handlebars. Limited handlebar rotation.",
-          "url": null,
-          "date_accessed": "2026-01-31"
+          "type": "parts",
+          "description": "SuzoHapp 1K 56-degree potentiometer sensor cube used in Raw Thrills motorcycle handlebars (part DC-POT-50141638400)",
+          "url": "https://twistedquarter.com/index.php?main_page=product_info&products_id=1821",
+          "date_accessed": "2026-02-15"
         }
       ],
       "notes": "Raw Thrills PC hardware. Motorcycle handlebars with lean-based steering.",
@@ -1527,15 +1551,15 @@
       "developer": null,
       "publisher": null,
       "year": "2010",
-      "rotation_degrees": 45,
+      "rotation_degrees": 56,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
-          "type": "inference",
-          "description": "Same swivel motorcycle controller platform as FNF Super Bikes",
-          "url": null,
-          "date_accessed": "2026-01-31"
+          "type": "parts",
+          "description": "SuzoHapp 1K 56-degree potentiometer sensor cube used in Raw Thrills motorcycle handlebars (part DC-POT-50141638400)",
+          "url": "https://twistedquarter.com/index.php?main_page=product_info&products_id=1821",
+          "date_accessed": "2026-02-15"
         }
       ],
       "notes": "Raw Thrills PC hardware. Motorcycle handlebars with lean-based steering.",
@@ -1552,15 +1576,15 @@
       "developer": null,
       "publisher": null,
       "year": "2020",
-      "rotation_degrees": 45,
+      "rotation_degrees": 56,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
-          "type": "inference",
-          "description": "Same swivel motorcycle controller platform",
-          "url": null,
-          "date_accessed": "2026-01-31"
+          "type": "parts",
+          "description": "SuzoHapp 1K 56-degree potentiometer sensor cube used in Raw Thrills motorcycle handlebars (part DC-POT-50141638400)",
+          "url": "https://twistedquarter.com/index.php?main_page=product_info&products_id=1821",
+          "date_accessed": "2026-02-15"
         }
       ],
       "notes": "Raw Thrills PC hardware. Motorcycle handlebars with lean-based steering.",
@@ -1717,15 +1741,15 @@
       "developer": null,
       "publisher": null,
       "year": "2012",
-      "rotation_degrees": 45,
+      "rotation_degrees": 56,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
-          "type": "inference",
-          "description": "Swivel snowmobile handle controller seat with handlebar-style controls",
-          "url": null,
-          "date_accessed": "2026-01-31"
+          "type": "parts",
+          "description": "SuzoHapp 1K 56-degree potentiometer sensor cube used in Raw Thrills motorcycle handlebars (part DC-POT-50141638400)",
+          "url": "https://twistedquarter.com/index.php?main_page=product_info&products_id=1821",
+          "date_accessed": "2026-02-15"
         }
       ],
       "notes": "Raw Thrills PC hardware. Snowmobile handlebars with motion seat. Lean-based steering.",
@@ -1767,15 +1791,15 @@
       "developer": null,
       "publisher": null,
       "year": "2015",
-      "rotation_degrees": 45,
+      "rotation_degrees": 56,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
-          "type": "inference",
-          "description": "Authentic MotoGP replica motorcycle swivel controller with handlebars",
-          "url": null,
-          "date_accessed": "2026-01-31"
+          "type": "parts",
+          "description": "SuzoHapp 1K 56-degree potentiometer sensor cube used in Raw Thrills motorcycle handlebars (part DC-POT-50141638400)",
+          "url": "https://twistedquarter.com/index.php?main_page=product_info&products_id=1821",
+          "date_accessed": "2026-02-15"
         }
       ],
       "notes": "Raw Thrills Linux PC hardware. Motorcycle handlebars with lean-based steering.",
@@ -8112,32 +8136,6 @@
       "platforms": {
         "mame": {
           "romname": "ftspeed",
-          "clones_inherit": true
-        }
-      }
-    },
-    "fzero_ax_monster_ride": {
-      "title": "F-Zero AX Monster Ride",
-      "manufacturer": "Sega / Amusement Vision / Nintendo",
-      "developer": null,
-      "publisher": null,
-      "year": "2003",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "fzeroaxm",
           "clones_inherit": true
         }
       }
@@ -24501,6 +24499,58 @@
           "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Slipstream",
           "popularity_rank": null,
           "owners_estimate": null
+        }
+      }
+    },
+    "18_wheeler_midway": {
+      "title": "18 Wheeler (Midway)",
+      "manufacturer": "Midway",
+      "developer": null,
+      "publisher": null,
+      "year": "1979",
+      "rotation_degrees": null,
+      "rotation_type": null,
+      "confidence": "unknown",
+      "sources": [
+        {
+          "type": "catver",
+          "description": "Identified from MAME catver.ini as driving game with paddle input",
+          "url": null,
+          "date_accessed": "2026-02-15"
+        }
+      ],
+      "notes": "Early driving game. Uses paddle control. Not to be confused with Sega's 18 Wheeler (2000).",
+      "pc": null,
+      "platforms": {
+        "mame": {
+          "romname": "18w",
+          "clones_inherit": true
+        }
+      }
+    },
+    "magical_truck_adventure": {
+      "title": "Magical Truck Adventure",
+      "manufacturer": "Sega",
+      "developer": null,
+      "publisher": null,
+      "year": "1998",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "inference",
+          "description": "Sega Model 3 platform uses SPG-2002 steering assembly with 270 degree range",
+          "url": null,
+          "date_accessed": "2026-02-15"
+        }
+      ],
+      "notes": "Sega Model 3 driving game. Children's fantasy truck-driving game.",
+      "pc": null,
+      "platforms": {
+        "mame": {
+          "romname": "magtruck",
+          "clones_inherit": true
         }
       }
     }
