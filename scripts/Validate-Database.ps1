@@ -204,12 +204,20 @@ foreach ($prop in $gameProps) {
     $game = $prop.Value
     $plats = $game.platforms
     if ($plats -and $plats.PSObject.Properties['mame'] -and $plats.mame) {
-        $rom = $plats.mame.romname
-        if ($mameRoms.ContainsKey($rom)) {
-            Write-Host "  ERROR: Duplicate MAME romname '$rom' in '$($prop.Name)' and '$($mameRoms[$rom])'" -ForegroundColor Red
-            $errors++; $check7Errors++
-        } else {
-            $mameRoms[$rom] = $prop.Name
+        # Collect all ROM names (singular romname or romnames array)
+        $roms = @()
+        if ($plats.mame.PSObject.Properties['romnames'] -and $plats.mame.romnames) {
+            $roms = @($plats.mame.romnames)
+        } elseif ($plats.mame.PSObject.Properties['romname'] -and $plats.mame.romname) {
+            $roms = @($plats.mame.romname)
+        }
+        foreach ($rom in $roms) {
+            if ($mameRoms.ContainsKey($rom)) {
+                Write-Host "  ERROR: Duplicate MAME romname '$rom' in '$($prop.Name)' and '$($mameRoms[$rom])'" -ForegroundColor Red
+                $errors++; $check7Errors++
+            } else {
+                $mameRoms[$rom] = $prop.Name
+            }
         }
     }
 }

@@ -10,19 +10,19 @@ Modern USB racing wheels support 270-1080 degrees of rotation, but original arca
 
 The primary database is `data/wheel-db.json` -- a unified, game-centric JSON file where each entry represents a unique game. Platform-specific identifiers (MAME ROM names, TeknoParrot profiles, Steam app IDs, etc.) are stored in a `platforms` map so a game's data is never duplicated across platforms.
 
-### Current Stats (v2.3.0)
+### Current Stats (v2.4.0)
 
 | Metric | Count |
 |--------|-------|
-| Total game entries | 849 |
-| With MAME mapping | 557 |
+| Total game entries | 843 |
+| With MAME mapping | 553 |
 | With TeknoParrot mapping | 81 |
 | With Steam mapping | 215 |
-| With known rotation value | 333 |
-| Unknown (needs research) | 510 |
+| With known rotation value | 335 |
+| Unknown (needs research) | 502 |
 | Infinite rotation (encoders) | 6 |
 
-**Rotation values:** 270 (140 games), 540 (61), 360 (54), 900 (40), 56 (5), 45 (4), 450 (4), 180 (4), 200 (3), 60 (3), 390 (3), 150 (2), 240 (2), 1080 (2), 90 (2), 300 (1), 480 (1), 720 (1), 800 (1)
+**Rotation values:** 270 (139 games), 540 (64), 360 (54), 900 (40), 56 (5), 45 (4), 450 (4), 180 (4), 200 (3), 60 (3), 390 (3), 150 (2), 240 (2), 1080 (2), 90 (2), 300 (1), 480 (1), 720 (1), 800 (1)
 
 **PC wheel support:** native (113 games), partial (46), none (54)
 
@@ -39,7 +39,7 @@ The database covers games across multiple platforms in a single entry:
 
 | Platform | Key | ID Field | Coverage |
 |----------|-----|----------|----------|
-| MAME | `mame` | `romname` | Arcade games emulated by MAME |
+| MAME | `mame` | `romname`/`romnames` | Arcade games emulated by MAME |
 | TeknoParrot | `teknoparrot` | `profile`/`profiles` | Modern arcade games |
 | Steam | `steam` | `appid` | PC games on Steam |
 | Supermodel | `supermodel` | `romname` | Sega Model 3 |
@@ -67,7 +67,7 @@ All scripts are PowerShell 7+ and located in `scripts/`.
 ```
 wheel-db/
   data/
-    wheel-db.json                # Primary database (849 games)
+    wheel-db.json                # Primary database (843 games)
     schema/
       wheel-db.schema.json       # JSON Schema for validation
   scripts/
@@ -97,7 +97,7 @@ Each [GitHub Release](../../releases) includes these artifacts:
 | `mame-wheel-rotation.csv` | CSV | Flat MAME ROM-to-rotation lookup (known values only) |
 | `mame-wheel-rotation.xml` | XML | Same MAME data in XML format |
 | `steam-wheel-support.csv` | CSV | Steam games with wheel support, FFB, and rotation info |
-| `wheel-db.csv` | CSV | Unified flat CSV of all 840 games across all platforms |
+| `wheel-db.csv` | CSV | Unified flat CSV of all 843 games across all platforms |
 
 For detailed parsing instructions and code examples, see **[docs/INTEGRATION.md](docs/INTEGRATION.md)**.
 

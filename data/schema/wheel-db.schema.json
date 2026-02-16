@@ -171,11 +171,16 @@
     },
     "platformMame": {
       "type": "object",
-      "required": ["romname"],
       "properties": {
         "romname": {
           "type": "string",
-          "description": "MAME ROM set name"
+          "description": "MAME ROM set name (use romnames array for multiple ROM sets)"
+        },
+        "romnames": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1,
+          "description": "MAME ROM set names when multiple parent ROMs exist for the same game"
         },
         "clones_inherit": {
           "type": "boolean",
@@ -183,6 +188,10 @@
           "description": "Whether MAME clone ROMs should inherit this rotation value"
         }
       },
+      "oneOf": [
+        { "required": ["romname"] },
+        { "required": ["romnames"] }
+      ],
       "additionalProperties": false
     },
     "platformTeknoparrot": {

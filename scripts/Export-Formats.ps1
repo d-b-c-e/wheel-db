@@ -57,15 +57,24 @@ foreach ($prop in $gameProps) {
     if ($null -eq $game.rotation_degrees) { continue }
 
     $gp = $game.PSObject.Properties
-    [void]$mameGames.Add([PSCustomObject]@{
-        romname          = $mameInfo.romname
-        title            = $game.title
-        manufacturer     = if ($gp['manufacturer'] -and $game.manufacturer) { $game.manufacturer } else { '' }
-        year             = if ($gp['year'] -and $game.year) { $game.year } else { '' }
-        rotation_degrees = $game.rotation_degrees
-        rotation_type    = if ($gp['rotation_type'] -and $game.rotation_type) { $game.rotation_type } else { '' }
-        confidence       = $game.confidence
-    })
+    # Collect ROM names (singular or array)
+    $roms = @()
+    if ($mameInfo.PSObject.Properties['romnames'] -and $mameInfo.romnames) {
+        $roms = @($mameInfo.romnames)
+    } elseif ($mameInfo.PSObject.Properties['romname'] -and $mameInfo.romname) {
+        $roms = @($mameInfo.romname)
+    }
+    foreach ($rom in $roms) {
+        [void]$mameGames.Add([PSCustomObject]@{
+            romname          = $rom
+            title            = $game.title
+            manufacturer     = if ($gp['manufacturer'] -and $game.manufacturer) { $game.manufacturer } else { '' }
+            year             = if ($gp['year'] -and $game.year) { $game.year } else { '' }
+            rotation_degrees = $game.rotation_degrees
+            rotation_type    = if ($gp['rotation_type'] -and $game.rotation_type) { $game.rotation_type } else { '' }
+            confidence       = $game.confidence
+        })
+    }
 }
 
 $mameGames = $mameGames | Sort-Object romname
@@ -198,7 +207,15 @@ foreach ($prop in $gameProps) {
         $ffb = $game.pc.force_feedback
     }
 
-    $mameRom = if ($plats.PSObject.Properties['mame']) { $plats.mame.romname } else { '' }
+    $mameRom = ''
+    if ($plats.PSObject.Properties['mame']) {
+        $m = $plats.mame
+        if ($m.PSObject.Properties['romnames'] -and $m.romnames) {
+            $mameRom = $m.romnames -join ';'
+        } elseif ($m.PSObject.Properties['romname'] -and $m.romname) {
+            $mameRom = $m.romname
+        }
+    }
     $steamId = if ($plats.PSObject.Properties['steam']) { $plats.steam.appid } else { '' }
     $tpProfile = ''
     if ($plats.PSObject.Properties['teknoparrot']) {

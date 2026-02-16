@@ -1,5 +1,5 @@
 {
-  "version": "2.3.0",
+  "version": "2.4.0",
   "generated": "2026-02-15T21:29:35Z",
   "games": {
     "outrun": {
@@ -276,6 +276,10 @@
       "platforms": {
         "teknoparrot": {
           "profile": "or2spdlx"
+        },
+        "mame": {
+          "romname": "outr2sdx",
+          "clones_inherit": true
         }
       }
     },
@@ -404,6 +408,10 @@
             "ID4Exp",
             "ID4Jap"
           ]
+        },
+        "mame": {
+          "romname": "initiad4",
+          "clones_inherit": true
         }
       }
     },
@@ -2959,32 +2967,6 @@
         }
       }
     },
-    "power-drift": {
-      "title": "Power Drift",
-      "manufacturer": "Sega",
-      "developer": null,
-      "publisher": null,
-      "year": "1988",
-      "rotation_degrees": 270,
-      "rotation_type": "mechanical_stop",
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "database",
-          "description": "controls.xml: 270 Steering Wheel",
-          "url": "https://github.com/benbaker76/ControlsDat",
-          "date_accessed": "2026-01-31"
-        }
-      ],
-      "notes": null,
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "pdrift",
-          "clones_inherit": true
-        }
-      }
-    },
     "pole-position-ii": {
       "title": "Pole Position II",
       "manufacturer": "Namco",
@@ -3750,32 +3732,6 @@
       "platforms": {
         "mame": {
           "romname": "orunners",
-          "clones_inherit": true
-        }
-      }
-    },
-    "powerdrift": {
-      "title": "Power Drift",
-      "manufacturer": "Sega",
-      "developer": null,
-      "publisher": null,
-      "year": "1988",
-      "rotation_degrees": 270,
-      "rotation_type": "potentiometer",
-      "confidence": "medium",
-      "sources": [
-        {
-          "type": "forum",
-          "description": "Community consensus on 270-degree Sega Super Scaler convention",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Sega Y Board (Super Scaler). Go-kart racing by Yu Suzuki. Deluxe cab has hydraulics. Uses gear/cog steering system with FFB.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "pdriftl",
           "clones_inherit": true
         }
       }
@@ -9128,185 +9084,97 @@
         }
       }
     },
-    "initial_d_arcade_stage_ver_3_cycraft_edi": {
-      "title": "Initial D Arcade Stage Ver. 3 Cycraft Edition (Export, Rev B) (GDS-0039B)",
-      "manufacturer": "Sega",
-      "developer": null,
-      "publisher": null,
-      "year": "2006",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "inidv3cy",
-          "clones_inherit": true
-        }
-      }
-    },
     "initial_d_arcade_stage": {
-      "title": "Initial D Arcade Stage (Japan, Rev B) (GDS-0020B)",
+      "title": "Initial D Arcade Stage",
       "manufacturer": "Sega",
       "developer": null,
       "publisher": null,
       "year": "2002",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 540,
+      "rotation_type": "mechanical_stop",
+      "confidence": "medium",
       "sources": [
         {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
+          "type": "inference",
+          "description": "Initial D series uses 540-degree steering (confirmed on Stages 4-8 via TeknoParrot metadata). Stages 1-3 use same Sega NAOMI cabinet steering.",
           "url": null,
-          "date_accessed": "2026-02-01"
+          "date_accessed": "2026-02-15"
         }
       ],
-      "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
+      "notes": "Sega NAOMI GD-ROM. First game in the Initial D Arcade Stage series. Japan (initd) and Export (initdexp) versions.",
       "pc": null,
       "platforms": {
         "mame": {
-          "romname": "initd",
+          "romnames": [
+            "initd",
+            "initdexp"
+          ],
           "clones_inherit": true
-        }
-      }
-    },
-    "initial_d_arcade_stage_export_rev_a_gds0": {
-      "title": "Initial D Arcade Stage (Export, Rev A) (GDS-0025A)",
-      "manufacturer": "Sega",
-      "developer": null,
-      "publisher": null,
-      "year": "2002",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "initdexp",
-          "clones_inherit": true
+        },
+        "flycast": {
+          "romname": "initd"
         }
       }
     },
     "initial_d_arcade_stage_ver_2": {
-      "title": "Initial D Arcade Stage Ver. 2 (Japan, Rev B) (GDS-0026B)",
+      "title": "Initial D Arcade Stage Ver. 2",
       "manufacturer": "Sega",
       "developer": null,
       "publisher": null,
       "year": "2003",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 540,
+      "rotation_type": "mechanical_stop",
+      "confidence": "medium",
       "sources": [
         {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
+          "type": "inference",
+          "description": "Initial D series uses 540-degree steering (confirmed on Stages 4-8 via TeknoParrot metadata). Same Sega NAOMI cabinet.",
           "url": null,
-          "date_accessed": "2026-02-01"
+          "date_accessed": "2026-02-15"
         }
       ],
-      "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
+      "notes": "Sega NAOMI GD-ROM. Second game in the Initial D Arcade Stage series.",
       "pc": null,
       "platforms": {
         "mame": {
           "romname": "initdv2j",
           "clones_inherit": true
-        }
-      }
-    },
-    "initial_d_arcade_stage_ver_3_export_gds0": {
-      "title": "Initial D Arcade Stage Ver. 3 (Export) (GDS-0033)",
-      "manufacturer": "Sega",
-      "developer": null,
-      "publisher": null,
-      "year": "2004",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "initdv3e",
-          "clones_inherit": true
+        },
+        "flycast": {
+          "romname": "initdv2j"
         }
       }
     },
     "initial_d_arcade_stage_ver_3": {
-      "title": "Initial D Arcade Stage Ver. 3 (Japan, Rev C) (GDS-0032C)",
+      "title": "Initial D Arcade Stage Ver. 3",
       "manufacturer": "Sega",
       "developer": null,
       "publisher": null,
       "year": "2004",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 540,
+      "rotation_type": "mechanical_stop",
+      "confidence": "medium",
       "sources": [
         {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
+          "type": "inference",
+          "description": "Initial D series uses 540-degree steering (confirmed on Stages 4-8 via TeknoParrot metadata). Same Sega NAOMI cabinet.",
           "url": null,
-          "date_accessed": "2026-02-01"
+          "date_accessed": "2026-02-15"
         }
       ],
-      "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
+      "notes": "Sega NAOMI GD-ROM. Third game in the series. Japan (initdv3j), Export (initdv3e), and CyCraft motion cabinet (inidv3cy) variants.",
       "pc": null,
       "platforms": {
         "mame": {
-          "romname": "initdv3j",
+          "romnames": [
+            "initdv3j",
+            "initdv3e",
+            "inidv3cy"
+          ],
           "clones_inherit": true
-        }
-      }
-    },
-    "initial_d4": {
-      "title": "Initial D4 (Rev D)",
-      "manufacturer": "Sega",
-      "developer": null,
-      "publisher": null,
-      "year": "2007",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "initiad4",
-          "clones_inherit": true
+        },
+        "flycast": {
+          "romname": "initdv3j"
         }
       }
     },
@@ -10944,32 +10812,6 @@
       "platforms": {
         "mame": {
           "romname": "outr2",
-          "clones_inherit": true
-        }
-      }
-    },
-    "outrun_2_sp_sdx": {
-      "title": "OutRun 2 SP SDX",
-      "manufacturer": "Sega",
-      "developer": null,
-      "publisher": null,
-      "year": "2006",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "outr2sdx",
           "clones_inherit": true
         }
       }
@@ -24855,6 +24697,35 @@
           "pcgamingwiki_url": null,
           "popularity_rank": null,
           "owners_estimate": null
+        }
+      }
+    },
+    "power_drift": {
+      "title": "Power Drift",
+      "manufacturer": "Sega",
+      "developer": null,
+      "publisher": null,
+      "year": "1988",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "database",
+          "description": "controls.xml: 270 Steering Wheel",
+          "url": "https://github.com/benbaker76/ControlsDat",
+          "date_accessed": "2026-01-31"
+        }
+      ],
+      "notes": "Sega Y Board (Super Scaler). Go-kart racing by Yu Suzuki. Deluxe cab has hydraulics. Uses gear/cog steering system with FFB. pdriftl is the Link (multi-cab) version.",
+      "pc": null,
+      "platforms": {
+        "mame": {
+          "romnames": [
+            "pdrift",
+            "pdriftl"
+          ],
+          "clones_inherit": true
         }
       }
     }
