@@ -14,19 +14,19 @@ The primary database is `data/wheel-db.json` -- a unified, game-centric JSON fil
 
 | Metric | Count |
 |--------|-------|
-| Total game entries | 841 |
+| Total game entries | 849 |
 | With MAME mapping | 557 |
 | With TeknoParrot mapping | 81 |
-| With Steam mapping | 207 |
-| With known rotation value | 325 |
+| With Steam mapping | 215 |
+| With known rotation value | 333 |
 | Unknown (needs research) | 510 |
 | Infinite rotation (encoders) | 6 |
 
-**Rotation values:** 270 (139 games), 540 (56), 360 (54), 900 (38), 56 (5), 45 (4), 450 (4), 180 (4), 200 (3), 60 (3), 390 (3), 150 (2), 240 (2), 1080 (2), 90 (2), 300 (1), 480 (1), 720 (1), 800 (1)
+**Rotation values:** 270 (140 games), 540 (61), 360 (54), 900 (40), 56 (5), 45 (4), 450 (4), 180 (4), 200 (3), 60 (3), 390 (3), 150 (2), 240 (2), 1080 (2), 90 (2), 300 (1), 480 (1), 720 (1), 800 (1)
 
-**PC wheel support:** native (107 games), partial (44), none (54)
+**PC wheel support:** native (113 games), partial (46), none (54)
 
-**PC force feedback:** native (75), partial (34), none (94)
+**PC force feedback:** native (81), partial (34), none (96)
 
 ### Special Values
 
@@ -67,7 +67,7 @@ All scripts are PowerShell 7+ and located in `scripts/`.
 ```
 wheel-db/
   data/
-    wheel-db.json                # Primary database (841 games)
+    wheel-db.json                # Primary database (849 games)
     schema/
       wheel-db.schema.json       # JSON Schema for validation
   scripts/
