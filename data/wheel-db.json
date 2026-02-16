@@ -1,5 +1,5 @@
 {
-  "version": "2.4.0",
+  "version": "2.5.0",
   "generated": "2026-02-15T21:29:35Z",
   "games": {
     "outrun": {
@@ -1058,6 +1058,9 @@
       "platforms": {
         "teknoparrot": {
           "profile": "FZeroAXMonster"
+        },
+        "dolphin": {
+          "game_id": "GFZJ8P"
         }
       }
     },
@@ -1083,6 +1086,13 @@
       "platforms": {
         "teknoparrot": {
           "profile": "MarioKartGP"
+        },
+        "mame": {
+          "romname": "mkartagp",
+          "clones_inherit": true
+        },
+        "dolphin": {
+          "game_id": "GGPE01"
         }
       }
     },
@@ -1108,6 +1118,13 @@
       "platforms": {
         "teknoparrot": {
           "profile": "MarioKartGP2"
+        },
+        "mame": {
+          "romname": "mkartag2",
+          "clones_inherit": true
+        },
+        "dolphin": {
+          "game_id": "GGPE02"
         }
       }
     },
@@ -3380,6 +3397,9 @@
         "mame": {
           "romname": "18wheelr",
           "clones_inherit": true
+        },
+        "flycast": {
+          "romname": "18wheelr"
         }
       }
     },
@@ -3442,6 +3462,9 @@
           "pcgamingwiki_url": null,
           "popularity_rank": null,
           "owners_estimate": null
+        },
+        "flycast": {
+          "romname": "crzytaxi"
         }
       },
       "pc": {
@@ -3473,6 +3496,9 @@
         "mame": {
           "romname": "dayto2pe",
           "clones_inherit": true
+        },
+        "supermodel": {
+          "romname": "dayto2pe"
         }
       }
     },
@@ -3499,6 +3525,9 @@
         "mame": {
           "romname": "daytona2",
           "clones_inherit": true
+        },
+        "supermodel": {
+          "romname": "daytona2"
         }
       }
     },
@@ -3525,6 +3554,9 @@
         "mame": {
           "romname": "dirtdvls",
           "clones_inherit": true
+        },
+        "supermodel": {
+          "romname": "dirtdvls"
         }
       }
     },
@@ -3603,6 +3635,9 @@
         "mame": {
           "romname": "harley",
           "clones_inherit": true
+        },
+        "supermodel": {
+          "romname": "harley"
         }
       }
     },
@@ -3629,6 +3664,9 @@
         "mame": {
           "romname": "jambo",
           "clones_inherit": true
+        },
+        "flycast": {
+          "romname": "jambo"
         }
       }
     },
@@ -3655,6 +3693,9 @@
         "mame": {
           "romname": "lemans24",
           "clones_inherit": true
+        },
+        "supermodel": {
+          "romname": "lemans24"
         }
       }
     },
@@ -3681,6 +3722,9 @@
         "mame": {
           "romname": "manxttc",
           "clones_inherit": true
+        },
+        "m2emulator": {
+          "romname": "manxttc"
         }
       }
     },
@@ -3707,6 +3751,9 @@
         "mame": {
           "romname": "motoraid",
           "clones_inherit": true
+        },
+        "m2emulator": {
+          "romname": "motoraid"
         }
       }
     },
@@ -3791,6 +3838,9 @@
         "mame": {
           "romname": "scud",
           "clones_inherit": true
+        },
+        "supermodel": {
+          "romname": "scud"
         }
       }
     },
@@ -3817,6 +3867,9 @@
         "mame": {
           "romname": "srally2",
           "clones_inherit": true
+        },
+        "supermodel": {
+          "romname": "srally2"
         }
       }
     },
@@ -3843,6 +3896,9 @@
         "mame": {
           "romname": "eca",
           "clones_inherit": true
+        },
+        "supermodel": {
+          "romname": "eca"
         }
       }
     },
@@ -4239,6 +4295,9 @@
         "mame": {
           "romname": "overrev",
           "clones_inherit": true
+        },
+        "m2emulator": {
+          "romname": "overrev"
         }
       }
     },
@@ -4291,6 +4350,9 @@
         "mame": {
           "romname": "sgt24h",
           "clones_inherit": true
+        },
+        "m2emulator": {
+          "romname": "sgt24h"
         }
       }
     },
@@ -7755,6 +7817,9 @@
         "mame": {
           "romname": "f355",
           "clones_inherit": true
+        },
+        "flycast": {
+          "romname": "f355"
         }
       }
     },
@@ -7781,6 +7846,9 @@
         "mame": {
           "romname": "f355twin",
           "clones_inherit": true
+        },
+        "flycast": {
+          "romname": "f355twin"
         }
       }
     },
@@ -7807,6 +7875,9 @@
         "mame": {
           "romname": "f355twn2",
           "clones_inherit": true
+        },
+        "flycast": {
+          "romname": "f355twn2"
         }
       }
     },
@@ -10006,58 +10077,6 @@
       "platforms": {
         "mame": {
           "romname": "minefld",
-          "clones_inherit": true
-        }
-      }
-    },
-    "mario_kart_arcade_gp_2": {
-      "title": "Mario Kart Arcade GP 2 (Japan, MK21 Ver.A)",
-      "manufacturer": "Namco / Nintendo",
-      "developer": null,
-      "publisher": null,
-      "year": "2007",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "mkartag2",
-          "clones_inherit": true
-        }
-      }
-    },
-    "mario_kart_arcade_gp": {
-      "title": "Mario Kart Arcade GP (Japan, MKA1 Ver.A1)",
-      "manufacturer": "Namco / Nintendo",
-      "developer": null,
-      "publisher": null,
-      "year": "2005",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "mkartagp",
           "clones_inherit": true
         }
       }
@@ -24393,6 +24412,9 @@
         "mame": {
           "romname": "magtruck",
           "clones_inherit": true
+        },
+        "supermodel": {
+          "romname": "magtruck"
         }
       }
     },
