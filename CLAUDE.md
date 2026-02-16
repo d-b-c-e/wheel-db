@@ -53,7 +53,7 @@ wheel-db/
 ├── README.md                    # Project documentation for humans
 ├── LICENSE                      # MIT License
 ├── data/
-│   ├── wheel-db.json            # Unified database (829 games)
+│   ├── wheel-db.json            # Unified database (843 games)
 │   └── schema/
 │       └── wheel-db.schema.json # JSON Schema for validation
 ├── scripts/
@@ -82,7 +82,7 @@ The database uses a **unified game-centric model**. Each entry represents a uniq
 
 ```json
 {
-  "version": "2.1.0",
+  "version": "2.4.0",
   "generated": "2026-02-15T00:00:00Z",
   "games": {
     "outrun": {
@@ -99,6 +99,12 @@ The database uses a **unified game-centric model**. Each entry represents a uniq
       "pc": null,
       "platforms": {
         "mame": { "romname": "outrun", "clones_inherit": true }
+      }
+    },
+    "power_drift": {
+      "...": "...",
+      "platforms": {
+        "mame": { "romnames": ["pdrift", "pdriftl"], "clones_inherit": true }
       }
     },
     "assetto_corsa": {
@@ -158,7 +164,7 @@ Each key in `platforms` is a platform identifier. Known platforms:
 
 | Platform Key | Platform | Identifier Field | Description |
 |-------------|----------|-----------------|-------------|
-| `mame` | MAME | `romname` | MAME ROM set name. `clones_inherit`: whether clone ROMs share this value. |
+| `mame` | MAME | `romname`/`romnames` | MAME ROM set name (singular) or array of ROM names (for multi-region/variant games). `clones_inherit`: whether clone ROMs share this value. |
 | `teknoparrot` | TeknoParrot | `profile`/`profiles` | GameProfile XML filename(s) (without `.xml`) |
 | `steam` | Steam | `appid` | Steam app ID. Also: `tags`, `store_url`, `pcgamingwiki_url`, `popularity_rank`, `owners_estimate` |
 | `supermodel` | Supermodel | `romname` | Sega Model 3 ROM name |
@@ -240,19 +246,19 @@ Scans local TeknoParrot installation for wheel-equipped games. Reads GameProfile
 Results: 487 profiles scanned, 98 wheel-equipped, 25 with metadata rotation values.
 
 #### Export-Formats.ps1
-Generates multiple export formats from the JSON master database.
+Generates multiple export formats from the JSON master database. Handles both `romname` (singular) and `romnames` (array) for MAME entries, expanding arrays into one row per ROM name in flat exports.
 - `dist/wheel-db.json` - Full database copy for releases
-- `dist/mame-wheel-rotation.csv` - Flat MAME ROM-to-rotation lookup
-- `dist/mame-wheel-rotation.xml` - MAME data in XML format
+- `dist/mame-wheel-rotation.csv` - Flat MAME ROM-to-rotation lookup (one row per ROM name)
+- `dist/mame-wheel-rotation.xml` - MAME data in XML format (one element per ROM name)
 - `dist/steam-wheel-support.csv` - Steam games with wheel support info
-- `dist/wheel-db.csv` - Unified flat CSV of all games
+- `dist/wheel-db.csv` - Unified flat CSV of all games (romnames joined with `;`)
 
 #### Validate-Database.ps1
-Validates database against v2.0 schema:
+Validates database against v2.0+ schema:
 - Required fields present on every entry
 - Enum values valid (rotation_type, confidence, source types, wheel_support, force_feedback)
 - Rotation values in range (45-1080, -1, or null)
-- No duplicate Steam appids or MAME romnames
+- No duplicate Steam appids or MAME romnames (handles both `romname` and `romnames` array)
 - Sources array non-empty
 - PC sub-object validity
 
