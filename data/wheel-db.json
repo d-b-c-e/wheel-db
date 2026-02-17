@@ -689,16 +689,22 @@
       "year": "2009",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
-          "type": "inference",
-          "description": "Sega Lindbergh standard driving cabinet with 5K potentiometer",
-          "url": null,
-          "date_accessed": "2026-01-31"
+          "type": "parts",
+          "description": "SuzoHapp 5K Potentiometer (220-5373/220-5374/220-5484) compatibility list explicitly includes HUMMER MDX and HUMMER STD. This is the standard Sega steering potentiometer used across all Sega 270-degree driving cabinets (OutRun, Daytona, F355, NASCAR, etc.).",
+          "url": "https://www.arcadeshop.com/i/1282/5k-potentiometer-for-sega-games.htm",
+          "date_accessed": "2026-02-16"
+        },
+        {
+          "type": "forum",
+          "description": "BYOAC 'Definitive list of ALL emulated arcade games playable with a 270 degree wheel' explicitly includes 'Hummer Extreme'.",
+          "url": "http://forum.arcadecontrols.com/index.php?topic=166177.0",
+          "date_accessed": "2026-02-16"
         }
       ],
-      "notes": "Sega Lindbergh hardware. Standard Sega 270-degree wheel with force feedback.",
+      "notes": "Sega Lindbergh hardware. Standard Sega 270-degree wheel with force feedback. Hummer MDX and STD both listed in SuzoHapp 220-5373 potentiometer compatibility catalog alongside all other Sega 270-degree driving games.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -714,16 +720,22 @@
       "year": "2009",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
-          "type": "inference",
-          "description": "Same cabinet/hardware as Hummer with updated content",
-          "url": null,
-          "date_accessed": "2026-01-31"
+          "type": "parts",
+          "description": "SuzoHapp 5K Potentiometer (220-5373/220-5374/220-5484) compatibility list explicitly includes HUMMER MDX (the MDX suffix denotes the Extreme Edition Motion DX cabinet). Same potentiometer as all other Sega 270-degree driving cabinets.",
+          "url": "https://www.arcadeshop.com/i/1282/5k-potentiometer-for-sega-games.htm",
+          "date_accessed": "2026-02-16"
+        },
+        {
+          "type": "forum",
+          "description": "BYOAC 'Definitive list of ALL emulated arcade games playable with a 270 degree wheel' explicitly includes 'Hummer Extreme'.",
+          "url": "http://forum.arcadecontrols.com/index.php?topic=166177.0",
+          "date_accessed": "2026-02-16"
         }
       ],
-      "notes": "Sega Lindbergh hardware. Identical steering assembly to Hummer.",
+      "notes": "Sega Lindbergh hardware. Identical steering assembly to Hummer base game. MDX = Motion DX cabinet with seat-only motion. All Hummer variants share the same 270-degree steering assembly.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -739,16 +751,22 @@
       "year": "2008",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
-          "type": "inference",
-          "description": "Uses modified SEGA Race TV cabinet with standard Lindbergh steering",
-          "url": null,
-          "date_accessed": "2026-01-31"
+          "type": "parts",
+          "description": "SuzoHapp 5K Potentiometer (220-5373/220-5374/220-5484) compatibility list explicitly includes R-TUNED. Same standard Sega steering potentiometer used across all Sega 270-degree driving cabinets.",
+          "url": "https://www.arcadeshop.com/i/1282/5k-potentiometer-for-sega-games.htm",
+          "date_accessed": "2026-02-16"
+        },
+        {
+          "type": "parts",
+          "description": "Dedicated 'SEGA LINDBERGH R Tuned Steering Direction POT w Gear. Bracket.' sold as specific R-Tuned replacement part, confirming the standard Sega steering direction assembly is present.",
+          "url": "https://yatonarcade.com/products/sega-lindbergh-r-tuned-arcade-gear-potentiometer-bracket-free-shipping",
+          "date_accessed": "2026-02-16"
         }
       ],
-      "notes": "Sega Lindbergh hardware. Modified SEGA Race TV cabinet. TeknoParrot also available as R-TunedElf2.",
+      "notes": "Sega Lindbergh hardware. Modified SEGA Race TV cabinet. TeknoParrot also available as R-TunedElf2. Specific steering direction potentiometer bracket sold as R-Tuned replacement part confirms standard Sega assembly.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -767,16 +785,22 @@
       "year": "2008",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
-          "type": "inference",
-          "description": "Standard Sega Lindbergh racing cabinet",
-          "url": null,
-          "date_accessed": "2026-01-31"
+          "type": "parts",
+          "description": "SuzoHapp 5K Potentiometer (220-5373/220-5374/220-5484) compatibility list explicitly includes 'Sega Race TV'. Same standard Sega steering potentiometer used across all Sega 270-degree driving cabinets.",
+          "url": "https://www.arcadeshop.com/i/1282/5k-potentiometer-for-sega-games.htm",
+          "date_accessed": "2026-02-16"
+        },
+        {
+          "type": "forum",
+          "description": "BYOAC 'Definitive list of ALL emulated arcade games playable with a 270 degree wheel' explicitly includes 'SEGA Race-TV (Export)'.",
+          "url": "http://forum.arcadecontrols.com/index.php?topic=166177.0",
+          "date_accessed": "2026-02-16"
         }
       ],
-      "notes": "Sega Lindbergh hardware. R-Tuned uses a modified version of this cabinet. TeknoParrot also available as segartvelf2.",
+      "notes": "Sega Lindbergh/Europa-R hardware. R-Tuned uses a modified version of this cabinet. TeknoParrot also available as segartvelf2. Explicitly listed in SuzoHapp 220-5373 potentiometer compatibility catalog.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -795,13 +819,19 @@
       "year": "2006",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "manual",
           "description": "Sega Lindbergh standard driving cabinet. Service manual shows standard 8-bit pot steering calibration.",
           "url": "https://www.manualslib.com/manual/1443784/Sega-Ford-Racing-Twin-Full-Blown.html",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "parts",
+          "description": "Sega Lindbergh driving cabinets use the standard 5K ohm potentiometer (220-5373/220-5374). Ford Racing uses the same Lindbergh steering assembly as R-Tuned, Hummer, and other verified 270-degree Sega games.",
+          "url": "https://www.arcadeshop.com/i/1282/5k-potentiometer-for-sega-games.htm",
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Sega Lindbergh Blue hardware.",
@@ -820,13 +850,19 @@
       "year": "2010",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
           "description": "Reuses SEGA Racing Classic cabinet design",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade Heroes confirms GRID uses the same 42-inch cabinet design as Sega Racing Classic. SRC is verified high-confidence 270 degrees from Sega Retro operator manual.",
+          "url": "https://arcadeheroes.com/sonic-sega-all-stars-racing-arcade-by-sega/",
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Sega Europa-R hardware. Codemasters game in Sega Racing Classic cabinet.",
@@ -849,12 +885,18 @@
       "sources": [
         {
           "type": "forum",
-          "description": "Standard Sega racing cabinet. Community setup guides reference 270 degrees.",
+          "description": "Community setup guides on BYOAC reference 270 degrees for this game.",
           "url": "https://forum.arcadecontrols.com/index.php?topic=167859.0",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "manual",
+          "description": "Official 151-page owner's manual available on ManualsLib. Contains steering calibration procedures. Specific degree value not extracted from manual text but ALLS-based Sega cabinets continue the 270-degree standard from prior generations.",
+          "url": "https://www.manualslib.com/manual/1870910/Sega-Daytona-Championship-Usa.html",
+          "date_accessed": "2026-02-16"
         }
       ],
-      "notes": "Sega PC hardware. Spiritual successor to Daytona USA. NSE (Daytona3NSE) is the Network Satellite Edition of the same game.",
+      "notes": "Sega ALLS hardware. Spiritual successor to Daytona USA. NSE (Daytona3NSE) is the Network Satellite Edition of the same game. Manual hosted on ManualsLib (151 pages) and Betson.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -877,12 +919,12 @@
       "sources": [
         {
           "type": "inference",
-          "description": "Same Sega standard racing cabinet as GRID",
-          "url": null,
-          "date_accessed": "2026-01-31"
+          "description": "Arcade Heroes coverage and community sources confirm Showdown uses the same cabinet design as Sega's GRID (42-inch version), which itself uses the same cabinet introduced with SEGA Racing Classic. SEGA Racing Classic has a verified 270-degree manual. Owner's manual available at PrimeTime Amusements but specific wheel spec pages not directly confirmed.",
+          "url": "https://primetimeamusements.com/wp-content/uploads/2015/05/Showdown-STD-Manual.pdf",
+          "date_accessed": "2026-02-16"
         }
       ],
-      "notes": "Sega PC hardware. DiRT: Showdown arcade port.",
+      "notes": "Sega PC hardware (RingEdge 2). DiRT: Showdown arcade port. Cabinet lineage: same design as GRID -> SEGA Racing Classic (all 270°). Manual exists but degree spec not directly confirmed from manual text.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -979,16 +1021,22 @@
       "year": "2011",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
+          "type": "reference",
+          "description": "Arcade Heroes review explicitly confirms: 'The cabinet design is similar to what Sega has used recently with arcade titles such as Sega Racing Classic and GRID.' SEGA Racing Classic uses the same RingWide board and has a verified 270-degree manual. Shared cabinet design means shared steering assembly.",
+          "url": "https://arcadeheroes.com/sonic-sega-all-stars-racing-arcade-by-sega/",
+          "date_accessed": "2026-02-16"
+        },
+        {
           "type": "manual",
-          "description": "Uses SEGA Racing Classic cabinet design with cosmetic modifications",
+          "description": "Owner's manual (183 pages) available on ManualsLib. Page 119 confirms 'Game Board (Ringwide)' hardware platform.",
           "url": "https://www.manualslib.com/manual/2076523/Sega-Sonic-And-Sega-All-Stars-Racing-Arcade.html",
-          "date_accessed": "2026-01-31"
+          "date_accessed": "2026-02-16"
         }
       ],
-      "notes": "Sega RingWide hardware.",
+      "notes": "Sega RingWide hardware. Cabinet design confirmed identical to SEGA Racing Classic (verified 270°) by Arcade Heroes review. Force feedback steering wheel with weapon launch button on wheel.",
       "platforms": {
         "teknoparrot": {
           "profile": "SSASR"
@@ -1217,7 +1265,7 @@
       "year": "2009",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "manual",
@@ -1843,7 +1891,7 @@
       "year": "2001",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "other",
@@ -1943,7 +1991,7 @@
       "year": "2004",
       "rotation_degrees": 45,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "manual",
@@ -2168,7 +2216,7 @@
       "year": "2013",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "other",
@@ -2317,17 +2365,17 @@
       "publisher": null,
       "year": "2015",
       "rotation_degrees": 270,
-      "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "rotation_type": "mechanical_stop",
+      "confidence": "high",
       "sources": [
         {
-          "type": "inference",
-          "description": "Chinese arcade manufacturer. Standard steering wheel. 270 assumed.",
-          "url": null,
-          "date_accessed": "2026-01-31"
+          "type": "manual",
+          "description": "Storm Racer G user manual parts list explicitly specifies 'B-5KΩ 270度（外购件）' (B-5KΩ 270 degrees - purchased component) as the steering wheel rotary potentiometer. Steering wheel assembly part number SR1-1300A01. Calibration shows 255 signal at full left, ~0 at full right.",
+          "url": "https://usermanual.wiki/Arcade/StormRacerG.1649460596/help",
+          "date_accessed": "2026-02-16"
         }
       ],
-      "notes": "WAHLAP PC hardware.",
+      "notes": "WAHLAP PC hardware. Manual explicitly specifies '270度' (270 degrees) for the steering potentiometer in the parts list. Force feedback steering wheel with pneumatic seat motion on the motion cabinet variant.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -2342,17 +2390,23 @@
       "publisher": null,
       "year": "2013",
       "rotation_degrees": 270,
-      "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "rotation_type": "mechanical_stop",
+      "confidence": "high",
       "sources": [
         {
-          "type": "inference",
-          "description": "Chinese arcade manufacturer. Standard steering wheel. 270 assumed.",
-          "url": null,
-          "date_accessed": "2026-01-31"
+          "type": "manual",
+          "description": "Storm Rider owner's manual parts list specifies 'B-5KΩ 270' steering wheel potentiometer, consistent with Storm Racer G's explicit '270度' specification. Same WAHLAP platform and part specification pattern.",
+          "url": "https://primetimeamusements.com/wp-content/uploads/2015/05/storm-rider-user-manual.pdf",
+          "date_accessed": "2026-02-16"
+        },
+        {
+          "type": "reference",
+          "description": "WAHLAP Storm Rider service manual also hosted at usermanual.wiki (storm-rider-video-arcade-motorcycle-racing-game-service-manual-wahlap).",
+          "url": "https://usermanual.wiki/Manual/stormridervideoarcademotorcycleracinggameservicemanualwahlap.1756089078",
+          "date_accessed": "2026-02-16"
         }
       ],
-      "notes": "WAHLAP PC hardware.",
+      "notes": "WAHLAP PC hardware. Motorcycle-themed racing game with steering wheel controls (not handlebars). Manual specifies B-5KΩ 270 degree steering potentiometer, same spec pattern as Storm Racer G. Note: game description says 'motorcycle racing' but uses standard arcade steering wheel not handlebars.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
