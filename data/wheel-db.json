@@ -16865,12 +16865,12 @@
       },
       "platforms": {
         "steam": {
-          "appid": 44690,
+          "appid": 8790,
           "tags": [
             "Racing",
             "Simulation"
           ],
-          "store_url": "https://store.steampowered.com/app/44690",
+          "store_url": "https://store.steampowered.com/app/8790",
           "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/GTR_2",
           "popularity_rank": null,
           "owners_estimate": null
@@ -17426,6 +17426,746 @@
           "clones_inherit": true
         }
       }
+    },
+    "project_motor_racing": {
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "rotation_type": null,
+      "title": "Project Motor Racing",
+      "manufacturer": null,
+      "notes": "Poor reviews at launch but dedicated racing sim with extensive wheel support.",
+      "developer": "Straight4 Studios",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Racing sim by former Slightly Mad Studios lead; comprehensive FFB with per-car tuning",
+          "url": "https://store.steampowered.com/app/299970/Project_Motor_Racing/",
+          "date_accessed": "2026-02-17"
+        }
+      ],
+      "year": "2025",
+      "publisher": "GIANTS Software",
+      "platforms": {
+        "steam": {
+          "appid": 299970,
+          "tags": [
+            "Racing",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/299970",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Project_Motor_Racing",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "confidence": "medium",
+      "rotation_degrees": 900
+    },
+    "wreckfest_2": {
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "rotation_type": null,
+      "title": "Wreckfest 2",
+      "manufacturer": null,
+      "notes": "Early Access March 2025, full release Q1 2026. Supports Thrustmaster, Logitech, and Fanatec.",
+      "developer": "Bugbear Entertainment",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Demolition derby/touring car sequel; FFB comparable to DiRT Rally quality",
+          "url": "https://store.steampowered.com/app/1203190/Wreckfest_2/",
+          "date_accessed": "2026-02-17"
+        }
+      ],
+      "year": "2025",
+      "publisher": "THQ Nordic",
+      "platforms": {
+        "steam": {
+          "appid": 1203190,
+          "tags": [
+            "Racing",
+            "Destruction"
+          ],
+          "store_url": "https://store.steampowered.com/app/1203190",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "confidence": "medium",
+      "rotation_degrees": 540
+    },
+    "carx_drift_racing_online_2": {
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "rotation_type": null,
+      "title": "CarX Drift Racing Online 2",
+      "manufacturer": null,
+      "notes": "Early Access Q1 2026. Supports most steering wheels and gear shifters.",
+      "developer": "CarX Technologies",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Drift sim sequel with realistic physics designed for steering wheel setups",
+          "url": "https://store.steampowered.com/app/1826420/CarX_Drift_Racing_Online_2/",
+          "date_accessed": "2026-02-17"
+        }
+      ],
+      "year": "2026",
+      "publisher": "CarX Technologies",
+      "platforms": {
+        "steam": {
+          "appid": 1826420,
+          "tags": [
+            "Racing",
+            "Drift"
+          ],
+          "store_url": "https://store.steampowered.com/app/1826420",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "confidence": "medium",
+      "rotation_degrees": 900
+    },
+    "formula_legends": {
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "rotation_type": null,
+      "title": "Formula Legends",
+      "manufacturer": null,
+      "notes": "Supports Moza, Logitech, Fanatec, and Thrustmaster wheels. 16 car models, 14 circuits.",
+      "developer": "3DClouds S.r.l.",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Formula racing through decades; wheel support added in Patch 1.3 (Feb 2026)",
+          "url": "https://store.steampowered.com/app/3194360/Formula_Legends/",
+          "date_accessed": "2026-02-17"
+        }
+      ],
+      "year": "2025",
+      "publisher": "3DClouds S.r.l.",
+      "platforms": {
+        "steam": {
+          "appid": 3194360,
+          "tags": [
+            "Racing",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/3194360",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "confidence": "medium",
+      "rotation_degrees": 540
+    },
+    "dakar_desert_rally": {
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "rotation_type": null,
+      "title": "Dakar Desert Rally",
+      "manufacturer": null,
+      "notes": "Has soft lock feature. Wheel angle up to 2520 degrees supported.",
+      "developer": "Saber Porto",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Licensed Dakar rally; 540deg recommended, supports Logitech/Thrustmaster/Fanatec/Simucube",
+          "url": "https://www.briankoponen.com/dakar-desert-rally-logitech-g29-g920-settings/",
+          "date_accessed": "2026-02-17"
+        }
+      ],
+      "year": "2022",
+      "publisher": "Saber Interactive",
+      "platforms": {
+        "steam": {
+          "appid": 1839940,
+          "tags": [
+            "Racing",
+            "Off-Road"
+          ],
+          "store_url": "https://store.steampowered.com/app/1839940",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "confidence": "medium",
+      "rotation_degrees": 540
+    },
+    "sebastien_loeb_rally_evo": {
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "rotation_type": null,
+      "title": "Sebastien Loeb Rally EVO",
+      "manufacturer": null,
+      "notes": "Supports G25/G27/G29/G920, Thrustmaster, and Fanatec. Wheel compatibility with newer devices can be limited.",
+      "developer": "Milestone",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Rally racer; 540deg recommended, good FFB conveying traction feel",
+          "url": "https://www.briankoponen.com/sebastien-loeb-rally-evo-logitech-g29-g920-settings/",
+          "date_accessed": "2026-02-17"
+        }
+      ],
+      "year": "2016",
+      "publisher": "Milestone",
+      "platforms": {
+        "steam": {
+          "appid": 355060,
+          "tags": [
+            "Racing",
+            "Rally"
+          ],
+          "store_url": "https://store.steampowered.com/app/355060",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "confidence": "medium",
+      "rotation_degrees": 540
+    },
+    "v_rally_4": {
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "rotation_type": null,
+      "title": "V-Rally 4",
+      "manufacturer": null,
+      "notes": "Supports G25/G27/G29/G920, Thrustmaster T80-TX, Fanatec. Over 50 car models.",
+      "developer": "Kylotonn",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Rally racing; advanced FFB config via InputFFBConfig.cfg; wide wheel support",
+          "url": "https://store.steampowered.com/app/658700/VRally_4/",
+          "date_accessed": "2026-02-17"
+        }
+      ],
+      "year": "2018",
+      "publisher": "Bigben Interactive",
+      "platforms": {
+        "steam": {
+          "appid": 658700,
+          "tags": [
+            "Racing",
+            "Rally"
+          ],
+          "store_url": "https://store.steampowered.com/app/658700",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "confidence": "medium",
+      "rotation_degrees": 540
+    },
+    "gravel": {
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "rotation_type": null,
+      "title": "Gravel",
+      "manufacturer": null,
+      "notes": "Multiple USB input devices supported simultaneously.",
+      "developer": "Milestone",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Off-road arcade racer; superb FFB, H-pattern shifter and clutch support",
+          "url": "https://www.briankoponen.com/gravel-logitech-g29-g920-settings/",
+          "date_accessed": "2026-02-17"
+        }
+      ],
+      "year": "2018",
+      "publisher": "Milestone",
+      "platforms": {
+        "steam": {
+          "appid": 558260,
+          "tags": [
+            "Racing",
+            "Off-Road"
+          ],
+          "store_url": "https://store.steampowered.com/app/558260",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "confidence": "medium",
+      "rotation_degrees": 540
+    },
+    "monster_jam_steel_titans": {
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "rotation_type": null,
+      "title": "Monster Jam Steel Titans",
+      "manufacturer": null,
+      "notes": "Wheel detection requires disabling Steam Generic Gamepad Configuration Support.",
+      "developer": "Rainbow Studios",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Monster truck racing; partial wheel support with Thrustmaster and Logitech",
+          "url": "https://store.steampowered.com/app/824280/Monster_Jam_Steel_Titans/",
+          "date_accessed": "2026-02-17"
+        }
+      ],
+      "year": "2019",
+      "publisher": "THQ Nordic",
+      "platforms": {
+        "steam": {
+          "appid": 824280,
+          "tags": [
+            "Racing",
+            "Monster Trucks"
+          ],
+          "store_url": "https://store.steampowered.com/app/824280",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "confidence": "low",
+      "rotation_degrees": 540
+    },
+    "monster_jam_steel_titans_2": {
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "rotation_type": null,
+      "title": "Monster Jam Steel Titans 2",
+      "manufacturer": null,
+      "notes": "Requires specific driver versions for wheel detection.",
+      "developer": "Rainbow Studios",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Monster truck sequel; wheel support similar to first game with detection issues",
+          "url": "https://store.steampowered.com/app/1205480/Monster_Jam_Steel_Titans_2/",
+          "date_accessed": "2026-02-17"
+        }
+      ],
+      "year": "2021",
+      "publisher": "THQ Nordic",
+      "platforms": {
+        "steam": {
+          "appid": 1205480,
+          "tags": [
+            "Racing",
+            "Monster Trucks"
+          ],
+          "store_url": "https://store.steampowered.com/app/1205480",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "confidence": "low",
+      "rotation_degrees": 540
+    },
+    "gtr_fia_gt_racing_game": {
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "rotation_type": null,
+      "title": "GTR - FIA GT Racing Game",
+      "manufacturer": null,
+      "notes": "MOTEC telemetry analysis. Three gameplay modes from beginner to simulation professional.",
+      "developer": "SimBin Studios",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Hardcore GT racing sim; FIA GT Championship 2003; full wheel/FFB support",
+          "url": "https://store.steampowered.com/app/44600/GTR__FIA_GT_Racing_Game/",
+          "date_accessed": "2026-02-17"
+        }
+      ],
+      "year": "2005",
+      "publisher": "SimBin Studios",
+      "platforms": {
+        "steam": {
+          "appid": 44600,
+          "tags": [
+            "Racing",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/44600",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "confidence": "medium",
+      "rotation_degrees": 900
+    },
+    "gt_legends": {
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "rotation_type": null,
+      "title": "GT Legends",
+      "manufacturer": null,
+      "notes": "Part of SimBin racing sim family.",
+      "developer": "SimBin Studios",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Classic touring car racing sim; 1960s-1970s vintage cars",
+          "url": "https://store.steampowered.com/app/44690/GT_Legends/",
+          "date_accessed": "2026-02-17"
+        }
+      ],
+      "year": "2005",
+      "publisher": "10tacle Studios",
+      "platforms": {
+        "steam": {
+          "appid": 44690,
+          "tags": [
+            "Racing",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/44690",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "confidence": "medium",
+      "rotation_degrees": 900
+    },
+    "gtr_evolution": {
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "rotation_type": null,
+      "title": "GTR Evolution Expansion Pack for RACE 07",
+      "manufacturer": null,
+      "notes": "49 cars in 12 classes: touring, GT, formula, sports cars.",
+      "developer": "SimBin Studios",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Standalone expansion for RACE 07; adds Nurburgring, Audi R8, Koenigsegg CCX",
+          "url": "https://store.steampowered.com/app/8660/GTR_Evolution_Expansion_Pack_for_RACE_07/",
+          "date_accessed": "2026-02-17"
+        }
+      ],
+      "year": "2008",
+      "publisher": "SimBin Studios",
+      "platforms": {
+        "steam": {
+          "appid": 8660,
+          "tags": [
+            "Racing",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/8660",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "confidence": "medium",
+      "rotation_degrees": 900
+    },
+    "race_injection": {
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "rotation_type": null,
+      "title": "RACE Injection",
+      "manufacturer": null,
+      "notes": "Formula, GT Power, Retro, STCC, and WTCC 2010 classes.",
+      "developer": "SimBin Studios",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Final chapter in RACE 07 series; 23 new cars, 9 new tracks",
+          "url": "https://store.steampowered.com/app/44680/RACE_Injection/",
+          "date_accessed": "2026-02-17"
+        }
+      ],
+      "year": "2011",
+      "publisher": "SimBin Studios",
+      "platforms": {
+        "steam": {
+          "appid": 44680,
+          "tags": [
+            "Racing",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/44680",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "confidence": "medium",
+      "rotation_degrees": 900
+    },
+    "stcc_the_game": {
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "rotation_type": null,
+      "title": "STCC - The Game",
+      "manufacturer": null,
+      "notes": null,
+      "developer": "SimBin Studios",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Swedish Touring Car Championship expansion for RACE 07",
+          "url": "https://store.steampowered.com/app/8690/STCC_The_Game/",
+          "date_accessed": "2026-02-17"
+        }
+      ],
+      "year": "2008",
+      "publisher": "SimBin Studios",
+      "platforms": {
+        "steam": {
+          "appid": 8690,
+          "tags": [
+            "Racing",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/8690",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "confidence": "medium",
+      "rotation_degrees": 900
+    },
+    "farming_simulator_22": {
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "rotation_type": null,
+      "title": "Farming Simulator 22",
+      "manufacturer": null,
+      "notes": "Over 400 vehicles from 100+ brands.",
+      "developer": "GIANTS Software",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Farming sim with wheel support; no real FFB, only centering spring",
+          "url": "https://store.steampowered.com/app/1248130/Farming_Simulator_22/",
+          "date_accessed": "2026-02-17"
+        }
+      ],
+      "year": "2021",
+      "publisher": "GIANTS Software",
+      "platforms": {
+        "steam": {
+          "appid": 1248130,
+          "tags": [
+            "Simulation",
+            "Farming"
+          ],
+          "store_url": "https://store.steampowered.com/app/1248130",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "confidence": "medium",
+      "rotation_degrees": 900
+    },
+    "farming_simulator_25": {
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "rotation_type": null,
+      "title": "Farming Simulator 25",
+      "manufacturer": null,
+      "notes": "400+ vehicles, new crops, weather system.",
+      "developer": "GIANTS Software",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Latest Farming Sim; supports direct drive wheels but FFB limited to centering spring",
+          "url": "https://store.steampowered.com/app/2300320/Farming_Simulator_25/",
+          "date_accessed": "2026-02-17"
+        }
+      ],
+      "year": "2024",
+      "publisher": "GIANTS Software",
+      "platforms": {
+        "steam": {
+          "appid": 2300320,
+          "tags": [
+            "Simulation",
+            "Farming"
+          ],
+          "store_url": "https://store.steampowered.com/app/2300320",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "confidence": "medium",
+      "rotation_degrees": 900
+    },
+    "tourist_bus_simulator": {
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "rotation_type": null,
+      "title": "Tourist Bus Simulator",
+      "manufacturer": null,
+      "notes": "Set on Fuerteventura. Upgraded to UE5.3.",
+      "developer": "TML-Studios",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Bus driving sim; basic wheel support, recent Aerosoft Truck & Bus Wheel System update",
+          "url": "https://store.steampowered.com/app/953580/Tourist_Bus_Simulator/",
+          "date_accessed": "2026-02-17"
+        }
+      ],
+      "year": "2018",
+      "publisher": "Aerosoft",
+      "platforms": {
+        "steam": {
+          "appid": 953580,
+          "tags": [
+            "Simulation",
+            "Driving"
+          ],
+          "store_url": "https://store.steampowered.com/app/953580",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "confidence": "low",
+      "rotation_degrees": 900
+    },
+    "construction_simulator": {
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "rotation_type": null,
+      "title": "Construction Simulator",
+      "manufacturer": null,
+      "notes": "Various construction vehicles including cranes, bulldozers, and transporters.",
+      "developer": "weltenbauer. Software Entwicklung",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Construction sim with co-op; wheel support present but no FFB",
+          "url": "https://store.steampowered.com/app/1273400/Construction_Simulator/",
+          "date_accessed": "2026-02-17"
+        }
+      ],
+      "year": "2022",
+      "publisher": "Aerosoft",
+      "platforms": {
+        "steam": {
+          "appid": 1273400,
+          "tags": [
+            "Simulation",
+            "Construction"
+          ],
+          "store_url": "https://store.steampowered.com/app/1273400",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "confidence": "low",
+      "rotation_degrees": 900
+    },
+    "test_drive_ferrari_racing_legends": {
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "rotation_type": null,
+      "title": "Test Drive: Ferrari Racing Legends",
+      "manufacturer": null,
+      "notes": "Supports Logitech, Thrustmaster, and Fanatec.",
+      "developer": "Slightly Mad Studios",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Ferrari-exclusive racer by Project CARS team; excellent FFB, 50+ cars, 36 circuits",
+          "url": "https://store.steampowered.com/app/211970/Test_Drive_Ferrari_Racing_Legends/",
+          "date_accessed": "2026-02-17"
+        }
+      ],
+      "year": "2012",
+      "publisher": "Rombax Games",
+      "platforms": {
+        "steam": {
+          "appid": 211970,
+          "tags": [
+            "Racing",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/211970",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "confidence": "medium",
+      "rotation_degrees": 900
     }
   }
 }

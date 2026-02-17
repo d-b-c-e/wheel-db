@@ -7,14 +7,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 ## [Unreleased]
 
 ### Added
+- 20 new Steam games from discovery research: Project Motor Racing, Wreckfest 2, CarX Drift Racing Online 2, Formula Legends, Dakar Desert Rally, Sebastien Loeb Rally EVO, V-Rally 4, Gravel, Monster Jam Steel Titans 1 & 2, SimBin classics (GTR, GT Legends, GTR Evolution, RACE Injection, STCC), Farming Simulator 22 & 25, Tourist Bus Simulator, Construction Simulator, Test Drive: Ferrari Racing Legends
 - Set rotation values for 27 Steam games: kart racers (180°/270°), arcade-style racers (180°/270°), and misc driving games (270°)
+
+### Fixed
+- Corrected GTR 2 Steam appid (was 44690/GT Legends, now 8790)
 
 ### Removed
 - 29 Steam entries: 18 motorcycle games, 4 open world/vehicular combat, 7 non-wheel games (jet boats, drag racing, anti-gravity racers)
 
 ### Changed
 - Updated CLAUDE.md for v2.7.0: corrected Battle Gear rotation (270° → 540°), expanded Konami/Taito appendix, marked MAME cleanup as complete
-- All 541 entries now have rotation values — 0 unknowns remaining
+- Database now at 561 entries with 0 unknowns remaining
 
 ## [2.7.0] - 2026-02-17
 
