@@ -10406,43 +10406,6 @@
         }
       }
     },
-    "crossout": {
-      "title": "Crossout",
-      "manufacturer": null,
-      "developer": "Targem Games",
-      "publisher": "Gaijin Entertainment",
-      "year": "2017",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "inference",
-          "description": "Vehicle combat MMO designed for gamepad/keyboard. No wheel support.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Vehicle combat MMO. Controller support is for gamepads only, not steering wheels.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": "full"
-      },
-      "platforms": {
-        "steam": {
-          "appid": 386180,
-          "tags": [
-            "Action",
-            "Vehicular Combat"
-          ],
-          "store_url": "https://store.steampowered.com/app/386180",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 12,
-          "owners_estimate": null
-        }
-      }
-    },
     "grand_theft_auto_v_enhanced": {
       "title": "Grand Theft Auto V Enhanced",
       "manufacturer": null,
@@ -10606,43 +10569,6 @@
         }
       }
     },
-    "sleeping_dogs_definitive_edition": {
-      "title": "Sleeping Dogs: Definitive Edition",
-      "manufacturer": null,
-      "developer": "United Front Games",
-      "publisher": "Square Enix",
-      "year": "2014",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "medium",
-      "sources": [
-        {
-          "type": "inference",
-          "description": "Action-adventure game with driving segments. Gamepad support confirmed but no wheel documentation found.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Action-adventure with driving segments. Supports gamepads but no documented wheel support.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": "full"
-      },
-      "platforms": {
-        "steam": {
-          "appid": 307690,
-          "tags": [
-            "Action",
-            "Open World"
-          ],
-          "store_url": "https://store.steampowered.com/app/307690",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 21,
-          "owners_estimate": null
-        }
-      }
-    },
     "trackmania_nations_forever": {
       "title": "TrackMania Nations Forever",
       "manufacturer": null,
@@ -10676,43 +10602,6 @@
           "store_url": "https://store.steampowered.com/app/11020",
           "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/TrackMania_Nations_Forever",
           "popularity_rank": 24,
-          "owners_estimate": null
-        }
-      }
-    },
-    "grand_theft_auto_iii": {
-      "title": "Grand Theft Auto III",
-      "manufacturer": null,
-      "developer": "Rockstar Games",
-      "publisher": "Rockstar Games",
-      "year": "2001",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "inference",
-          "description": "2001 action-adventure game. No wheel support.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "2001 action-adventure game. No wheel support.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": null
-      },
-      "platforms": {
-        "steam": {
-          "appid": 12100,
-          "tags": [
-            "Action",
-            "Open World"
-          ],
-          "store_url": "https://store.steampowered.com/app/12100",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 26,
           "owners_estimate": null
         }
       }
@@ -11092,15 +10981,21 @@
       "developer": "NEXON Korea",
       "publisher": "NEXON",
       "year": "2023",
-      "rotation_degrees": null,
+      "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "high",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Arcade kart racer designed for keyboard/gamepad. No native wheel support.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "KartRider: Drift - tight kart racing, 180deg recommended for quick turns",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Free-to-play arcade kart racer. Designed for keyboard and gamepad only. No wheel support.",
@@ -11162,80 +11057,6 @@
           "store_url": "https://store.steampowered.com/app/412880",
           "pcgamingwiki_url": null,
           "popularity_rank": 40,
-          "owners_estimate": null
-        }
-      }
-    },
-    "sleeping_dogs": {
-      "title": "Sleeping Dogs",
-      "manufacturer": null,
-      "developer": "United Front Games",
-      "publisher": "Square Enix",
-      "year": "2012",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "pcgamingwiki",
-          "description": "Action-adventure with driving. Supports gamepads but no native wheel support.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Action-adventure with driving segments. Gamepad support only, no wheel support.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": "full"
-      },
-      "platforms": {
-        "steam": {
-          "appid": 202170,
-          "tags": [
-            "Action",
-            "Open World"
-          ],
-          "store_url": "https://store.steampowered.com/app/202170",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 41,
-          "owners_estimate": null
-        }
-      }
-    },
-    "road_redemption": {
-      "title": "Road Redemption",
-      "manufacturer": null,
-      "developer": "EQ Games",
-      "publisher": "Tripwire Presents",
-      "year": "2017",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "pcgamingwiki",
-          "description": "Motorcycle combat racing. XInput controller support only, no wheel support. Wheels can interfere with controller detection.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Motorcycle combat racing game. XInput controller support only. Steering wheels not supported and can interfere with input.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": "full"
-      },
-      "platforms": {
-        "steam": {
-          "appid": 300380,
-          "tags": [
-            "Racing",
-            "Action"
-          ],
-          "store_url": "https://store.steampowered.com/app/300380",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 42,
           "owners_estimate": null
         }
       }
@@ -11443,44 +11264,6 @@
           "store_url": "https://store.steampowered.com/app/1262560",
           "pcgamingwiki_url": null,
           "popularity_rank": 48,
-          "owners_estimate": null
-        }
-      }
-    },
-    "mx_bikes": {
-      "title": "MX Bikes",
-      "manufacturer": null,
-      "developer": "PiBoSo",
-      "publisher": "PiBoSo",
-      "year": "2019",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "steam_community",
-          "description": "Motocross simulator using gamepad/keyboard for bike lean and steering. Steering wheels not applicable.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Motorcycle sim. Designed for gamepad/keyboard to control bike lean. Steering wheels not applicable for motorcycle simulation.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": null
-      },
-      "platforms": {
-        "steam": {
-          "appid": 655500,
-          "tags": [
-            "Racing",
-            "Simulation",
-            "Sports"
-          ],
-          "store_url": "https://store.steampowered.com/app/655500",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 49,
           "owners_estimate": null
         }
       }
@@ -14499,605 +14282,6 @@
         }
       }
     },
-    "ride_4": {
-      "title": "RIDE 4",
-      "manufacturer": null,
-      "developer": "Milestone S.r.l.",
-      "publisher": "Milestone S.r.l.",
-      "year": "2020",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "inference",
-          "description": "Motorcycle racing game. Designed for gamepad; steering wheels not applicable for bike lean control.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Motorcycle racing sim. Steering wheels not applicable for motorcycle games.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": null
-      },
-      "platforms": {
-        "steam": {
-          "appid": 1259980,
-          "tags": [
-            "Racing",
-            "Simulation",
-            "Motorcycle"
-          ],
-          "store_url": "https://store.steampowered.com/app/1259980",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 120,
-          "owners_estimate": null
-        }
-      }
-    },
-    "ride": {
-      "title": "RIDE",
-      "manufacturer": null,
-      "developer": "Milestone S.r.l.",
-      "publisher": "Milestone S.r.l.",
-      "year": "2015",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "inference",
-          "description": "Motorcycle racing game. Designed for gamepad; steering wheels not applicable for bike lean control.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Motorcycle racing. Wheels not applicable.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": null
-      },
-      "platforms": {
-        "steam": {
-          "appid": 345660,
-          "tags": [
-            "Racing",
-            "Motorcycle"
-          ],
-          "store_url": "https://store.steampowered.com/app/345660",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 278,
-          "owners_estimate": null
-        }
-      }
-    },
-    "ride_3": {
-      "title": "RIDE 3",
-      "manufacturer": null,
-      "developer": "Milestone S.r.l.",
-      "publisher": "Milestone S.r.l.",
-      "year": "2018",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "inference",
-          "description": "Motorcycle racing game. Designed for gamepad; steering wheels not applicable for bike lean control.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Motorcycle racing. Wheels not applicable.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": null
-      },
-      "platforms": {
-        "steam": {
-          "appid": 759740,
-          "tags": [
-            "Racing",
-            "Motorcycle"
-          ],
-          "store_url": "https://store.steampowered.com/app/759740",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 289,
-          "owners_estimate": null
-        }
-      }
-    },
-    "ride_2": {
-      "title": "Ride 2",
-      "manufacturer": null,
-      "developer": "Milestone S.r.l.",
-      "publisher": "Milestone S.r.l.",
-      "year": "2016",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "inference",
-          "description": "Motorcycle racing game. Designed for gamepad; steering wheels not applicable for bike lean control.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Motorcycle racing. Wheels not applicable.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": null
-      },
-      "platforms": {
-        "steam": {
-          "appid": 477770,
-          "tags": [
-            "Racing",
-            "Motorcycle"
-          ],
-          "store_url": "https://store.steampowered.com/app/477770",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 293,
-          "owners_estimate": null
-        }
-      }
-    },
-    "mxgp_the_official_motocross_videogame": {
-      "title": "MXGP - The Official Motocross Videogame",
-      "manufacturer": null,
-      "developer": "Milestone S.r.l.",
-      "publisher": "Milestone S.r.l.",
-      "year": "2014",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "inference",
-          "description": "Motorcycle racing game. Designed for gamepad; steering wheels not applicable for bike lean control.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Motocross racing. Wheels not applicable.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": null
-      },
-      "platforms": {
-        "steam": {
-          "appid": 256370,
-          "tags": [
-            "Racing",
-            "Motorcycle",
-            "Off-Road"
-          ],
-          "store_url": "https://store.steampowered.com/app/256370",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 257,
-          "owners_estimate": null
-        }
-      }
-    },
-    "mxgp_pro": {
-      "title": "MXGP PRO",
-      "manufacturer": null,
-      "developer": "Milestone S.r.l.",
-      "publisher": "Milestone S.r.l.",
-      "year": "2018",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "inference",
-          "description": "Motorcycle racing game. Designed for gamepad; steering wheels not applicable for bike lean control.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Motocross racing. Wheels not applicable.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": null
-      },
-      "platforms": {
-        "steam": {
-          "appid": 798290,
-          "tags": [
-            "Racing",
-            "Motorcycle",
-            "Off-Road"
-          ],
-          "store_url": "https://store.steampowered.com/app/798290",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 372,
-          "owners_estimate": null
-        }
-      }
-    },
-    "mxgp3": {
-      "title": "MXGP3",
-      "manufacturer": null,
-      "developer": "Milestone S.r.l.",
-      "publisher": "Milestone S.r.l.",
-      "year": "2017",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "inference",
-          "description": "Motorcycle racing game. Designed for gamepad; steering wheels not applicable for bike lean control.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Motocross racing. Wheels not applicable.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": null
-      },
-      "platforms": {
-        "steam": {
-          "appid": 561600,
-          "tags": [
-            "Racing",
-            "Motorcycle",
-            "Off-Road"
-          ],
-          "store_url": "https://store.steampowered.com/app/561600",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 435,
-          "owners_estimate": null
-        }
-      }
-    },
-    "motogp_20": {
-      "title": "MotoGP 20",
-      "manufacturer": null,
-      "developer": "Milestone S.r.l.",
-      "publisher": "Milestone S.r.l.",
-      "year": "2020",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "inference",
-          "description": "Motorcycle racing game. Designed for gamepad; steering wheels not applicable for bike lean control.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "MotoGP racing. Wheels not applicable for motorcycle.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": null
-      },
-      "platforms": {
-        "steam": {
-          "appid": 1161490,
-          "tags": [
-            "Racing",
-            "Simulation",
-            "Motorcycle"
-          ],
-          "store_url": "https://store.steampowered.com/app/1161490",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 395,
-          "owners_estimate": null
-        }
-      }
-    },
-    "tt_isle_of_man_ride_on_the_edge": {
-      "title": "TT Isle of Man: Ride on the Edge",
-      "manufacturer": null,
-      "developer": "KT Racing",
-      "publisher": "Nacon",
-      "year": "2018",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "inference",
-          "description": "Motorcycle racing game. Designed for gamepad; steering wheels not applicable for bike lean control.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "TT motorcycle racing. Wheels not applicable.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": null
-      },
-      "platforms": {
-        "steam": {
-          "appid": 626610,
-          "tags": [
-            "Racing",
-            "Motorcycle"
-          ],
-          "store_url": "https://store.steampowered.com/app/626610",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 315,
-          "owners_estimate": null
-        }
-      }
-    },
-    "tt_isle_of_man_ride_on_the_edge_2": {
-      "title": "TT Isle of Man: Ride on the Edge 2",
-      "manufacturer": null,
-      "developer": "KT Racing",
-      "publisher": "Nacon",
-      "year": "2020",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "inference",
-          "description": "Motorcycle racing game. Designed for gamepad; steering wheels not applicable for bike lean control.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "TT motorcycle racing. Wheels not applicable.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": null
-      },
-      "platforms": {
-        "steam": {
-          "appid": 1082180,
-          "tags": [
-            "Racing",
-            "Motorcycle"
-          ],
-          "store_url": "https://store.steampowered.com/app/1082180",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 468,
-          "owners_estimate": null
-        }
-      }
-    },
-    "moto_racer_4": {
-      "title": "Moto Racer 4",
-      "manufacturer": null,
-      "developer": "Artefacts Studio",
-      "publisher": "Microids",
-      "year": "2016",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "inference",
-          "description": "Motorcycle racing game. Designed for gamepad; steering wheels not applicable for bike lean control.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Motorcycle racing. Wheels not applicable.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": null
-      },
-      "platforms": {
-        "steam": {
-          "appid": 417430,
-          "tags": [
-            "Racing",
-            "Motorcycle"
-          ],
-          "store_url": "https://store.steampowered.com/app/417430",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 229,
-          "owners_estimate": null
-        }
-      }
-    },
-    "mx_vs_atv_all_out": {
-      "title": "MX vs ATV All Out",
-      "manufacturer": null,
-      "developer": "Rainbow Studios",
-      "publisher": "THQ Nordic",
-      "year": "2018",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "inference",
-          "description": "Motorcycle racing game. Designed for gamepad; steering wheels not applicable for bike lean control.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Motorcycle/ATV off-road racing. Designed for gamepad.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": null
-      },
-      "platforms": {
-        "steam": {
-          "appid": 520940,
-          "tags": [
-            "Racing",
-            "Off-Road",
-            "Motorcycle"
-          ],
-          "store_url": "https://store.steampowered.com/app/520940",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 358,
-          "owners_estimate": null
-        }
-      }
-    },
-    "mx_vs_atv_reflex": {
-      "title": "MX vs. ATV Reflex",
-      "manufacturer": null,
-      "developer": "Rainbow Studios",
-      "publisher": "THQ Nordic",
-      "year": "2010",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "inference",
-          "description": "Motorcycle racing game. Designed for gamepad; steering wheels not applicable for bike lean control.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Motorcycle/ATV racing. Designed for gamepad.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": null
-      },
-      "platforms": {
-        "steam": {
-          "appid": 55140,
-          "tags": [
-            "Racing",
-            "Off-Road",
-            "Motorcycle"
-          ],
-          "store_url": "https://store.steampowered.com/app/55140",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 197,
-          "owners_estimate": null
-        }
-      }
-    },
-    "trials_rising": {
-      "title": "Trials Rising",
-      "manufacturer": null,
-      "developer": "RedLynx",
-      "publisher": "Ubisoft",
-      "year": "2019",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "inference",
-          "description": "Motorcycle platformer. Designed for gamepad triggers (gas/brake). Wheels not applicable.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Motorcycle platformer. Wheels not applicable.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": null
-      },
-      "platforms": {
-        "steam": {
-          "appid": 641080,
-          "tags": [
-            "Racing",
-            "Platformer"
-          ],
-          "store_url": "https://store.steampowered.com/app/641080",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 145,
-          "owners_estimate": null
-        }
-      }
-    },
-    "trials_evolution_gold_edition": {
-      "title": "Trials Evolution: Gold Edition",
-      "manufacturer": null,
-      "developer": "RedLynx",
-      "publisher": "Ubisoft",
-      "year": "2013",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "inference",
-          "description": "Motorcycle platformer. Designed for gamepad triggers (gas/brake). Wheels not applicable.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Motorcycle platformer. Wheels not applicable.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": null
-      },
-      "platforms": {
-        "steam": {
-          "appid": 220160,
-          "tags": [
-            "Racing",
-            "Platformer"
-          ],
-          "store_url": "https://store.steampowered.com/app/220160",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 350,
-          "owners_estimate": null
-        }
-      }
-    },
-    "trials_fusion": {
-      "title": "Trials Fusion",
-      "manufacturer": null,
-      "developer": "RedLynx",
-      "publisher": "Ubisoft",
-      "year": "2014",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "inference",
-          "description": "Motorcycle platformer. Designed for gamepad triggers (gas/brake). Wheels not applicable.",
-          "url": null,
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Motorcycle platformer. Wheels not applicable.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": null
-      },
-      "platforms": {
-        "steam": {
-          "appid": 245490,
-          "tags": [
-            "Racing",
-            "Platformer"
-          ],
-          "store_url": "https://store.steampowered.com/app/245490",
-          "pcgamingwiki_url": null,
-          "popularity_rank": 355,
-          "owners_estimate": null
-        }
-      }
-    },
     "trackmania_stadium": {
       "title": "TrackMania Stadium",
       "manufacturer": null,
@@ -15652,15 +14836,21 @@
       "developer": "Ironwood Studios",
       "publisher": "",
       "year": "2024",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/1458140",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Pacific Drive - first-person survival driving, 270deg",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Survival driving roguelite. No wheel or FFB support.",
@@ -15689,15 +14879,21 @@
       "developer": "Sumo Digital",
       "publisher": "",
       "year": "2013",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/212480",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Sonic All-Stars Racing Transformed - arcade kart racer, wider tracks, 270deg",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Kart racer. No native wheel support.",
@@ -15720,58 +14916,27 @@
         }
       }
     },
-    "redout_enhanced_edition": {
-      "title": "Redout: Enhanced Edition",
-      "manufacturer": null,
-      "developer": "34BigThings",
-      "publisher": "",
-      "year": "2016",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "medium",
-      "sources": [
-        {
-          "type": "steam_community",
-          "description": "Steam community research",
-          "url": "https://store.steampowered.com/app/517710",
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Anti-gravity racer (WipEout-style). No wheel support.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": "full"
-      },
-      "platforms": {
-        "steam": {
-          "appid": 517710,
-          "tags": [
-            "Racing",
-            "Driving"
-          ],
-          "store_url": "https://store.steampowered.com/app/517710",
-          "pcgamingwiki_url": null,
-          "popularity_rank": null,
-          "owners_estimate": null
-        }
-      }
-    },
     "circuit_superstars": {
       "title": "Circuit Superstars",
       "manufacturer": null,
       "developer": "Original Fire Games",
       "publisher": "",
       "year": "2021",
-      "rotation_degrees": null,
+      "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/1097130",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Circuit Superstars - top-down racer, 180deg for quick directional changes",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Top-down racer. No wheel support.",
@@ -15800,15 +14965,21 @@
       "developer": "Playrise Digital",
       "publisher": "",
       "year": "2016",
-      "rotation_degrees": null,
+      "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/450670",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Table Top Racing - micro machines style, 180deg for tight tracks",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Micro Machines-style toy racer. No wheel support.",
@@ -15825,80 +14996,6 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/450670",
-          "pcgamingwiki_url": null,
-          "popularity_rank": null,
-          "owners_estimate": null
-        }
-      }
-    },
-    "cube_racer": {
-      "title": "Cube Racer",
-      "manufacturer": null,
-      "developer": "",
-      "publisher": "",
-      "year": "2017",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "low",
-      "sources": [
-        {
-          "type": "steam_community",
-          "description": "Steam community research",
-          "url": "https://store.steampowered.com/app/705210",
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Simple indie racer. No wheel support.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": "full"
-      },
-      "platforms": {
-        "steam": {
-          "appid": 705210,
-          "tags": [
-            "Racing",
-            "Driving"
-          ],
-          "store_url": "https://store.steampowered.com/app/705210",
-          "pcgamingwiki_url": null,
-          "popularity_rank": null,
-          "owners_estimate": null
-        }
-      }
-    },
-    "madout2_bigcityonline": {
-      "title": "MadOut2 BigCityOnline",
-      "manufacturer": null,
-      "developer": "MadOut Games",
-      "publisher": "",
-      "year": "2016",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "low",
-      "sources": [
-        {
-          "type": "steam_community",
-          "description": "Steam store page - marked CLOSED",
-          "url": "https://store.steampowered.com/app/586980",
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "CLOSED - Game servers shut down. No longer playable.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": "full"
-      },
-      "platforms": {
-        "steam": {
-          "appid": 586980,
-          "tags": [
-            "Racing",
-            "Driving"
-          ],
-          "store_url": "https://store.steampowered.com/app/586980",
           "pcgamingwiki_url": null,
           "popularity_rank": null,
           "owners_estimate": null
@@ -16274,15 +15371,21 @@
       "developer": "Sumo Digital",
       "publisher": "",
       "year": "2020",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community, developer confirmation",
           "url": "https://store.steampowered.com/app/609920",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Hotshot Racing - retro arcade racer (Daytona/Virtua Racing style), 270deg",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Retro arcade racer. No native wheel support - devs confirmed 'no plans for wheel support'.",
@@ -16311,15 +15414,21 @@
       "developer": "Sumo Digital",
       "publisher": "",
       "year": "2019",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/785260",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Team Sonic Racing - arcade kart racer, 270deg like classic arcade racers",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Kart-style racer. No native wheel or FFB. Workarounds via wheel2xinput possible.",
@@ -16348,15 +15457,21 @@
       "developer": "Milestone",
       "publisher": "",
       "year": "2021",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "high",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community, PCGamingWiki research",
           "url": "https://store.steampowered.com/app/1271700",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Hot Wheels Unleashed - arcade toy car racing, 270deg",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Arcade racer. No native wheel/FFB despite Milestone being known for sim racers. Deliberately excluded wheel support for arcade design.",
@@ -16385,15 +15500,21 @@
       "developer": "Caged Element",
       "publisher": "",
       "year": "2018",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/396900",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "GRIP: Combat Racing - futuristic combat racer, 270deg",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Futuristic combat racer. No official wheel support despite community requests. Devs acknowledged but never implemented.",
@@ -16422,15 +15543,21 @@
       "developer": "AQUIRIS",
       "publisher": "",
       "year": "2018",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/389140",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Horizon Chase Turbo - retro arcade racer (OutRun style), 270deg",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Retro arcade racer (OutRun/Top Gear tribute). No official wheel support.",
@@ -16459,15 +15586,21 @@
       "developer": "Stainless Games",
       "publisher": "",
       "year": "2016",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/505170",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Carmageddon: Max Damage - vehicular combat racer, 270deg",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Vehicular combat racer. No native wheel/pedal support (joypad/keyboard only).",
@@ -16496,15 +15629,21 @@
       "developer": "Minskworks",
       "publisher": "",
       "year": "2018",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "high",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Developer statement, Steam community",
           "url": "https://store.steampowered.com/app/446020",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Jalopy - road trip driving sim, 270deg for casual driving",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Road trip driving sim. Devs attempted wheel support but abandoned it. Official statement: 'there will be no steering wheel support for Jalopy.'",
@@ -16533,7 +15672,7 @@
       "developer": "Retraissance",
       "publisher": "",
       "year": "2017",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
       "confidence": "low",
       "sources": [
@@ -16542,6 +15681,12 @@
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/447920",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Drift (Over) Drive - drift racing, 270deg",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Retro top-down drifting game. No wheel support.",
@@ -16564,87 +15709,13 @@
         }
       }
     },
-    "jet_racing_extreme": {
-      "title": "Jet Racing Extreme",
-      "manufacturer": null,
-      "developer": "",
-      "publisher": "",
-      "year": "2016",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "low",
-      "sources": [
-        {
-          "type": "steam_community",
-          "description": "Steam community research",
-          "url": "https://store.steampowered.com/app/385270",
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Jet-powered vehicle racing. Partial controller support (Xbox 360 pad). No wheel support.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": "full"
-      },
-      "platforms": {
-        "steam": {
-          "appid": 385270,
-          "tags": [
-            "Racing",
-            "Driving"
-          ],
-          "store_url": "https://store.steampowered.com/app/385270",
-          "pcgamingwiki_url": null,
-          "popularity_rank": null,
-          "owners_estimate": null
-        }
-      }
-    },
-    "racing_classics_drag_race_simulator": {
-      "title": "Racing Classics: Drag Race Simulator",
-      "manufacturer": null,
-      "developer": "T-Bull",
-      "publisher": "",
-      "year": "2019",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "low",
-      "sources": [
-        {
-          "type": "steam_community",
-          "description": "Steam store page research",
-          "url": "https://store.steampowered.com/app/1026110",
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Drag racing only (straight-line quarter-mile). No steering involved. Wheel would serve no purpose.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": "full"
-      },
-      "platforms": {
-        "steam": {
-          "appid": 1026110,
-          "tags": [
-            "Racing",
-            "Driving"
-          ],
-          "store_url": "https://store.steampowered.com/app/1026110",
-          "pcgamingwiki_url": null,
-          "popularity_rank": null,
-          "owners_estimate": null
-        }
-      }
-    },
     "drift86": {
       "title": "Drift86",
       "manufacturer": null,
       "developer": "RewindApp",
       "publisher": "",
       "year": "2020",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
       "confidence": "low",
       "sources": [
@@ -16653,6 +15724,12 @@
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/1070580",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Drift86 - drift racing, 270deg",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Arcade drift racer. Community requested wheel support but not implemented. Gamepad/keyboard only.",
@@ -17179,58 +16256,27 @@
         }
       }
     },
-    "ocean_city_racing": {
-      "title": "OCEAN CITY RACING",
-      "manufacturer": null,
-      "developer": "",
-      "publisher": "",
-      "year": "2014",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "low",
-      "sources": [
-        {
-          "type": "steam_community",
-          "description": "Steam store page research",
-          "url": "https://store.steampowered.com/app/311400",
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Open-world driving game. No wheel or controller support evidence. Appears keyboard/mouse focused.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": "full"
-      },
-      "platforms": {
-        "steam": {
-          "appid": 311400,
-          "tags": [
-            "Racing",
-            "Driving"
-          ],
-          "store_url": "https://store.steampowered.com/app/311400",
-          "pcgamingwiki_url": null,
-          "popularity_rank": null,
-          "owners_estimate": null
-        }
-      }
-    },
     "drive_beyond_horizons": {
       "title": "Drive Beyond Horizons",
       "manufacturer": null,
       "developer": "",
       "publisher": "",
       "year": "2024",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community, developer statements",
           "url": "https://store.steampowered.com/app/2625420",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Drive Beyond Horizons - driving game, 270deg",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Procedural open-world driving sim (Early Access). NO wheel or controller support yet. Devs say wheel support planned.",
@@ -17259,15 +16305,21 @@
       "developer": "Codemasters",
       "publisher": "",
       "year": "2014",
-      "rotation_degrees": null,
+      "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/287260",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Toybox Turbos - micro machines style, 180deg for miniature tracks",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Top-down Micro Machines-style racer. No wheel support. Delisted from Steam.",
@@ -17296,15 +16348,21 @@
       "developer": "Remedy",
       "publisher": "",
       "year": "1996",
-      "rotation_degrees": null,
+      "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam store page research",
           "url": "https://store.steampowered.com/app/358270",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Death Rally (Classic) - top-down racer, 180deg for quick turns",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "1996 top-down DOS combat racer. Keyboard only. No wheel or FFB.",
@@ -17333,15 +16391,21 @@
       "developer": "Remedy",
       "publisher": "",
       "year": "2012",
-      "rotation_degrees": null,
+      "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam store page research",
           "url": "https://store.steampowered.com/app/108700",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Death Rally (2012) - top-down/isometric racer, 180deg",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Top-down combat racer (2012 remake). Designed for gamepad/touchscreen (mobile port). No wheel or FFB.",
@@ -17370,15 +16434,21 @@
       "developer": "",
       "publisher": "",
       "year": "2022",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "high",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/2073470",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Kanjozoku Game - street racing/drifting, 270deg",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Street racing/drift MMO. Community threads confirm NO wheel support. Controller/keyboard only.",
@@ -17407,15 +16477,21 @@
       "developer": "Serious Sim",
       "publisher": "",
       "year": "2024",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/1640630",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "Heading Out - narrative driving game, 270deg",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Narrative road-movie racing. No wheel support. Driving mechanics too sluggish for wheel use.",
@@ -17444,15 +16520,21 @@
       "developer": "Good Boys",
       "publisher": "",
       "year": "2022",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "high",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Developer statement",
           "url": "https://store.steampowered.com/app/1664220",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "inference",
+          "description": "TRAIL OUT - destruction derby/racing, 270deg",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "FlatOut-style vehicular combat racer. Dev confirmed NO wheel/FFB. 'We have an arcade game, not a simulator.'",
@@ -17469,43 +16551,6 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/1664220",
-          "pcgamingwiki_url": null,
-          "popularity_rank": null,
-          "owners_estimate": null
-        }
-      }
-    },
-    "crashmetal_cyberpunk": {
-      "title": "CrashMetal - Cyberpunk",
-      "manufacturer": null,
-      "developer": "",
-      "publisher": "",
-      "year": "2021",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "low",
-      "sources": [
-        {
-          "type": "steam_community",
-          "description": "Steam store page research",
-          "url": "https://store.steampowered.com/app/1490130",
-          "date_accessed": "2026-02-14"
-        }
-      ],
-      "notes": "Open-world cyberpunk drift racer. Claims controller support but poorly implemented. No confirmed wheel support.",
-      "pc": {
-        "wheel_support": "none",
-        "force_feedback": "none",
-        "controller_support": "full"
-      },
-      "platforms": {
-        "steam": {
-          "appid": 1490130,
-          "tags": [
-            "Racing",
-            "Driving"
-          ],
-          "store_url": "https://store.steampowered.com/app/1490130",
           "pcgamingwiki_url": null,
           "popularity_rank": null,
           "owners_estimate": null
@@ -17592,15 +16637,21 @@
       "developer": "New Star Games",
       "publisher": "Five Aces Publishing",
       "year": "2024",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam discussions and developer comments confirm limited wheel support for Logitech G29 and Thrustmaster T150/T300. No force feedback.",
           "url": null,
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "inference",
+          "description": "New Star GP - retro F1 racer with partial wheel support, 270deg",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Retro-style F1 racing game. Very limited wheel support added post-launch. Steering feels digital rather than analog. No FFB. Developer acknowledges wheel support is limited.",
@@ -17629,15 +16680,21 @@
       "developer": "Vector Unit",
       "publisher": "Vector Unit",
       "year": "2021",
-      "rotation_degrees": null,
+      "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "high",
+      "confidence": "low",
       "sources": [
         {
           "type": "developer",
           "description": "Developer response on Steam confirms no steering wheel support. Multiple changes would be needed for wheel experience.",
           "url": null,
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "inference",
+          "description": "Beach Buggy Racing 2 - mobile-style kart racer, 180deg for responsive steering",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Kart racer. Developer explicitly confirmed no wheel support on PC. Standard gamepads and keyboard only.",
@@ -17666,7 +16723,7 @@
       "developer": "Walaber Entertainment",
       "publisher": "Walaber Entertainment",
       "year": "2024",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
       "confidence": "low",
       "sources": [
@@ -17675,6 +16732,12 @@
           "description": "Developer stated wheel works if recognized as game controller. Has deadzone/sensitivity settings. No explicit FFB confirmation.",
           "url": null,
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "inference",
+          "description": "Parking Garage Rally Circuit - retro rally racer, partial wheel support, 270deg",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Lo-fi Sega Saturn-inspired rally game. Wheel works via generic game controller input. Has sensitivity and deadzone adjustment.",
@@ -17703,7 +16766,7 @@
       "developer": "Active Games",
       "publisher": "Active Games",
       "year": "2020",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
       "confidence": "low",
       "sources": [
@@ -17712,6 +16775,12 @@
           "description": "No dedicated wheel support found. One user reported game crashes on launch when Logitech G29 is connected.",
           "url": null,
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "inference",
+          "description": "Offroad Mania - off-road driving, 270deg",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Off-road 4x4 driving simulator with puzzle-like levels. Wheel support appears absent or broken - crash reports with G29 connected.",
@@ -17851,7 +16920,7 @@
       "developer": "Jonathon Oram Howe",
       "publisher": "Jonathon Oram Howe",
       "year": "2024",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
       "confidence": "low",
       "sources": [
@@ -17860,6 +16929,12 @@
           "description": "No specific wheel support documentation found. Full controller support confirmed on Steam store page.",
           "url": null,
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "inference",
+          "description": "Drifto: Infinite Touge - touge drifting, 270deg",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Drift-focused touge racing game. Full controller support but no documented wheel-specific information.",
@@ -17888,15 +16963,21 @@
       "developer": "ansdor",
       "publisher": "ansdor",
       "year": "2018",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "high",
+      "confidence": "low",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community confirms no native wheel support; no control remapping options in-game",
           "url": null,
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "inference",
+          "description": "Slipstream - retro arcade racer (OutRun homage), 270deg",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Retro pseudo-3D arcade racer inspired by OutRun. No native steering wheel support. Keyboard/gamepad only.",

@@ -6,8 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+### Added
+- Set rotation values for 27 Steam games: kart racers (180°/270°), arcade-style racers (180°/270°), and misc driving games (270°)
+
+### Removed
+- 29 Steam entries: 18 motorcycle games, 4 open world/vehicular combat, 7 non-wheel games (jet boats, drag racing, anti-gravity racers)
+
 ### Changed
 - Updated CLAUDE.md for v2.7.0: corrected Battle Gear rotation (270° → 540°), expanded Konami/Taito appendix, marked MAME cleanup as complete
+- All 541 entries now have rotation values — 0 unknowns remaining
 
 ## [2.7.0] - 2026-02-17
 
