@@ -10,23 +10,23 @@ Modern USB racing wheels support 270-1080 degrees of rotation, but original arca
 
 The primary database is `data/wheel-db.json` -- a unified, game-centric JSON file where each entry represents a unique game. Platform-specific identifiers (MAME ROM names, TeknoParrot profiles, Steam app IDs, etc.) are stored in a `platforms` map so a game's data is never duplicated across platforms.
 
-### Current Stats (v2.6.0)
+### Current Stats (v2.7.0)
 
 | Metric | Count |
 |--------|-------|
-| Total game entries | 664 |
-| With MAME mapping | 386 |
+| Total game entries | 570 |
+| With MAME mapping | 292 |
 | With TeknoParrot mapping | 81 |
 | With Steam mapping | 215 |
 | With Supermodel mapping | 9 |
 | With Flycast mapping | 9 |
 | With Model 2 Emulator mapping | 6 |
 | With Dolphin mapping | 4 |
-| With known rotation value | 413 |
-| Unknown (needs research) | 238 |
-| Infinite rotation (encoders) | 13 |
+| With known rotation value | 483 |
+| Unknown (needs research) | 56 |
+| Infinite rotation (encoders) | 31 |
 
-**Rotation values:** 270 (215 games), 540 (65), 360 (54), 900 (40), 56 (5), 45 (4), 450 (4), 180 (4), 200 (3), 60 (3), 390 (3), 1080 (3), 150 (2), 240 (2), 90 (2), 300 (1), 480 (1), 720 (1), 800 (1)
+**Rotation values:** 270 (284 games), 540 (65), 360 (55), 900 (40), 56 (5), 45 (4), 450 (4), 180 (4), 200 (3), 60 (3), 390 (3), 1080 (3), 150 (2), 240 (2), 90 (2), 300 (1), 480 (1), 720 (1), 800 (1)
 
 **PC wheel support:** native (113 games), partial (46), none (54)
 
@@ -71,7 +71,7 @@ All scripts are PowerShell 7+ and located in `scripts/`.
 ```
 wheel-db/
   data/
-    wheel-db.json                # Primary database (664 games)
+    wheel-db.json                # Primary database (570 games)
     schema/
       wheel-db.schema.json       # JSON Schema for validation
   scripts/
@@ -101,7 +101,7 @@ Each [GitHub Release](../../releases) includes these artifacts:
 | `mame-wheel-rotation.csv` | CSV | Flat MAME ROM-to-rotation lookup (known values only) |
 | `mame-wheel-rotation.xml` | XML | Same MAME data in XML format |
 | `steam-wheel-support.csv` | CSV | Steam games with wheel support, FFB, and rotation info |
-| `wheel-db.csv` | CSV | Unified flat CSV of all 664 games across all platforms |
+| `wheel-db.csv` | CSV | Unified flat CSV of all 570 games across all platforms |
 
 For detailed parsing instructions and code examples, see **[docs/INTEGRATION.md](docs/INTEGRATION.md)**.
 

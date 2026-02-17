@@ -1,5 +1,5 @@
 {
-  "version": "2.6.0",
+  "version": "2.7.0",
   "generated": "2026-02-17T00:00:00Z",
   "games": {
     "outrun": {
@@ -3506,8 +3506,8 @@
       "developer": null,
       "publisher": null,
       "year": "1990",
-      "rotation_degrees": null,
-      "rotation_type": "potentiometer",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
       "confidence": "low",
       "sources": [
         {
@@ -3515,6 +3515,12 @@
           "description": "Web research - no specific rotation data found for handlebar controls",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Sega 1990 motorcycle cop chase",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Motorcycle/air-bike on Sega X Board. Uses handlebar controls. No specific rotation degrees found. Likely 45-90 degree range typical of handlebar controls.",
@@ -3663,8 +3669,8 @@
       "developer": null,
       "publisher": null,
       "year": "1990",
-      "rotation_degrees": null,
-      "rotation_type": "potentiometer",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
       "confidence": "low",
       "sources": [
         {
@@ -3672,6 +3678,12 @@
           "description": "Web research - no specific rotation data found",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Sega 1990 motorcycle GP racing",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Motorcycle on Sega X Board. Twin ride-on cabinet with tilting replica motorcycles. No specific handlebar rotation found.",
@@ -3689,8 +3701,8 @@
       "developer": null,
       "publisher": null,
       "year": "1985",
-      "rotation_degrees": null,
-      "rotation_type": "potentiometer",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
       "confidence": "low",
       "sources": [
         {
@@ -3698,6 +3710,12 @@
           "description": "Web research - no specific rotation data found",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Sega 1985 sit-down motorcycle, handlebar controls",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Cut-down Hang-On on Sega System E. Uses handlebar controls with potentiometer. No specific rotation degrees found.",
@@ -3715,8 +3733,8 @@
       "developer": null,
       "publisher": null,
       "year": "1997",
-      "rotation_degrees": null,
-      "rotation_type": "potentiometer",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
       "confidence": "low",
       "sources": [
         {
@@ -3724,6 +3742,12 @@
           "description": "Web research - no specific rotation data found",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Sega 1997 Harley-Davidson motorcycle, Model 3",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Motorcycle on Model 3 Step 2.0. Handlebar controls with gear shift on left handlebar. Manual describes calibration but no specific degrees found.",
@@ -3802,8 +3826,8 @@
       "developer": null,
       "publisher": null,
       "year": "1995",
-      "rotation_degrees": null,
-      "rotation_type": "potentiometer",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
       "confidence": "low",
       "sources": [
         {
@@ -3811,6 +3835,12 @@
           "description": "Web research - approximate range inferred from emulation community",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Sega 1995 motorcycle TT racing, body lean cabinet",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Motorcycle on Model 2A. Honda RC45 replica. Tilts left/right plus handlebar input. Emulation suggests 180 degrees on wheel feels natural but freer than real cabinet. Likely 45-90 degree range.",
@@ -3834,8 +3864,8 @@
       "developer": null,
       "publisher": null,
       "year": "1997",
-      "rotation_degrees": null,
-      "rotation_type": "potentiometer",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
       "confidence": "low",
       "sources": [
         {
@@ -3843,6 +3873,12 @@
           "description": "Same hardware as Manx TT Superbike",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Sega 1997 motorcycle combat, Model 2",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Motorcycle combat racing on Model 2A. ROM swap for Manx TT Superbike - uses identical cabinet/handlebar hardware. Additional attack buttons.",
@@ -3889,8 +3925,8 @@
       "developer": null,
       "publisher": null,
       "year": "1992",
-      "rotation_degrees": null,
-      "rotation_type": "potentiometer",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
       "confidence": "low",
       "sources": [
         {
@@ -3898,6 +3934,12 @@
           "description": "Web research - no specific rotation data found",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Sega 1992 dirt bike/motocross",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Motocross on Sega System Multi 32. Twin cabinet using two System 32 boards. Motorcycle handlebar controls. No specific rotation found.",
@@ -4008,8 +4050,8 @@
       "developer": null,
       "publisher": null,
       "year": "1996",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
       "confidence": "low",
       "sources": [
         {
@@ -4017,6 +4059,12 @@
           "description": "Arcade-Projects Aqua Jet controls discussion",
           "url": "https://www.arcade-projects.com/threads/namco-aqua-jet-controls.22665/",
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Namco 1996 jet ski game with handlebar controls",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Super System 22. Jet ski game where player leans to steer on waterscooter platform. Not a traditional wheel/handlebar game. Body-lean tilt-based steering.",
@@ -4352,8 +4400,8 @@
       "developer": null,
       "publisher": null,
       "year": "1996",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
       "confidence": "low",
       "sources": [
         {
@@ -4361,6 +4409,12 @@
           "description": "Web research - extremely rare, no specific data found",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Konami 1996 jet ski game with handlebar controls",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Known as Wave Shark in North America. Jet ski replica cabinet with handlebar controls. Extremely rare (2 known units). Handlebar range likely 45-60 degrees.",
@@ -5112,15 +5166,21 @@
       "developer": null,
       "publisher": null,
       "year": "1979",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": -1,
+      "rotation_type": "optical_encoder",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
           "description": "No documentation found - extremely obscure",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "TTL/early era game, optical encoder steering (longbeach Olympia 1979 early driving[1])",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Extremely rare Italian-made top-down driving game. No known surviving units. Zero documentation found.",
@@ -5138,15 +5198,21 @@
       "developer": null,
       "publisher": null,
       "year": "199?",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "research",
           "description": "Conflicting control information - may not use steering wheel",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "TCH racing game with steering wheel",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Obscure Spanish-made racing game. arcade-history.com lists joystick control despite MAME paddle classification. May use joystick not wheel.",
@@ -5196,15 +5262,21 @@
       "developer": null,
       "publisher": null,
       "year": "1976",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": -1,
+      "rotation_type": "optical_encoder",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "TTL/early era game, optical encoder steering (280zzzap Dave Nutting/Midway 1976 driving[1])",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / 1st Person. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -5222,15 +5294,21 @@
       "developer": null,
       "publisher": null,
       "year": "1998",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Namco 1998 motorcycle GP, handlebar controls",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -5248,15 +5326,21 @@
       "developer": null,
       "publisher": null,
       "year": "1997",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Namco 1997 racing game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -5274,15 +5358,21 @@
       "developer": null,
       "publisher": null,
       "year": "1998",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Namco/Tomy 1998 train-themed game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / 1st Person. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -5294,73 +5384,27 @@
         }
       }
     },
-    "aqua_jack": {
-      "title": "Aqua Jack (World)",
-      "manufacturer": "Taito Corporation Japan",
-      "developer": null,
-      "publisher": null,
-      "year": "1990",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving (chase view). Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "aquajack",
-          "clones_inherit": true
-        }
-      }
-    },
-    "roadwars_arcadia_v_23": {
-      "title": "RoadWars (Arcadia, V 2.3)",
-      "manufacturer": "Arcadia Systems",
-      "developer": null,
-      "publisher": null,
-      "year": "1988",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving (chase view). Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "ar_rdwr",
-          "clones_inherit": true
-        }
-      }
-    },
     "atv_track": {
       "title": "ATV Track (set 1)",
       "manufacturer": "Gaelco",
       "developer": null,
       "publisher": null,
       "year": "2002",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Gaelco 2002 ATV racing",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view) Bike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -5378,15 +5422,21 @@
       "developer": null,
       "publisher": null,
       "year": "1995",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Data East 1995 racing game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -5394,32 +5444,6 @@
       "platforms": {
         "mame": {
           "romname": "backfire",
-          "clones_inherit": true
-        }
-      }
-    },
-    "bandit": {
-      "title": "Bandit (US)",
-      "manufacturer": "Data East USA",
-      "developer": null,
-      "publisher": null,
-      "year": "1989",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "bandit",
           "clones_inherit": true
         }
       }
@@ -5450,73 +5474,27 @@
         }
       }
     },
-    "battle_lane_vol_5": {
-      "title": "Battle Lane! Vol. 5 (set 1)",
-      "manufacturer": "Technos Japan (Taito license)",
-      "developer": null,
-      "publisher": null,
-      "year": "1986",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving Vertical. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "battlane",
-          "clones_inherit": true
-        }
-      }
-    },
-    "the_battleroad": {
-      "title": "The Battle-Road",
-      "manufacturer": "Irem",
-      "developer": null,
-      "publisher": null,
-      "year": "1984",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving Vertical. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "battroad",
-          "clones_inherit": true
-        }
-      }
-    },
     "blomby_car_version_1p0": {
       "title": "Blomby Car (Version 1P0)",
       "manufacturer": "ABM & Gecas",
       "developer": null,
       "publisher": null,
       "year": "1994",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "ABM/Gecas 1994 racing game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -5524,110 +5502,6 @@
       "platforms": {
         "mame": {
           "romname": "blmbycar",
-          "clones_inherit": true
-        }
-      }
-    },
-    "the_bounty": {
-      "title": "The Bounty (set 1)",
-      "manufacturer": "Orca",
-      "developer": null,
-      "publisher": null,
-      "year": "1982",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Boat. Boat game - may use wheel or tiller. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "bounty",
-          "clones_inherit": true
-        }
-      }
-    },
-    "bradley_trainer": {
-      "title": "Bradley Trainer",
-      "manufacturer": "Atari",
-      "developer": null,
-      "publisher": null,
-      "year": "1980",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Tank Driving. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "bradley",
-          "clones_inherit": true
-        }
-      }
-    },
-    "break_thru": {
-      "title": "Break Thru (US)",
-      "manufacturer": "Data East USA",
-      "developer": null,
-      "publisher": null,
-      "year": "1986",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving Horizontal. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "brkthru",
-          "clones_inherit": true
-        }
-      }
-    },
-    "burnin_rubber": {
-      "title": "Burnin' Rubber",
-      "manufacturer": "Data East",
-      "developer": null,
-      "publisher": null,
-      "year": "1982",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "brubber",
           "clones_inherit": true
         }
       }
@@ -5658,47 +5532,27 @@
         }
       }
     },
-    "battle_zone": {
-      "title": "Battle Zone (rev 2)",
-      "manufacturer": "Atari",
-      "developer": null,
-      "publisher": null,
-      "year": "1980",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Tank Driving. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "bzone",
-          "clones_inherit": true
-        }
-      }
-    },
     "california_chase": {
       "title": "California Chase",
       "manufacturer": "The Game Room",
       "developer": null,
       "publisher": null,
       "year": "1999",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "The Game Room 1999 driving game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -5706,32 +5560,6 @@
       "platforms": {
         "mame": {
           "romname": "calchase",
-          "clones_inherit": true
-        }
-      }
-    },
-    "car_jamboree": {
-      "title": "Car Jamboree",
-      "manufacturer": "Omori Electric Co., Ltd.",
-      "developer": null,
-      "publisher": null,
-      "year": "1983",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "carjmbre",
           "clones_inherit": true
         }
       }
@@ -5768,15 +5596,21 @@
       "developer": null,
       "publisher": null,
       "year": "1994",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Taito 1994 vehicular chase game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -5788,47 +5622,27 @@
         }
       }
     },
-    "burnin_rubber_deco_cassette": {
-      "title": "Burnin' Rubber (DECO Cassette) (US) (set 1)",
-      "manufacturer": "Data East Corporation",
-      "developer": null,
-      "publisher": null,
-      "year": "1982",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "cburnrub",
-          "clones_inherit": true
-        }
-      }
-    },
     "chameleon_rx1": {
       "title": "Chameleon RX-1",
       "manufacturer": "Digital Sunnil (Covielsa license)",
       "developer": null,
       "publisher": null,
       "year": "2003",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Digital Sunnil 2003 racing game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Shooter / Tank Driving. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -5872,15 +5686,21 @@
       "developer": null,
       "publisher": null,
       "year": "2006",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Chase H.Q. sequel, same 270deg cabinet standard as original",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -5918,47 +5738,27 @@
         }
       }
     },
-    "highway_chase_deco_cassette": {
-      "title": "Highway Chase (DECO Cassette) (US)",
-      "manufacturer": "Data East Corporation",
-      "developer": null,
-      "publisher": null,
-      "year": "1980",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving Vertical. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "chwy",
-          "clones_inherit": true
-        }
-      }
-    },
     "city_bomber": {
       "title": "City Bomber (World)",
       "manufacturer": "Konami",
       "developer": null,
       "publisher": null,
       "year": "1987",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Konami 1987 motorcycle chase, handlebar controls",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Shooter / Driving Vertical. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -5970,47 +5770,27 @@
         }
       }
     },
-    "clashroad": {
-      "title": "Clash-Road",
-      "manufacturer": "Woodplace Inc.",
-      "developer": null,
-      "publisher": null,
-      "year": "1986",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race Bike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "clshroad",
-          "clones_inherit": true
-        }
-      }
-    },
     "counter_steer": {
       "title": "Counter Steer (Japan)",
       "manufacturer": "Data East Corporation",
       "developer": null,
       "publisher": null,
       "year": "1985",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Data East 1985 driving game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -6028,15 +5808,21 @@
       "developer": null,
       "publisher": null,
       "year": "2000",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Konami 2000 emergency vehicle driving",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -6054,15 +5840,21 @@
       "developer": null,
       "publisher": null,
       "year": "1995",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Sega 1995 motorcycle racing",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -6080,15 +5872,21 @@
       "developer": null,
       "publisher": null,
       "year": "1979",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": -1,
+      "rotation_type": "optical_encoder",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "TTL/early era game, optical encoder steering (crash Exidy 1979 driving[1])",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -6106,15 +5904,21 @@
       "developer": null,
       "publisher": null,
       "year": "1975",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": -1,
+      "rotation_type": "optical_encoder",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "TTL/early era game, optical encoder steering (crash_n_scorestock_car_ttl Atari 1975 TTL stock car[1])",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: TTL * Driving / Demolition Derby. TTL-era game - control type unknown. No wheel controls detected in MAME input definitions.",
@@ -6122,32 +5926,6 @@
       "platforms": {
         "mame": {
           "romname": "crashnsc",
-          "clones_inherit": true
-        }
-      }
-    },
-    "crater_raider": {
-      "title": "Crater Raider",
-      "manufacturer": "Bally Midway",
-      "developer": null,
-      "publisher": null,
-      "year": "1984",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "crater",
           "clones_inherit": true
         }
       }
@@ -6262,15 +6040,21 @@
       "developer": null,
       "publisher": null,
       "year": "1985",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Tecfri 1985 rally racing",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -6314,15 +6098,21 @@
       "developer": null,
       "publisher": null,
       "year": "1991",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Tatsumi 1991 motorcycle combat",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Fighter / Driving Vertical. No wheel controls detected in MAME input definitions.",
@@ -6341,12 +6131,18 @@
       "publisher": null,
       "year": "1995",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "low",
       "sources": [
         {
           "type": "inference",
           "description": "Taito hardware. Standard racing cabinet.",
+          "url": null,
+          "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "inference",
+          "description": "Racing game",
           "url": null,
           "date_accessed": "2026-02-17"
         }
@@ -6366,15 +6162,21 @@
       "developer": null,
       "publisher": null,
       "year": "1976",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": -1,
+      "rotation_type": "optical_encoder",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "TTL/early era game, optical encoder steering (death_race_ttl Exidy 1976 TTL[1])",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: TTL * Driving / Demolition Derby. TTL-era game - control type unknown. No wheel controls detected in MAME input definitions.",
@@ -6386,47 +6188,27 @@
         }
       }
     },
-    "desert_tank": {
-      "title": "Desert Tank",
-      "manufacturer": "Sega / Martin Marietta",
-      "developer": null,
-      "publisher": null,
-      "year": "1994",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving (chase view). Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "desert",
-          "clones_inherit": true
-        }
-      }
-    },
     "destruction_derby_ttl": {
       "title": "Destruction Derby [TTL]",
       "manufacturer": "Exidy",
       "developer": null,
       "publisher": null,
       "year": "1976",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": -1,
+      "rotation_type": "optical_encoder",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "TTL/early era game, optical encoder steering (destruction_derby_ttl Exidy 1976 TTL[1])",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: TTL * Driving / Demolition Derby. TTL-era game - control type unknown. No wheel controls detected in MAME input definitions.",
@@ -6444,15 +6226,21 @@
       "developer": null,
       "publisher": null,
       "year": "1976",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": -1,
+      "rotation_type": "optical_encoder",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "TTL/early era game, optical encoder steering (demolition_derby_ttl Chicago Coin 1976 TTL[1])",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: TTL * Driving / Demolition Derby. TTL-era game - control type unknown. No wheel controls detected in MAME input definitions.",
@@ -6470,15 +6258,21 @@
       "developer": null,
       "publisher": null,
       "year": "1997",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Namco 1997 bicycle downhill, handlebar controls",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view) Bike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -6490,47 +6284,27 @@
         }
       }
     },
-    "drift_out_94__the_hard_order": {
-      "title": "Drift Out '94 - The Hard Order (Japan)",
-      "manufacturer": "Visco",
-      "developer": null,
-      "publisher": null,
-      "year": "1994",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "drifto94",
-          "clones_inherit": true
-        }
-      }
-    },
     "driving_force_pacman_conversion": {
       "title": "Driving Force (Pac-Man conversion)",
       "manufacturer": "Shinkai Inc. (Magic Electronics Inc. license)",
       "developer": null,
       "publisher": null,
       "year": "1984",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Shinkai 1984 driving game on Pac-Man hardware",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -6548,15 +6322,21 @@
       "developer": null,
       "publisher": null,
       "year": "1986",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Sega 1986 motorcycle, body lean cabinet",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -6564,84 +6344,6 @@
       "platforms": {
         "mame": {
           "romname": "enduror",
-          "clones_inherit": true
-        }
-      }
-    },
-    "enforce": {
-      "title": "Enforce (World)",
-      "manufacturer": "Taito Corporation Japan",
-      "developer": null,
-      "publisher": null,
-      "year": "1988",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving 1st Person. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "enforce",
-          "clones_inherit": true
-        }
-      }
-    },
-    "vs_excitebike": {
-      "title": "Vs. Excitebike (set EB4-3 E)",
-      "manufacturer": "Nintendo",
-      "developer": null,
-      "publisher": null,
-      "year": "1984",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "excitebk",
-          "clones_inherit": true
-        }
-      }
-    },
-    "f1_dream": {
-      "title": "F-1 Dream",
-      "manufacturer": "Capcom (Romstar license)",
-      "developer": null,
-      "publisher": null,
-      "year": "1988",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "f1dream",
           "clones_inherit": true
         }
       }
@@ -6730,15 +6432,21 @@
       "developer": null,
       "publisher": null,
       "year": "1994",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Jaleco 1994 F1 racing with steering wheel",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race 1st Person. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -6895,15 +6603,21 @@
       "developer": null,
       "publisher": null,
       "year": "1977",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": -1,
+      "rotation_type": "optical_encoder",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "TTL/early era game, optical encoder steering (ciscofisco_400_ttl Taito 1977 TTL racing[1])",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: TTL * Driving / Race Track. TTL-era game - control type unknown. No wheel controls detected in MAME input definitions.",
@@ -6921,15 +6635,21 @@
       "developer": null,
       "publisher": null,
       "year": "1996",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Promat 1996 rally racing",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -6973,15 +6693,21 @@
       "developer": null,
       "publisher": null,
       "year": "1979?",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": -1,
+      "rotation_type": "optical_encoder",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "TTL/early era game, optical encoder steering (fool_race EFG Sanremo 1979 early driving[1])",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -7019,47 +6745,27 @@
         }
       }
     },
-    "galactic_storm": {
-      "title": "Galactic Storm (Japan)",
-      "manufacturer": "Taito Corporation",
-      "developer": null,
-      "publisher": null,
-      "year": "1992",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving (chase view). Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "galastrm",
-          "clones_inherit": true
-        }
-      }
-    },
     "go_by_rc_v203o_19990525_1331": {
       "title": "Go By RC (V2.03O 1999/05/25 13:31)",
       "manufacturer": "Taito",
       "developer": null,
       "publisher": null,
       "year": "1999",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Taito 1999 RC car racing",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race Track. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -7077,15 +6783,21 @@
       "developer": null,
       "publisher": null,
       "year": "1984",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "unknown",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Sega 1984 laserdisc racing game with steering wheel",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race 1st Person. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -7119,32 +6831,6 @@
       "platforms": {
         "mame": {
           "romname": "groundfx",
-          "clones_inherit": true
-        }
-      }
-    },
-    "grudge_match_v0090_italy_location_test": {
-      "title": "Grudge Match (v00.90, Italy, location test?)",
-      "manufacturer": "Bally Midway",
-      "developer": null,
-      "publisher": null,
-      "year": "198?",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race Track. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "grudge",
           "clones_inherit": true
         }
       }
@@ -7259,15 +6945,21 @@
       "developer": null,
       "publisher": null,
       "year": "1985",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Sega 1985 motorcycle, body lean/tilt cabinet",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -7285,15 +6977,21 @@
       "developer": null,
       "publisher": null,
       "year": "1987",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Konami 1987 motorcycle racing",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -7301,32 +6999,6 @@
       "platforms": {
         "mame": {
           "romname": "hcrash",
-          "clones_inherit": true
-        }
-      }
-    },
-    "head_on_2_players": {
-      "title": "Head On (2 players)",
-      "manufacturer": "Gremlin",
-      "developer": null,
-      "publisher": null,
-      "year": "1979",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "headon",
           "clones_inherit": true
         }
       }
@@ -7357,47 +7029,27 @@
         }
       }
     },
-    "head_on_irem_m15_hardware": {
-      "title": "Head On (Irem, M-15 Hardware)",
-      "manufacturer": "Irem",
-      "developer": null,
-      "publisher": null,
-      "year": "1979",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "headoni",
-          "clones_inherit": true
-        }
-      }
-    },
     "hog_wild": {
       "title": "Hog Wild (US)",
       "manufacturer": "Uniana",
       "developer": null,
       "publisher": null,
       "year": "2003",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Uniana 2003 motorcycle/ATV racing",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -7409,47 +7061,27 @@
         }
       }
     },
-    "horizon_irem": {
-      "title": "Horizon (Irem)",
-      "manufacturer": "Irem",
-      "developer": null,
-      "publisher": null,
-      "year": "1985",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving Horizontal. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "horizon",
-          "clones_inherit": true
-        }
-      }
-    },
     "hot_chase": {
       "title": "Hot Chase (set 1)",
       "manufacturer": "Konami",
       "developer": null,
       "publisher": null,
       "year": "1988",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Konami 1988 driving chase, standard Konami 270deg",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -7467,15 +7099,21 @@
       "developer": null,
       "publisher": null,
       "year": "1983",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Taito 1983 driving game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -7483,32 +7121,6 @@
       "platforms": {
         "mame": {
           "romname": "hwrace",
-          "clones_inherit": true
-        }
-      }
-    },
-    "hydra": {
-      "title": "Hydra",
-      "manufacturer": "Atari Games",
-      "developer": null,
-      "publisher": null,
-      "year": "1990",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving (chase view). Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "hydra",
           "clones_inherit": true
         }
       }
@@ -7571,15 +7183,21 @@
       "developer": null,
       "publisher": null,
       "year": "1988",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "ICE 1988 driving game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Redemption Game / Driving. Redemption/ticket game. No wheel controls detected in MAME input definitions.",
@@ -7597,15 +7215,21 @@
       "developer": null,
       "publisher": null,
       "year": "1983?",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "RB Bologna 1983 racing game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -7623,15 +7247,21 @@
       "developer": null,
       "publisher": null,
       "year": "1976",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": -1,
+      "rotation_type": "optical_encoder",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "TTL/early era game, optical encoder steering (indy_4_ttl Atari/Kee 1976 TTL Indy racing[1])",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: TTL * Driving / Race Track. TTL-era game - control type unknown. No wheel controls detected in MAME input definitions.",
@@ -7675,15 +7305,21 @@
       "developer": null,
       "publisher": null,
       "year": "1975",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": -1,
+      "rotation_type": "optical_encoder",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "TTL/early era game, optical encoder steering (indy_800_ttl Atari/Kee 1975 TTL Indy racing[1])",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: TTL * Driving / Race Track. TTL-era game - control type unknown. No wheel controls detected in MAME input definitions.",
@@ -7789,125 +7425,27 @@
         }
       }
     },
-    "jumping_cross": {
-      "title": "Jumping Cross (set 1)",
-      "manufacturer": "SNK",
-      "developer": null,
-      "publisher": null,
-      "year": "1984",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Motorbike (Motocross). Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "jcross",
-          "clones_inherit": true
-        }
-      }
-    },
-    "return_of_the_jedi": {
-      "title": "Return of the Jedi",
-      "manufacturer": "Atari",
-      "developer": null,
-      "publisher": null,
-      "year": "1984",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving Diagonal. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "jedi",
-          "clones_inherit": true
-        }
-      }
-    },
-    "joyful_road": {
-      "title": "Joyful Road (Japan)",
-      "manufacturer": "SNK",
-      "developer": null,
-      "publisher": null,
-      "year": "1983",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Guide and Collect. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "joyfulr",
-          "clones_inherit": true
-        }
-      }
-    },
-    "masked_riders_club_battle_race": {
-      "title": "Masked Riders Club Battle Race",
-      "manufacturer": "Banpresto / Toei",
-      "developer": null,
-      "publisher": null,
-      "year": "1993",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "kamenrid",
-          "clones_inherit": true
-        }
-      }
-    },
     "kamikaze_cabbie": {
       "title": "Kamikaze Cabbie",
       "manufacturer": "Data East Corporation",
       "developer": null,
       "publisher": null,
       "year": "1984",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Data East 1984 taxi driving game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -7951,15 +7489,21 @@
       "developer": null,
       "publisher": null,
       "year": "1984",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Universal 1984 motorcycle game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -7977,15 +7521,21 @@
       "developer": null,
       "publisher": null,
       "year": "1984",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Taito 1984 motorcycle wheelie game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -8023,84 +7573,6 @@
         }
       }
     },
-    "landing_gear": {
-      "title": "Landing Gear (Ver 4.2 O)",
-      "manufacturer": "Taito",
-      "developer": null,
-      "publisher": null,
-      "year": "1995",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Plane. Flight/plane game - uses yoke or joystick, not steering wheel. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "landgear",
-          "clones_inherit": true
-        }
-      }
-    },
-    "landing_high_japan": {
-      "title": "Landing High Japan (Ver 2.01 OK)",
-      "manufacturer": "Taito",
-      "developer": null,
-      "publisher": null,
-      "year": "1999",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Plane. Flight/plane game - uses yoke or joystick, not steering wheel. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "landhigh",
-          "clones_inherit": true
-        }
-      }
-    },
-    "last_duel": {
-      "title": "Last Duel (US New Ver.)",
-      "manufacturer": "Capcom",
-      "developer": null,
-      "publisher": null,
-      "year": "1988",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving Vertical. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "lastduel",
-          "clones_inherit": true
-        }
-      }
-    },
     "last_km": {
       "title": "Last KM (Ver 1.0.0275)",
       "manufacturer": "Gaelco",
@@ -8127,47 +7599,27 @@
         }
       }
     },
-    "led_storm_rally_2011": {
-      "title": "Led Storm Rally 2011 (World)",
-      "manufacturer": "Capcom",
-      "developer": null,
-      "publisher": null,
-      "year": "1988",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "leds2011",
-          "clones_inherit": true
-        }
-      }
-    },
     "le_mans_ttl": {
       "title": "Le Mans [TTL]",
       "manufacturer": "Atari",
       "developer": null,
       "publisher": null,
       "year": "1976",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": -1,
+      "rotation_type": "optical_encoder",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "TTL/early era game, optical encoder steering (le_mans_ttl Atari 1976 TTL Le Mans[1])",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: TTL * Driving / Race Track. TTL-era game - control type unknown. No wheel controls detected in MAME input definitions.",
@@ -8185,15 +7637,21 @@
       "developer": null,
       "publisher": null,
       "year": "1983",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "unknown",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Taito 1983 laserdisc racing game with steering wheel",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -8205,47 +7663,27 @@
         }
       }
     },
-    "lunar_lander": {
-      "title": "Lunar Lander (rev 2)",
-      "manufacturer": "Atari",
-      "developer": null,
-      "publisher": null,
-      "year": "1979",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Landing. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "llander",
-          "clones_inherit": true
-        }
-      }
-    },
     "lucky__wild": {
       "title": "Lucky & Wild",
       "manufacturer": "Namco",
       "developer": null,
       "publisher": null,
       "year": "1992",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Namco 1992 driving/shooting game with steering wheel, Namco 270deg pot standard",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / 1st Person. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -8253,84 +7691,6 @@
       "platforms": {
         "mame": {
           "romname": "luckywld",
-          "clones_inherit": true
-        }
-      }
-    },
-    "mad_alien": {
-      "title": "Mad Alien (set 1)",
-      "manufacturer": "Data East Corporation",
-      "developer": null,
-      "publisher": null,
-      "year": "1980",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving Vertical. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "madalien",
-          "clones_inherit": true
-        }
-      }
-    },
-    "mad_crasher": {
-      "title": "Mad Crasher",
-      "manufacturer": "SNK",
-      "developer": null,
-      "publisher": null,
-      "year": "1984",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving Diagonal. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "madcrash",
-          "clones_inherit": true
-        }
-      }
-    },
-    "mad_gear": {
-      "title": "Mad Gear (US)",
-      "manufacturer": "Capcom",
-      "developer": null,
-      "publisher": null,
-      "year": "1989",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "madgear",
           "clones_inherit": true
         }
       }
@@ -8361,58 +7721,6 @@
         }
       }
     },
-    "mega_zone_program_code_l": {
-      "title": "Mega Zone (program code L)",
-      "manufacturer": "Konami",
-      "developer": null,
-      "publisher": null,
-      "year": "1983",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving Vertical. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "megazone",
-          "clones_inherit": true
-        }
-      }
-    },
-    "metal_maniax_prototype": {
-      "title": "Metal Maniax (prototype)",
-      "manufacturer": "Atari Games",
-      "developer": null,
-      "publisher": null,
-      "year": "1994",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "metalmx",
-          "clones_inherit": true
-        }
-      }
-    },
     "midnight_run_road_fighter_2_eaa_euro_v11": {
       "title": "Midnight Run: Road Fighter 2 (EAA, Euro v1.11)",
       "manufacturer": "Konami",
@@ -8435,84 +7743,6 @@
       "platforms": {
         "mame": {
           "romname": "midnrun",
-          "clones_inherit": true
-        }
-      }
-    },
-    "minefield": {
-      "title": "Minefield",
-      "manufacturer": "Stern Electronics",
-      "developer": null,
-      "publisher": null,
-      "year": "1983",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving Horizontal. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "minefld",
-          "clones_inherit": true
-        }
-      }
-    },
-    "midnight_landing_germany": {
-      "title": "Midnight Landing (Germany)",
-      "manufacturer": "Taito America Corporation",
-      "developer": null,
-      "publisher": null,
-      "year": "1987",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Plane. Flight/plane game - uses yoke or joystick, not steering wheel. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "mlanding",
-          "clones_inherit": true
-        }
-      }
-    },
-    "maze_of_flott": {
-      "title": "Maze of Flott (Japan)",
-      "manufacturer": "Taito Corporation",
-      "developer": null,
-      "publisher": null,
-      "year": "1989",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "mofflott",
           "clones_inherit": true
         }
       }
@@ -8549,15 +7779,21 @@
       "developer": null,
       "publisher": null,
       "year": "1981",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Olympia 1981 racing game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -8575,15 +7811,21 @@
       "developer": null,
       "publisher": null,
       "year": "1992",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Atari Games 1992 motorcycle racing",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -8595,47 +7837,27 @@
         }
       }
     },
-    "motogonki": {
-      "title": "Motogonki",
-      "manufacturer": "Terminal",
-      "developer": null,
-      "publisher": null,
-      "year": "198?",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "motogonki",
-          "clones_inherit": true
-        }
-      }
-    },
     "moto_gp_mgp1004nab": {
       "title": "Moto GP (MGP1004-NA-B)",
       "manufacturer": "Namco",
       "developer": null,
       "publisher": null,
       "year": "2007",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Namco 2007 MotoGP, handlebar controls",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -8653,15 +7875,21 @@
       "developer": null,
       "publisher": null,
       "year": "1997",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Namco 1997 motocross, handlebar controls",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -8669,84 +7897,6 @@
       "platforms": {
         "mame": {
           "romname": "motoxgo",
-          "clones_inherit": true
-        }
-      }
-    },
-    "moon_patrol": {
-      "title": "Moon Patrol",
-      "manufacturer": "Irem",
-      "developer": null,
-      "publisher": null,
-      "year": "1982",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving Horizontal. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "mpatrol",
-          "clones_inherit": true
-        }
-      }
-    },
-    "neo_drift_out__new_technology": {
-      "title": "Neo Drift Out - New Technology",
-      "manufacturer": "Visco",
-      "developer": null,
-      "publisher": null,
-      "year": "1996",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "neodrift",
-          "clones_inherit": true
-        }
-      }
-    },
-    "sega_netmerc": {
-      "title": "Sega NetMerc",
-      "manufacturer": "Sega",
-      "developer": null,
-      "publisher": null,
-      "year": "1993",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving 1st Person. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "netmerc",
           "clones_inherit": true
         }
       }
@@ -8829,84 +7979,6 @@
         }
       }
     },
-    "new_rally_x": {
-      "title": "New Rally X",
-      "manufacturer": "Namco",
-      "developer": null,
-      "publisher": null,
-      "year": "1981",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "nrallyx",
-          "clones_inherit": true
-        }
-      }
-    },
-    "fzero_nintendo_super_system": {
-      "title": "F-Zero (Nintendo Super System)",
-      "manufacturer": "Nintendo",
-      "developer": null,
-      "publisher": null,
-      "year": "1991",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "nss_fzer",
-          "clones_inherit": true
-        }
-      }
-    },
-    "night_stocker_10686": {
-      "title": "Night Stocker (10/6/86)",
-      "manufacturer": "Bally/Sente",
-      "developer": null,
-      "publisher": null,
-      "year": "1986",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving 1st Person. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "nstocker",
-          "clones_inherit": true
-        }
-      }
-    },
     "offroad_thunder_mame": {
       "title": "Offroad Thunder",
       "manufacturer": "Midway Games",
@@ -8959,229 +8031,27 @@
         }
       }
     },
-    "over_top": {
-      "title": "Over Top",
-      "manufacturer": "ADK",
-      "developer": null,
-      "publisher": null,
-      "year": "1996",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "overtop",
-          "clones_inherit": true
-        }
-      }
-    },
-    "excite_bike_playchoice10": {
-      "title": "Excite Bike (PlayChoice-10)",
-      "manufacturer": "Nintendo",
-      "developer": null,
-      "publisher": null,
-      "year": "1984",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "pc_ebike",
-          "clones_inherit": true
-        }
-      }
-    },
-    "rad_racer_ii_playchoice10": {
-      "title": "Rad Racer II (PlayChoice-10)",
-      "manufacturer": "Square (Nintendo of America license)",
-      "developer": null,
-      "publisher": null,
-      "year": "1990",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "pc_radr2",
-          "clones_inherit": true
-        }
-      }
-    },
-    "rad_racer_playchoice10": {
-      "title": "Rad Racer (PlayChoice-10)",
-      "manufacturer": "Square",
-      "developer": null,
-      "publisher": null,
-      "year": "1987",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "pc_radrc",
-          "clones_inherit": true
-        }
-      }
-    },
-    "rc_proam_playchoice10": {
-      "title": "R.C. Pro-Am (PlayChoice-10)",
-      "manufacturer": "Rare",
-      "developer": null,
-      "publisher": null,
-      "year": "1987",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "pc_rcpam",
-          "clones_inherit": true
-        }
-      }
-    },
-    "pit__run__f1_race": {
-      "title": "Pit & Run - F-1 Race (set 1)",
-      "manufacturer": "Taito Corporation",
-      "developer": null,
-      "publisher": null,
-      "year": "1984",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race Track. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "pitnrun",
-          "clones_inherit": true
-        }
-      }
-    },
-    "polygonet_commanders": {
-      "title": "Polygonet Commanders (ver UAA)",
-      "manufacturer": "Konami",
-      "developer": null,
-      "publisher": null,
-      "year": "1993",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving 1st Person. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "plygonet",
-          "clones_inherit": true
-        }
-      }
-    },
-    "porky": {
-      "title": "Porky",
-      "manufacturer": "Shinkai Inc. (Magic Electronics Inc. license)",
-      "developer": null,
-      "publisher": null,
-      "year": "1985",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving Horizontal. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "porky",
-          "clones_inherit": true
-        }
-      }
-    },
     "power_drive": {
       "title": "Power Drive",
       "manufacturer": "Bally Midway",
       "developer": null,
       "publisher": null,
       "year": "1986",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Bally Midway 1986 driving game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -9215,32 +8085,6 @@
       "platforms": {
         "mame": {
           "romname": "powsled",
-          "clones_inherit": true
-        }
-      }
-    },
-    "pang_pang_car": {
-      "title": "Pang Pang Car",
-      "manufacturer": "Icarus",
-      "developer": null,
-      "publisher": null,
-      "year": "1999",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Maze / Driving * Mature *. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "ppcar",
           "clones_inherit": true
         }
       }
@@ -9303,15 +8147,21 @@
       "developer": null,
       "publisher": null,
       "year": "1989",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Sega 1989 motorcycle racing",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -9479,99 +8329,27 @@
         }
       }
     },
-    "radical_radial": {
-      "title": "Radical Radial (US)",
-      "manufacturer": "Nichibutsu USA",
-      "developer": null,
-      "publisher": null,
-      "year": "1982",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving Vertical. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "radrad",
-          "clones_inherit": true
-        }
-      }
-    },
-    "rally_bike__dash_yarou": {
-      "title": "Rally Bike / Dash Yarou",
-      "manufacturer": "Toaplan / Taito Corporation",
-      "developer": null,
-      "publisher": null,
-      "year": "1988",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "rallybik",
-          "clones_inherit": true
-        }
-      }
-    },
-    "rally_x_32k_ver": {
-      "title": "Rally X (32k Ver.?)",
-      "manufacturer": "Namco",
-      "developer": null,
-      "publisher": null,
-      "year": "1980",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "rallyx",
-          "clones_inherit": true
-        }
-      }
-    },
     "rapid_river": {
       "title": "Rapid River (US, RD3 Ver. C)",
       "manufacturer": "Namco",
       "developer": null,
       "publisher": null,
       "year": "1997",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Namco 1997 rafting game with paddle/oar controls",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Boat. Boat game - may use wheel or tiller. No wheel controls detected in MAME input definitions.",
@@ -9579,58 +8357,6 @@
       "platforms": {
         "mame": {
           "romname": "rapidrvr",
-          "clones_inherit": true
-        }
-      }
-    },
-    "road_blaster_data_east_ld": {
-      "title": "Road Blaster (Data East LD)",
-      "manufacturer": "Data East",
-      "developer": null,
-      "publisher": null,
-      "year": "1985",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Guide and Shoot. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "rblaster",
-          "clones_inherit": true
-        }
-      }
-    },
-    "rescue_raider_51187_noncartridge": {
-      "title": "Rescue Raider (5/11/87) (non-cartridge)",
-      "manufacturer": "Bally Midway",
-      "developer": null,
-      "publisher": null,
-      "year": "1987",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "rescraid",
           "clones_inherit": true
         }
       }
@@ -9657,32 +8383,6 @@
       "platforms": {
         "mame": {
           "romname": "ridgera2",
-          "clones_inherit": true
-        }
-      }
-    },
-    "riding_hero_ngm006__ngh006": {
-      "title": "Riding Hero (NGM-006 ~ NGH-006)",
-      "manufacturer": "SNK",
-      "developer": null,
-      "publisher": null,
-      "year": "1990",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "ridhero",
           "clones_inherit": true
         }
       }
@@ -9797,15 +8497,21 @@
       "developer": null,
       "publisher": null,
       "year": "1989",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Tatsumi 1989 police chase, same cabinet family as Apache 3/Cycle Warriors",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -9813,84 +8519,6 @@
       "platforms": {
         "mame": {
           "romname": "roundup5",
-          "clones_inherit": true
-        }
-      }
-    },
-    "route_16_sun_electronics": {
-      "title": "Route 16 (Sun Electronics)",
-      "manufacturer": "Sun Electronics",
-      "developer": null,
-      "publisher": null,
-      "year": "1981",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "route16",
-          "clones_inherit": true
-        }
-      }
-    },
-    "river_patrol": {
-      "title": "River Patrol (Japan)",
-      "manufacturer": "Orca",
-      "developer": null,
-      "publisher": null,
-      "year": "1981",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Boat. Boat game - may use wheel or tiller. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "rpatrol",
-          "clones_inherit": true
-        }
-      }
-    },
-    "road_riots_revenge_prototype_sep_06_1994": {
-      "title": "Road Riot's Revenge (prototype, Sep 06, 1994)",
-      "manufacturer": "Atari Games",
-      "developer": null,
-      "publisher": null,
-      "year": "1993",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "rrreveng",
           "clones_inherit": true
         }
       }
@@ -9921,47 +8549,27 @@
         }
       }
     },
-    "safari_rally": {
-      "title": "Safari Rally (World)",
-      "manufacturer": "SNK (Taito license)",
-      "developer": null,
-      "publisher": null,
-      "year": "1979",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "safarir",
-          "clones_inherit": true
-        }
-      }
-    },
     "street_burners_ttl": {
       "title": "Street Burners [TTL]",
       "manufacturer": "Allied Leisure",
       "developer": null,
       "publisher": null,
       "year": "1975",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": -1,
+      "rotation_type": "optical_encoder",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "TTL/early era game, optical encoder steering (street_burners_ttl Allied Leisure 1975 TTL[1])",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: TTL * Driving / Race. TTL-era game - control type unknown. No wheel controls detected in MAME input definitions.",
@@ -10135,15 +8743,21 @@
       "developer": null,
       "publisher": null,
       "year": "1987",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Sega 1987 motorcycle, body lean/sit-down variants",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -10151,32 +8765,6 @@
       "platforms": {
         "mame": {
           "romname": "shangon",
-          "clones_inherit": true
-        }
-      }
-    },
-    "shot_rider": {
-      "title": "Shot Rider",
-      "manufacturer": "Seibu Kaihatsu",
-      "developer": null,
-      "publisher": null,
-      "year": "1985",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "shtrider",
           "clones_inherit": true
         }
       }
@@ -10207,58 +8795,6 @@
         }
       }
     },
-    "pro_cycle_tele_cardioline_salter_fitness": {
-      "title": "Pro Cycle Tele Cardioline (Salter Fitness Bike V.1.0, Checksum 02AB)",
-      "manufacturer": "Salter Fitness / Gaelco",
-      "developer": null,
-      "publisher": null,
-      "year": "1997",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race Bike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "sltpcycl",
-          "clones_inherit": true
-        }
-      }
-    },
-    "pro_stepper_tele_cardioline_salter_fitne": {
-      "title": "Pro Stepper Tele Cardioline (Salter Fitness Stepper V.1.0, Checksum F208)",
-      "manufacturer": "Salter Fitness / Gaelco",
-      "developer": null,
-      "publisher": null,
-      "year": "1997",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race Bike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "sltpstep",
-          "clones_inherit": true
-        }
-      }
-    },
     "smashing_drive": {
       "title": "Smashing Drive (World)",
       "manufacturer": "Gaelco",
@@ -10285,73 +8821,27 @@
         }
       }
     },
-    "super_motor_prototype": {
-      "title": "Super Motor (prototype)",
-      "manufacturer": "Duintronic",
-      "developer": null,
-      "publisher": null,
-      "year": "19??",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "smotor",
-          "clones_inherit": true
-        }
-      }
-    },
-    "space_position": {
-      "title": "Space Position (Japan)",
-      "manufacturer": "Sega / Nasco",
-      "developer": null,
-      "publisher": null,
-      "year": "1986",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "spcpostn",
-          "clones_inherit": true
-        }
-      }
-    },
     "super_dead_heat": {
       "title": "Super Dead Heat (World)",
       "manufacturer": "Taito Corporation",
       "developer": null,
       "publisher": null,
       "year": "1985",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Taito 1985 racing game, standard 270deg pot likely",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race Track. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -10369,15 +8859,21 @@
       "developer": null,
       "publisher": null,
       "year": "2004",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "IGS 2004 driving game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -10395,15 +8891,21 @@
       "developer": null,
       "publisher": null,
       "year": "1980",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": -1,
+      "rotation_type": "optical_encoder",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "TTL/early era game, optical encoder steering (speed_race_seletron__olympia Seletron/Olympia 1980 early driving[1])",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -10437,32 +8939,6 @@
       "platforms": {
         "mame": {
           "romname": "speedup",
-          "clones_inherit": true
-        }
-      }
-    },
-    "super_cross_ii": {
-      "title": "Super Cross II (Japan, set 1)",
-      "manufacturer": "GM Shoji",
-      "developer": null,
-      "publisher": null,
-      "year": "1986",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "sprcros2",
           "clones_inherit": true
         }
       }
@@ -10545,47 +9021,27 @@
         }
       }
     },
-    "the_speed_rumbler": {
-      "title": "The Speed Rumbler (set 1)",
-      "manufacturer": "Capcom",
-      "developer": null,
-      "publisher": null,
-      "year": "1986",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving Vertical. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "srumbler",
-          "clones_inherit": true
-        }
-      }
-    },
     "super_stingray": {
       "title": "Super Stingray (Japan)",
       "manufacturer": "Alpha Denshi Co.",
       "developer": null,
       "publisher": null,
       "year": "1986",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Alpha Denshi 1986 driving game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Shooter / Driving Vertical. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -10603,15 +9059,21 @@
       "developer": null,
       "publisher": null,
       "year": "1984",
-      "rotation_degrees": null,
+      "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "unknown",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Williams 1984 laserdisc motorcycle game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race Bike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -10649,47 +9111,27 @@
         }
       }
     },
-    "strategy_x": {
-      "title": "Strategy X",
-      "manufacturer": "Konami",
-      "developer": null,
-      "publisher": null,
-      "year": "1981",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving Vertical. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "stratgyx",
-          "clones_inherit": true
-        }
-      }
-    },
     "street_heat": {
       "title": "Street Heat (set 1, newer?)",
       "manufacturer": "Epos Corporation",
       "developer": null,
       "publisher": null,
       "year": "1985",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Epos 1985 driving game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Shooter / Driving (chase view). Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -10733,15 +9175,21 @@
       "developer": null,
       "publisher": null,
       "year": "1976",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": -1,
+      "rotation_type": "optical_encoder",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "TTL/early era game, optical encoder steering (stunt_cycle_ttl Atari 1976 TTL motorcycle[1])",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: TTL * Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -10753,47 +9201,27 @@
         }
       }
     },
-    "stunt_typhoon_plus": {
-      "title": "Stunt Typhoon Plus (Ver 2.04 J)",
-      "manufacturer": "Taito",
-      "developer": null,
-      "publisher": null,
-      "year": "2000",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "styphp",
-          "clones_inherit": true
-        }
-      }
-    },
     "superbike": {
       "title": "Superbike",
       "manufacturer": "Century Electronics",
       "developer": null,
       "publisher": null,
       "year": "1983",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Century Electronics 1983 motorcycle racing",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Shooter / Driving Horizontal. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -10811,15 +9239,21 @@
       "developer": null,
       "publisher": null,
       "year": "1977",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": -1,
+      "rotation_type": "optical_encoder",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "TTL/early era game, optical encoder steering (super_bug Atari 1977 driving game[1])",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -10863,15 +9297,21 @@
       "developer": null,
       "publisher": null,
       "year": "1993",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Namco 1993 motorcycle GP sequel, handlebar controls",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -10889,15 +9329,21 @@
       "developer": null,
       "publisher": null,
       "year": "1992",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Namco 1992 motorcycle GP, handlebar controls",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -10935,73 +9381,27 @@
         }
       }
     },
-    "tail_to_nose__great_championship": {
-      "title": "Tail to Nose - Great Championship",
-      "manufacturer": "V-System Co.",
-      "developer": null,
-      "publisher": null,
-      "year": "1989",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "tail2nos",
-          "clones_inherit": true
-        }
-      }
-    },
-    "tank_battle_prototype_rev_42192": {
-      "title": "Tank Battle (prototype rev. 4/21/92)",
-      "manufacturer": "Microprose Games Inc.",
-      "developer": null,
-      "publisher": null,
-      "year": "1992",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Tank Driving. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "tankbatl",
-          "clones_inherit": true
-        }
-      }
-    },
     "taxi_driver": {
       "title": "Taxi Driver",
       "manufacturer": "Graphic Techno",
       "developer": null,
       "publisher": null,
       "year": "1984",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Graphic Techno 1984 taxi driving game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -11065,99 +9465,27 @@
         }
       }
     },
-    "time_tunnel": {
-      "title": "Time Tunnel",
-      "manufacturer": "Taito Corporation",
-      "developer": null,
-      "publisher": null,
-      "year": "1982",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "timetunl",
-          "clones_inherit": true
-        }
-      }
-    },
-    "thundercade__twin_formation": {
-      "title": "Thundercade / Twin Formation",
-      "manufacturer": "Seta (Taito license)",
-      "developer": null,
-      "publisher": null,
-      "year": "1987",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving Vertical. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "tndrcade",
-          "clones_inherit": true
-        }
-      }
-    },
-    "tnk_iii": {
-      "title": "T.N.K III (US)",
-      "manufacturer": "SNK",
-      "developer": null,
-      "publisher": null,
-      "year": "1985",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving Vertical. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "tnk3",
-          "clones_inherit": true
-        }
-      }
-    },
     "tokyo_bus_guide": {
       "title": "Tokyo Bus Guide (Japan, Rev A)",
       "manufacturer": "Fortyfive",
       "developer": null,
       "publisher": null,
       "year": "1999",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 360,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Fortyfive 1999 bus driving sim, likely 360deg for bus",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / 1st Person. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -11169,99 +9497,27 @@
         }
       }
     },
-    "top_landing": {
-      "title": "Top Landing (World)",
-      "manufacturer": "Taito Corporation Japan",
-      "developer": null,
-      "publisher": null,
-      "year": "1988",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Plane. Flight/plane game - uses yoke or joystick, not steering wheel. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "topland",
-          "clones_inherit": true
-        }
-      }
-    },
-    "thrash_rally_alm003__alh003": {
-      "title": "Thrash Rally (ALM-003 ~ ALH-003)",
-      "manufacturer": "Alpha Denshi Co.",
-      "developer": null,
-      "publisher": null,
-      "year": "1991",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "trally",
-          "clones_inherit": true
-        }
-      }
-    },
-    "traverse_usa__zippy_race": {
-      "title": "Traverse USA / Zippy Race",
-      "manufacturer": "Irem",
-      "developer": null,
-      "publisher": null,
-      "year": "1983",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "travrusa",
-          "clones_inherit": true
-        }
-      }
-    },
     "truck_kyosokyoku": {
       "title": "Truck Kyosokyoku (Japan, TKK2/VER.A)",
       "manufacturer": "Metro / Namco",
       "developer": null,
       "publisher": null,
       "year": "2000",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Metro/Namco 2000 truck racing with steering wheel",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -11279,15 +9535,21 @@
       "developer": null,
       "publisher": null,
       "year": "1978",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": -1,
+      "rotation_type": "optical_encoder",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "TTL/early era game, optical encoder steering (tt_speed_race_cl_ttl Taito 1978 TTL racing[1])",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: TTL * Driving / Race. TTL-era game - control type unknown. No wheel controls detected in MAME input definitions.",
@@ -11299,73 +9561,27 @@
         }
       }
     },
-    "tugboat": {
-      "title": "Tugboat",
-      "manufacturer": "Enter-Tech, Ltd.",
-      "developer": null,
-      "publisher": null,
-      "year": "1982",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / Boat. Boat game - may use wheel or tiller. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "tugboat",
-          "clones_inherit": true
-        }
-      }
-    },
-    "turbo_sub_prototype_rev_tsca": {
-      "title": "Turbo Sub (prototype rev. TSCA)",
-      "manufacturer": "Entertainment Sciences",
-      "developer": null,
-      "publisher": null,
-      "year": "1985",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving 1st Person. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "turbosub",
-          "clones_inherit": true
-        }
-      }
-    },
     "turbo_tag_prototype": {
       "title": "Turbo Tag (prototype)",
       "manufacturer": "Bally Midway",
       "developer": null,
       "publisher": null,
       "year": "1985",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Bally Midway 1985 driving prototype",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Demolition Derby. Demolition derby game - may use steering wheel. No wheel controls detected in MAME input definitions.",
@@ -11383,15 +9599,21 @@
       "developer": null,
       "publisher": null,
       "year": "1983",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Tatsumi 1983 F1 racing, steering wheel cabinet",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -11399,58 +9621,6 @@
       "platforms": {
         "mame": {
           "romname": "tx1",
-          "clones_inherit": true
-        }
-      }
-    },
-    "uchuu_tokkyuu_medalian": {
-      "title": "Uchuu Tokkyuu Medalian",
-      "manufacturer": "Sigma",
-      "developer": null,
-      "publisher": null,
-      "year": "1997",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "ucytokyu",
-          "clones_inherit": true
-        }
-      }
-    },
-    "upn_down_3155030": {
-      "title": "Up'n Down (315-5030)",
-      "manufacturer": "Sega",
-      "developer": null,
-      "publisher": null,
-      "year": "1983",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "upndown",
           "clones_inherit": true
         }
       }
@@ -11481,99 +9651,27 @@
         }
       }
     },
-    "virtual_combat": {
-      "title": "Virtual Combat",
-      "manufacturer": "VR8 Inc.",
-      "developer": null,
-      "publisher": null,
-      "year": "1993",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Tank Driving. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "vcombat",
-          "clones_inherit": true
-        }
-      }
-    },
-    "vindicators_part_ii": {
-      "title": "Vindicators Part II (rev 3)",
-      "manufacturer": "Atari Games",
-      "developer": null,
-      "publisher": null,
-      "year": "1988",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving Vertical. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "vindctr2",
-          "clones_inherit": true
-        }
-      }
-    },
-    "vindicators": {
-      "title": "Vindicators (rev 5)",
-      "manufacturer": "Atari Games",
-      "developer": null,
-      "publisher": null,
-      "year": "1988",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Shooter / Driving Vertical. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "vindictr",
-          "clones_inherit": true
-        }
-      }
-    },
     "waiwai_drive": {
       "title": "WaiWai Drive",
       "manufacturer": "MOSS / Sammy",
       "developer": null,
       "publisher": null,
       "year": "2005",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "MOSS/Sammy 2005 racing game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Catch. No wheel controls detected in MAME input definitions.",
@@ -11637,32 +9735,6 @@
         }
       }
     },
-    "warp_speed_prototype": {
-      "title": "Warp Speed (prototype)",
-      "manufacturer": "Meadows Games, Inc.",
-      "developer": null,
-      "publisher": null,
-      "year": "1979?",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        }
-      ],
-      "notes": "Catver category: Driving / 1st Person. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "warpsped",
-          "clones_inherit": true
-        }
-      }
-    },
     "wave_runner": {
       "title": "Wave Runner (Japan, Revision A)",
       "manufacturer": "Sega",
@@ -11721,15 +9793,21 @@
       "developer": null,
       "publisher": null,
       "year": "19??",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "International Games racing game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race Track. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -11877,15 +9955,21 @@
       "developer": null,
       "publisher": null,
       "year": "2002",
-      "rotation_degrees": null,
-      "rotation_type": "unknown",
-      "confidence": "unknown",
+      "rotation_degrees": 270,
+      "rotation_type": "mechanical_stop",
+      "confidence": "low",
       "sources": [
         {
           "type": "catver",
           "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Konami 2002 motorcycle trials game",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -19841,15 +17925,21 @@
       "developer": null,
       "publisher": null,
       "year": "1979",
-      "rotation_degrees": null,
-      "rotation_type": null,
-      "confidence": "unknown",
+      "rotation_degrees": -1,
+      "rotation_type": "optical_encoder",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
           "description": "Identified from MAME catver.ini as driving game with paddle input",
           "url": null,
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "inference",
+          "description": "TTL/early era game, optical encoder steering (18_wheeler_midway Midway 1979 early driving[1])",
+          "url": null,
+          "date_accessed": "2026-02-17"
         }
       ],
       "notes": "Early driving game. Uses paddle control. Not to be confused with Sega's 18 Wheeler (2000).",
