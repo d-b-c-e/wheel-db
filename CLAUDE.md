@@ -33,15 +33,15 @@ Beyond MAME and TeknoParrot, many arcade racing games are emulated by standalone
 
 | Emulator | Hardware Covered | Notes |
 |----------|-----------------|-------|
-| **Supermodel** | Sega Model 3 (Daytona USA 2, Scud Race, Sega Rally 2, etc.) | High-quality Model 3 emulation |
-| **Model 2 Emulator** | Sega Model 2 (Daytona USA, Sega Rally, etc.) | Overlaps with MAME but often preferred |
-| **Flycast / Demul** | Sega Naomi/Naomi 2, Atomiswave | Initial D Arcade Stage 1-3, F355 Challenge |
+| **Supermodel** | Sega Model 3 (Daytona USA 2, Scud Race, Sega Rally 2, etc.) | 9 entries linked |
+| **Model 2 Emulator** | Sega Model 2 (Daytona USA, Sega Rally, etc.) | 6 entries linked |
+| **Flycast / Demul** | Sega Naomi/Naomi 2, Atomiswave | 9 entries linked (Initial D 1-3, F355 x3, etc.) |
 | **Cxbx-Reloaded** | Sega Chihiro (Xbox-based) | OutRun 2, House of the Dead III |
-| **Dolphin** | Triforce (GameCube-based) | F-Zero AX, Mario Kart Arcade GP |
+| **Dolphin** | Triforce (GameCube-based) | 4 entries linked (F-Zero AX, Mario Kart GP 1&2) |
 | **RPCS3** | Namco System 357 (PS3-based) | Some newer arcade titles |
 | **PCSX2** | Namco System 246/256 (PS2-based) | Ridge Racer V, Wangan Midnight |
 
-A game like Daytona USA could be run on MAME, Model 2 Emulator, or even Supermodel (for the Model 3 sequel) - the physical cabinet's wheel rotation is the same regardless of which emulator runs it. The unified model captures this correctly.
+A game like Daytona USA could be run on MAME, Model 2 Emulator, or even Supermodel (for the Model 3 sequel) - the physical cabinet's wheel rotation is the same regardless of which emulator runs it. The unified model captures this correctly. As of v2.5.0, cross-platform linking is implemented for Supermodel, Model 2 Emulator, Flycast, and Dolphin.
 
 ---
 
@@ -53,7 +53,7 @@ wheel-db/
 ├── README.md                    # Project documentation for humans
 ├── LICENSE                      # MIT License
 ├── data/
-│   ├── wheel-db.json            # Unified database (843 games)
+│   ├── wheel-db.json            # Unified database (570 games)
 │   └── schema/
 │       └── wheel-db.schema.json # JSON Schema for validation
 ├── scripts/
@@ -82,7 +82,7 @@ The database uses a **unified game-centric model**. Each entry represents a uniq
 
 ```json
 {
-  "version": "2.4.0",
+  "version": "2.7.0",
   "generated": "2026-02-15T00:00:00Z",
   "games": {
     "outrun": {
@@ -238,7 +238,7 @@ Parses three MAME data sources to inventory all racing/driving games with wheel 
 
 Results: 1,488 total games, 484 with wheel controls, 1,040 parent ROMs, 63 from controls.xml with verified rotation values.
 
-**MAME Research Progress**: 65 parent driving/racing games with wheel controls researched in batch 1. Sources included service manuals, arcade parts catalogs (SuzoHapp, TwistedQuarter), emulator communities (Supermodel), and forum discussions (BYOAC, Arcade-Projects, Arcade Museum). ~116 remaining parent games with paddle/dial controls are mostly non-driving (Pong, Arkanoid, etc.) and need triage.
+**MAME Research Progress**: MAME inventory cleanup is complete as of v2.7.0. All 292 MAME entries now have rotation values. The cleanup involved: removing ~271 non-driving entries (clones, tanks, shooters, flight sims, console ports, Neo Geo joystick games, fitness equipment), setting ~173 rotation values using manufacturer documentation (SuzoHapp catalogs, service manuals, TwistedQuarter parts lists, BYOAC forum, Arcade-Projects), and merging ~23 duplicate entries. The remaining 56 unknowns are all Steam-only PC games.
 
 #### Get-TeknoparrotGames.ps1
 Scans local TeknoParrot installation for wheel-equipped games. Reads GameProfiles XML for `<AnalogType>Wheel</AnalogType>`, enriches from Metadata JSON. Outputs to `sources/cache/teknoparrot-games.json`.
@@ -577,12 +577,14 @@ This project should use a permissive license (MIT or CC0) to encourage:
 - Confirmed by Final Lap 3 operator manual (center wipe on pin A21, 0-5V range)
 
 ### Taito
-- **Chase H.Q. series**: 270° typical
-- **Battle Gear series**: 270° typical
+- **Chase H.Q. series**: 270° typical (Chase H.Q., SCI, Super Chase, Chase H.Q. 2)
+- **Battle Gear series**: 540° (confirmed by TeknoParrot metadata for BG3/BG4)
 
 ### Konami
-- **GTI Club**: 270° typical
-- **Winding Heat**: 270° typical
+- **GTI Club / Corso Italiano**: 270° typical
+- **Winding Heat / Midnight Run**: 270° typical
+- **Thrill Drive series**: 270° typical
+- **Racing Jam series**: 270° typical
 
 ### Early Games (Pre-1985)
 - Often used optical encoders (infinite rotation)
