@@ -53,7 +53,7 @@ wheel-db/
 ├── README.md                    # Project documentation for humans
 ├── LICENSE                      # MIT License
 ├── data/
-│   ├── wheel-db.json            # Unified database (570 games)
+│   ├── wheel-db.json            # Unified database (561 games)
 │   └── schema/
 │       └── wheel-db.schema.json # JSON Schema for validation
 ├── scripts/
@@ -78,12 +78,12 @@ wheel-db/
 
 ### Primary Database Format (JSON)
 
-The database uses a **unified game-centric model**. Each entry represents a unique game (arcade or PC). Platform-specific identifiers are stored in a `platforms` map. PC-specific metadata (wheel support, force feedback) is in a `pc` sub-object.
+The database uses a **unified game-centric model** with 561 entries as of v2.8.0. Each entry represents a unique game (arcade or PC). Platform-specific identifiers are stored in a `platforms` map. PC-specific metadata (wheel support, force feedback) is in a `pc` sub-object.
 
 ```json
 {
-  "version": "2.7.0",
-  "generated": "2026-02-15T00:00:00Z",
+  "version": "2.8.0",
+  "generated": "2026-02-17T00:00:00Z",
   "games": {
     "outrun": {
       "title": "Out Run",
@@ -236,9 +236,9 @@ Parses three MAME data sources to inventory all racing/driving games with wheel 
 - Phase 3: Parse controls.xml for wheel/steering/paddle mentions (note: uses capitalized XML tags like `<Game RomName="...">`)
 - Phase 4-6: Merge sources, cross-reference database, output JSON
 
-Results: 1,488 total games, 484 with wheel controls, 1,040 parent ROMs, 63 from controls.xml with verified rotation values.
+Results: 1,488 total games, 484 with wheel controls, 1,040 parent ROMs, 63 from controls.xml with verified rotation values. After cleanup, 292 MAME entries remain in the database.
 
-**MAME Research Progress**: MAME inventory cleanup is complete as of v2.7.0. All 292 MAME entries now have rotation values. The cleanup involved: removing ~271 non-driving entries (clones, tanks, shooters, flight sims, console ports, Neo Geo joystick games, fitness equipment), setting ~173 rotation values using manufacturer documentation (SuzoHapp catalogs, service manuals, TwistedQuarter parts lists, BYOAC forum, Arcade-Projects), and merging ~23 duplicate entries. The remaining 56 unknowns are all Steam-only PC games.
+**MAME Research Progress**: MAME inventory cleanup is complete as of v2.7.0. All 292 MAME entries now have rotation values. The cleanup involved: removing ~271 non-driving entries (clones, tanks, shooters, flight sims, console ports, Neo Geo joystick games, fitness equipment), setting ~173 rotation values using manufacturer documentation (SuzoHapp catalogs, service manuals, TwistedQuarter parts lists, BYOAC forum, Arcade-Projects), and merging ~23 duplicate entries. All remaining unknowns were Steam-only PC games, which have since been resolved — **the database currently has 0 unknown rotation values**.
 
 #### Get-TeknoparrotGames.ps1
 Scans local TeknoParrot installation for wheel-equipped games. Reads GameProfiles XML for `<AnalogType>Wheel</AnalogType>`, enriches from Metadata JSON. Outputs to `sources/cache/teknoparrot-games.json`.

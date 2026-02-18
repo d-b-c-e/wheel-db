@@ -9,9 +9,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 ### Added
 - 20 new Steam games from discovery research: Project Motor Racing, Wreckfest 2, CarX Drift Racing Online 2, Formula Legends, Dakar Desert Rally, Sebastien Loeb Rally EVO, V-Rally 4, Gravel, Monster Jam Steel Titans 1 & 2, SimBin classics (GTR, GT Legends, GTR Evolution, RACE Injection, STCC), Farming Simulator 22 & 25, Tourist Bus Simulator, Construction Simulator, Test Drive: Ferrari Racing Legends
 - Set rotation values for 27 Steam games: kart racers (180°/270°), arcade-style racers (180°/270°), and misc driving games (270°)
+- 144 PCGamingWiki URLs enriched on Steam entries via manual appid-to-wiki-slug mapping
+- Upgraded 10 Steam entries from low to medium confidence with researched sources: Drive Megapolis, Crash Time 2, Jalopy, New Star GP, Parking Garage Rally Circuit, Monster Jam Steel Titans 1 & 2, Tourist Bus Simulator, Construction Simulator, GRIP: Combat Racing
 
 ### Fixed
 - Corrected GTR 2 Steam appid (was 44690/GT Legends, now 8790)
+- Corrected GRIP: Combat Racing rotation (270° → 180°) based on community XOutput guide
+- Corrected wheel_support/FFB metadata for multiple entries: Tourist Bus Simulator and Construction Simulator upgraded to native wheel support; Jalopy, New Star GP corrected to partial
 
 ### Removed
 - 29 Steam entries: 18 motorcycle games, 4 open world/vehicular combat, 7 non-wheel games (jet boats, drag racing, anti-gravity racers)
