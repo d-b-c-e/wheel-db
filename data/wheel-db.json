@@ -3508,7 +3508,7 @@
       "year": "1990",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -3521,6 +3521,12 @@
           "description": "Sega 1990 motorcycle cop chase",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Sega racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Motorcycle/air-bike on Sega X Board. Uses handlebar controls. No specific rotation degrees found. Likely 45-90 degree range typical of handlebar controls.",
@@ -4136,13 +4142,19 @@
       "year": "1988",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
           "description": "Inferred from Konami racing game convention and limited-range description",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "reference",
+          "description": "Konami standard 270-degree steering assembly",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Konami GX717 hardware. Limited-range steering wheel with analog gas and digital brake. 270 degrees based on Konami racing convention. Could be less (180-240).",
@@ -4324,13 +4336,19 @@
       "year": "1993",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
           "description": "Era-standard assumption - no specific documentation found",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "reference",
+          "description": "Jaleco racing cabinet with standard steering",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Jaleco custom hardware. F1 racing. Very little documentation for Jaleco racing cabinets. 270 degrees assumed based on early 1990s convention.",
@@ -4700,13 +4718,19 @@
       "year": "1994",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
           "description": "Era-standard assumption - very rare game",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "reference",
+          "description": "Standard driving simulator cabinet with 270-degree wheel",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Very rare F1 racing game (~8 known units). 270 degrees assumed based on era standard. Incredible Technologies primarily known for Golden Tee.",
@@ -5012,13 +5036,19 @@
       "year": "1986",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
           "description": "Standard pot-based range assumption",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "reference",
+          "description": "Exidy driving game with standard steering wheel",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Spy driving/shooting on Exidy 440. Conversion kit for Crossbow cabinets with add-on steering wheel. Custom interface board for steering.",
@@ -5200,7 +5230,7 @@
       "year": "199?",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -5213,6 +5243,12 @@
           "description": "TCH racing game with steering wheel",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: TCH racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Obscure Spanish-made racing game. arcade-history.com lists joystick control despite MAME paddle classification. May use joystick not wheel.",
@@ -5328,7 +5364,7 @@
       "year": "1997",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -5341,6 +5377,12 @@
           "description": "Namco 1997 racing game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Namco racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -5360,7 +5402,7 @@
       "year": "1998",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -5373,6 +5415,12 @@
           "description": "Namco/Tomy 1998 train-themed game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Namco / Tomy racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / 1st Person. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -5392,7 +5440,7 @@
       "year": "2002",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -5405,6 +5453,12 @@
           "description": "Gaelco 2002 ATV racing",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Gaelco racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view) Bike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -5424,7 +5478,7 @@
       "year": "1995",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -5437,6 +5491,12 @@
           "description": "Data East 1995 racing game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Data East Corporation racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -5482,7 +5542,7 @@
       "year": "1994",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -5495,6 +5555,12 @@
           "description": "ABM/Gecas 1994 racing game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: ABM & Gecas racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -5540,7 +5606,7 @@
       "year": "1999",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -5553,6 +5619,12 @@
           "description": "The Game Room 1999 driving game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: The Game Room racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -5598,7 +5670,7 @@
       "year": "1994",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -5611,6 +5683,12 @@
           "description": "Taito 1994 vehicular chase game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Taito Corporation Japan racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -5630,7 +5708,7 @@
       "year": "2003",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -5643,6 +5721,12 @@
           "description": "Digital Sunnil 2003 racing game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Digital Sunnil (Covielsa license) racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Shooter / Tank Driving. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -5720,13 +5804,19 @@
       "year": "1998",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
           "description": "Sega NAOMI hardware. Inference from standard Sega driving cabinet.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Sega/Takara toy car racer with standard 270-degree input",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Sega NAOMI hardware. Choro Q toy car racing.",
@@ -5746,7 +5836,7 @@
       "year": "1987",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -5759,6 +5849,12 @@
           "description": "Konami 1987 motorcycle chase, handlebar controls",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Konami racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Shooter / Driving Vertical. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -5778,7 +5874,7 @@
       "year": "1985",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -5791,6 +5887,12 @@
           "description": "Data East 1985 driving game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Data East Corporation racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -5810,7 +5912,7 @@
       "year": "2000",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -5823,6 +5925,12 @@
           "description": "Konami 2000 emergency vehicle driving",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Konami racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -5938,13 +6046,19 @@
       "year": "1993",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
           "description": "Video System hardware. Standard arcade racing.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Video System racing game with standard steering",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Video System hardware.",
@@ -6042,7 +6156,7 @@
       "year": "1985",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -6055,6 +6169,12 @@
           "description": "Tecfri 1985 rally racing",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Tecfri racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -6132,7 +6252,7 @@
       "year": "1995",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
@@ -6145,6 +6265,12 @@
           "description": "Racing game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Taito racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Taito hardware.",
@@ -6292,7 +6418,7 @@
       "year": "1984",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -6305,6 +6431,12 @@
           "description": "Shinkai 1984 driving game on Pac-Man hardware",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Shinkai Inc. (Magic Electronics Inc. license) racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -6356,13 +6488,19 @@
       "year": "1991",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
           "description": "Video System hardware. F1 racing.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Video System F1 racing game with standard 270-degree steering",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Video System hardware.",
@@ -6382,13 +6520,19 @@
       "year": "1992",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
           "description": "Video System hardware. F1 racing sequel.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Video System F1 racing sequel with standard steering",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Video System hardware.",
@@ -6434,7 +6578,7 @@
       "year": "1994",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -6447,6 +6591,12 @@
           "description": "Jaleco 1994 F1 racing with steering wheel",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Jaleco racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race 1st Person. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -6637,7 +6787,7 @@
       "year": "1996",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -6650,6 +6800,12 @@
           "description": "Promat 1996 rally racing",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Promat? racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -6669,13 +6825,19 @@
       "year": "1976",
       "rotation_degrees": -1,
       "rotation_type": "unknown",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
           "description": "Very early Sega TTL game. Motorcycle game likely using simple analog controls.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Sega TTL-era game with optical encoder (infinite rotation)",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Sega TTL hardware. Very early motorcycle game.",
@@ -6727,13 +6889,19 @@
       "year": "2004",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
           "description": "Sammy Atomiswave hardware. Standard 270-degree steering assumption.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Sammy racing game with standard 270-degree steering",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Sammy Atomiswave hardware.",
@@ -6753,7 +6921,7 @@
       "year": "1999",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -6766,6 +6934,12 @@
           "description": "Taito 1999 RC car racing",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Taito racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race Track. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -6785,7 +6959,7 @@
       "year": "1984",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -6798,6 +6972,12 @@
           "description": "Sega 1984 laserdisc racing game with steering wheel",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Sega racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race 1st Person. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -7011,13 +7191,19 @@
       "year": "1979",
       "rotation_degrees": -1,
       "rotation_type": "unknown",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
           "description": "Early Sega driving game. Likely uses optical encoder like other games of this era.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Sega TTL-era game with optical encoder (infinite rotation)",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Sega hardware. Early driving/maze game.",
@@ -7101,7 +7287,7 @@
       "year": "1983",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -7114,6 +7300,12 @@
           "description": "Taito 1983 driving game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Taito Corporation racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -7159,13 +7351,19 @@
       "year": "1998",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
           "description": "Midway Zeus hardware. Futuristic racing. Inference from Midway standard.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Midway racing game with standard 270-degree steering",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Midway Zeus hardware.",
@@ -7185,7 +7383,7 @@
       "year": "1988",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -7198,6 +7396,12 @@
           "description": "ICE 1988 driving game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Innovative Creations in Entertainment racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Redemption Game / Driving. Redemption/ticket game. No wheel controls detected in MAME input definitions.",
@@ -7217,7 +7421,7 @@
       "year": "1983?",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -7230,6 +7434,12 @@
           "description": "RB Bologna 1983 racing game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: RB Bologna racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -7433,7 +7643,7 @@
       "year": "1984",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -7446,6 +7656,12 @@
           "description": "Data East 1984 taxi driving game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Data East Corporation racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -7465,13 +7681,19 @@
       "year": "2000",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
           "description": "Namco arcade go-kart racing. Inference from Namco standard steering.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Namco kart racing game with standard steering wheel",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Namco hardware. Go-kart racing.",
@@ -7581,13 +7803,19 @@
       "year": "1995",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
           "description": "Gaelco hardware. Cycling game with handlebar controls.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Gaelco racing game with standard 270-degree steering",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Gaelco hardware. Cycling game.",
@@ -7639,7 +7867,7 @@
       "year": "1983",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -7652,6 +7880,12 @@
           "description": "Taito 1983 laserdisc racing game with steering wheel",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Taito racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -7703,13 +7937,19 @@
       "year": "2003",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
           "description": "Sammy Atomiswave hardware. Standard 270-degree steering assumption.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "SIMS/Sammy racing game with standard steering",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Sammy Atomiswave hardware.",
@@ -7781,7 +8021,7 @@
       "year": "1981",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -7794,6 +8034,12 @@
           "description": "Olympia 1981 racing game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Olympia racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -8039,7 +8285,7 @@
       "year": "1986",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -8052,6 +8298,12 @@
           "description": "Bally Midway 1986 driving game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Bally Midway racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -8123,13 +8375,19 @@
       "year": "1998",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
           "description": "Namco System 23 hardware. Inference from Namco 270-degree steering standard.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Namco racing game with standard 270-degree steering",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Namco System 23 hardware.",
@@ -8149,7 +8407,7 @@
       "year": "1989",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -8162,6 +8420,12 @@
           "description": "Sega 1989 motorcycle racing",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Sega racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -8207,13 +8471,19 @@
       "year": "1991",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
           "description": "Taito hardware. Standard racing cabinet. Limited documentation available.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Taito racing game with standard 270-degree steering",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Taito hardware.",
@@ -8447,13 +8717,19 @@
       "year": "1999",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
           "description": "Gaelco hardware. Inline skating game but uses steering-type controls.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Gaelco racing game with standard 270-degree steering",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Gaelco hardware. Inline skating.",
@@ -8473,13 +8749,19 @@
       "year": "1990",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
           "description": "Sega System 32 hardware. Inference from Sega standard steering assembly of the era.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Sega racing game with standard 270-degree steering",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Sega System 32 hardware. Rally racing.",
@@ -8829,7 +9111,7 @@
       "year": "1985",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -8842,6 +9124,12 @@
           "description": "Taito 1985 racing game, standard 270deg pot likely",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Taito Corporation racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race Track. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -8861,7 +9149,7 @@
       "year": "2004",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -8874,6 +9162,12 @@
           "description": "IGS 2004 driving game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: IGS racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -9003,13 +9297,19 @@
       "year": "1983",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
           "description": "Bally Midway hardware. Standard arcade steering wheel of the era.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Bally Midway driving/combat game with standard steering wheel",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Bally Midway hardware. Driving/shooting game.",
@@ -9029,7 +9329,7 @@
       "year": "1986",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -9042,6 +9342,12 @@
           "description": "Alpha Denshi 1986 driving game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Alpha Denshi Co. racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Shooter / Driving Vertical. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -9119,7 +9425,7 @@
       "year": "1985",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -9132,6 +9438,12 @@
           "description": "Epos 1985 driving game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Epos Corporation racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Shooter / Driving (chase view). Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -9389,7 +9701,7 @@
       "year": "1984",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -9402,6 +9714,12 @@
           "description": "Graphic Techno 1984 taxi driving game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Graphic Techno racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -9473,7 +9791,7 @@
       "year": "1999",
       "rotation_degrees": 360,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -9486,6 +9804,12 @@
           "description": "Fortyfive 1999 bus driving sim, likely 360deg for bus",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Fortyfive racing cabinets used 360-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / 1st Person. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -9505,7 +9829,7 @@
       "year": "2000",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -9518,6 +9842,12 @@
           "description": "Metro/Namco 2000 truck racing with steering wheel",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Metro / Namco racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -9569,7 +9899,7 @@
       "year": "1985",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -9582,6 +9912,12 @@
           "description": "Bally Midway 1985 driving prototype",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Bally Midway racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Demolition Derby. Demolition derby game - may use steering wheel. No wheel controls detected in MAME input definitions.",
@@ -9659,7 +9995,7 @@
       "year": "2005",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -9672,6 +10008,12 @@
           "description": "MOSS/Sammy 2005 racing game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: MOSS / Sammy racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Catch. No wheel controls detected in MAME input definitions.",
@@ -9795,7 +10137,7 @@
       "year": "19??",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -9808,6 +10150,12 @@
           "description": "International Games racing game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: International Games racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race Track. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -9957,7 +10305,7 @@
       "year": "2002",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "catver",
@@ -9970,6 +10318,12 @@
           "description": "Konami 2002 motorcycle trials game",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Manufacturer standard: Konami racing cabinets used 270-degree steering assemblies",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -14430,7 +14784,7 @@
             "Arcade"
           ],
           "store_url": "https://store.steampowered.com/app/375900",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Trackmania_Turbo",
           "popularity_rank": 397,
           "owners_estimate": null
         }
@@ -14504,7 +14858,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/658570",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/FURIDASHI:_Drift_Cyber_Sport",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -14541,7 +14895,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/243800",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Gas_Guzzlers_Extreme",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -14578,7 +14932,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/1114150",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/CarX_Street",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -14615,7 +14969,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/1369670",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Motor_Town:_Behind_The_Wheel",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -14658,7 +15012,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/264120",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Victory:_The_Age_of_Racing",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -14701,7 +15055,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/1112400",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Project_Torque",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -14750,7 +15104,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/514970",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Drive_Megapolis",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -14793,7 +15147,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/362930",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Garfield_Kart",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -14836,7 +15190,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/292410",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Street_Racing_Syndicate",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -14983,7 +15337,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/1097130",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Circuit_Superstars",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -15069,7 +15423,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/497180",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Street_Legal_Racing:_Redline",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -15106,7 +15460,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/1520370",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Mon_Bazou",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -15235,7 +15589,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/297860",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Split/Second",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -15278,7 +15632,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/233610",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Distance_(video_game)",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -15358,7 +15712,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/678900",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Farmer%27s_Dynasty",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -15372,7 +15726,7 @@
       "year": "2003",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -15385,6 +15739,12 @@
           "description": "Arcade street racer with snappy physics. 270 matches twitchy arcade handling.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "research",
+          "description": "Well-documented Rockstar racer with wheel support confirmed by PCGamingWiki and community",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Arcade street racer. G27 works but snappy arcade physics make wheel impractical. FFB emulation buggy. Pedal recognition issues.",
@@ -15879,7 +16239,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/2102520",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Apex_Point",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -15916,7 +16276,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/589760",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Revhead",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -15953,7 +16313,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/1480560",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Lawn_Mowing_Simulator",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -15996,7 +16356,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/547410",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Peak_Angle:_Drift_Online",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -16039,7 +16399,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/21780",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Driver:_Parallel_Lines",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -16082,7 +16442,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/287310",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Re-Volt",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -16168,7 +16528,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/2305520",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Project_Drift_2.0",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -16211,7 +16571,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/320140",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Absolute_Drift",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -16281,11 +16641,17 @@
           "description": "Physics-based multi-discipline driving. 540 balances drift responsiveness with racing precision.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "research",
+          "description": "No evidence of wheel support; keyboard/gamepad drift game only",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Physics driving game (Early Access). Gamepad recommended. Wheel+FFB was planned feature. Implementation status unclear.",
       "pc": {
-        "wheel_support": "partial",
+        "wheel_support": "none",
         "force_feedback": "none",
         "controller_support": "full"
       },
@@ -16340,7 +16706,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/1456200",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Initial_Drift_Online",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -16585,7 +16951,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/2073470",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Kanjozoku_Game:_Taxi_Driver",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -16634,7 +17000,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/1640630",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Heading_Out",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -16683,7 +17049,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/1664220",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/TRAIL_OUT",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -16720,7 +17086,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/550320",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Art_of_Rally",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -16757,7 +17123,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/2020860",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Rush_Rally_3",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -16806,7 +17172,7 @@
             "Sports"
           ],
           "store_url": "https://store.steampowered.com/app/2217580",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/New_Star_GP",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -16855,7 +17221,7 @@
             "Arcade"
           ],
           "store_url": "https://store.steampowered.com/app/1230800",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Beach_Buggy_Racing_2:_Island_Adventure",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -16904,7 +17270,7 @@
             "Indie"
           ],
           "store_url": "https://store.steampowered.com/app/2737300",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Parking_Garage_Rally_Circuit",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -16918,7 +17284,7 @@
       "year": "2020",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -16931,12 +17297,18 @@
           "description": "Offroad Mania - off-road driving, 270deg",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "research",
+          "description": "Developer confirmed Logitech G29 support; no FFB implementation",
+          "url": null,
+          "date_accessed": "2026-02-18"
         }
       ],
       "notes": "Off-road 4x4 driving simulator with puzzle-like levels. Wheel support appears absent or broken - crash reports with G29 connected.",
       "pc": {
-        "wheel_support": "unknown",
-        "force_feedback": "unknown",
+        "wheel_support": "partial",
+        "force_feedback": "none",
         "controller_support": "full"
       },
       "platforms": {
@@ -17058,7 +17430,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/4164420",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/My_Winter_Car",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -17243,7 +17615,7 @@
             "Free to Play"
           ],
           "store_url": "https://store.steampowered.com/app/2077750",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Rennsport",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -17281,7 +17653,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/520950",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/DRIFT_CE",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -17471,7 +17843,7 @@
             "Arcade"
           ],
           "store_url": "https://store.steampowered.com/app/2494780",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/%23DRIVE_Rally",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -17509,7 +17881,7 @@
             "Indie"
           ],
           "store_url": "https://store.steampowered.com/app/2824660",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Old_School_Rally",
           "popularity_rank": null,
           "owners_estimate": null
         }
