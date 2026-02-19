@@ -53,7 +53,7 @@ wheel-db/
 ├── README.md                    # Project documentation for humans
 ├── LICENSE                      # MIT License
 ├── data/
-│   ├── wheel-db.json            # Unified database (561 games)
+│   ├── wheel-db.json            # Unified database (560 games)
 │   └── schema/
 │       └── wheel-db.schema.json # JSON Schema for validation
 ├── scripts/
@@ -78,7 +78,7 @@ wheel-db/
 
 ### Primary Database Format (JSON)
 
-The database uses a **unified game-centric model** with 561 entries as of v2.8.0. Each entry represents a unique game (arcade or PC). Platform-specific identifiers are stored in a `platforms` map. PC-specific metadata (wheel support, force feedback) is in a `pc` sub-object.
+The database uses a **unified game-centric model** with 560 entries as of v2.8.0. Each entry represents a unique game (arcade or PC). Platform-specific identifiers are stored in a `platforms` map. PC-specific metadata (wheel support, force feedback) is in a `pc` sub-object.
 
 ```json
 {
@@ -236,9 +236,9 @@ Parses three MAME data sources to inventory all racing/driving games with wheel 
 - Phase 3: Parse controls.xml for wheel/steering/paddle mentions (note: uses capitalized XML tags like `<Game RomName="...">`)
 - Phase 4-6: Merge sources, cross-reference database, output JSON
 
-Results: 1,488 total games, 484 with wheel controls, 1,040 parent ROMs, 63 from controls.xml with verified rotation values. After cleanup, 292 MAME entries remain in the database.
+Results: 1,488 total games, 484 with wheel controls, 1,040 parent ROMs, 63 from controls.xml with verified rotation values. After cleanup, 291 MAME entries remain in the database.
 
-**MAME Research Progress**: MAME inventory cleanup is complete as of v2.7.0. All 292 MAME entries now have rotation values. The cleanup involved: removing ~271 non-driving entries (clones, tanks, shooters, flight sims, console ports, Neo Geo joystick games, fitness equipment), setting ~173 rotation values using manufacturer documentation (SuzoHapp catalogs, service manuals, TwistedQuarter parts lists, BYOAC forum, Arcade-Projects), and merging ~23 duplicate entries. All remaining unknowns were Steam-only PC games, which have since been resolved — **the database currently has 0 unknown rotation values**.
+**MAME Research Progress**: MAME inventory cleanup is complete as of v2.7.0. All 291 MAME entries now have rotation values. The cleanup involved: removing ~271 non-driving entries (clones, tanks, shooters, flight sims, console ports, Neo Geo joystick games, fitness equipment), setting ~173 rotation values using manufacturer documentation (SuzoHapp catalogs, service manuals, TwistedQuarter parts lists, BYOAC forum, Arcade-Projects), and merging ~23 duplicate entries. In v2.8.0, 33 motorcycle/watercraft entries were corrected from 270° (car default) to proper handlebar ranges (45-60°), Hard Drivin' was corrected to 1080°, and Cycle Warriors was removed (joystick game). **The database currently has 0 unknown rotation values**. Confidence distribution: verified=57, high=258, medium=188, low=57.
 
 #### Get-TeknoparrotGames.ps1
 Scans local TeknoParrot installation for wheel-equipped games. Reads GameProfiles XML for `<AnalogType>Wheel</AnalogType>`, enriches from Metadata JSON. Outputs to `sources/cache/teknoparrot-games.json`.
@@ -388,9 +388,9 @@ To bootstrap the database, here are some verified/commonly cited values:
 | Out Run | 270° | mechanical_stop | high | ±135° from center |
 | Pole Position | -1 | optical_encoder | high | Infinite rotation spinner |
 | Hard Drivin' | 1080° | potentiometer | high | 10-turn pot with 3-rotation mechanical stop |
-| Daytona USA | 270° | mechanical_stop | medium | Common Sega spec |
-| Ridge Racer | 270° | mechanical_stop | medium | Namco standard |
-| Cruis'n USA | 270° | mechanical_stop | medium | Midway standard |
+| Daytona USA | 270° | mechanical_stop | high | Sega SPG-2002 assembly |
+| Ridge Racer | 270° | mechanical_stop | high | Namco 270° potentiometer |
+| Cruis'n USA | 270° | mechanical_stop | high | Midway SuzoHapp 270 |
 | Virtua Racing | 270° | mechanical_stop | high | Sega Model 1 |
 | Sega Rally | 270° | mechanical_stop | high | Sega Model 2 |
 | F-Zero AX | 150° | mechanical_stop | medium | Triforce hardware, community-measured ~150° |
@@ -551,9 +551,12 @@ This project should use a permissive license (MIT or CC0) to encourage:
 ## Appendix: Common Manufacturer Patterns
 
 ### Sega
-- **Super Scaler games** (Out Run, Super Hang-On, etc.): 270° typical
-- **Model 1/2/3**: 270° standard
+- **Super Scaler car games** (Out Run, etc.): 270° typical (mechanical_stop)
+- **Super Scaler motorcycles** (Hang-On, Super Hang-On, Enduro Racer): 45° body-lean (potentiometer)
+- **Model 1/2/3 car games**: 270° standard (SPG-2002 steering assembly, 5K ohm potentiometer)
+- **Model 2/3 motorcycles** (Manx TT, Motor Raid, Harley-Davidson): 56° enhanced tilt (potentiometer)
 - **Naomi/Chihiro**: 270° typical
+- **Watercraft** (Wave Runner, Wave Runner GP): 60° handlebar (potentiometer)
 
 ### Namco
 - **System 21/22**: 270° typical (Ridge Racer, Rave Racer)
@@ -585,6 +588,14 @@ This project should use a permissive license (MIT or CC0) to encourage:
 - **Winding Heat / Midnight Run**: 270° typical
 - **Thrill Drive series**: 270° typical
 - **Racing Jam series**: 270° typical
+
+### Motorcycle/Watercraft Games
+- **Sega body-lean motorcycles** (Hang-On, Super Hang-On, GP Rider): 45° (potentiometer measuring lean angle)
+- **Sega Model 2/3 motorcycles** (Manx TT, Motor Raid, Harley-Davidson): 56° (enhanced tilt mechanism)
+- **Namco motorcycles** (Suzuka 8 Hours, 500 GP, Motocross Go, Moto GP): 45° (potentiometer)
+- **Watercraft** (Wave Runner, Aqua Jet, Jet Wave, Rapid River): 60° (handlebar potentiometer)
+- **Specialty vehicles** (S.T.U.N. Runner, Star Rider, Vapor TRX, Power Sled): 45° (yoke/handlebar)
+- Note: All motorcycle/watercraft games use `potentiometer` rotation_type, not `mechanical_stop`
 
 ### Early Games (Pre-1985)
 - Often used optical encoders (infinite rotation)
