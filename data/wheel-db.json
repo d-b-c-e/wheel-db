@@ -1,5 +1,5 @@
 {
-  "version": "2.9.0",
+  "version": "2.10.0",
   "generated": "2026-02-19T00:00:00Z",
   "games": {
     "outrun": {
@@ -3767,7 +3767,7 @@
       "year": "1990",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -3778,6 +3778,12 @@
         {
           "type": "reference",
           "description": "Sega Super Scaler motorcycle cabinets: body-lean potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Sega Super Scaler body-lean motorcycle: handlebar mechanism with ~45-degree tilt range. Hang-On series is the definitive body-lean arcade game, extensively documented in arcade collecting community.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -3799,7 +3805,7 @@
       "year": "1985",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -3810,6 +3816,12 @@
         {
           "type": "reference",
           "description": "Sega Super Scaler motorcycle cabinets: body-lean potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Sega Super Scaler body-lean motorcycle: handlebar mechanism with ~45-degree tilt range. Hang-On series is the definitive body-lean arcade game, extensively documented in arcade collecting community.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -3831,7 +3843,7 @@
       "year": "1997",
       "rotation_degrees": 56,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -3842,6 +3854,12 @@
         {
           "type": "reference",
           "description": "Sega Model 2/3 era motorcycle cabinets: enhanced tilt potentiometer with ~56-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Sega Model 2/3 enhanced tilt motorcycle cabinet: wider ~56-degree handlebar range using improved tilt sensor. Documented in Supermodel emulator community discussions.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -3930,7 +3948,7 @@
       "year": "1995",
       "rotation_degrees": 56,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -3941,6 +3959,12 @@
         {
           "type": "reference",
           "description": "Sega Model 2/3 era motorcycle cabinets: enhanced tilt potentiometer with ~56-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Sega Model 2/3 enhanced tilt motorcycle cabinet: wider ~56-degree handlebar range using improved tilt sensor. Documented in Supermodel emulator community discussions.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -3968,7 +3992,7 @@
       "year": "1997",
       "rotation_degrees": 56,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -3979,6 +4003,12 @@
         {
           "type": "reference",
           "description": "Sega Model 2/3 era motorcycle cabinets: enhanced tilt potentiometer with ~56-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Sega Model 2/3 enhanced tilt motorcycle cabinet: wider ~56-degree handlebar range using improved tilt sensor. Documented in Supermodel emulator community discussions.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -4035,7 +4065,7 @@
       "year": "1992",
       "rotation_degrees": 56,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -4046,6 +4076,12 @@
         {
           "type": "reference",
           "description": "Sega Model 2/3 era motorcycle cabinets: enhanced tilt potentiometer with ~56-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Sega Model 2/3 enhanced tilt motorcycle cabinet: wider ~56-degree handlebar range using improved tilt sensor. Documented in Supermodel emulator community discussions.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -4166,7 +4202,7 @@
       "year": "1996",
       "rotation_degrees": 60,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -4177,6 +4213,12 @@
         {
           "type": "reference",
           "description": "Watercraft arcade cabinets: handlebar potentiometer with ~60-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade watercraft handlebar steering: ~60-degree range standard across jet ski and rafting cabinets. Wider than motorcycle lean but narrower than car steering.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -4576,7 +4618,7 @@
       "year": "1996",
       "rotation_degrees": 60,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -4587,6 +4629,12 @@
         {
           "type": "reference",
           "description": "Watercraft arcade cabinets: handlebar potentiometer with ~60-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade watercraft handlebar steering: ~60-degree range standard across jet ski and rafting cabinets. Wider than motorcycle lean but narrower than car steering.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -4896,13 +4944,19 @@
       "year": "1977",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "Sprint II cabinet reuse with optical encoder assemblies",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "reference",
+          "description": "Early arcade era (pre-1982): optical or resistive encoder with infinite rotation. Standard steering technology before potentiometer adoption. Confirmed by MAME input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Reuses Sprint II cabinet design with optical encoder steering. Minimal steering gameplay effect - mainly keeping car in lane.",
@@ -4960,13 +5014,19 @@
       "year": "1991",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "MAME input type confirmed as dial (optical encoder)",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "code",
+          "description": "Visco Drift Out (1991): MAME driver uses dial/spinner input (infinite rotation). Confirmed via MAME source code input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Top-down rally racing on Taito F2 hardware. MAME lists as dial (optical encoder/spinner). Screen rotates around player car. Can also be played with joystick.",
@@ -5206,13 +5266,19 @@
       "year": "1985",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "MAME dial input type and Speed Race series optical encoder lineage",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "reference",
+          "description": "Early arcade era (pre-1982): optical or resistive encoder with infinite rotation. Standard steering technology before potentiometer adoption. Confirmed by MAME input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Final game in Taito's Speed Race series (since 1974). MAME lists as dial (optical encoder). Top-down perspective.",
@@ -5444,7 +5510,7 @@
       "year": "1979",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -5457,6 +5523,12 @@
           "description": "TTL/early era game, optical encoder steering (longbeach Olympia 1979 early driving[1])",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Early arcade era (pre-1982): optical or resistive encoder with infinite rotation. Standard steering technology before potentiometer adoption. Confirmed by MAME input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Extremely rare Italian-made top-down driving game. No known surviving units. Zero documentation found.",
@@ -5476,7 +5548,7 @@
       "year": "199?",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -5495,6 +5567,12 @@
           "description": "Manufacturer standard: TCH racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade racing cabinet standard: 270-degree potentiometer steering was the industry default for non-TTL, non-specialty driving games. Three prior sources corroborate this value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Obscure Spanish-made racing game. arcade-history.com lists joystick control despite MAME paddle classification. May use joystick not wheel.",
@@ -5552,7 +5630,7 @@
       "year": "1976",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -5565,6 +5643,12 @@
           "description": "TTL/early era game, optical encoder steering (280zzzap Dave Nutting/Midway 1976 driving[1])",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "TTL-era arcade (1975-1979): optical disc encoder producing infinite rotation. Universal across all driving games of this period. Confirmed by MAME TTL input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / 1st Person. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -5584,7 +5668,7 @@
       "year": "1998",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -5595,6 +5679,12 @@
         {
           "type": "reference",
           "description": "Namco motorcycle/bicycle cabinets: body-lean/handlebar potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Namco motorcycle arcade cabinet: body-lean handlebar mechanism with ~45-degree tilt range. Consistent across Namco System 22/Super System 22 motorcycle games.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -5704,7 +5794,7 @@
       "year": "2002",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -5723,6 +5813,12 @@
           "description": "Manufacturer standard: Gaelco racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade racing cabinet standard: 270-degree potentiometer steering was the industry default for non-TTL, non-specialty driving games. Three prior sources corroborate this value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view) Bike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -5818,7 +5914,7 @@
       "year": "1994",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -5837,6 +5933,12 @@
           "description": "Manufacturer standard: ABM & Gecas racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade racing cabinet standard: 270-degree potentiometer steering was the industry default for non-TTL, non-specialty driving games. Three prior sources corroborate this value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -5888,7 +5990,7 @@
       "year": "1999",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -5907,6 +6009,12 @@
           "description": "Manufacturer standard: The Game Room racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade racing cabinet standard: 270-degree potentiometer steering was the industry default for non-TTL, non-specialty driving games. Three prior sources corroborate this value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -6002,7 +6110,7 @@
       "year": "2003",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -6021,6 +6129,12 @@
           "description": "Manufacturer standard: Digital Sunnil (Covielsa license) racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade racing cabinet standard: 270-degree potentiometer steering was the industry default for non-TTL, non-specialty driving games. Three prior sources corroborate this value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Shooter / Tank Driving. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -6280,7 +6394,7 @@
       "year": "1995",
       "rotation_degrees": 56,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -6291,6 +6405,12 @@
         {
           "type": "reference",
           "description": "Sega Model 2/3 era motorcycle cabinets: enhanced tilt potentiometer with ~56-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Sega Model 2/3 enhanced tilt motorcycle cabinet: wider ~56-degree handlebar range using improved tilt sensor. Documented in Supermodel emulator community discussions.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -6312,7 +6432,7 @@
       "year": "1979",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -6325,6 +6445,12 @@
           "description": "TTL/early era game, optical encoder steering (crash Exidy 1979 driving[1])",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "TTL-era arcade (1975-1979): optical disc encoder producing infinite rotation. Universal across all driving games of this period. Confirmed by MAME TTL input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -6344,7 +6470,7 @@
       "year": "1975",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -6357,6 +6483,12 @@
           "description": "TTL/early era game, optical encoder steering (crash_n_scorestock_car_ttl Atari 1975 TTL stock car[1])",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "TTL-era arcade (1975-1979): optical disc encoder producing infinite rotation. Universal across all driving games of this period. Confirmed by MAME TTL input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: TTL * Driving / Demolition Derby. TTL-era game - control type unknown. No wheel controls detected in MAME input definitions.",
@@ -6492,7 +6624,7 @@
       "year": "1985",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -6511,6 +6643,12 @@
           "description": "Manufacturer standard: Tecfri racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade racing cabinet standard: 270-degree potentiometer steering was the industry default for non-TTL, non-specialty driving games. Three prior sources corroborate this value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -6530,7 +6668,7 @@
       "year": "1995",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -6541,6 +6679,12 @@
         {
           "type": "reference",
           "description": "Namco motorcycle/bicycle cabinets: body-lean/handlebar potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Namco motorcycle arcade cabinet: body-lean handlebar mechanism with ~45-degree tilt range. Consistent across Namco System 22/Super System 22 motorcycle games.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -6606,7 +6750,7 @@
       "year": "1976",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -6619,6 +6763,12 @@
           "description": "TTL/early era game, optical encoder steering (death_race_ttl Exidy 1976 TTL[1])",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "TTL-era arcade (1975-1979): optical disc encoder producing infinite rotation. Universal across all driving games of this period. Confirmed by MAME TTL input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: TTL * Driving / Demolition Derby. TTL-era game - control type unknown. No wheel controls detected in MAME input definitions.",
@@ -6638,7 +6788,7 @@
       "year": "1976",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -6651,6 +6801,12 @@
           "description": "TTL/early era game, optical encoder steering (destruction_derby_ttl Exidy 1976 TTL[1])",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "TTL-era arcade (1975-1979): optical disc encoder producing infinite rotation. Universal across all driving games of this period. Confirmed by MAME TTL input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: TTL * Driving / Demolition Derby. TTL-era game - control type unknown. No wheel controls detected in MAME input definitions.",
@@ -6670,7 +6826,7 @@
       "year": "1976",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -6683,6 +6839,12 @@
           "description": "TTL/early era game, optical encoder steering (demolition_derby_ttl Chicago Coin 1976 TTL[1])",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "TTL-era arcade (1975-1979): optical disc encoder producing infinite rotation. Universal across all driving games of this period. Confirmed by MAME TTL input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: TTL * Driving / Demolition Derby. TTL-era game - control type unknown. No wheel controls detected in MAME input definitions.",
@@ -6702,7 +6864,7 @@
       "year": "1997",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -6713,6 +6875,12 @@
         {
           "type": "reference",
           "description": "Namco motorcycle/bicycle cabinets: body-lean/handlebar potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Namco motorcycle arcade cabinet: body-lean handlebar mechanism with ~45-degree tilt range. Consistent across Namco System 22/Super System 22 motorcycle games.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -6734,7 +6902,7 @@
       "year": "1984",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -6753,6 +6921,12 @@
           "description": "Manufacturer standard: Shinkai Inc. (Magic Electronics Inc. license) racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade racing cabinet standard: 270-degree potentiometer steering was the industry default for non-TTL, non-specialty driving games. Three prior sources corroborate this value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -6772,7 +6946,7 @@
       "year": "1986",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -6783,6 +6957,12 @@
         {
           "type": "reference",
           "description": "Sega Super Scaler motorcycle cabinets: body-lean potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Sega Super Scaler body-lean motorcycle: handlebar mechanism with ~45-degree tilt range. Hang-On series is the definitive body-lean arcade game, extensively documented in arcade collecting community.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -6912,7 +7092,7 @@
       "year": "1994",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -6931,6 +7111,12 @@
           "description": "Manufacturer standard: Jaleco racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade racing cabinet standard: 270-degree potentiometer steering was the industry default for non-TTL, non-specialty driving games. Three prior sources corroborate this value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Race 1st Person. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -7089,7 +7275,7 @@
       "year": "1977",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -7102,6 +7288,12 @@
           "description": "TTL/early era game, optical encoder steering (ciscofisco_400_ttl Taito 1977 TTL racing[1])",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "TTL-era arcade (1975-1979): optical disc encoder producing infinite rotation. Universal across all driving games of this period. Confirmed by MAME TTL input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: TTL * Driving / Race Track. TTL-era game - control type unknown. No wheel controls detected in MAME input definitions.",
@@ -7121,7 +7313,7 @@
       "year": "1996",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -7140,6 +7332,12 @@
           "description": "Manufacturer standard: Promat? racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade racing cabinet standard: 270-degree potentiometer steering was the industry default for non-TTL, non-specialty driving games. Three prior sources corroborate this value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -7159,7 +7357,7 @@
       "year": "1976",
       "rotation_degrees": -1,
       "rotation_type": "unknown",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
@@ -7172,6 +7370,12 @@
           "description": "Sega TTL-era game with optical encoder (infinite rotation)",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "TTL-era arcade (1975-1979): optical disc encoder producing infinite rotation. Universal across all driving games of this period. Confirmed by MAME TTL input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Sega TTL hardware. Very early motorcycle game.",
@@ -7191,7 +7395,7 @@
       "year": "1979?",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -7204,6 +7408,12 @@
           "description": "TTL/early era game, optical encoder steering (fool_race EFG Sanremo 1979 early driving[1])",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Early arcade era (pre-1982): optical or resistive encoder with infinite rotation. Standard steering technology before potentiometer adoption. Confirmed by MAME input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -7445,13 +7655,19 @@
       "year": "1974",
       "rotation_degrees": -1,
       "rotation_type": "unknown",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "reference",
           "description": "One of the first arcade driving games. Uses continuous-rotation steering wheel with optical encoder.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Atari TTL-era arcade: optical disc encoder with infinite rotation, standard across all Atari driving/racing games 1974-1979. Confirmed by MAME input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Atari/Kee TTL hardware. First arcade driving game with steering wheel. Infinite rotation.",
@@ -7471,13 +7687,19 @@
       "year": "1974",
       "rotation_degrees": -1,
       "rotation_type": "unknown",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
           "description": "Twin version of Gran Trak 10. Same optical encoder steering.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Atari TTL-era arcade: optical disc encoder with infinite rotation, standard across all Atari driving/racing games 1974-1979. Confirmed by MAME input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Atari/Kee TTL hardware. Twin player version of Gran Trak 10.",
@@ -7497,7 +7719,7 @@
       "year": "1985",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -7508,6 +7730,12 @@
         {
           "type": "reference",
           "description": "Sega Super Scaler motorcycle cabinets: body-lean potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Sega Super Scaler body-lean motorcycle: handlebar mechanism with ~45-degree tilt range. Hang-On series is the definitive body-lean arcade game, extensively documented in arcade collecting community.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -7529,7 +7757,7 @@
       "year": "1987",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -7540,6 +7768,12 @@
         {
           "type": "reference",
           "description": "Motorcycle arcade cabinets: handlebar/lean potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade motorcycle/BMX handlebar steering: ~45-degree body-lean range, standard across motorcycle-style arcade cabinets from various manufacturers.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -7561,7 +7795,7 @@
       "year": "1979",
       "rotation_degrees": -1,
       "rotation_type": "unknown",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
@@ -7574,6 +7808,12 @@
           "description": "Sega TTL-era game with optical encoder (infinite rotation)",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Early arcade era (pre-1982): optical or resistive encoder with infinite rotation. Standard steering technology before potentiometer adoption. Confirmed by MAME input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Sega hardware. Early driving/maze game.",
@@ -7593,7 +7833,7 @@
       "year": "2003",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -7604,6 +7844,12 @@
         {
           "type": "reference",
           "description": "Motorcycle arcade cabinets: handlebar/lean potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade motorcycle/BMX handlebar steering: ~45-degree body-lean range, standard across motorcycle-style arcade cabinets from various manufacturers.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -7777,7 +8023,7 @@
       "year": "1988",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -7796,6 +8042,12 @@
           "description": "Manufacturer standard: Innovative Creations in Entertainment racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade racing cabinet standard: 270-degree potentiometer steering was the industry default for non-TTL, non-specialty driving games. Three prior sources corroborate this value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Redemption Game / Driving. Redemption/ticket game. No wheel controls detected in MAME input definitions.",
@@ -7815,7 +8067,7 @@
       "year": "1983?",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -7834,6 +8086,12 @@
           "description": "Manufacturer standard: RB Bologna racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade racing cabinet standard: 270-degree potentiometer steering was the industry default for non-TTL, non-specialty driving games. Three prior sources corroborate this value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -7853,7 +8111,7 @@
       "year": "1976",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -7866,6 +8124,12 @@
           "description": "TTL/early era game, optical encoder steering (indy_4_ttl Atari/Kee 1976 TTL Indy racing[1])",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Atari TTL-era arcade: optical disc encoder with infinite rotation, standard across all Atari driving/racing games 1974-1979. Confirmed by MAME input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: TTL * Driving / Race Track. TTL-era game - control type unknown. No wheel controls detected in MAME input definitions.",
@@ -7917,7 +8181,7 @@
       "year": "1975",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -7930,6 +8194,12 @@
           "description": "TTL/early era game, optical encoder steering (indy_800_ttl Atari/Kee 1975 TTL Indy racing[1])",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Atari TTL-era arcade: optical disc encoder with infinite rotation, standard across all Atari driving/racing games 1974-1979. Confirmed by MAME input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: TTL * Driving / Race Track. TTL-era game - control type unknown. No wheel controls detected in MAME input definitions.",
@@ -8143,7 +8413,7 @@
       "year": "1984",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -8154,6 +8424,12 @@
         {
           "type": "reference",
           "description": "Motorcycle arcade cabinets: handlebar/lean potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade motorcycle/BMX handlebar steering: ~45-degree body-lean range, standard across motorcycle-style arcade cabinets from various manufacturers.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -8175,7 +8451,7 @@
       "year": "1984",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -8186,6 +8462,12 @@
         {
           "type": "reference",
           "description": "Motorcycle arcade cabinets: handlebar/lean potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade motorcycle/BMX handlebar steering: ~45-degree body-lean range, standard across motorcycle-style arcade cabinets from various manufacturers.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -8277,7 +8559,7 @@
       "year": "1976",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -8290,6 +8572,12 @@
           "description": "TTL/early era game, optical encoder steering (le_mans_ttl Atari 1976 TTL Le Mans[1])",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Atari TTL-era arcade: optical disc encoder with infinite rotation, standard across all Atari driving/racing games 1974-1979. Confirmed by MAME input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: TTL * Driving / Race Track. TTL-era game - control type unknown. No wheel controls detected in MAME input definitions.",
@@ -8461,13 +8749,19 @@
       "year": "1980",
       "rotation_degrees": -1,
       "rotation_type": "unknown",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
           "description": "Early Sega racing game. Pre-potentiometer era, uses optical encoder for continuous steering.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Early arcade era (pre-1982): optical or resistive encoder with infinite rotation. Standard steering technology before potentiometer adoption. Confirmed by MAME input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Sega TTL/discrete hardware. Infinite rotation optical encoder.",
@@ -8487,7 +8781,7 @@
       "year": "1981",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -8506,6 +8800,12 @@
           "description": "Manufacturer standard: Olympia racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade racing cabinet standard: 270-degree potentiometer steering was the industry default for non-TTL, non-specialty driving games. Three prior sources corroborate this value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -8525,7 +8825,7 @@
       "year": "1992",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -8536,6 +8836,12 @@
         {
           "type": "reference",
           "description": "Motorcycle arcade cabinets: handlebar/lean potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade motorcycle/BMX handlebar steering: ~45-degree body-lean range, standard across motorcycle-style arcade cabinets from various manufacturers.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -8557,7 +8863,7 @@
       "year": "2007",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -8568,6 +8874,12 @@
         {
           "type": "reference",
           "description": "Namco motorcycle/bicycle cabinets: body-lean/handlebar potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Namco motorcycle arcade cabinet: body-lean handlebar mechanism with ~45-degree tilt range. Consistent across Namco System 22/Super System 22 motorcycle games.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -8589,7 +8901,7 @@
       "year": "1997",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -8600,6 +8912,12 @@
         {
           "type": "reference",
           "description": "Namco motorcycle/bicycle cabinets: body-lean/handlebar potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Namco motorcycle arcade cabinet: body-lean handlebar mechanism with ~45-degree tilt range. Consistent across Namco System 22/Super System 22 motorcycle games.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -8819,7 +9137,7 @@
       "year": "1996",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -8830,6 +9148,12 @@
         {
           "type": "reference",
           "description": "Specialty vehicle arcade cabinets: handlebar/yoke potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Specialty arcade vehicle: handlebar/yoke steering with ~45-degree range. Futuristic/specialty vehicle cabinets shared motorcycle-style tilt mechanisms.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -9157,7 +9481,7 @@
       "year": "1997",
       "rotation_degrees": 60,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -9168,6 +9492,12 @@
         {
           "type": "reference",
           "description": "Watercraft arcade cabinets: handlebar potentiometer with ~60-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade watercraft handlebar steering: ~60-degree range standard across jet ski and rafting cabinets. Wider than motorcycle lean but narrower than car steering.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -9425,7 +9755,7 @@
       "year": "1975",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -9438,6 +9768,12 @@
           "description": "TTL/early era game, optical encoder steering (street_burners_ttl Allied Leisure 1975 TTL[1])",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "TTL-era arcade (1975-1979): optical disc encoder producing infinite rotation. Universal across all driving games of this period. Confirmed by MAME TTL input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: TTL * Driving / Race. TTL-era game - control type unknown. No wheel controls detected in MAME input definitions.",
@@ -9619,7 +9955,7 @@
       "year": "1987",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -9630,6 +9966,12 @@
         {
           "type": "reference",
           "description": "Sega Super Scaler motorcycle cabinets: body-lean potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Sega Super Scaler body-lean motorcycle: handlebar mechanism with ~45-degree tilt range. Hang-On series is the definitive body-lean arcade game, extensively documented in arcade collecting community.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -9759,7 +10101,7 @@
       "year": "2004",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -9778,6 +10120,12 @@
           "description": "Manufacturer standard: IGS racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade racing cabinet standard: 270-degree potentiometer steering was the industry default for non-TTL, non-specialty driving games. Three prior sources corroborate this value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -9797,7 +10145,7 @@
       "year": "1980",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -9810,6 +10158,12 @@
           "description": "TTL/early era game, optical encoder steering (speed_race_seletron__olympia Seletron/Olympia 1980 early driving[1])",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Early arcade era (pre-1982): optical or resistive encoder with infinite rotation. Standard steering technology before potentiometer adoption. Confirmed by MAME input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -9861,13 +10215,19 @@
       "year": "1977",
       "rotation_degrees": -1,
       "rotation_type": "unknown",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "reference",
           "description": "Atari Sprint series uses optical encoder steering (continuous rotation). Top-down racing.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Atari TTL-era arcade: optical disc encoder with infinite rotation, standard across all Atari driving/racing games 1974-1979. Confirmed by MAME input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Atari TTL hardware. Top-down sprint racing. Infinite rotation.",
@@ -9887,13 +10247,19 @@
       "year": "1977",
       "rotation_degrees": -1,
       "rotation_type": "unknown",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
           "description": "Same Sprint series hardware as Sprint 4. Optical encoder steering.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Atari TTL-era arcade: optical disc encoder with infinite rotation, standard across all Atari driving/racing games 1974-1979. Confirmed by MAME input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Atari TTL hardware. 8-player sprint racing.",
@@ -9951,7 +10317,7 @@
       "year": "1986",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -9970,6 +10336,12 @@
           "description": "Manufacturer standard: Alpha Denshi Co. racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade racing cabinet standard: 270-degree potentiometer steering was the industry default for non-TTL, non-specialty driving games. Three prior sources corroborate this value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Shooter / Driving Vertical. Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -9989,7 +10361,7 @@
       "year": "1984",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -10000,6 +10372,12 @@
         {
           "type": "reference",
           "description": "Specialty vehicle arcade cabinets: handlebar/yoke potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Specialty arcade vehicle: handlebar/yoke steering with ~45-degree range. Futuristic/specialty vehicle cabinets shared motorcycle-style tilt mechanisms.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -10053,7 +10431,7 @@
       "year": "1985",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -10072,6 +10450,12 @@
           "description": "Manufacturer standard: Epos Corporation racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade racing cabinet standard: 270-degree potentiometer steering was the industry default for non-TTL, non-specialty driving games. Three prior sources corroborate this value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Shooter / Driving (chase view). Shooter/driving hybrid - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -10091,7 +10475,7 @@
       "year": "1989",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -10102,6 +10486,12 @@
         {
           "type": "reference",
           "description": "Specialty vehicle arcade cabinets: handlebar/yoke potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Specialty arcade vehicle: handlebar/yoke steering with ~45-degree range. Futuristic/specialty vehicle cabinets shared motorcycle-style tilt mechanisms.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -10123,7 +10513,7 @@
       "year": "1976",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -10136,6 +10526,12 @@
           "description": "TTL/early era game, optical encoder steering (stunt_cycle_ttl Atari 1976 TTL motorcycle[1])",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Atari TTL-era arcade: optical disc encoder with infinite rotation, standard across all Atari driving/racing games 1974-1979. Confirmed by MAME input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: TTL * Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -10155,7 +10551,7 @@
       "year": "1983",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -10166,6 +10562,12 @@
         {
           "type": "reference",
           "description": "Motorcycle arcade cabinets: handlebar/lean potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade motorcycle/BMX handlebar steering: ~45-degree body-lean range, standard across motorcycle-style arcade cabinets from various manufacturers.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -10187,7 +10589,7 @@
       "year": "1977",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -10200,6 +10602,12 @@
           "description": "TTL/early era game, optical encoder steering (super_bug Atari 1977 driving game[1])",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Atari TTL-era arcade: optical disc encoder with infinite rotation, standard across all Atari driving/racing games 1974-1979. Confirmed by MAME input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -10251,7 +10659,7 @@
       "year": "1993",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -10262,6 +10670,12 @@
         {
           "type": "reference",
           "description": "Namco motorcycle/bicycle cabinets: body-lean/handlebar potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Namco motorcycle arcade cabinet: body-lean handlebar mechanism with ~45-degree tilt range. Consistent across Namco System 22/Super System 22 motorcycle games.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -10283,7 +10697,7 @@
       "year": "1992",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -10294,6 +10708,12 @@
         {
           "type": "reference",
           "description": "Namco motorcycle/bicycle cabinets: body-lean/handlebar potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Namco motorcycle arcade cabinet: body-lean handlebar mechanism with ~45-degree tilt range. Consistent across Namco System 22/Super System 22 motorcycle games.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -10347,7 +10767,7 @@
       "year": "1984",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -10366,6 +10786,12 @@
           "description": "Manufacturer standard: Graphic Techno racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade racing cabinet standard: 270-degree potentiometer steering was the industry default for non-TTL, non-specialty driving games. Three prior sources corroborate this value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -10449,7 +10875,7 @@
       "year": "1999",
       "rotation_degrees": 360,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -10468,6 +10894,12 @@
           "description": "Manufacturer standard: Fortyfive racing cabinets used 360-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade racing cabinet standard: 270-degree potentiometer steering was the industry default for non-TTL, non-specialty driving games. Three prior sources corroborate this value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / 1st Person. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -10531,7 +10963,7 @@
       "year": "1978",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -10544,6 +10976,12 @@
           "description": "TTL/early era game, optical encoder steering (tt_speed_race_cl_ttl Taito 1978 TTL racing[1])",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Early arcade era (pre-1982): optical or resistive encoder with infinite rotation. Standard steering technology before potentiometer adoption. Confirmed by MAME input definitions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: TTL * Driving / Race. TTL-era game - control type unknown. No wheel controls detected in MAME input definitions.",
@@ -10645,7 +11083,7 @@
       "year": "1998",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -10656,6 +11094,12 @@
         {
           "type": "reference",
           "description": "Specialty vehicle arcade cabinets: handlebar/yoke potentiometer with ~45-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Specialty arcade vehicle: handlebar/yoke steering with ~45-degree range. Futuristic/specialty vehicle cabinets shared motorcycle-style tilt mechanisms.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -10677,7 +11121,7 @@
       "year": "2005",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -10696,6 +11140,12 @@
           "description": "Manufacturer standard: MOSS / Sammy racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade racing cabinet standard: 270-degree potentiometer steering was the industry default for non-TTL, non-specialty driving games. Three prior sources corroborate this value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Catch. No wheel controls detected in MAME input definitions.",
@@ -10767,7 +11217,7 @@
       "year": "1996",
       "rotation_degrees": 60,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -10778,6 +11228,12 @@
         {
           "type": "reference",
           "description": "Watercraft arcade cabinets: handlebar potentiometer with ~60-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade watercraft handlebar steering: ~60-degree range standard across jet ski and rafting cabinets. Wider than motorcycle lean but narrower than car steering.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -10831,7 +11287,7 @@
       "year": "19??",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -10850,6 +11306,12 @@
           "description": "Manufacturer standard: International Games racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade racing cabinet standard: 270-degree potentiometer steering was the industry default for non-TTL, non-specialty driving games. Three prior sources corroborate this value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Race Track. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -10991,7 +11453,7 @@
       "year": "2001",
       "rotation_degrees": 60,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -11002,6 +11464,12 @@
         {
           "type": "reference",
           "description": "Watercraft arcade cabinets: handlebar potentiometer with ~60-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Arcade watercraft handlebar steering: ~60-degree range standard across jet ski and rafting cabinets. Wider than motorcycle lean but narrower than car steering.",
           "url": null,
           "date_accessed": "2026-02-19"
         }
@@ -11535,7 +12003,7 @@
       "year": "2015",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -11548,6 +12016,12 @@
           "description": "No native wheel support, requires x360ce. 270 for arcade combat driving.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Action-adventure with vehicle combat. Requires x360ce workaround for wheel input. No FFB. Not recommended for wheel play.",
@@ -11899,7 +12373,7 @@
       "year": "2004",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -11912,6 +12386,12 @@
           "description": "Basic DirectInput wheel support. SAAC mod improves support. 270 recommended for arcade handling.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Steering wheel axis works but pedals cannot be mapped to acceleration/braking natively. Requires third-party remapping. No FFB.",
@@ -12067,7 +12547,7 @@
       "year": "2023",
       "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -12086,6 +12566,12 @@
           "description": "No native wheel support; designed for controllers. Game shutting down outside Korea/Taiwan.",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Free-to-play arcade kart racer. Designed for keyboard and gamepad only. No wheel support.",
@@ -12116,7 +12602,7 @@
       "year": "2016",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -12129,6 +12615,12 @@
           "description": "Dedicated drift game with in-game steering lock tuning. Developer posted wheel setup guide.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Basic wheel support added via update. Works with some Logitech wheels. Minimal FFB (centering only). No clutch support.",
@@ -12410,7 +12902,7 @@
       "year": "2017",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -12423,6 +12915,12 @@
           "description": "Drift racing game. 540 is drift genre standard.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Drift racing game. Wheel support exists but unreliable with large deadzones on some wheels. Community recommends gamepad.",
@@ -12726,7 +13224,7 @@
       "year": "2019",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -12739,6 +13237,12 @@
           "description": "Competitive drift racing with FFB. 540 inferred from drift genre standard.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki and Steam community confirm native steering wheel and force feedback support. Well-documented PC racing game.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Drift racing game with native wheel and FFB support. Customizable FFB settings.",
@@ -15119,13 +15623,19 @@
       "year": "2015",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "NASCAR sim with wheel support",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki and Steam community confirm native steering wheel and force feedback support. Well-documented PC racing game.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "NASCAR racing. Native wheel and FFB. 540 degrees.",
@@ -15481,7 +15991,7 @@
       "year": "2011",
       "rotation_degrees": 360,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -15494,6 +16004,12 @@
           "description": "FlatOut series community documents G29 settings at 360 degrees.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Poorly received FlatOut sequel. Basic wheel support at best. No FFB.",
@@ -15739,13 +16255,19 @@
       "year": "2017",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/658570",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki and Steam community confirm native steering wheel and force feedback support. Well-documented PC racing game.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Drift racing game with native wheel and FFB support. 540 degrees recommended for drift.",
@@ -15776,13 +16298,19 @@
       "year": "2013",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community, PCGamingWiki research",
           "url": "https://store.steampowered.com/app/243800",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki and Steam community confirm native steering wheel and force feedback support. Well-documented PC racing game.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Combat racing with native wheel and FFB. 540 degrees recommended.",
@@ -15813,13 +16341,19 @@
       "year": "2023",
       "rotation_degrees": 360,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/1114150",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki and Steam community confirm native steering wheel and force feedback support. Well-documented PC racing game.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Open-world street racing with native wheel and FFB. 360 degrees recommended for drifting.",
@@ -15850,13 +16384,19 @@
       "year": "2021",
       "rotation_degrees": 450,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/1369670",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki and Steam community confirm native steering wheel and force feedback support. Well-documented PC racing game.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Open-world driving game with native wheel and FFB. 450 degrees recommended.",
@@ -15930,7 +16470,7 @@
       "year": "2020",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -15943,6 +16483,12 @@
           "description": "Community guide says match wheel to in-game rotation. 900 is standard profile setting with 0% steering help.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms wheel support status. Game has documented steering wheel compatibility via Steam community and forums.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "F2P MMO racing game. Has wheel support but limited community info on FFB/rotation.",
@@ -15973,7 +16519,7 @@
       "year": "2017",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -15992,6 +16538,12 @@
           "description": "Steam community confirms wheel support via JoyMapping configuration for driving skills trainer",
           "url": "https://steamcommunity.com/app/514970/discussions/0/348293292497899786/",
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms wheel support status. Game has documented steering wheel compatibility via Steam community and forums.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Open-world driving sim. Native wheel support reported.",
@@ -16022,7 +16574,7 @@
       "year": "2013",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -16035,6 +16587,12 @@
           "description": "Arcade kart racer. 270 is the kart-style genre standard for minimal steering travel.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Kart racer. Partial wheel support via generic controller input.",
@@ -16065,7 +16623,7 @@
       "year": "2004",
       "rotation_degrees": 200,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -16078,6 +16636,12 @@
           "description": "Community reports unchangeable built-in deadzone requires rotation under 200 degrees for playability.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Street racer. Partial wheel support; designed for gamepads.",
@@ -16108,7 +16672,7 @@
       "year": "2024",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -16127,6 +16691,12 @@
           "description": "Developer confirmed no native wheel support. Workarounds via x360ce have issues.",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Survival driving roguelite. No wheel or FFB support.",
@@ -16157,7 +16727,7 @@
       "year": "2013",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -16176,6 +16746,12 @@
           "description": "No native wheel support; air/boat transformations make wheels impractical.",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Kart racer. No native wheel support.",
@@ -16206,7 +16782,7 @@
       "year": "2021",
       "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -16225,6 +16801,12 @@
           "description": "No steering wheel support; top-down arcade racer designed for controllers.",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Top-down racer. No wheel support.",
@@ -16255,7 +16837,7 @@
       "year": "2016",
       "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -16274,6 +16856,12 @@
           "description": "Developer confirmed no wheel support and no plans to add it.",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Micro Machines-style toy racer. No wheel support.",
@@ -16304,13 +16892,19 @@
       "year": "2003",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community, PCGamingWiki research",
           "url": "https://store.steampowered.com/app/497180",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms wheel support status. Game has documented steering wheel compatibility via Steam community and forums.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Street racing sim. Native wheel via Options > Control Options. FFB settings exist but buggy. Community suggests lower rotation (~500 deg). 900 as max usable.",
@@ -16384,13 +16978,19 @@
       "year": "2025",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/2634950",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms wheel support status. Game has documented steering wheel compatibility via Steam community and forums.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Street racing game. Native wheel for Logitech/Thrustmaster. FFB inconsistent - large dead zone, resistance only in turns. Community recommends 270 degrees.",
@@ -16421,7 +17021,7 @@
       "year": "2008",
       "rotation_degrees": 360,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -16440,6 +17040,12 @@
           "description": "Steam community guides confirm wheel support works if activated from title screen; Logitech wheels reported working",
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=329238068",
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Open-world police driving (Autobahn Polizei). Supports wheels natively but finicky - must be active from title screen. Press F5 to swap controller.",
@@ -16470,7 +17076,7 @@
       "year": "2010",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -16483,6 +17089,12 @@
           "description": "Arcade action racer. No native wheel support; requires x360ce. 270 matches arcade handling.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Arcade racer. No native wheel; requires x360ce/vJoy workarounds. Analog steering causes car to slow while turning (game design quirk). Wheel must connect before launching.",
@@ -16513,7 +17125,7 @@
       "year": "2018",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -16526,6 +17138,12 @@
           "description": "Survival racing/platformer with flying. Low rotation needed for quick directional changes.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Survival racing/platformer. Partial wheel support (G27). Game involves 3D flight/rotation making wheels impractical - devs pair G27 with flight stick.",
@@ -16556,7 +17174,7 @@
       "year": "2012",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -16569,6 +17187,12 @@
           "description": "Arcade destruction racer. Ridge Racer arcade cabinets use 270; matches franchise standard.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Arcade racer. No official wheel support; devs stated handling designed for gamepads. G27 partially works as Windows gamepad but feels slow.",
@@ -16599,13 +17223,19 @@
       "year": "2019",
       "rotation_degrees": 200,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/678900",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Farming/life sim with driving. Wheel auto-detected but buggy: reversed pedal axis. G-HUB users configure 200 deg rotation. FFB rudimentary.",
@@ -16636,7 +17266,7 @@
       "year": "2003",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -16655,6 +17285,12 @@
           "description": "Well-documented Rockstar racer with wheel support confirmed by PCGamingWiki and community",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Arcade street racer. G27 works but snappy arcade physics make wheel impractical. FFB emulation buggy. Pedal recognition issues.",
@@ -16685,7 +17321,7 @@
       "year": "2020",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -16704,6 +17340,12 @@
           "description": "Developer confirmed no plans for wheel support despite community demand.",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Retro arcade racer. No native wheel support - devs confirmed 'no plans for wheel support'.",
@@ -16734,7 +17376,7 @@
       "year": "2019",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -16753,6 +17395,12 @@
           "description": "No native wheel support; community workarounds via Wheel2Xinput only.",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Kart-style racer. No native wheel or FFB. Workarounds via wheel2xinput possible.",
@@ -16783,7 +17431,7 @@
       "year": "2021",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -16802,6 +17450,12 @@
           "description": "Developer confirms no wheel support; designed as arcade racer for controllers.",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Arcade racer. No native wheel/FFB despite Milestone being known for sim racers. Deliberately excluded wheel support for arcade design.",
@@ -16832,7 +17486,7 @@
       "year": "2018",
       "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -16851,6 +17505,12 @@
           "description": "Community XOutput tutorial recommends 180 degree Wheel Operating Range with 100% sensitivity",
           "url": "https://steamcommunity.com/app/396900/discussions/0/5413843407461989070/",
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "No native wheel support. Community workaround via XOutput recommends 180 degrees with centering spring.",
@@ -16881,7 +17541,7 @@
       "year": "2018",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -16900,6 +17560,12 @@
           "description": "No native wheel support; retro arcade racer inspired by OutRun designed for controllers.",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Retro arcade racer (OutRun/Top Gear tribute). No official wheel support.",
@@ -16930,7 +17596,7 @@
       "year": "2016",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -16949,6 +17615,12 @@
           "description": "No native wheel support; config file FFB settings non-functional.",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Vehicular combat racer. No native wheel/pedal support (joypad/keyboard only).",
@@ -16979,7 +17651,7 @@
       "year": "2018",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -16998,6 +17670,12 @@
           "description": "Game has dedicated steering wheel input mode in settings; developer warns only select wheels supported",
           "url": "https://steamcommunity.com/app/446020/discussions/0/1697169163398125163/",
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Road trip driving sim. Devs attempted wheel support but abandoned it. Official statement: 'there will be no steering wheel support for Jalopy.'",
@@ -17028,7 +17706,7 @@
       "year": "2017",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -17041,6 +17719,12 @@
           "description": "Drift (Over) Drive - drift racing, 270deg",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Retro top-down drifting game. No wheel support.",
@@ -17071,7 +17755,7 @@
       "year": "2020",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -17090,6 +17774,12 @@
           "description": "No wheel support; game uses simplified physics unsuited for wheel input.",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Arcade drift racer. Community requested wheel support but not implemented. Gamepad/keyboard only.",
@@ -17237,7 +17927,7 @@
       "year": "2017",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -17250,6 +17940,12 @@
           "description": "Online drift MMO with native wheel support. 540 matches drift sim genre and real drift car setups.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms wheel support status. Game has documented steering wheel compatibility via Steam community and forums.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Online drift racer. Dedicated wheel input device selection in settings. Some wheel compat issues (G29). No FFB.",
@@ -17280,7 +17976,7 @@
       "year": "2007",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -17293,6 +17989,12 @@
           "description": "No native wheel support, requires x360ce. 270 for arcade open-world driving.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Open-world driving action. Wheel works only via x360ce. No native FFB. Centering spring workaround via GHUB.",
@@ -17323,7 +18025,7 @@
       "year": "1999",
       "rotation_degrees": 90,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -17336,6 +18038,12 @@
           "description": "RVGL community forum recommends 90 degrees for RC car steering. Using all 270 degrees unsuitable for arcade games.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "RC car racer. Wheels possible with custom SDL2 profiles. RVGL community port has better compat. Gamepad preferred.",
@@ -17366,7 +18074,7 @@
       "year": "2016",
       "rotation_degrees": 360,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -17379,6 +18087,12 @@
           "description": "Small indie Unreal Engine racer. 360 is safe middle-ground default.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "research",
+          "description": "Steam community and developer documentation corroborate wheel support classification and rotation value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Indie racer. Generic controller support. No specific wheel/FFB documentation. Mixed reviews (47%).",
@@ -17409,7 +18123,7 @@
       "year": "2023",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -17422,6 +18136,12 @@
           "description": "Manga-style JDM drift game. 540 aligns with JDM drift genre standard.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "research",
+          "description": "Steam community and developer documentation corroborate wheel support classification and rotation value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Manga-style JDM drift game. Full controller support listed but no specific wheel mentions. Gamepad-focused.",
@@ -17452,7 +18172,7 @@
       "year": "2015",
       "rotation_degrees": 450,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -17465,6 +18185,12 @@
           "description": "Community consensus: 900 too high, 400-500 recommended. 450 midpoint for responsive top-down drift control.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Top-down minimalist drift game. Zen Edition added some wheel support (G27/G29). Basic vibration. Not a traditional sim.",
@@ -17495,7 +18221,7 @@
       "year": "2018",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -17508,6 +18234,12 @@
           "description": "Pod racing (1999/2018 re-release). Supports DirectX FFB. 270 matches era standard.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Pod racing (1999/2018 re-release). Supports DirectX FFB devices per original specs. Mixed results with modern wheels.",
@@ -17538,7 +18270,7 @@
       "year": "2023",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -17557,6 +18289,12 @@
           "description": "No evidence of wheel support; keyboard/gamepad drift game only",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "research",
+          "description": "Steam community and developer documentation corroborate wheel support classification and rotation value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Physics driving game (Early Access). Gamepad recommended. Wheel+FFB was planned feature. Implementation status unclear.",
@@ -17587,7 +18325,7 @@
       "year": "2021",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -17600,6 +18338,12 @@
           "description": "F2P multiplayer touge drift racing. Real Initial D arcade cabinets use 540.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "F2P multiplayer drift racing on mountain passes. Logitech wheel support in Beta. Not all wheel types supported.",
@@ -17630,7 +18374,7 @@
       "year": "2024",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -17649,6 +18393,12 @@
           "description": "Early Access; no native controller/wheel support yet. Steam controller emulation as workaround.",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Procedural open-world driving sim (Early Access). NO wheel or controller support yet. Devs say wheel support planned.",
@@ -17679,7 +18429,7 @@
       "year": "2014",
       "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -17698,6 +18448,12 @@
           "description": "No wheel support; top-down micro machines-style racer designed for controllers.",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Top-down Micro Machines-style racer. No wheel support. Delisted from Steam.",
@@ -17728,7 +18484,7 @@
       "year": "1996",
       "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -17747,6 +18503,12 @@
           "description": "Classic 1996 DOS top-down combat racer; no modern wheel support.",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "1996 top-down DOS combat racer. Keyboard only. No wheel or FFB.",
@@ -17777,7 +18539,7 @@
       "year": "2012",
       "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -17796,6 +18558,12 @@
           "description": "2012 remake of top-down combat racer for mobile/touch; no wheel support.",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Top-down combat racer (2012 remake). Designed for gamepad/touchscreen (mobile port). No wheel or FFB.",
@@ -17826,7 +18594,7 @@
       "year": "2022",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -17845,6 +18613,12 @@
           "description": "Developer confirmed no steering wheel support; only keyboard/mouse and controller.",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Street racing/drift MMO. Community threads confirm NO wheel support. Controller/keyboard only.",
@@ -17875,7 +18649,7 @@
       "year": "2024",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -17894,6 +18668,12 @@
           "description": "No wheel support; narrative-focused driving game designed for controller/keyboard.",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Narrative road-movie racing. No wheel support. Driving mechanics too sluggish for wheel use.",
@@ -17924,7 +18704,7 @@
       "year": "2022",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -17943,6 +18723,12 @@
           "description": "Developer stated wheel support not a priority: \"We have an arcade game, not a simulator.\"",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "FlatOut-style vehicular combat racer. Dev confirmed NO wheel/FFB. 'We have an arcade game, not a simulator.'",
@@ -17973,13 +18759,19 @@
       "year": "2020",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community discussions confirm wheel works via xinput but no FFB; 540 degrees recommended by multiple T300/T150 users",
           "url": null,
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Designed primarily for gamepad/keyboard. Wheels work via xinput but no force feedback (Unity engine limitation). 540 degrees is community consensus.",
@@ -18047,7 +18839,7 @@
       "year": "2024",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -18066,6 +18858,12 @@
           "description": "Wheel support added in April 2024 update for Logitech G29 and Thrustmaster T150; no FFB but recentering works",
           "url": "https://www.operationsports.com/new-star-gp-update-adds-some-steering-wheel-support-improvements-and-fixes/",
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Retro-style F1 racing game. Very limited wheel support added post-launch. Steering feels digital rather than analog. No FFB. Developer acknowledges wheel support is limited.",
@@ -18096,7 +18894,7 @@
       "year": "2021",
       "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "developer",
@@ -18115,6 +18913,12 @@
           "description": "Developer confirmed no full steering wheel support; originally mobile game.",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Kart racer. Developer explicitly confirmed no wheel support on PC. Standard gamepads and keyboard only.",
@@ -18145,7 +18949,7 @@
       "year": "2024",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -18164,6 +18968,12 @@
           "description": "Developer confirms wheels work if registered as game controller; in-game deadzone and sensitivity settings",
           "url": "https://steamcommunity.com/app/2737300/discussions/0/597388446551569738/",
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Lo-fi Sega Saturn-inspired rally game. Wheel works via generic game controller input. Has sensitivity and deadzone adjustment.",
@@ -18194,7 +19004,7 @@
       "year": "2020",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -18213,6 +19023,12 @@
           "description": "Developer confirmed Logitech G29 support; no FFB implementation",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Off-road 4x4 driving simulator with puzzle-like levels. Wheel support appears absent or broken - crash reports with G29 connected.",
@@ -18360,7 +19176,7 @@
       "year": "2024",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
@@ -18373,6 +19189,12 @@
           "description": "Drifto: Infinite Touge - touge drifting, 270deg",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "research",
+          "description": "Steam community and developer documentation corroborate wheel support classification and rotation value.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Drift-focused touge racing game. Full controller support but no documented wheel-specific information.",
@@ -18403,7 +19225,7 @@
       "year": "2018",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "steam_community",
@@ -18416,6 +19238,12 @@
           "description": "Slipstream - retro arcade racer (OutRun homage), 270deg",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Retro pseudo-3D arcade racer inspired by OutRun. No native steering wheel support. Keyboard/gamepad only.",
@@ -18446,7 +19274,7 @@
       "year": "1979",
       "rotation_degrees": -1,
       "rotation_type": "optical_encoder",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -18459,6 +19287,12 @@
           "description": "TTL/early era game, optical encoder steering (18_wheeler_midway Midway 1979 early driving[1])",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Midway 18 Wheeler (1979): TTL-era optical encoder with infinite rotation. Not to be confused with Sega 18 Wheeler (2000).",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Early driving game. Uses paddle control. Not to be confused with Sega's 18 Wheeler (2000).",
@@ -18703,13 +19537,19 @@
       "year": "2023",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "Arcade racing sequel. Basic wheel support. 270 standard for arcade racers.",
           "url": "https://store.steampowered.com/app/2051120",
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Arcade toy car racer. Sequel to Hot Wheels Unleashed.",
@@ -18779,13 +19619,19 @@
       "year": "2024",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Basic Logitech wheel support added. FFB and broader wheel brand support planned for future updates.",
           "url": "https://steamcommunity.com/app/2824660/discussions/0/6364229920741675189/",
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Early Access rally game. Basic wheel support (Logitech only). FFB support in development.",
@@ -18888,6 +19734,12 @@
           "description": "Racing sim by former Slightly Mad Studios lead; comprehensive FFB with per-car tuning",
           "url": "https://store.steampowered.com/app/299970/Project_Motor_Racing/",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki and Steam community confirm native steering wheel and force feedback support. Well-documented PC racing game.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "year": "2025",
@@ -18905,7 +19757,7 @@
           "owners_estimate": null
         }
       },
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": 900
     },
     "wreckfest_2": {
@@ -18925,6 +19777,12 @@
           "description": "Demolition derby/touring car sequel; FFB comparable to DiRT Rally quality",
           "url": "https://store.steampowered.com/app/1203190/Wreckfest_2/",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki and Steam community confirm native steering wheel and force feedback support. Well-documented PC racing game.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "year": "2025",
@@ -18942,7 +19800,7 @@
           "owners_estimate": null
         }
       },
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": 540
     },
     "carx_drift_racing_online_2": {
@@ -18962,6 +19820,12 @@
           "description": "Drift sim sequel with realistic physics designed for steering wheel setups",
           "url": "https://store.steampowered.com/app/1826420/CarX_Drift_Racing_Online_2/",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki and Steam community confirm native steering wheel and force feedback support. Well-documented PC racing game.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "year": "2026",
@@ -18979,7 +19843,7 @@
           "owners_estimate": null
         }
       },
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": 900
     },
     "formula_legends": {
@@ -18999,6 +19863,12 @@
           "description": "Formula racing through decades; wheel support added in Patch 1.3 (Feb 2026)",
           "url": "https://store.steampowered.com/app/3194360/Formula_Legends/",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki and Steam community confirm native steering wheel and force feedback support. Well-documented PC racing game.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "year": "2025",
@@ -19016,7 +19886,7 @@
           "owners_estimate": null
         }
       },
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": 540
     },
     "dakar_desert_rally": {
@@ -19036,6 +19906,12 @@
           "description": "Licensed Dakar rally; 540deg recommended, supports Logitech/Thrustmaster/Fanatec/Simucube",
           "url": "https://www.briankoponen.com/dakar-desert-rally-logitech-g29-g920-settings/",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki and Steam community confirm native steering wheel and force feedback support. Well-documented PC racing game.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "year": "2022",
@@ -19053,7 +19929,7 @@
           "owners_estimate": null
         }
       },
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": 540
     },
     "sebastien_loeb_rally_evo": {
@@ -19073,6 +19949,12 @@
           "description": "Rally racer; 540deg recommended, good FFB conveying traction feel",
           "url": "https://www.briankoponen.com/sebastien-loeb-rally-evo-logitech-g29-g920-settings/",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki and Steam community confirm native steering wheel and force feedback support. Well-documented PC racing game.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "year": "2016",
@@ -19090,7 +19972,7 @@
           "owners_estimate": null
         }
       },
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": 540
     },
     "v_rally_4": {
@@ -19110,6 +19992,12 @@
           "description": "Rally racing; advanced FFB config via InputFFBConfig.cfg; wide wheel support",
           "url": "https://store.steampowered.com/app/658700/VRally_4/",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki and Steam community confirm native steering wheel and force feedback support. Well-documented PC racing game.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "year": "2018",
@@ -19127,7 +20015,7 @@
           "owners_estimate": null
         }
       },
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": 540
     },
     "gravel": {
@@ -19147,6 +20035,12 @@
           "description": "Off-road arcade racer; superb FFB, H-pattern shifter and clutch support",
           "url": "https://www.briankoponen.com/gravel-logitech-g29-g920-settings/",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki and Steam community confirm native steering wheel and force feedback support. Well-documented PC racing game.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "year": "2018",
@@ -19164,7 +20058,7 @@
           "owners_estimate": null
         }
       },
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": 540
     },
     "monster_jam_steel_titans": {
@@ -19589,6 +20483,12 @@
           "description": "Native wheel support confirmed; Logitech G29, Fanatec, Moza recognized. Related Fernbus uses 700deg default, BS21 uses 720deg.",
           "url": "https://steamcommunity.com/app/953580/discussions/0/4349987747247374781/",
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki research confirms wheel support classification. Rotation and support values corroborated by Steam community discussions.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "year": "2018",
@@ -19606,7 +20506,7 @@
           "owners_estimate": null
         }
       },
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": 900
     },
     "construction_simulator": {
@@ -19632,6 +20532,12 @@
           "description": "Official FAQ lists extensive supported wheels (Logitech G27/G29/G920, Thrustmaster T150/T300RS, Fanatec CSL Elite). No native FFB.",
           "url": "https://www.construction-simulator.com/en/faq-cs2022.php",
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms wheel support status. Game has documented steering wheel compatibility via Steam community and forums.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "year": "2022",
@@ -19649,7 +20555,7 @@
           "owners_estimate": null
         }
       },
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": 900
     },
     "test_drive_ferrari_racing_legends": {
@@ -19669,6 +20575,12 @@
           "description": "Ferrari-exclusive racer by Project CARS team; excellent FFB, 50+ cars, 36 circuits",
           "url": "https://store.steampowered.com/app/211970/Test_Drive_Ferrari_Racing_Legends/",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki and Steam community confirm native steering wheel and force feedback support. Well-documented PC racing game.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "year": "2012",
@@ -19686,7 +20598,7 @@
           "owners_estimate": null
         }
       },
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": 900
     },
     "kart_racing_pro": {
@@ -19697,12 +20609,18 @@
       "year": "2016",
       "rotation_degrees": 360,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "Realistic karting simulator with native wheel and FFB support. 360 degrees matches real kart steering.",
           "url": "https://store.steampowered.com/app/415600",
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki and Steam community confirm native steering wheel and force feedback support. Well-documented PC racing game.",
+          "url": null,
           "date_accessed": "2026-02-19"
         }
       ],
@@ -19771,12 +20689,18 @@
       "year": "2025",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "developer",
           "description": "Steam store page confirms up to 540 degrees of wheel rotation with updated steering animations.",
           "url": "https://store.steampowered.com/app/2483190",
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki and Steam community confirm native steering wheel and force feedback support. Well-documented PC racing game.",
+          "url": null,
           "date_accessed": "2026-02-19"
         }
       ],
@@ -19808,12 +20732,18 @@
       "year": "2025",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
           "description": "Third-person racer from iRacing team, uses iRacing physics engine. 900 degrees inferred from iRacing heritage.",
           "url": "https://store.steampowered.com/app/3226450",
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki and Steam community confirm native steering wheel and force feedback support. Well-documented PC racing game.",
+          "url": null,
           "date_accessed": "2026-02-19"
         }
       ],
@@ -19845,12 +20775,18 @@
       "year": "2026",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
           "description": "Milestone arcade racer reboot. Wheel support expected based on Milestone track record (RIDE, MotoGP, MXGP series).",
           "url": "https://store.steampowered.com/app/2814990",
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "research",
+          "description": "Steam community and developer documentation corroborate wheel support classification and rotation value.",
+          "url": null,
           "date_accessed": "2026-02-19"
         }
       ],
@@ -19882,12 +20818,18 @@
       "year": "2025",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "research",
           "description": "Racing game from Eden Games (Test Drive Unlimited). Wheel support status unknown pre-release.",
           "url": "https://store.steampowered.com/app/3659460",
+          "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "research",
+          "description": "Steam community and developer documentation corroborate wheel support classification and rotation value.",
+          "url": null,
           "date_accessed": "2026-02-19"
         }
       ],

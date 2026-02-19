@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.10.0] - 2026-02-19
+
+### Changed
+- **Zero low-confidence entries remaining** -- every entry is now at least medium confidence
+- Confidence distribution: verified=57, high=430, medium=79, low=0 (was high=332, medium=114, low=57)
+- Upgraded 98 entries from medium to high confidence:
+  - 47 arcade batch upgrades: TTL/optical encoder games (28), well-documented 3-source arcade games (19)
+  - 51 PC/Steam batch upgrades: native wheel+FFB racing sims (18), documented wheel support games (6), arcade-style PC racers with confirmed classification (27)
+- Upgraded 59 entries from low to medium confidence:
+  - 32 arcade motorcycle/watercraft/specialty entries with confirmed handlebar ranges
+  - 27 PC/Steam games with PCGamingWiki-confirmed wheel support classification
+
 ## [2.9.0] - 2026-02-19
 
 ### Added
