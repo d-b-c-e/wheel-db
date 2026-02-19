@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.9.0] - 2026-02-19
+
+### Added
+- 6 new Steam games: Kart Racing Pro, Trackmania (2020), Forza Horizon 6, iRacing Arcade, Screamer (2026), Gear.Club Unlimited 3
+- Upgraded 74 entries from medium to high confidence:
+  - PC game families: SimBin/ISIMotor (6), TrackMania/Nadeo (5), Farming Simulator/GIANTS (4), Bus simulators (6), Truck simulators (3), FlatOut/Bugbear (2), Need for Speed/EA (5), Monster Jam (2), plus 8 individual well-documented PC games
+  - Arcade near-misses: Sega ALLS (3), Taito (5), Konami (2), Midway/Bally (4), Jaleco (2), Video System (3), Sammy (2), Data East (3), Tatsumi (3), Global VR (3), plus misc manufacturers (5)
+
+### Fixed
+- Corrected NASCAR Racing notes: Sega Hikaru hardware (was incorrectly listed as Chihiro)
+
+### Changed
+- Confidence distribution: verified=57, high=332, medium=114, low=57 (was high=258, medium=188)
+- Database now at 566 entries with 212 Steam games
+- Cross-platform emulator research completed: Cxbx-Reloaded, PCSX2, RPCS3 platform keys not practical (Chihiro emulation too limited, PCSX2 can't do System 246, no System 357 racing games exist)
+
 ## [2.8.0] - 2026-02-19
 
 ### Added

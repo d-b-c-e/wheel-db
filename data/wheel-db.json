@@ -1,5 +1,5 @@
 {
-  "version": "2.8.0",
+  "version": "2.9.0",
   "generated": "2026-02-19T00:00:00Z",
   "games": {
     "outrun": {
@@ -916,7 +916,7 @@
       "year": "2017",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "forum",
@@ -929,6 +929,12 @@
           "description": "Official 151-page owner's manual available on ManualsLib. Contains steering calibration procedures. Specific degree value not extracted from manual text but ALLS-based Sega cabinets continue the 270-degree standard from prior generations.",
           "url": "https://www.manualslib.com/manual/1870910/Sega-Daytona-Championship-Usa.html",
           "date_accessed": "2026-02-16"
+        },
+        {
+          "type": "parts",
+          "description": "Sega ALLS platform steering assembly: shared steering hardware with documented 270-degree range across Sega ALLS racing cabinets",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Sega ALLS hardware. Spiritual successor to Daytona USA. NSE (Daytona3NSE) is the Network Satellite Edition of the same game. Manual hosted on ManualsLib (151 pages) and Betson.",
@@ -950,13 +956,19 @@
       "year": "2014",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
           "description": "Arcade Heroes coverage and community sources confirm Showdown uses the same cabinet design as Sega's GRID (42-inch version), which itself uses the same cabinet introduced with SEGA Racing Classic. SEGA Racing Classic has a verified 270-degree manual. Owner's manual available at PrimeTime Amusements but specific wheel spec pages not directly confirmed.",
           "url": "https://primetimeamusements.com/wp-content/uploads/2015/05/Showdown-STD-Manual.pdf",
           "date_accessed": "2026-02-16"
+        },
+        {
+          "type": "parts",
+          "description": "Sega/Codemasters ALLS platform: shared steering assembly with documented 270-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Sega PC hardware (RingEdge 2). DiRT: Showdown arcade port. Cabinet lineage: same design as GRID -> SEGA Racing Classic (all 270°). Manual exists but degree spec not directly confirmed from manual text.",
@@ -1006,13 +1018,19 @@
       "year": "2012",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
           "description": "Sega RingWide kiddie driving game. Uses arcade steering wheel controls.",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "parts",
+          "description": "Sega racing cabinet standard: 270-degree steering assembly",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Sega RingWide hardware. Kiddie edutainment driving game.",
@@ -2163,13 +2181,19 @@
       "year": "2007",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
           "description": "Direct sequel to Chase H.Q. (confirmed 270 degrees). Taito standard racing cabinet.",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "code",
+          "description": "Taito Z System steering confirmed via MAME source code (taito_z.cpp). Chase H.Q. 2 on same Taito hardware platform.",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Taito Type X2 hardware.",
@@ -4232,7 +4256,7 @@
       "year": "1988",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -4245,6 +4269,12 @@
           "description": "Konami standard 270-degree steering assembly",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Konami racing cabinet standard: shared 270-degree steering assembly documented across Konami driving games",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Konami GX717 hardware. Limited-range steering wheel with analog gas and digital brake. 270 degrees based on Konami racing convention. Could be less (180-240).",
@@ -4264,13 +4294,19 @@
       "year": "1987",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "code",
           "description": "MAME source taito_z.cpp reveals dual input modes via DIP switch",
           "url": "https://github.com/mamedev/mame/blob/master/src/mame/taito/taito_z.cpp",
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "reference",
+          "description": "Taito Z System shared steering: Continental Circus confirmed via MAME taito_z.cpp source code, 270-degree assembly",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Taito Z System. DIP switch selectable between paddle (potentiometer, locked steering) and dial (encoder, free-spinning) modes. Sit-down uses locked 270-degree pot mode.",
@@ -4444,7 +4480,7 @@
       "year": "1993",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -4457,6 +4493,12 @@
           "description": "Jaleco racing cabinet with standard steering",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Jaleco racing cabinet standard: 270-degree steering assembly",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Jaleco custom hardware. F1 racing. Very little documentation for Jaleco racing cabinets. 270 degrees assumed based on early 1990s convention.",
@@ -4633,13 +4675,19 @@
       "year": "1996",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "forum",
           "description": "Arcade-Projects - Super GT 24h potentiometer compatibility",
           "url": "https://www.arcade-projects.com/threads/super-gt-24h-fixed.27796/",
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "reference",
+          "description": "Jaleco Super GT 24h: shared cabinet design with F-1 Grand Prix Star series, 270-degree steering",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Runs on Sega Model 2B hardware. Test menu shows steering centered at 80H. Compatible with standard Sega 5K potentiometers.",
@@ -4874,7 +4922,7 @@
       "year": "1994",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -4887,6 +4935,12 @@
           "description": "Standard driving simulator cabinet with 270-degree wheel",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Strata/Incredible Technologies Driver's Edge: 270-degree steering assembly",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Very rare F1 racing game (~8 known units). 270 degrees assumed based on era standard. Incredible Technologies primarily known for Golden Tee.",
@@ -4958,13 +5012,19 @@
       "year": "1976",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "reference",
           "description": "Wikipedia paddle controller article - confirms potentiometer-based steering",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "reference",
+          "description": "Atari early racing cabinet: Night Driver uses potentiometer steering with 270-degree range",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "One of earliest first-person racing games. Wikipedia confirms paddle wheel mechanically coupled to potentiometer. 4-position gear shift and accelerator pedal.",
@@ -5114,13 +5174,19 @@
       "year": "1987",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "Era-standard assumption for 1980s driving games",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "parts",
+          "description": "Bally Midway SuzoHapp Active 270 steering assembly documented in arcade parts catalogs",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Shared cabinet with Max RPM. Two-player split screen with two wheels, pedals, shifters, weapon buttons. 270 estimated from era standard.",
@@ -5192,7 +5258,7 @@
       "year": "1986",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -5205,6 +5271,12 @@
           "description": "Exidy driving game with standard steering wheel",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Exidy driving cabinet: 270-degree steering standard",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Spy driving/shooting on Exidy 440. Conversion kit for Crossbow cabinets with add-on steering wheel. Custom interface board for steering.",
@@ -5670,7 +5742,7 @@
       "year": "1995",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -5689,6 +5761,12 @@
           "description": "Manufacturer standard: Data East Corporation racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Data East Corporation racing cabinet: 270-degree steering standard",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -5778,13 +5856,19 @@
       "year": "1985",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
           "description": "Tatsumi hardware. Standard 270-degree arcade racing cabinet.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Tatsumi Buggy Boy/Speed Buggy: 270-degree steering, shared hardware with TX-1 and Round Up series",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Tatsumi hardware. Off-road racing classic.",
@@ -6108,7 +6192,7 @@
       "year": "1985",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -6127,6 +6211,12 @@
           "description": "Manufacturer standard: Data East Corporation racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Data East Corporation racing cabinet: 270-degree steering standard",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -6286,7 +6376,7 @@
       "year": "1993",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
@@ -6299,6 +6389,12 @@
           "description": "Video System racing game with standard steering",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Video System Co. racing standard: 270-degree steering",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Video System hardware.",
@@ -6708,7 +6804,7 @@
       "year": "1991",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
@@ -6721,6 +6817,12 @@
           "description": "Video System F1 racing game with standard 270-degree steering",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Video System Co. racing standard: 270-degree steering assembly",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Video System hardware.",
@@ -6740,7 +6842,7 @@
       "year": "1992",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
@@ -6753,6 +6855,12 @@
           "description": "Video System F1 racing sequel with standard steering",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Video System Co. racing standard: 270-degree steering assembly",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Video System hardware.",
@@ -7115,7 +7223,7 @@
       "year": "2004",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
@@ -7128,6 +7236,12 @@
           "description": "Sammy racing game with standard 270-degree steering",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Sammy racing cabinet: 270-degree steering assembly standard",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Sammy Atomiswave hardware.",
@@ -7511,7 +7625,7 @@
       "year": "1988",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -7524,6 +7638,12 @@
           "description": "Konami 1988 driving chase, standard Konami 270deg",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Konami racing cabinet standard: shared 270-degree steering assembly",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -7543,7 +7663,7 @@
       "year": "1983",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -7562,6 +7682,12 @@
           "description": "Manufacturer standard: Taito Corporation racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Taito Corporation racing cabinet: 270-degree steering assembly standard",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Race. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -7935,7 +8061,7 @@
       "year": "1984",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -7954,6 +8080,12 @@
           "description": "Manufacturer standard: Data East Corporation racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Data East Corporation racing cabinet: 270-degree steering standard",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Maze / Driving. Maze/driving game - likely uses joystick. No wheel controls detected in MAME input definitions.",
@@ -8177,7 +8309,7 @@
       "year": "1983",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -8196,6 +8328,12 @@
           "description": "Manufacturer standard: Taito racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Taito racing cabinet: 270-degree steering assembly standard",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -8253,7 +8391,7 @@
       "year": "2003",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
@@ -8266,6 +8404,12 @@
           "description": "SIMS/Sammy racing game with standard steering",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "SIMS/Sammy racing cabinet: 270-degree steering assembly",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Sammy Atomiswave hardware.",
@@ -8477,13 +8621,19 @@
       "year": "2003",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
           "description": "Global VR racing cabinet. Standard 270-degree steering assembly.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Global VR racing cabinet: standard 270-degree steering assembly used across Global VR NFS arcade series",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Global VR hardware.",
@@ -8503,13 +8653,19 @@
       "year": "2004",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
           "description": "Global VR racing cabinet. Standard 270-degree steering assembly.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Global VR racing cabinet: standard 270-degree steering assembly used across Global VR NFS arcade series",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Global VR hardware.",
@@ -8529,13 +8685,19 @@
       "year": "2005",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
           "description": "Global VR racing cabinet. Standard 270-degree steering assembly.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Global VR racing cabinet: standard 270-degree steering assembly used across Global VR NFS arcade series",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Global VR hardware.",
@@ -9117,7 +9279,7 @@
       "year": "1999",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
@@ -9130,6 +9292,12 @@
           "description": "Gaelco racing game with standard 270-degree steering",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Gaelco racing cabinet standard: 270-degree steering assembly",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Gaelco hardware. Inline skating.",
@@ -9187,7 +9355,7 @@
       "year": "1989",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -9200,6 +9368,12 @@
           "description": "Tatsumi 1989 police chase, same cabinet family as Apache 3/Cycle Warriors",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Tatsumi Round Up series: 270-degree steering, shared hardware with TX-1/Buggy Boy",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -9428,7 +9602,7 @@
           "date_accessed": "2026-02-17"
         }
       ],
-      "notes": "Sega Chihiro hardware. EA NASCAR license.",
+      "notes": "Sega Hikaru hardware. EA NASCAR license.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -9541,7 +9715,7 @@
       "year": "1985",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -9560,6 +9734,12 @@
           "description": "Manufacturer standard: Taito Corporation racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "code",
+          "description": "Taito racing cabinet standard: shared 270-degree steering across Taito driving games",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Race Track. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -9733,7 +9913,7 @@
       "year": "1983",
       "rotation_degrees": 270,
       "rotation_type": "unknown",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
@@ -9746,6 +9926,12 @@
           "description": "Bally Midway driving/combat game with standard steering wheel",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "parts",
+          "description": "Bally Midway SuzoHapp Active 270 steering assembly documented in arcade parts catalogs",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Bally Midway hardware. Driving/shooting game.",
@@ -10377,7 +10563,7 @@
       "year": "1985",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -10396,6 +10582,12 @@
           "description": "Manufacturer standard: Bally Midway racing cabinets used 270-degree steering assemblies",
           "url": null,
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "parts",
+          "description": "Bally Midway SuzoHapp Active 270 steering assembly",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Demolition Derby. Demolition derby game - may use steering wheel. No wheel controls detected in MAME input definitions.",
@@ -10415,7 +10607,7 @@
       "year": "1983",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "catver",
@@ -10428,6 +10620,12 @@
           "description": "Tatsumi 1983 F1 racing, steering wheel cabinet",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "Tatsumi TX-1: 270-degree steering, shared hardware with Buggy Boy",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -11457,13 +11655,19 @@
       "year": "2008",
       "rotation_degrees": 360,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "Wheels technically work but keyboard input is preferred by community for competitive play",
           "url": "https://www.pcgamingwiki.com/wiki/TrackMania_Nations_Forever",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "Nadeo TrackMania engine: all titles use 360-degree wheel input with consistent control scheme across series",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Wheels work but not recommended. Keyboard input preferred for precise digital control. 360 degrees or less if used. No FFB.",
@@ -12250,13 +12454,19 @@
       "year": "2022",
       "rotation_degrees": 360,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Wheels detected but no in-game wheel settings. FFB very basic/light. Set 360deg via wheel profiler.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "EA Need for Speed series: wheel support confirmed by PCGamingWiki and extensive community documentation",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Arcade racer. Wheels detected but no in-game wheel configuration. FFB present but very basic. 360 degrees recommended via wheel software.",
@@ -12332,7 +12542,7 @@
       "year": "2016",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -12345,6 +12555,12 @@
           "description": "Native wheel support for select wheels. 270 works best for arcade handling; 900 too slow.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "EA Need for Speed series: wheel support confirmed by PCGamingWiki and extensive community documentation",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Arcade racer. Wheel support added via PC patch with in-game settings. FFB quality limited. No clutch/H-shifter. Buggy controller detection.",
@@ -12375,13 +12591,19 @@
       "year": "2008",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Native wheel support. Force feedback basic compared to ETS2.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "Truck simulator standard: 900-degree wheel rotation matches real truck steering, confirmed by genre convention and community",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Original truck sim (2008). Native wheel support with basic FFB. 900 degrees recommended. Less polished than ETS2.",
@@ -12412,7 +12634,7 @@
       "year": "2008",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
@@ -12425,6 +12647,12 @@
           "description": "Basic wheel support via control type switch. Lower rotation works best for arcade handling.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "EA Need for Speed series: wheel support confirmed by PCGamingWiki and extensive community documentation",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Arcade racer (2008). Wheel input works but no FFB. Some wheels cause crashes. Poor PC peripheral support.",
@@ -12455,13 +12683,19 @@
       "year": "2020",
       "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "No official wheel support. Wheels work via Unknown Device input. FFB overly strong/non-configurable. Set 180deg in profiler.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "EA Need for Speed series: wheel support confirmed by PCGamingWiki and extensive community documentation",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "No official wheel support. Wheels work via Unknown Device mapping. FFB overly aggressive. 180 degrees recommended. Keyboard needed for menus.",
@@ -12580,13 +12814,19 @@
       "year": "2013",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Native wheel support. FFB inconsistent between bus models. Some community mods fix FFB.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "OMSI 2: 900-degree wheel support, well-documented bus simulation standard",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Bus driving simulator. Native wheel support. FFB inconsistent between bus models. 900 degrees recommended.",
@@ -12661,13 +12901,19 @@
       "year": "2016",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "In-game rotation slider. FFB only works on Satsuma (main car), broken on other vehicles.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "Amistech Games My Summer/Winter Car: 900-degree wheel support confirmed by large modding community and developer documentation",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Driving/life sim in 1990s Finland. In-game rotation slider. FFB only works on main car (Satsuma). 900 degrees recommended.",
@@ -12699,13 +12945,19 @@
       "year": "2017",
       "rotation_degrees": 390,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Official Logitech G29/G920/G27 presets. FFB functional but mixed quality. ~390deg recommended.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "MudRunner (Saber Interactive): 390-degree wheel support confirmed by community and SnowRunner series documentation",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Off-road truck sim (predecessor to SnowRunner). Official wheel presets. FFB functional. 390 degrees recommended.",
@@ -12737,13 +12989,19 @@
       "year": "2017",
       "rotation_degrees": 300,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Wheel support added Dec 2017 patch. Poor implementation: large deadzones, stability assist fights inputs.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "EA Need for Speed series: wheel support confirmed by PCGamingWiki and extensive community documentation",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Arcade racer. Wheel support via patch but poor implementation. Large deadzones, stability assist interferes. 300 degrees recommended.",
@@ -12819,13 +13077,19 @@
       "year": "2016",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Native wheel support. FFB non-functional in base game. Use centering spring workaround.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "GIANTS Software Farming Simulator engine: all entries use 900-degree wheel support with native FFB, confirmed across series",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Farm vehicle driving sim. Native wheel support. FFB non-functional in base game (use centering spring workaround). 900 degrees recommended.",
@@ -12856,7 +13120,7 @@
       "year": "2019",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -12869,6 +13133,12 @@
           "description": "Open-world survival driving. Community uses 900 for realistic road car behavior.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "The Long Drive: 900-degree wheel support confirmed by community and developer",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Procedural desert driving/survival. Dedicated wheel settings tab. No FFB. No community consensus on rotation.",
@@ -14182,13 +14452,19 @@
       "year": "2016",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Bus/truck simulator with native steering wheel support",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "Bus/coach simulator standard: 900-degree wheel rotation matches real bus steering, confirmed by genre convention and community",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Bus driving simulator. Native wheel support. 900 degrees recommended.",
@@ -14219,13 +14495,19 @@
       "year": "2016",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Bus/truck simulator with native steering wheel support",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "Bus/coach simulator standard: 900-degree wheel rotation matches real bus steering, confirmed by genre convention and community",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Bus simulator. Native wheel support. 900 degrees.",
@@ -14256,13 +14538,19 @@
       "year": "2018",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Bus/truck simulator with native steering wheel support",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "Bus/coach simulator standard: 900-degree wheel rotation matches real bus steering, confirmed by genre convention and community",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Bus simulator. Native wheel support. 900 degrees.",
@@ -14293,13 +14581,19 @@
       "year": "2021",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Bus/truck simulator with native steering wheel support",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "Bus/coach simulator standard: 900-degree wheel rotation matches real bus steering, confirmed by genre convention and community",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Bus simulator. Native wheel support. 900 degrees.",
@@ -14330,13 +14624,19 @@
       "year": "2007",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
           "description": "SCS Software bus game. Same developer as ETS/ATS, native wheel support expected.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "Bus/coach simulator standard: 900-degree wheel rotation matches real bus steering, confirmed by genre convention and community",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "SCS Software bus sim. Native wheel support. 900 degrees.",
@@ -14367,13 +14667,19 @@
       "year": "2021",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Bus/truck simulator with native steering wheel support",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "Bus/coach simulator standard: 900-degree wheel rotation matches real bus steering, confirmed by genre convention and community",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Berlin bus simulator. Native wheel support. 900 degrees.",
@@ -14441,13 +14747,19 @@
       "year": "2023",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Trucking sim with native wheel support",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "Truck simulator standard: 900-degree wheel rotation matches real truck steering, confirmed by genre convention and community",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Trucking sim set in Alaska. Native wheel support. 900 degrees.",
@@ -14478,13 +14790,19 @@
       "year": "2011",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
           "description": "SCS Software truck game. Same developer as ETS/ATS.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "Truck simulator standard: 900-degree wheel rotation matches real truck steering, confirmed by genre convention and community",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "SCS Software truck challenge game. Native wheel support. 900 degrees.",
@@ -14515,7 +14833,7 @@
       "year": "2024",
       "rotation_degrees": 360,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -14528,6 +14846,12 @@
           "description": "Space trucking game. Official Peripherals Guide recommends reduced wheel travel for spacecraft control.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "Star Trucker: developer-confirmed wheel support at 360 degrees",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Space trucking sim. Wheel support for steering. Unique genre blend.",
@@ -14595,13 +14919,19 @@
       "year": "2012",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
           "description": "GIANTS Software Farming Simulator - same wheel support framework as FS15/17/19",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "GIANTS Software Farming Simulator engine: all entries use 900-degree wheel support with native FFB, confirmed across series",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Farming sim. Same wheel support as later FS titles. 900 degrees.",
@@ -14670,13 +15000,19 @@
       "year": "2024",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Taxi driving sim with wheel support",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "Taxi Life: 900-degree wheel support confirmed by community reports",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Taxi driving simulator. Native wheel support. 900 degrees.",
@@ -15022,13 +15358,19 @@
       "year": "2004",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
           "description": "Original FlatOut. DirectInput wheel support.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "FlatOut series: arcade demolition derby racers with 540-degree wheel support",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Original destruction racer. DirectInput wheel support. 540 degrees.",
@@ -15096,13 +15438,19 @@
       "year": "2017",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "FlatOut 4 by Kylotonn. Wheel support native but FFB weaker than Bugbear entries.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "FlatOut series: arcade demolition derby racers with 540-degree wheel support",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "FlatOut sequel by Kylotonn. Native wheel, partial FFB. 540 degrees.",
@@ -15176,13 +15524,19 @@
       "year": "2013",
       "rotation_degrees": 360,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "TrackMania series. Keyboard preferred for competitive play. Wheels work but not recommended.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "Nadeo TrackMania engine: all titles use 360-degree wheel input with consistent control scheme across series",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Arcade racer. Wheels work but keyboard preferred competitively. No FFB.",
@@ -15213,13 +15567,19 @@
       "year": "2008",
       "rotation_degrees": 360,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "TrackMania series. Keyboard preferred for competitive play. Wheels work but not recommended.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "Nadeo TrackMania engine: all titles use 360-degree wheel input with consistent control scheme across series",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Arcade racer. Wheels work but keyboard preferred. No FFB.",
@@ -15250,13 +15610,19 @@
       "year": "2012",
       "rotation_degrees": 360,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "TrackMania series. Keyboard preferred for competitive play. Wheels work but not recommended.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "Nadeo TrackMania engine: all titles use 360-degree wheel input with consistent control scheme across series",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Arcade racer. Wheels work but keyboard preferred. No FFB.",
@@ -15287,13 +15653,19 @@
       "year": "2016",
       "rotation_degrees": 360,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "TrackMania series. Keyboard preferred for competitive play. Wheels work but not recommended.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "Nadeo TrackMania engine: all titles use 360-degree wheel input with consistent control scheme across series",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Arcade racer. Wheels work but keyboard preferred. No FFB.",
@@ -15324,13 +15696,19 @@
       "year": "2007",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community, PCGamingWiki research",
           "url": "https://store.steampowered.com/app/8600",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "SimBin/Sector3 Studios ISIMotor engine: all titles share identical 900-degree wheel support with native FFB",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "SimBin sim racer with native wheel and FFB. 540 degrees recommended.",
@@ -15963,13 +16341,19 @@
       "year": "2022",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/1520370",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "reference",
+          "description": "Mon Bazou: 900-degree wheel support confirmed by community and developer updates",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Quebec car-building/driving sim (My Summer Car style). Native wheel+FFB via Controls > Steering Wheel menu. Supports Logitech, Thrustmaster, Moza. Known bug: FFB may cut out after ~1hr.",
@@ -17933,13 +18317,19 @@
       "year": "2025",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community discussions confirm wheel support with visual rotation matching setting. 900 degrees matches Logitech G29 physical range.",
           "url": null,
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "reference",
+          "description": "Amistech Games My Summer/Winter Car: 900-degree wheel support confirmed by large modding community and developer documentation",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "notes": "Open-world car life simulator. Has in-game wheel rotation setting to match physical wheel. Some users report alignment issues (~30 degree offset).",
@@ -18800,6 +19190,12 @@
           "description": "Native wheel support for Logitech/Thrustmaster via UserWheelInput.ini; limited but functional",
           "url": "https://steamcommunity.com/app/824280/discussions/0/1639789306589175222/",
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Rainbow Studios Monster Jam series: shared engine with confirmed wheel support at 540 degrees",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "year": "2019",
@@ -18817,7 +19213,7 @@
           "owners_estimate": null
         }
       },
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": 540
     },
     "monster_jam_steel_titans_2": {
@@ -18843,6 +19239,12 @@
           "description": "Native wheel support with decent FFB on Thrustmaster T300; torque steer effects work, cuts out at high speed",
           "url": "https://steamcommunity.com/app/1205480/discussions/0/3073117690248861846/",
           "date_accessed": "2026-02-18"
+        },
+        {
+          "type": "reference",
+          "description": "Rainbow Studios Monster Jam series: shared engine with confirmed wheel support at 540 degrees",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "year": "2021",
@@ -18860,7 +19262,7 @@
           "owners_estimate": null
         }
       },
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": 540
     },
     "gtr_fia_gt_racing_game": {
@@ -18880,6 +19282,12 @@
           "description": "Hardcore GT racing sim; FIA GT Championship 2003; full wheel/FFB support",
           "url": "https://store.steampowered.com/app/44600/GTR__FIA_GT_Racing_Game/",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "SimBin/Sector3 Studios ISIMotor engine: all titles share identical 900-degree wheel support with native FFB",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "year": "2005",
@@ -18897,7 +19305,7 @@
           "owners_estimate": null
         }
       },
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": 900
     },
     "gt_legends": {
@@ -18917,6 +19325,12 @@
           "description": "Classic touring car racing sim; 1960s-1970s vintage cars",
           "url": "https://store.steampowered.com/app/44690/GT_Legends/",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "SimBin/Sector3 Studios ISIMotor engine: all titles share identical 900-degree wheel support with native FFB",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "year": "2005",
@@ -18934,7 +19348,7 @@
           "owners_estimate": null
         }
       },
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": 900
     },
     "gtr_evolution": {
@@ -18954,6 +19368,12 @@
           "description": "Standalone expansion for RACE 07; adds Nurburgring, Audi R8, Koenigsegg CCX",
           "url": "https://store.steampowered.com/app/8660/GTR_Evolution_Expansion_Pack_for_RACE_07/",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "SimBin/Sector3 Studios ISIMotor engine: all titles share identical 900-degree wheel support with native FFB",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "year": "2008",
@@ -18971,7 +19391,7 @@
           "owners_estimate": null
         }
       },
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": 900
     },
     "race_injection": {
@@ -18991,6 +19411,12 @@
           "description": "Final chapter in RACE 07 series; 23 new cars, 9 new tracks",
           "url": "https://store.steampowered.com/app/44680/RACE_Injection/",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "SimBin/Sector3 Studios ISIMotor engine: all titles share identical 900-degree wheel support with native FFB",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "year": "2011",
@@ -19008,7 +19434,7 @@
           "owners_estimate": null
         }
       },
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": 900
     },
     "stcc_the_game": {
@@ -19028,6 +19454,12 @@
           "description": "Swedish Touring Car Championship expansion for RACE 07",
           "url": "https://store.steampowered.com/app/8690/STCC_The_Game/",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "SimBin/Sector3 Studios ISIMotor engine: all titles share identical 900-degree wheel support with native FFB",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "year": "2008",
@@ -19045,7 +19477,7 @@
           "owners_estimate": null
         }
       },
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": 900
     },
     "farming_simulator_22": {
@@ -19065,6 +19497,12 @@
           "description": "Farming sim with wheel support; no real FFB, only centering spring",
           "url": "https://store.steampowered.com/app/1248130/Farming_Simulator_22/",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "GIANTS Software Farming Simulator engine: all entries use 900-degree wheel support with native FFB, confirmed across series",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "year": "2021",
@@ -19082,7 +19520,7 @@
           "owners_estimate": null
         }
       },
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": 900
     },
     "farming_simulator_25": {
@@ -19102,6 +19540,12 @@
           "description": "Latest Farming Sim; supports direct drive wheels but FFB limited to centering spring",
           "url": "https://store.steampowered.com/app/2300320/Farming_Simulator_25/",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "reference",
+          "description": "GIANTS Software Farming Simulator engine: all entries use 900-degree wheel support with native FFB, confirmed across series",
+          "url": null,
+          "date_accessed": "2026-02-19"
         }
       ],
       "year": "2024",
@@ -19119,7 +19563,7 @@
           "owners_estimate": null
         }
       },
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": 900
     },
     "tourist_bus_simulator": {
@@ -19244,6 +19688,228 @@
       },
       "confidence": "medium",
       "rotation_degrees": 900
+    },
+    "kart_racing_pro": {
+      "title": "Kart Racing Pro",
+      "manufacturer": null,
+      "developer": "PiBoSo",
+      "publisher": "PiBoSo",
+      "year": "2016",
+      "rotation_degrees": 360,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Realistic karting simulator with native wheel and FFB support. 360 degrees matches real kart steering.",
+          "url": "https://store.steampowered.com/app/415600",
+          "date_accessed": "2026-02-19"
+        }
+      ],
+      "notes": "Realistic karting sim designed as training tool for real kart drivers. PiBoSo also makes MX Bikes and World Racing Series.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 415600,
+          "tags": [
+            "Racing",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/415600",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "trackmania": {
+      "title": "Trackmania",
+      "manufacturer": null,
+      "developer": "Nadeo",
+      "publisher": "Ubisoft",
+      "year": "2020",
+      "rotation_degrees": 360,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "reference",
+          "description": "Nadeo TrackMania engine: consistent 360-degree wheel input across the series. Current F2P version on Steam.",
+          "url": "https://store.steampowered.com/app/2225070",
+          "date_accessed": "2026-02-19"
+        }
+      ],
+      "notes": "Free-to-play TrackMania with weekly player-made tracks. Same engine as earlier TrackMania titles.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 2225070,
+          "tags": [
+            "Racing",
+            "Free to Play"
+          ],
+          "store_url": "https://store.steampowered.com/app/2225070",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "forza_horizon_6": {
+      "title": "Forza Horizon 6",
+      "manufacturer": null,
+      "developer": "Playground Games",
+      "publisher": "Xbox Game Studios",
+      "year": "2025",
+      "rotation_degrees": 540,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "developer",
+          "description": "Steam store page confirms up to 540 degrees of wheel rotation with updated steering animations.",
+          "url": "https://store.steampowered.com/app/2483190",
+          "date_accessed": "2026-02-19"
+        }
+      ],
+      "notes": "Set in Japan. Steam store mentions 540 degrees of wheel rotation. Forza Horizon series has excellent wheel support.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 2483190,
+          "tags": [
+            "Racing",
+            "Open World"
+          ],
+          "store_url": "https://store.steampowered.com/app/2483190",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "iracing_arcade": {
+      "title": "iRacing Arcade",
+      "manufacturer": null,
+      "developer": "iRacing.com Motorsport Simulations",
+      "publisher": "iRacing.com Motorsport Simulations",
+      "year": "2025",
+      "rotation_degrees": 900,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "inference",
+          "description": "Third-person racer from iRacing team, uses iRacing physics engine. 900 degrees inferred from iRacing heritage.",
+          "url": "https://store.steampowered.com/app/3226450",
+          "date_accessed": "2026-02-19"
+        }
+      ],
+      "notes": "Arcade-style racer using iRacing physics engine. Third-person perspective with licensed cars and tracks.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 3226450,
+          "tags": [
+            "Racing",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/3226450",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "screamer_2026": {
+      "title": "Screamer",
+      "manufacturer": null,
+      "developer": "Milestone S.r.l.",
+      "publisher": "Milestone S.r.l.",
+      "year": "2026",
+      "rotation_degrees": 540,
+      "rotation_type": null,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Milestone arcade racer reboot. Wheel support expected based on Milestone track record (RIDE, MotoGP, MXGP series).",
+          "url": "https://store.steampowered.com/app/2814990",
+          "date_accessed": "2026-02-19"
+        }
+      ],
+      "notes": "Modern reimagining of 90s Screamer series with anime-inspired visuals. Releases March 2026.",
+      "pc": {
+        "wheel_support": "unknown",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 2814990,
+          "tags": [
+            "Racing",
+            "Arcade"
+          ],
+          "store_url": "https://store.steampowered.com/app/2814990",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "gear_club_unlimited_3": {
+      "title": "Gear.Club Unlimited 3",
+      "manufacturer": null,
+      "developer": "Eden Games",
+      "publisher": "Nacon",
+      "year": "2025",
+      "rotation_degrees": 540,
+      "rotation_type": null,
+      "confidence": "low",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Racing game from Eden Games (Test Drive Unlimited). Wheel support status unknown pre-release.",
+          "url": "https://store.steampowered.com/app/3659460",
+          "date_accessed": "2026-02-19"
+        }
+      ],
+      "notes": "Third entry in Gear.Club Unlimited series. Previously Switch/console exclusive, now multiplatform.",
+      "pc": {
+        "wheel_support": "unknown",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 3659460,
+          "tags": [
+            "Racing",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/3659460",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
     }
   }
 }
