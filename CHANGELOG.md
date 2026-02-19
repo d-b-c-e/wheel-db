@@ -4,29 +4,42 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
-## [Unreleased]
+## [2.8.0] - 2026-02-19
 
 ### Added
-- 20 new Steam games from discovery research: Project Motor Racing, Wreckfest 2, CarX Drift Racing Online 2, Formula Legends, Dakar Desert Rally, Sebastien Loeb Rally EVO, V-Rally 4, Gravel, Monster Jam Steel Titans 1 & 2, SimBin classics (GTR, GT Legends, GTR Evolution, RACE Injection, STCC), Farming Simulator 22 & 25, Tourist Bus Simulator, Construction Simulator, Test Drive: Ferrari Racing Legends
-- Set rotation values for 27 Steam games: kart racers (180°/270°), arcade-style racers (180°/270°), and misc driving games (270°)
-- 198 PCGamingWiki URLs enriched on Steam entries (96% coverage of 206 Steam entries)
-- Upgraded 59 arcade entries from low to medium confidence using manufacturer steering standards (Sega, Namco, Konami, Taito, Midway, etc.)
+- 20 new Steam games from discovery research
+- 198 PCGamingWiki URLs enriched on Steam entries (96% coverage)
+- Upgraded 88 arcade entries from medium to high confidence using manufacturer hardware documentation:
+  - Namco 270° potentiometer (20 games, part VG75-07050-00)
+  - Sega SPG-2002 steering assembly (18 games)
+  - Midway SuzoHapp Active 270 (8 games)
+  - Taito Z System (15 games, MAME source code confirmation)
+  - Konami racing cabinet standard (14 games)
+  - Battle Gear 540° via TeknoParrot metadata (4 games)
+  - Initial D 540° via TeknoParrot metadata (3 games)
+  - Gaelco 270° standard (6 games)
+- Upgraded 59 arcade entries from low to medium confidence using manufacturer steering standards
 - Upgraded 12 Steam entries from low to medium confidence with researched sources
 
 ### Fixed
-- Corrected GTR 2 Steam appid (was 44690/GT Legends, now 8790)
-- Corrected GRIP: Combat Racing rotation (270° → 180°) based on community XOutput guide
-- Corrected Drift Type C wheel_support from partial to none (keyboard/gamepad only)
-- Corrected Offroad Mania wheel_support to partial, FFB to none (dev confirmed G29 support)
+- **Hard Drivin' rotation corrected 270° → 1080°** (10-turn potentiometer with 3-rotation mechanical stop)
+- Corrected 33 motorcycle/watercraft/specialty games from 270° (car default) to correct handlebar ranges:
+  - Sega motorcycles (Hang-On, Super Hang-On, GP Rider, etc.): 45° body-lean
+  - Sega Model 2/3 motorcycles (Manx TT, Motor Raid, Harley-Davidson): 56° enhanced tilt
+  - Namco motorcycles (Suzuka 8 Hours, 500 GP, Motocross Go, etc.): 45°
+  - Watercraft (Wave Runner, Aqua Jet, Jet Wave, Rapid River): 60° handlebar
+  - Specialty vehicles (S.T.U.N. Runner, Star Rider, Vapor TRX, Power Sled): 45°
+- A.B. Cop corrected from 270° → 45° (motorcycle, not car)
+- Corrected GTR 2 Steam appid, GRIP rotation, Drift Type C/Offroad Mania wheel support
 - Fixed Split/Second and RENNSPORT PCGamingWiki URLs
-- Corrected wheel_support/FFB metadata for multiple entries: Tourist Bus Simulator and Construction Simulator upgraded to native wheel support; Jalopy, New Star GP corrected to partial
 
 ### Removed
-- 29 Steam entries: 18 motorcycle games, 4 open world/vehicular combat, 7 non-wheel games (jet boats, drag racing, anti-gravity racers)
+- 30 entries: 29 non-wheel Steam games + Cycle Warriors (uses 8-way joystick, not wheel)
 
 ### Changed
-- Confidence distribution: verified=57, high=169, medium=277, low=58 (down from 135)
-- Database now at 561 entries with 0 unknowns remaining
+- Confidence distribution: verified=57, high=258, medium=188, low=57 (was high=169, medium=277)
+- Database now at 560 entries with 0 unknowns remaining
+- All motorcycle/watercraft games now use `potentiometer` rotation type instead of `mechanical_stop`
 
 ## [2.7.0] - 2026-02-17
 
