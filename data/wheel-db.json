@@ -1,5 +1,5 @@
 {
-  "version": "2.11.0",
+  "version": "2.12.0",
   "generated": "2026-02-20T00:00:00Z",
   "games": {
     "outrun": {
@@ -21228,6 +21228,1482 @@
             "Simulation"
           ],
           "store_url": "https://store.steampowered.com/app/1924170",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "drift_reign": {
+      "title": "Drift Reign",
+      "manufacturer": null,
+      "developer": "Midnight Games",
+      "publisher": "PublishMe Agency Limited",
+      "year": "2023",
+      "rotation_degrees": 540,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Steam store page confirms Logitech and Thrustmaster wheel support via G HUB only. No FFB info found. Community reports compatibility issues.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Drift career game. Wheel support requires Logitech G HUB software. Early Access.",
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 2368220,
+          "tags": [
+            "Racing",
+            "Drift",
+            "Early Access"
+          ],
+          "store_url": "https://store.steampowered.com/app/2368220",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "clutch_drift_simulation": {
+      "title": "Clutch: The Drift Simulation",
+      "manufacturer": null,
+      "developer": "Yoshi Jeffery",
+      "publisher": "Yoshi Jeffery",
+      "year": "2025",
+      "rotation_degrees": 540,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Developer wiki confirms steering wheel support with beta Force Feedback. USB wheel support and FFB device detection implemented. VR support included.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Dedicated drift sim. Wheel and FFB in beta. Free-to-play. Early Access.",
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 3411570,
+          "tags": [
+            "Racing",
+            "Drift",
+            "Simulation",
+            "Early Access"
+          ],
+          "store_url": "https://store.steampowered.com/app/3411570",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "drift_tafheet": {
+      "title": "Drift",
+      "manufacturer": null,
+      "developer": "AmbratorGames",
+      "publisher": "AmbratorGames",
+      "year": "2026",
+      "rotation_degrees": 540,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Steam store page advertises full racing wheel and force feedback support. Community reports suggest FFB implementation is inconsistent across wheel models.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Open-world drift game. Arabic developer. 30+ cars with customization.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 4110410,
+          "tags": [
+            "Racing",
+            "Drift",
+            "Open World"
+          ],
+          "store_url": "https://store.steampowered.com/app/4110410",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "underground_garage": {
+      "title": "Underground Garage",
+      "manufacturer": null,
+      "developer": "BeardedBrothers.games",
+      "publisher": "astragon Entertainment",
+      "year": "2024",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "steam_community",
+          "description": "Multiple Steam community threads confirm no steering wheel support. G29 and similar wheels not recognized. No wheel binding option in-game.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Car mechanic/tuning game with street racing. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 1452250,
+          "tags": [
+            "Racing",
+            "Simulation",
+            "Automobile Sim"
+          ],
+          "store_url": "https://store.steampowered.com/app/1452250",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "night_runners_prologue": {
+      "title": "NIGHT-RUNNERS Prologue",
+      "manufacturer": null,
+      "developer": "PLANET JEM",
+      "publisher": "PLANET JEM",
+      "year": "2024",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "research",
+          "description": "PCGamingWiki and Steam community confirm wheel recognition via G HUB but no force feedback. Developer stated full wheel support planned for full game launch.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Japanese street racing 1990-2009. Free prologue. Wheels detected but no FFB. 95% positive reviews.",
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 2707900,
+          "tags": [
+            "Racing",
+            "Open World",
+            "Indie"
+          ],
+          "store_url": "https://store.steampowered.com/app/2707900",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Night-Runners_Prologue",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "ride_4": {
+      "title": "RIDE 4",
+      "manufacturer": null,
+      "developer": "Milestone S.r.l.",
+      "publisher": "Milestone S.r.l.",
+      "year": "2020",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms motorcycle game with controller-only support. No steering wheel.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Motorcycle racing. Hundreds of bikes, dozens of tracks. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 1259980,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/1259980",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Ride_4",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "ride_3": {
+      "title": "RIDE 3",
+      "manufacturer": null,
+      "developer": "Milestone S.r.l.",
+      "publisher": "Milestone S.r.l.",
+      "year": "2019",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms motorcycle game with controller-only support. No steering wheel.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Motorcycle racing. 230+ bikes, 30 tracks. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 759740,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/759740",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Ride_3",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "ride_2": {
+      "title": "RIDE 2",
+      "manufacturer": null,
+      "developer": "Milestone S.r.l.",
+      "publisher": "Milestone S.r.l.",
+      "year": "2016",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms motorcycle game with controller-only support. No steering wheel.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Motorcycle racing. Part of RIDE series. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 477770,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/477770",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Ride_2",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "motogp_25": {
+      "title": "MotoGP 25",
+      "manufacturer": null,
+      "developer": "Milestone S.r.l.",
+      "publisher": "Milestone S.r.l.",
+      "year": "2025",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms motorcycle game. Controller only, no steering wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Official MotoGP game. Controller only, no wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 3077390,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Sports"
+          ],
+          "store_url": "https://store.steampowered.com/app/3077390",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MotoGP_25",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "mxgp_24": {
+      "title": "MXGP 24: The Official Game",
+      "manufacturer": null,
+      "developer": "Kylotonn Games",
+      "publisher": "Nacon",
+      "year": "2024",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms motocross game. Controller only, no steering wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Official MXGP motocross game. 20 tracks, 50+ riders. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 2603040,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Sports"
+          ],
+          "store_url": "https://store.steampowered.com/app/2603040",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MXGP_24",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "mxgp_pro": {
+      "title": "MXGP PRO",
+      "manufacturer": null,
+      "developer": "Milestone S.r.l.",
+      "publisher": "Milestone S.r.l.",
+      "year": "2018",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms motocross game. Controller only.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Official MXGP motocross game. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 798290,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Sports"
+          ],
+          "store_url": "https://store.steampowered.com/app/798290",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MXGP_Pro",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "mxgp_2019": {
+      "title": "MXGP 2019",
+      "manufacturer": null,
+      "developer": "Milestone S.r.l.",
+      "publisher": "Milestone S.r.l.",
+      "year": "2019",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms motocross game. Controller only.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Official MXGP motocross game. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 1018160,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Sports"
+          ],
+          "store_url": "https://store.steampowered.com/app/1018160",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MXGP_2019",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "mxgp_2020": {
+      "title": "MXGP 2020",
+      "manufacturer": null,
+      "developer": "Milestone S.r.l.",
+      "publisher": "Milestone S.r.l.",
+      "year": "2020",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms motocross game. Controller only.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Official MXGP motocross game. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 1259800,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Sports"
+          ],
+          "store_url": "https://store.steampowered.com/app/1259800",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MXGP_2020",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "mxgp3": {
+      "title": "MXGP3",
+      "manufacturer": null,
+      "developer": "Milestone S.r.l.",
+      "publisher": "Milestone S.r.l.",
+      "year": "2017",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms motocross game. Controller only.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Official MXGP motocross game. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 561600,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Sports"
+          ],
+          "store_url": "https://store.steampowered.com/app/561600",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MXGP3_-_The_Official_Motocross_Videogame",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "mxgp2": {
+      "title": "MXGP2",
+      "manufacturer": null,
+      "developer": "Milestone S.r.l.",
+      "publisher": "Milestone S.r.l.",
+      "year": "2016",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms motocross game. Controller only.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Official MXGP motocross game. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 400800,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Sports"
+          ],
+          "store_url": "https://store.steampowered.com/app/400800",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MXGP2_-_The_Official_Motocross_Videogame",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "mxgp": {
+      "title": "MXGP",
+      "manufacturer": null,
+      "developer": "Milestone S.r.l.",
+      "publisher": "Milestone S.r.l.",
+      "year": "2014",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms motocross game. Controller only.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "First official MXGP motocross game on PC. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 256370,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Sports"
+          ],
+          "store_url": "https://store.steampowered.com/app/256370",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MXGP",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "tt_isle_of_man": {
+      "title": "TT Isle of Man: Ride on the Edge",
+      "manufacturer": null,
+      "developer": "Kylotonn Racing Games",
+      "publisher": "Nacon",
+      "year": "2018",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms motorcycle racing game. Controller only, no wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "TT racing simulation. Motorcycle-only, no wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 626610,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/626610",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/TT_Isle_of_Man",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "tt_isle_of_man_2": {
+      "title": "TT Isle of Man: Ride on the Edge 2",
+      "manufacturer": null,
+      "developer": "Kylotonn Racing Games",
+      "publisher": "Nacon",
+      "year": "2020",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms motorcycle racing game. Controller only, no wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "TT racing simulation sequel. Motorcycle-only, no wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 1082180,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/1082180",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/TT_Isle_of_Man:_Ride_on_the_Edge_2",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "rims_racing": {
+      "title": "RiMS Racing",
+      "manufacturer": null,
+      "developer": "Nacon Studio Milan",
+      "publisher": "Nacon",
+      "year": "2021",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms motorcycle game. No native wheel support, community workarounds via x360ce.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Motorcycle simulation with mechanical focus. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 1346010,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/1346010",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/RiMS_Racing",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "mx_vs_atv_all_out": {
+      "title": "MX vs ATV All Out",
+      "manufacturer": null,
+      "developer": "Rainbow Studios",
+      "publisher": "THQ Nordic",
+      "year": "2018",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "steam_community",
+          "description": "Steam community confirms no native wheel support. Dual-stick controls required for independent rider/vehicle control. Third-party mapping needed.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Off-road motorcycle/ATV/UTV racing. Dual-stick design incompatible with wheels.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 520940,
+          "tags": [
+            "Racing",
+            "Off-Road",
+            "Sports"
+          ],
+          "store_url": "https://store.steampowered.com/app/520940",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MX_vs._ATV_All_Out",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "mx_vs_atv_reflex": {
+      "title": "MX vs ATV Reflex",
+      "manufacturer": null,
+      "developer": "Rainbow Studios",
+      "publisher": "THQ Nordic",
+      "year": "2009",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "steam_community",
+          "description": "Steam community confirms no wheel support. Rider Reflex dual-control system requires two analog sticks. Fundamentally incompatible with single-axis wheel.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Off-road racing with Rider Reflex system. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 55140,
+          "tags": [
+            "Racing",
+            "Off-Road",
+            "Sports"
+          ],
+          "store_url": "https://store.steampowered.com/app/55140",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MX_vs._ATV_Reflex",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "mx_vs_atv_unleashed": {
+      "title": "MX vs ATV Unleashed",
+      "manufacturer": null,
+      "developer": "Rainbow Studios",
+      "publisher": "THQ Nordic",
+      "year": "2005",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "steam_community",
+          "description": "Steam community thread asking about Thrustmaster T300RS support received zero responses. No evidence of wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Off-road motorcycle/ATV racing. 2005 game re-released on Steam. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 359220,
+          "tags": [
+            "Racing",
+            "Off-Road",
+            "Sports"
+          ],
+          "store_url": "https://store.steampowered.com/app/359220",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MX_vs._ATV_Unleashed",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "monster_energy_supercross": {
+      "title": "Monster Energy Supercross",
+      "manufacturer": null,
+      "developer": "Milestone S.r.l.",
+      "publisher": "Milestone S.r.l.",
+      "year": "2018",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms motocross game. Controller only, no wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Official Monster Energy Supercross motocross game. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 711750,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Sports"
+          ],
+          "store_url": "https://store.steampowered.com/app/711750",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Monster_Energy_Supercross",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "monster_energy_supercross_2": {
+      "title": "Monster Energy Supercross 2",
+      "manufacturer": null,
+      "developer": "Milestone S.r.l.",
+      "publisher": "Milestone S.r.l.",
+      "year": "2019",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms motocross game. Controller only, no wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Official Monster Energy Supercross motocross game. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 882020,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Sports"
+          ],
+          "store_url": "https://store.steampowered.com/app/882020",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Monster_Energy_Supercross_2",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "monster_energy_supercross_3": {
+      "title": "Monster Energy Supercross 3",
+      "manufacturer": null,
+      "developer": "Milestone S.r.l.",
+      "publisher": "Milestone S.r.l.",
+      "year": "2020",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms motocross game. Controller only, no wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Official Monster Energy Supercross motocross game. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 1089830,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Sports"
+          ],
+          "store_url": "https://store.steampowered.com/app/1089830",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Monster_Energy_Supercross_3",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "monster_energy_supercross_6": {
+      "title": "Monster Energy Supercross 6",
+      "manufacturer": null,
+      "developer": "Milestone S.r.l.",
+      "publisher": "Milestone S.r.l.",
+      "year": "2023",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms motocross game. Controller only, no wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Official Monster Energy Supercross motocross game. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 2058750,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Sports"
+          ],
+          "store_url": "https://store.steampowered.com/app/2058750",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Monster_Energy_Supercross_6",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "nhra_speed_for_all": {
+      "title": "NHRA Championship Drag Racing: Speed For All",
+      "manufacturer": null,
+      "developer": "Team6 Game Studios",
+      "publisher": "GameMill Entertainment",
+      "year": "2022",
+      "rotation_degrees": null,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Steam community reports Xbox-compatible wheels partially recognized. No input remapping or FFB. Drag racing has minimal steering. Traxion review criticizes lack of customizable controls.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Official NHRA drag racing game. Xbox wheels partially work. No FFB, no control customization.",
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 1681880,
+          "tags": [
+            "Racing",
+            "Sports"
+          ],
+          "store_url": "https://store.steampowered.com/app/1681880",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/NHRA:_Speed_for_All",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "street_outlaws_the_list": {
+      "title": "Street Outlaws: The List",
+      "manufacturer": null,
+      "developer": "Team6 Game Studios",
+      "publisher": "GameMill Entertainment",
+      "year": "2019",
+      "rotation_degrees": null,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "developer",
+          "description": "Developer confirmed in Steam community: \"Street Outlaws: The List does not support wheels and pedals.\" No plans announced.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Drag racing game based on Discovery TV show. Developer confirmed no wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 987330,
+          "tags": [
+            "Racing",
+            "Sports"
+          ],
+          "store_url": "https://store.steampowered.com/app/987330",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Street_Outlaws:_The_List",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "rally_evolution_2025": {
+      "title": "Rally Evolution 2025",
+      "manufacturer": null,
+      "developer": "Petr Simůnek",
+      "publisher": "Petr Simůnek",
+      "year": "2025",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Indie MMO rally game. Partial controller support listed on Steam. No wheel support documentation found. Very small playerbase.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Free-to-play indie MMO rally. Up to 40 players. Wheel support status unknown.",
+      "pc": {
+        "wheel_support": "unknown",
+        "force_feedback": "unknown",
+        "controller_support": "partial"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 3273700,
+          "tags": [
+            "Racing",
+            "Rally",
+            "MMO"
+          ],
+          "store_url": "https://store.steampowered.com/app/3273700",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "redout": {
+      "title": "Redout: Enhanced Edition",
+      "manufacturer": null,
+      "developer": "34BigThings",
+      "publisher": "34BigThings",
+      "year": "2016",
+      "rotation_degrees": null,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "steam_community",
+          "description": "Multiple Steam community threads confirm no wheel support. Anti-gravity racer requires 3 axes (steering, strafing, pitch) incompatible with single-axis wheel.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "WipEout-inspired anti-gravity racer. Multi-axis control, no wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 517710,
+          "tags": [
+            "Racing",
+            "Anti-Gravity"
+          ],
+          "store_url": "https://store.steampowered.com/app/517710",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Redout",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "redout_2": {
+      "title": "Redout 2",
+      "manufacturer": null,
+      "developer": "34BigThings",
+      "publisher": "Saber Interactive",
+      "year": "2022",
+      "rotation_degrees": null,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Anti-gravity racer with complex multi-axis controls (steering, pitch, strafe, roll). No wheel support, no community evidence of wheel integration.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Anti-gravity racer sequel. Even more complex controls than original. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 1799930,
+          "tags": [
+            "Racing",
+            "Anti-Gravity"
+          ],
+          "store_url": "https://store.steampowered.com/app/1799930",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Redout_2",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "ballisticng": {
+      "title": "BallisticNG",
+      "manufacturer": null,
+      "developer": "Neognosis",
+      "publisher": "Neognosis",
+      "year": "2018",
+      "rotation_degrees": 180,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "steam_community",
+          "description": "Steam community confirms G29 works via Rewired input system. Manual mapping of paddle shifters to air brakes needed. Recommended 180 degree wheel angle. No FFB.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "WipEout tribute. Wheels recognized but require manual mapping. No FFB. Free modding tools.",
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 473770,
+          "tags": [
+            "Racing",
+            "Anti-Gravity",
+            "Indie"
+          ],
+          "store_url": "https://store.steampowered.com/app/473770",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/BallisticNG",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "antigraviator": {
+      "title": "Antigraviator",
+      "manufacturer": null,
+      "developer": "Cybernetic Walrus",
+      "publisher": "Iceberg Interactive",
+      "year": "2018",
+      "rotation_degrees": null,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "steam_community",
+          "description": "Developer confirmed Xbox, PS4, and Steam Controller support only. No mention of steering wheels. Anti-gravity racer.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Anti-gravity combat racer. Controller-only, no wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 621020,
+          "tags": [
+            "Racing",
+            "Anti-Gravity"
+          ],
+          "store_url": "https://store.steampowered.com/app/621020",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Antigraviator",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "pacer": {
+      "title": "Pacer",
+      "manufacturer": null,
+      "developer": "R8 Games",
+      "publisher": "R8 Games",
+      "year": "2020",
+      "rotation_degrees": null,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Formerly Formula Fusion. WipEout-style anti-gravity racer with multi-axis controls. No wheel support evidence found.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Anti-gravity combat racer. Formerly Formula Fusion. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 389670,
+          "tags": [
+            "Racing",
+            "Anti-Gravity"
+          ],
+          "store_url": "https://store.steampowered.com/app/389670",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Formula_Fusion",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "aero_gpx": {
+      "title": "Aero GPX",
+      "manufacturer": null,
+      "developer": "Aaron McDevitt",
+      "publisher": "Aaron McDevitt",
+      "year": "2024",
+      "rotation_degrees": null,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "steam_community",
+          "description": "Steam community discussion confirms wheel not practical due to pitch/strafe requirements. F-Zero-inspired anti-gravity racer. 97% positive reviews.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "F-Zero-inspired anti-gravity racer. Multi-axis control, no wheel support. Early Access.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 2160360,
+          "tags": [
+            "Racing",
+            "Anti-Gravity",
+            "Indie"
+          ],
+          "store_url": "https://store.steampowered.com/app/2160360",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Aero_GPX",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "gt_racing_1980": {
+      "title": "GT Racing 1980",
+      "manufacturer": null,
+      "developer": "BM Studios",
+      "publisher": "BM Studios",
+      "year": "2024",
+      "rotation_degrees": null,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Top-down arcade racer inspired by 1980s games. Top-down perspective incompatible with steering wheel controls.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Top-down retro arcade racer. No wheel support due to top-down perspective.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 3037960,
+          "tags": [
+            "Racing",
+            "Arcade",
+            "Retro"
+          ],
+          "store_url": "https://store.steampowered.com/app/3037960",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "nightmare_kart": {
+      "title": "Nightmare Kart",
+      "manufacturer": null,
+      "developer": "LWMedia",
+      "publisher": "LWMedia",
+      "year": "2024",
+      "rotation_degrees": 180,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "steam_community",
+          "description": "Steam community confirms G29 not recognized. No in-game wheel binding. Steam Input workaround also failed.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Gothic kart racer (formerly Bloodborne Kart). Free to play. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 2930160,
+          "tags": [
+            "Racing",
+            "Kart",
+            "Indie"
+          ],
+          "store_url": "https://store.steampowered.com/app/2930160",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Nightmare_Kart",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "super_indie_karts": {
+      "title": "Super Indie Karts",
+      "manufacturer": null,
+      "developer": "One Legged Seagull",
+      "publisher": "One Legged Seagull",
+      "year": "2015",
+      "rotation_degrees": 180,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Developer added wheel calibration via Rewired input system. DeadZone slider uses 1% increments for wheel compatibility. No FFB. Steam community configs available.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Retro 16-64bit kart racer. Developer actively supports wheel calibration. No FFB. Early Access.",
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 323670,
+          "tags": [
+            "Racing",
+            "Kart",
+            "Indie"
+          ],
+          "store_url": "https://store.steampowered.com/app/323670",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Super_Indie_Karts",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "karting_superstars": {
+      "title": "Karting Superstars",
+      "manufacturer": null,
+      "developer": "Original Fire Games",
+      "publisher": "Original Fire Games",
+      "year": "2023",
+      "rotation_degrees": 180,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "steam_community",
+          "description": "Steam community reports G920 recognized but very clunky. No FFB, poor sensitivity. Developer unresponsive. Development paused since Feb 2024.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Pure motorsport kart racer. From Circuit Superstars devs. Development paused. No proper wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 2503220,
+          "tags": [
+            "Racing",
+            "Kart"
+          ],
+          "store_url": "https://store.steampowered.com/app/2503220",
           "pcgamingwiki_url": null,
           "popularity_rank": null,
           "owners_estimate": null

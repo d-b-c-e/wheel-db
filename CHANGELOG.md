@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.12.0] - 2026-02-20
+
+### Added
+- 39 new Steam games from discovery research:
+  - Drift/street racing: Drift Reign, Clutch: The Drift Simulation, Drift (tafheet), Underground Garage, NIGHT-RUNNERS Prologue
+  - Motorcycle series: RIDE 2-4, MotoGP 25, MXGP 1-3/Pro/2019/2020/24, TT Isle of Man 1-2, RiMS Racing
+  - Off-road: MX vs ATV All Out/Reflex/Unleashed
+  - Monster Energy Supercross 1-3, 6
+  - Drag racing: NHRA Speed For All, Street Outlaws: The List
+  - Anti-gravity: Redout 1-2, BallisticNG, Antigraviator, Pacer, Aero GPX
+  - Kart/arcade: GT Racing 1980, Nightmare Kart, Super Indie Karts, Karting Superstars
+  - Rally: Rally Evolution 2025
+
+### Changed
+- Confidence distribution: verified=57, high=445, medium=111, low=0 (was high=444, medium=73)
+- Database now at 613 entries with 259 Steam games
+
 ## [2.11.0] - 2026-02-20
 
 ### Added

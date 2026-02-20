@@ -53,7 +53,7 @@ wheel-db/
 ├── README.md                    # Project documentation for humans
 ├── LICENSE                      # MIT License
 ├── data/
-│   ├── wheel-db.json            # Unified database (574 games)
+│   ├── wheel-db.json            # Unified database (613 games)
 │   └── schema/
 │       └── wheel-db.schema.json # JSON Schema for validation
 ├── scripts/
@@ -78,7 +78,7 @@ wheel-db/
 
 ### Primary Database Format (JSON)
 
-The database uses a **unified game-centric model** with 574 entries as of v2.11.0. Each entry represents a unique game (arcade or PC). Platform-specific identifiers are stored in a `platforms` map. PC-specific metadata (wheel support, force feedback) is in a `pc` sub-object.
+The database uses a **unified game-centric model** with 613 entries as of v2.12.0. Each entry represents a unique game (arcade or PC). Platform-specific identifiers are stored in a `platforms` map. PC-specific metadata (wheel support, force feedback) is in a `pc` sub-object.
 
 ```json
 {
@@ -238,7 +238,7 @@ Parses three MAME data sources to inventory all racing/driving games with wheel 
 
 Results: 1,488 total games, 484 with wheel controls, 1,040 parent ROMs, 63 from controls.xml with verified rotation values. After cleanup, 291 MAME entries remain in the database.
 
-**MAME Research Progress**: MAME inventory cleanup is complete as of v2.7.0. All 291 MAME entries now have rotation values. The cleanup involved: removing ~271 non-driving entries (clones, tanks, shooters, flight sims, console ports, Neo Geo joystick games, fitness equipment), setting ~173 rotation values using manufacturer documentation (SuzoHapp catalogs, service manuals, TwistedQuarter parts lists, BYOAC forum, Arcade-Projects), and merging ~23 duplicate entries. In v2.8.0, 33 motorcycle/watercraft entries were corrected from 270° (car default) to proper handlebar ranges (45-60°), Hard Drivin' was corrected to 1080°, and Cycle Warriors was removed (joystick game). **The database currently has 0 unknown rotation values**. Confidence distribution: verified=57, high=444, medium=73, low=0. All low-confidence entries were eliminated in v2.10.0.
+**MAME Research Progress**: MAME inventory cleanup is complete as of v2.7.0. All 291 MAME entries now have rotation values. The cleanup involved: removing ~271 non-driving entries (clones, tanks, shooters, flight sims, console ports, Neo Geo joystick games, fitness equipment), setting ~173 rotation values using manufacturer documentation (SuzoHapp catalogs, service manuals, TwistedQuarter parts lists, BYOAC forum, Arcade-Projects), and merging ~23 duplicate entries. In v2.8.0, 33 motorcycle/watercraft entries were corrected from 270° (car default) to proper handlebar ranges (45-60°), Hard Drivin' was corrected to 1080°, and Cycle Warriors was removed (joystick game). **The database currently has 0 unknown rotation values**. Confidence distribution: verified=57, high=445, medium=111, low=0. All low-confidence entries were eliminated in v2.10.0.
 
 #### Get-TeknoparrotGames.ps1
 Scans local TeknoParrot installation for wheel-equipped games. Reads GameProfiles XML for `<AnalogType>Wheel</AnalogType>`, enriches from Metadata JSON. Outputs to `sources/cache/teknoparrot-games.json`.
