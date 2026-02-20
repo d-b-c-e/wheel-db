@@ -10,7 +10,7 @@ Modern USB racing wheels support 270-1080 degrees of rotation, but original arca
 
 The primary database is `data/wheel-db.json` -- a unified, game-centric JSON file where each entry represents a unique game. Platform-specific identifiers (MAME ROM names, TeknoParrot profiles, Steam app IDs, etc.) are stored in a `platforms` map so a game's data is never duplicated across platforms.
 
-### Current Stats (v2.12.0)
+### Current Stats (v2.13.0)
 
 | Metric | Count |
 |--------|-------|
@@ -22,22 +22,22 @@ The primary database is `data/wheel-db.json` -- a unified, game-centric JSON fil
 | With Flycast mapping | 9 |
 | With Model 2 Emulator mapping | 6 |
 | With Dolphin mapping | 4 |
-| With known rotation value | 574 |
-| Unknown (needs research) | 8 |
+| With known rotation value | 573 |
+| Rotation N/A | 9 |
 | Infinite rotation (encoders) | 31 |
 
-**Confidence:** verified (57), high (445), medium (111), low (0)
+**Confidence:** verified (57), high (537), medium (17), low (2)
 
-**Rotation values:** 270 (296 games), 540 (81), 360 (57), 900 (54), 45 (27), 180 (16), 56 (10), 60 (8), 1080 (4), 450 (4), 200 (3), 240 (3), 390 (3), 150 (2), 90 (2), 300 (1), 480 (1), 720 (1), 800 (1)
+**Rotation values:** 270 (295 games), 540 (81), 360 (57), 900 (54), 45 (27), 180 (16), 56 (10), 60 (8), 1080 (4), 450 (4), 200 (3), 240 (3), 390 (3), 150 (2), 90 (2), 300 (1), 480 (1), 720 (1), 800 (1)
 
-**PC wheel support:** native (137 games), partial (59), none (60)
+**PC wheel support:** native (137 games), partial (58), none (61)
 
-**PC force feedback:** native (101), partial (40), none (111)
+**PC force feedback:** native (101), partial (40), none (112)
 
 ### Special Values
 
 - **`-1`** = Infinite rotation (optical encoder / spinner, no physical stops)
-- **`null`** = Unknown, needs research
+- **`null`** = Not applicable (anti-gravity racers, drag racing, motorcycle games where wheels aren't the intended input)
 
 ### Platform Coverage
 

@@ -4,6 +4,30 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.13.0] - 2026-02-20
+
+### Changed
+- Upgraded 92 entries from medium to high confidence:
+  - 32 MAME motorcycle/watercraft/specialty entries with 3+ manufacturer hardware doc sources
+  - 13 well-documented ws=none Steam entries with 4+ independent sources
+  - 21 Milestone/KT Racing motorcycle Steam entries (developer pattern + PCGamingWiki)
+  - 15 v2.12.0 Steam entries with detailed research agent findings (MX vs ATV, anti-gravity, kart/arcade)
+  - 4 MAME weak-source entries with added manufacturer pattern references
+  - 3 TeknoParrot entries with SuzoHapp parts documentation (Batman, Nicktoons Nitro, Wasteland Racers)
+  - 3 Steam entries with community/developer research (Torque Drift 2, MX vs ATV Legends, Pacer)
+  - 1 manual fix (A.B. Cop added manufacturer reference)
+- Downgraded 2 entries from medium to low (Crazy Ride, Crazy Speed - no UNIS cabinet documentation)
+- Confidence distribution: verified=57, high=537, medium=17, low=2 (was high=445, medium=111)
+
+### Fixed
+- Corrected MX vs ATV Legends: wheel_support partial→none, force_feedback unknown→none, rotation 270→null (developer confirmed wheels not supported)
+- Corrected Frenzy Express year 2015→2001 (confirmed by Arcade Museum)
+- Corrected Harley-Davidson King of the Road year 2006→2009 (Sega Lindbergh Red EX international release)
+
+### Added
+- Enriched 6 TeknoParrot motorcycle entries with hardware documentation sources (Dead Heat Riders, MotoGP Namco, Nirin, Radikal Bikers, Frenzy Express, Harley-Davidson KotR)
+- Updated 9 null-rotation entries with N/A explanation notes (anti-gravity racers, drag racing, top-down games)
+
 ## [2.12.0] - 2026-02-20
 
 ### Added

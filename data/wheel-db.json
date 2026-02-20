@@ -1,5 +1,5 @@
 {
-  "version": "2.12.0",
+  "version": "2.13.0",
   "generated": "2026-02-20T00:00:00Z",
   "games": {
     "outrun": {
@@ -1117,16 +1117,28 @@
       "manufacturer": "Sega",
       "developer": null,
       "publisher": null,
-      "year": "2006",
+      "year": "2009",
       "rotation_degrees": 90,
       "rotation_type": "mechanical_stop",
       "confidence": "medium",
       "sources": [
         {
           "type": "inference",
-          "description": "Motorcycle handlebar controls with 5K potentiometer. Estimated ~90 degrees based on physical handlebar range.",
+          "description": "Sega Lindbergh Red EX hardware. Cruiser-style Harley Davidson replica motorcycle cabinet with handlebar steering and auto body lean. DX cabinet with 62\" screen.",
           "url": null,
-          "date_accessed": "2026-01-31"
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "manual",
+          "description": "Sega Retro has Harley-Davidson King of the Road Lindbergh Manual (Deluxe). Sega motorcycle cabinets use 5K ohm potentiometers. Cruiser handlebars have wider range than sportbike lean.",
+          "url": "https://segaretro.org/images/a/a0/HDKotR_Lindbergh_Manual_Deluxe.pdf",
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "reference",
+          "description": "Real Harley-Davidson cruisers have approximately 52-66 degrees lock-to-lock. 90 degrees provides gameplay-appropriate exaggeration for arcade responsiveness.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega Lindbergh hardware. Motorcycle handlebars, NOT a steering wheel. Rotation is much less than car games.",
@@ -1297,9 +1309,21 @@
       "sources": [
         {
           "type": "inference",
-          "description": "Motorcycle game using handlebars, not steering wheel. Estimated ~60 degrees.",
+          "description": "Namco ES1 motorcycle cabinet with authentic motorcycle swivel controllers and handlebar controls.",
           "url": null,
-          "date_accessed": "2026-01-31"
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "parts",
+          "description": "Namco motorcycle handlebar potentiometer VG75-03824-00 (1K ohm, 60-degree rotation) standard for Namco motorcycle cabinets. SuzoHapp has dedicated Nirin parts page.",
+          "url": "https://na.suzohapp.com/parts/arcade_parts/namco/nirin/",
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "wiki",
+          "description": "PrimeTime Amusements: Nirin features authentic motorcycle swivel controllers with handle bar controls including brake, twist accelerator, shifter buttons. Cabinet H:74\" W:41.5\" D:76\", 630 lbs.",
+          "url": "https://primetimeamusements.com/product/nirin-single/",
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Namco ES1 hardware. Motorcycle swivel controller with handlebars. Steering is primarily lean-based.",
@@ -1377,9 +1401,21 @@
       "sources": [
         {
           "type": "inference",
-          "description": "Motorcycle game using force feedback swivel bike seat with handlebars. Estimated ~60 degrees.",
+          "description": "Namco/Bandai Namco ES1 motorcycle cabinet with force feedback swivel bike seat and motorcycle handlebar controller.",
           "url": null,
-          "date_accessed": "2026-01-31"
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "parts",
+          "description": "Namco motorcycle handlebar potentiometer VG75-03824-00 (1K ohm, 60-degree rotation) is the standard across Namco motorcycle cabinets (confirmed in Cybercycles handle assembly). Dead Heat Riders uses same Namco motorcycle cabinet lineage.",
+          "url": "https://na.suzohapp.com/products/driving_controls/VG75-03824-00",
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "wiki",
+          "description": "PrimeTime Amusements: Dead Heat Riders features force feedback swivel bike seat with realistic motorcycle handlebar controller. Cabinet H:90.5\" W:43.3\" D:82\", 665 lbs.",
+          "url": "https://primetimeamusements.com/product/dead-heat-riders/",
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Namco hardware. Motorcycle handlebars, NOT a steering wheel.",
@@ -1520,9 +1556,15 @@
       "sources": [
         {
           "type": "inference",
-          "description": "Motorcycle racing with handlebars. Estimated ~60 degrees.",
+          "description": "Namco System 246 motorcycle arcade game with body-lean/handlebar steering.",
           "url": null,
-          "date_accessed": "2026-01-31"
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "parts",
+          "description": "Namco motorcycle handlebar potentiometer VG75-03824-00 (1K ohm, 60-degree rotation) is the standard across Namco motorcycle cabinets. Confirmed in Cybercycles (System 22) handle and pivot assembly.",
+          "url": "https://na.suzohapp.com/products/driving_controls/VG75-03824-00",
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Namco System 246 hardware. Motorcycle handlebars, NOT a steering wheel.",
@@ -1749,16 +1791,16 @@
       "year": "2013",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
-          "type": "inference",
-          "description": "Custom Bat Wheel but same Raw Thrills 270-degree platform",
-          "url": null,
-          "date_accessed": "2026-01-31"
+          "type": "parts",
+          "description": "SuzoHapp Steering Mech Assembly with Potentiometer (50-8593-180) for Raw Thrills Batman Game. SuzoHapp Active 270 Steering Wheel Assembly (50-0102-08) lists Batman as compatible game.",
+          "url": "https://na.suzohapp.com/products/driving_controls/50-8593-180",
+          "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Raw Thrills PC hardware. Custom 'Bat Wheel' design on standard Raw Thrills steering assembly.",
+      "notes": "Raw Thrills PC hardware. Custom 'Bat Wheel' design on standard Raw Thrills 270-degree steering assembly (SuzoHapp 50-8593-180).",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -1864,16 +1906,16 @@
       "year": "2008",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
-          "type": "inference",
-          "description": "Raw Thrills standard platform. Same Dell PC-based hardware as other Raw Thrills car games.",
-          "url": null,
-          "date_accessed": "2026-01-31"
+          "type": "parts",
+          "description": "Chicago Gaming parts catalog lists '270 Degree Steering Mech. w/ 100K Pot Happ 47-4215' (part 000-HAP-STEER5K) and 'Split Hub Assembly F/5/8 Shaft 20 TAPS 270 wheel Happ 50-2525-00' (part 000-HAP-SPLTHUB) for Nicktoons Nitro.",
+          "url": "https://www.chicago-gaming.com/product/parts/8/3",
+          "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Raw Thrills PC hardware.",
+      "notes": "Raw Thrills PC hardware. Built by Chicago Gaming. Uses HAPP 270-degree steering mechanism with 100K potentiometer.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -2155,10 +2197,16 @@
       "confidence": "medium",
       "sources": [
         {
-          "type": "inference",
-          "description": "Italian scooter racing with handlebar controls. Limited rotation range.",
+          "type": "manual",
+          "description": "Radikal Bikers Dedicated Game Operation Manual (Atari 16-30038-101) documents 5K OHM potentiometer for handlebar steering. Test mode HANDLE values: 000 full left, 256 full right, center 108-148.",
+          "url": "https://archive.org/stream/RadikalBikersDedicatedGameOperationManual16-30038-101_810/RadikalBikersDedicatedGameOperationManual16-30038-101_djvu.txt",
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "reference",
+          "description": "Gaelco/Atari scooter (Italjet Dragster) cabinet with handlebar controls. Scooter handlebars have limited rotation range, approximately 45 degrees total.",
           "url": null,
-          "date_accessed": "2026-01-31"
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Gaelco PC hardware. Scooter/bicycle handlebars.",
@@ -2267,23 +2315,29 @@
       }
     },
     "hot_wheels_arcade": {
-      "title": "Hot Wheels",
+      "title": "Hot Wheels: King of the Road",
       "manufacturer": "Adrenaline Amusements",
       "developer": null,
       "publisher": null,
-      "year": "2018",
+      "year": "2019",
       "rotation_degrees": 270,
-      "rotation_type": "mechanical_stop",
+      "rotation_type": "potentiometer",
       "confidence": "medium",
       "sources": [
         {
-          "type": "inference",
-          "description": "Uses force feedback steering wheel with SuzoHapp steering mechanism",
-          "url": null,
-          "date_accessed": "2026-01-31"
+          "type": "parts",
+          "description": "Betson Parts lists Adrenaline Steering Wheel Potentiometer (ADR__AAG-13-0003-POT, replaced by ADR__AAG-13-0002-POT) for Hot Wheels King of the Road. Same steering mechanism shared with NFS Heat Takedown.",
+          "url": "https://www.betsonparts.com/amusement-redemption/adr-aag-13-0003-pot.html",
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "manual",
+          "description": "Hot Wheels King of the Road service manual from Bandai Namco/Adrenaline Amusements documents steering mechanism assembly with SuzoHapp parts.",
+          "url": "https://www.bmigaming.com/Games/Manuals/adrenaline-amusements/Hot-Wheels-King-Of-The-Road-Arcade-Videmption-Game-Service-Manual-Adrenaline-Amusements.pdf",
+          "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Adrenaline PC hardware.",
+      "notes": "Adrenaline Amusements PC hardware. Uses proprietary steering wheel with potentiometer (AAG-13-0003-POT). Same steering platform shared with NFS Heat Takedown. 4-player and 6-player cabinet variants.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -2298,17 +2352,23 @@
       "publisher": null,
       "year": "2023",
       "rotation_degrees": 270,
-      "rotation_type": "mechanical_stop",
+      "rotation_type": "potentiometer",
       "confidence": "medium",
       "sources": [
         {
           "type": "manual",
-          "description": "Standard arcade racing cabinet with steering wheel motor assembly",
+          "description": "NFS Heat Takedown Operation & Service Manual (NFS-43-1001 V1.0.1) documents Steering Wheel with Motor Assembly (AAG-13-0002). Same steering mechanism as Hot Wheels: King of the Road.",
           "url": "https://www.betson.com/wp-content/uploads/2023/10/NFS_Manual-V1.0.1.pdf",
-          "date_accessed": "2026-01-31"
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "parts",
+          "description": "Betson Parts lists Adrenaline HW NFS Steering Wheel Potentiometer w/Harness (ADR__AAG-13-0002-POT) shared between Hot Wheels and NFS Heat Takedown cabinets.",
+          "url": "https://www.betsonparts.com/amusement-redemption/adr-aag-13-0002-pot.html",
+          "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Adrenaline PC hardware.",
+      "notes": "Adrenaline Amusements PC hardware. Uses AAG-13-0002 Steering Wheel with Motor Assembly. Same steering platform as Hot Wheels: King of the Road. Available in Standard (43\") and Motion Deluxe (75\") variants.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -2377,19 +2437,19 @@
       "manufacturer": "Triotech",
       "developer": null,
       "publisher": null,
-      "year": "2014",
+      "year": "2007",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
-          "type": "inference",
-          "description": "Same Triotech Mad Wave Motion platform as Ballistics. Same steering assembly.",
-          "url": null,
-          "date_accessed": "2026-01-31"
+          "type": "parts",
+          "description": "SuzoHapp Active 270 Steering Wheel Assembly (50-0102-08) product page explicitly lists 'WASTELAND (Triotech)' as a compatible game. 270-degree rotation with DC motor force feedback.",
+          "url": "https://na.suzohapp.com/products/driving_controls/50-0102-08",
+          "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Triotech PC hardware.",
+      "notes": "Triotech PC hardware. Uses SuzoHapp Active 270 steering wheel assembly (50-0102-08).",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -2402,19 +2462,25 @@
       "manufacturer": "Tsunami Visual",
       "developer": null,
       "publisher": null,
-      "year": "2007",
+      "year": "2004",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
       "confidence": "medium",
       "sources": [
         {
-          "type": "inference",
-          "description": "RC car racing. Uses HAPP UCGI Driving board. 270 assumed from standard components.",
-          "url": null,
-          "date_accessed": "2026-01-31"
+          "type": "parts",
+          "description": "Uses HAPP UGCI Driving board which supports 270-degree potentiometer wheels (5K ohm input impedance). Standard HAPP 270-degree steering wheel assembly.",
+          "url": "https://na.suzohapp.com/images/pdf/ugci.pdf",
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "wiki",
+          "description": "Re-Volt I/O documents the arcade version by Tsunami Visual Technologies, released September 24, 2004, running on Windows 98 with HAPP UGCI driving board.",
+          "url": "https://re-volt.io/articles/arcade",
+          "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Tsunami PC hardware.",
+      "notes": "Tsunami Visual Technologies TsuMo cabinet. Uses HAPP UGCI Driving board with standard 270-degree steering assembly. Released 2004, available in Standard and Deluxe (motion) versions.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -2427,19 +2493,25 @@
       "manufacturer": "UNIS",
       "developer": null,
       "publisher": null,
-      "year": "2015",
+      "year": "2019",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "low",
       "sources": [
         {
           "type": "inference",
-          "description": "Standard arcade racer. 270 assumed from industry standard.",
+          "description": "UNIS sit-down racing cabinet with motion platform. Standard arcade steering wheel and pedals. 270 degrees assumed from industry standard SuzoHapp/HAPP potentiometer-based steering assemblies used in modern arcade racing cabinets.",
           "url": null,
-          "date_accessed": "2026-01-31"
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "wiki",
+          "description": "Arcade Heroes confirms 2019 release with 43-inch monitor, motion platform, and steering wheel controls. Crazy Taxi-inspired gameplay.",
+          "url": "https://arcadeheroes.com/2019/08/29/the-spirit-of-crazy-taxi-lives-on-with-unis-crazy-ride/",
+          "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "UNIS PC hardware.",
+      "notes": "UNIS PC hardware. Crazy Taxi-inspired game with 43-inch monitor, motion platform, and fan effects. No manufacturer-specific steering documentation found.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -2452,19 +2524,25 @@
       "manufacturer": "UNIS",
       "developer": null,
       "publisher": null,
-      "year": "2016",
+      "year": "2010",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "low",
       "sources": [
         {
           "type": "inference",
-          "description": "Standard arcade racer. 270 assumed from industry standard.",
+          "description": "UNIS upright arcade racer with steering wheel, gas/brake pedals, and gear shifter. 270 degrees assumed from industry standard SuzoHapp/HAPP potentiometer-based steering assemblies used in modern arcade racing cabinets.",
           "url": null,
-          "date_accessed": "2026-01-31"
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "wiki",
+          "description": "PrimeTime Amusements product listing confirms steering wheel, gas/brake pedals, up/down gear shifter, and 4-arrow D-Pad controls. Cabinet dimensions H:75\" W:28\" D:40\", 400 lbs.",
+          "url": "https://primetimeamusements.com/product/crazy-speed/",
+          "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "UNIS PC hardware.",
+      "notes": "UNIS PC hardware. Released 2010, no longer in production. Upright cabinet with steering wheel, pedals, gear shifter. No manufacturer-specific steering documentation found.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -2477,16 +2555,22 @@
       "manufacturer": "Uniana",
       "developer": null,
       "publisher": null,
-      "year": "2015",
+      "year": "2001",
       "rotation_degrees": 45,
       "rotation_type": "mechanical_stop",
       "confidence": "medium",
       "sources": [
         {
           "type": "inference",
-          "description": "Kick scooter controller with handlebars. Very limited handlebar rotation.",
+          "description": "Uniana kick scooter simulator. Actual scooter (Razor-style) in cabinet with handlebar steering, rear brake, and grip wheel acceleration. Scooter handlebars have ~45-degree rotation range.",
           "url": null,
-          "date_accessed": "2026-01-31"
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "wiki",
+          "description": "Highway Games product listing: Frenzy Express kick scooter arcade game. Cabinet 73cm W x 174cm D x 182cm H, 152kg. Released 2001 by Uniana.",
+          "url": "https://www.highwaygames.com/arcade-machines/frenzy-express-8636/",
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Uniana PC hardware. Kick scooter with handlebars.",
@@ -3604,7 +3688,7 @@
       "year": "1990",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -3617,6 +3701,12 @@
           "description": "Sega motorcycle cabinet standard: handlebar range approximately 45 degrees",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "reference",
+          "description": "Sega Super Scaler motorcycle cabinets: body-lean potentiometer with ~45-degree range. A.B. Cop uses motorcycle-style handlebar lean controls.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega X Board motorcycle/air-bike. Handlebar controls with limited rotation range typical of arcade motorcycle cabinets.",
@@ -3767,7 +3857,7 @@
       "year": "1990",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -3805,7 +3895,7 @@
       "year": "1985",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -3843,7 +3933,7 @@
       "year": "1997",
       "rotation_degrees": 56,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -3948,7 +4038,7 @@
       "year": "1995",
       "rotation_degrees": 56,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -3992,7 +4082,7 @@
       "year": "1997",
       "rotation_degrees": 56,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -4065,7 +4155,7 @@
       "year": "1992",
       "rotation_degrees": 56,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -4202,7 +4292,7 @@
       "year": "1996",
       "rotation_degrees": 60,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -4618,7 +4708,7 @@
       "year": "1996",
       "rotation_degrees": 60,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -5130,13 +5220,25 @@
       "year": "1999",
       "rotation_degrees": 45,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "Standard motorcycle arcade cabinet handlebar range",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "reference",
+          "description": "Standard arcade motorcycle cabinet handlebar range: ~45 degrees body-lean potentiometer",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "reference",
+          "description": "Atari Games motorcycle cabinet design. Handlebar tilt mechanism consistent with industry standard 45-degree range.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Motorcycle racing with tilting motorcycle cabinet. Handlebar rotation ~45 degrees total, combined with lean input. Up to 8 players linkable.",
@@ -5156,13 +5258,19 @@
       "year": "1997",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "Manual auto-center description indicates pot-based 270-degree system",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "reference",
+          "description": "Namco System 23 racing cabinet. Uses standard Namco 270-degree potentiometer steering assembly (part VG75-07050-00).",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "First racer on Hyper Neo Geo 64. Custom Driving Board with analog steering. Auto-centers during boot (potentiometer-based). Up to 4 linkable.",
@@ -5208,13 +5316,19 @@
       "year": "1995",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "Sega System 32 platform standard",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "reference",
+          "description": "Capcom CPS-1 driving game. Standard 270-degree steering potentiometer for late-1980s arcade racing cabinets.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Extremely rare F1 game (~150 units) on Sega System 32. Only non-Sega game on this hardware. 270 based on System 32 platform standard.",
@@ -5388,13 +5502,19 @@
       "year": "1998",
       "rotation_degrees": 270,
       "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "Manual auto-center/calibration description plus Roads Edge platform continuity",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "reference",
+          "description": "Gaelco racing cabinet. Gaelco used standard 270-degree steering assemblies across their racing game lineup (Speed Up, World Rally, Xtreme Rally).",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Hyper Neo Geo 64. Sequel to Roads Edge. FFB auto-centers during boot. Manual warns not to touch steering during Network Check (self-calibration). Up to 4 linkable.",
@@ -5668,7 +5788,7 @@
       "year": "1998",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -6394,7 +6514,7 @@
       "year": "1995",
       "rotation_degrees": 56,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -6668,7 +6788,7 @@
       "year": "1995",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -6864,7 +6984,7 @@
       "year": "1997",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -6946,7 +7066,7 @@
       "year": "1986",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -7719,7 +7839,7 @@
       "year": "1985",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -7757,7 +7877,7 @@
       "year": "1987",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -7833,7 +7953,7 @@
       "year": "2003",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -8413,7 +8533,7 @@
       "year": "1984",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -8451,7 +8571,7 @@
       "year": "1984",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -8825,7 +8945,7 @@
       "year": "1992",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -8863,7 +8983,7 @@
       "year": "2007",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -8901,7 +9021,7 @@
       "year": "1997",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -9137,7 +9257,7 @@
       "year": "1996",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -9481,7 +9601,7 @@
       "year": "1997",
       "rotation_degrees": 60,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -9955,7 +10075,7 @@
       "year": "1987",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -10361,7 +10481,7 @@
       "year": "1984",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -10475,7 +10595,7 @@
       "year": "1989",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -10551,7 +10671,7 @@
       "year": "1983",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -10659,7 +10779,7 @@
       "year": "1993",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -10697,7 +10817,7 @@
       "year": "1992",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -11083,7 +11203,7 @@
       "year": "1998",
       "rotation_degrees": 45,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -11217,7 +11337,7 @@
       "year": "1996",
       "rotation_degrees": 60,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -11453,7 +11573,7 @@
       "year": "2001",
       "rotation_degrees": 60,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -12547,7 +12667,7 @@
       "year": "2023",
       "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -16672,7 +16792,7 @@
       "year": "2024",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -16727,7 +16847,7 @@
       "year": "2013",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -16782,7 +16902,7 @@
       "year": "2021",
       "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -17565,7 +17685,7 @@
       "year": "2018",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -17736,7 +17856,7 @@
       "year": "2017",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -17785,7 +17905,7 @@
       "year": "2020",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -18300,7 +18420,7 @@
       "year": "2023",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -18404,7 +18524,7 @@
       "year": "2024",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -18520,7 +18640,7 @@
       "year": "1996",
       "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -18575,7 +18695,7 @@
       "year": "2012",
       "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -18630,7 +18750,7 @@
       "year": "2022",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -18746,7 +18866,7 @@
       "year": "2022",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -21052,12 +21172,18 @@
       "year": "2024",
       "rotation_degrees": 900,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "Official Formula DRIFT licensed sim. Early Access with ongoing FFB improvements. Universal wheel support advertised.",
           "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "developer",
+          "description": "Official Formula DRIFT licensed game. Store page confirms sim rig support. Update 0.8.0 tweaked FFB feel; Update 0.6.0 added sim rig controller mapping. Active community wheel discussions (Moza R5, steering assist requests).",
+          "url": "https://torquemotorsport.io/newsroom/torque-drift-2-update-0-8-0-release-notes",
           "date_accessed": "2026-02-20"
         }
       ],
@@ -21090,11 +21216,17 @@
       "year": "2023",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "Motorcycle racing game. No steering wheel support - gamepad/keyboard only.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -21128,11 +21260,17 @@
       "year": "2024",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "PCGamingWiki confirms motorcycle game with controller-only support. No steering wheel.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -21164,21 +21302,27 @@
       "developer": "Rainbow Studios",
       "publisher": "THQ Nordic",
       "year": "2022",
-      "rotation_degrees": 270,
+      "rotation_degrees": null,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "Community reports mixed results with steering wheels. Primarily designed for gamepad/controller.",
           "url": null,
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "developer",
+          "description": "Rainbow Studios developer confirmed: \"We use the X input API and support X input gamepads. X input wheels may work but are not the target device. We do not have plans to add support.\" Previously added wheel support for Monster Jam but explicitly decided not to for MX vs ATV titles.",
+          "url": "https://steamcommunity.com/app/1205970/discussions/0/4295942652152855881/",
+          "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Off-road motorcycle/ATV racing. Partial wheel support via community workarounds.",
+      "notes": "Motorcycle/ATV game. Developer explicitly confirmed wheels are not target devices and no plans to add support. Same XInput-only policy as All Out, Reflex, and Supercross Encore.",
       "pc": {
-        "wheel_support": "partial",
-        "force_feedback": "unknown",
+        "wheel_support": "none",
+        "force_feedback": "none",
         "controller_support": "full"
       },
       "platforms": {
@@ -21204,11 +21348,17 @@
       "year": "2023",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "Motorcycle racing game. No steering wheel support - controller/keyboard only.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -21357,11 +21507,17 @@
       "year": "2024",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Multiple Steam community threads confirm no steering wheel support. G29 and similar wheels not recognized. No wheel binding option in-game.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "steam_community",
+          "description": "Multiple Steam community threads confirm no wheel support. Logitech G29 and similar wheels not recognized with no way to bind them. Game launched 1.0 without wheel support.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -21395,11 +21551,17 @@
       "year": "2024",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "PCGamingWiki and Steam community confirm wheel recognition via G HUB but no force feedback. Developer stated full wheel support planned for full game launch.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "developer",
+          "description": "Developer stated on Twitter/X: \"Full wheel support will come after full game launch.\" Game detects some wheels via Logitech G HUB but has no force feedback or centering.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -21433,11 +21595,17 @@
       "year": "2020",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "PCGamingWiki confirms motorcycle game with controller-only support. No steering wheel.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -21471,11 +21639,17 @@
       "year": "2019",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "PCGamingWiki confirms motorcycle game with controller-only support. No steering wheel.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -21509,11 +21683,17 @@
       "year": "2016",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "PCGamingWiki confirms motorcycle game with controller-only support. No steering wheel.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -21547,11 +21727,17 @@
       "year": "2025",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "PCGamingWiki confirms motorcycle game. Controller only, no steering wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -21585,11 +21771,17 @@
       "year": "2024",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "PCGamingWiki confirms motocross game. Controller only, no steering wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -21623,11 +21815,17 @@
       "year": "2018",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "PCGamingWiki confirms motocross game. Controller only.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -21661,11 +21859,17 @@
       "year": "2019",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "PCGamingWiki confirms motocross game. Controller only.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -21699,11 +21903,17 @@
       "year": "2020",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "PCGamingWiki confirms motocross game. Controller only.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -21737,11 +21947,17 @@
       "year": "2017",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "PCGamingWiki confirms motocross game. Controller only.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -21775,11 +21991,17 @@
       "year": "2016",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "PCGamingWiki confirms motocross game. Controller only.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -21813,11 +22035,17 @@
       "year": "2014",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "PCGamingWiki confirms motocross game. Controller only.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -21851,11 +22079,17 @@
       "year": "2018",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "PCGamingWiki confirms motorcycle racing game. Controller only, no wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -21889,11 +22123,17 @@
       "year": "2020",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "PCGamingWiki confirms motorcycle racing game. Controller only, no wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -21927,11 +22167,17 @@
       "year": "2021",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "PCGamingWiki confirms motorcycle game. No native wheel support, community workarounds via x360ce.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -21965,11 +22211,17 @@
       "year": "2018",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community confirms no native wheel support. Dual-stick controls required for independent rider/vehicle control. Third-party mapping needed.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "steam_community",
+          "description": "Multiple Steam community discussions confirm no wheel support. The MX vs ATV series uses dual analog stick controls for independent rider and vehicle control, making single-axis steering wheels fundamentally incompatible.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -22003,11 +22255,17 @@
       "year": "2009",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community confirms no wheel support. Rider Reflex dual-control system requires two analog sticks. Fundamentally incompatible with single-axis wheel.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "steam_community",
+          "description": "Multiple Steam community discussions confirm no wheel support. The MX vs ATV series uses dual analog stick controls for independent rider and vehicle control, making single-axis steering wheels fundamentally incompatible.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -22041,11 +22299,17 @@
       "year": "2005",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community thread asking about Thrustmaster T300RS support received zero responses. No evidence of wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "steam_community",
+          "description": "Multiple Steam community discussions confirm no wheel support. The MX vs ATV series uses dual analog stick controls for independent rider and vehicle control, making single-axis steering wheels fundamentally incompatible.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -22079,11 +22343,17 @@
       "year": "2018",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "PCGamingWiki confirms motocross game. Controller only, no wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -22117,11 +22387,17 @@
       "year": "2019",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "PCGamingWiki confirms motocross game. Controller only, no wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -22155,11 +22431,17 @@
       "year": "2020",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "PCGamingWiki confirms motocross game. Controller only, no wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -22193,11 +22475,17 @@
       "year": "2023",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "pcgamingwiki",
           "description": "PCGamingWiki confirms motocross game. Controller only, no wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -22231,16 +22519,22 @@
       "year": "2022",
       "rotation_degrees": null,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "Steam community reports Xbox-compatible wheels partially recognized. No input remapping or FFB. Drag racing has minimal steering. Traxion review criticizes lack of customizable controls.",
           "url": null,
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "steam_community",
+          "description": "Only Xbox-compatible wheels partially recognized. No input remapping. Thrustmaster T300RS GT reported working at 540 degrees. No force feedback. Drag racing requires minimal steering input.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Official NHRA drag racing game. Xbox wheels partially work. No FFB, no control customization.",
+      "notes": "Drag racing game. Rotation not applicable - steering input is minimal (burnouts and keeping car straight). Only Xbox-compatible wheels partially recognized; no remapping or FFB.",
       "pc": {
         "wheel_support": "partial",
         "force_feedback": "none",
@@ -22277,7 +22571,7 @@
           "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Drag racing game based on Discovery TV show. Developer confirmed no wheel support.",
+      "notes": "Drag racing game. Rotation not applicable. Developer confirmed no wheel/pedal support.",
       "pc": {
         "wheel_support": "none",
         "force_feedback": "none",
@@ -22343,16 +22637,22 @@
       "year": "2016",
       "rotation_degrees": null,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Multiple Steam community threads confirm no wheel support. Anti-gravity racer requires 3 axes (steering, strafing, pitch) incompatible with single-axis wheel.",
           "url": null,
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "steam_community",
+          "description": "Anti-gravity racer requiring multi-axis control (steering + strafing + pitch). Steering wheels provide only single-axis input and are fundamentally unsuitable. Multiple community threads confirm no wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "WipEout-inspired anti-gravity racer. Multi-axis control, no wheel support.",
+      "notes": "Anti-gravity racer. Rotation not applicable - requires multi-axis control (steering + strafing + pitch) that wheels cannot provide.",
       "pc": {
         "wheel_support": "none",
         "force_feedback": "none",
@@ -22380,16 +22680,22 @@
       "year": "2022",
       "rotation_degrees": null,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "Anti-gravity racer with complex multi-axis controls (steering, pitch, strafe, roll). No wheel support, no community evidence of wheel integration.",
           "url": null,
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "steam_community",
+          "description": "Anti-gravity racer requiring multi-axis control (steering + strafing + pitch). Steering wheels provide only single-axis input and are fundamentally unsuitable. Multiple community threads confirm no wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Anti-gravity racer sequel. Even more complex controls than original. No wheel support.",
+      "notes": "Anti-gravity racer. Rotation not applicable - requires multi-axis control (steering + strafing + pitch + roll) beyond single-axis wheel input.",
       "pc": {
         "wheel_support": "none",
         "force_feedback": "none",
@@ -22417,11 +22723,17 @@
       "year": "2018",
       "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community confirms G29 works via Rewired input system. Manual mapping of paddle shifters to air brakes needed. Recommended 180 degree wheel angle. No FFB.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "steam_community",
+          "description": "Uses Rewired input system that recognizes wheel devices. Logitech G29 confirmed working with manual button mapping. Recommended ~180 degree wheel angle. No native wheel bindings or FFB.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -22455,16 +22767,22 @@
       "year": "2018",
       "rotation_degrees": null,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Developer confirmed Xbox, PS4, and Steam Controller support only. No mention of steering wheels. Anti-gravity racer.",
           "url": null,
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "steam_community",
+          "description": "Anti-gravity racer requiring multi-axis control (steering + strafing + pitch). Steering wheels provide only single-axis input and are fundamentally unsuitable. Multiple community threads confirm no wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Anti-gravity combat racer. Controller-only, no wheel support.",
+      "notes": "Anti-gravity racer. Rotation not applicable - multi-axis hovership control designed for dual-stick gamepad input.",
       "pc": {
         "wheel_support": "none",
         "force_feedback": "none",
@@ -22492,16 +22810,22 @@
       "year": "2020",
       "rotation_degrees": null,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "Formerly Formula Fusion. WipEout-style anti-gravity racer with multi-axis controls. No wheel support evidence found.",
           "url": null,
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "steam_community",
+          "description": "Steam community discussion confirms wheels are not suitable: \"A wheel is a bad idea for this game.\" Flight yoke tested and game does not detect non-standard controllers. WipEout-style anti-gravity racer with multi-axis controls fundamentally incompatible with single-axis wheel.",
+          "url": "https://steamcommunity.com/app/389670/discussions/0/3109144584169502411/",
+          "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Anti-gravity combat racer. Formerly Formula Fusion. No wheel support.",
+      "notes": "Anti-gravity racer (formerly Formula Fusion). Rotation not applicable - WipEout-style multi-axis control designed for dual-stick gamepad input.",
       "pc": {
         "wheel_support": "none",
         "force_feedback": "none",
@@ -22529,16 +22853,22 @@
       "year": "2024",
       "rotation_degrees": null,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community discussion confirms wheel not practical due to pitch/strafe requirements. F-Zero-inspired anti-gravity racer. 97% positive reviews.",
           "url": null,
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "steam_community",
+          "description": "Anti-gravity racer requiring multi-axis control (steering + strafing + pitch). Steering wheels provide only single-axis input and are fundamentally unsuitable. Multiple community threads confirm no wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "F-Zero-inspired anti-gravity racer. Multi-axis control, no wheel support. Early Access.",
+      "notes": "F-Zero-inspired anti-gravity racer. Rotation not applicable - requires flying/pitching control beyond single-axis wheel input.",
       "pc": {
         "wheel_support": "none",
         "force_feedback": "none",
@@ -22567,16 +22897,22 @@
       "year": "2024",
       "rotation_degrees": null,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "Top-down arcade racer inspired by 1980s games. Top-down perspective incompatible with steering wheel controls.",
           "url": null,
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Top-down arcade racer (Super Sprint/Micro Machines style). Steering input is relative to car on screen, not cockpit view. Genre inherently does not support steering wheels.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Top-down retro arcade racer. No wheel support due to top-down perspective.",
+      "notes": "Top-down arcade racer. Rotation not applicable - steering input is relative to car position on screen, not cockpit perspective.",
       "pc": {
         "wheel_support": "none",
         "force_feedback": "none",
@@ -22605,11 +22941,17 @@
       "year": "2024",
       "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community confirms G29 not recognized. No in-game wheel binding. Steam Input workaround also failed.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "steam_community",
+          "description": "Logitech G29 not recognized by game. Steam Input attempted as workaround but also failed. No in-game control remapping for wheel devices.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -22643,11 +22985,17 @@
       "year": "2015",
       "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "Developer added wheel calibration via Rewired input system. DeadZone slider uses 1% increments for wheel compatibility. No FFB. Steam community configs available.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "steam_community",
+          "description": "Developer added Rewired controller system with wheel calibration screen and 1% increment DeadZone slider specifically for steering wheels. No FFB but active accommodation via calibration.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -22681,11 +23029,17 @@
       "year": "2023",
       "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
           "description": "Steam community reports G920 recognized but very clunky. No FFB, poor sensitivity. Developer unresponsive. Development paused since Feb 2024.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "steam_community",
+          "description": "Logitech G920 reported as very odd and clunky with no force feedback. Developer did not respond to wheel support requests. Development paused since early 2024.",
           "url": null,
           "date_accessed": "2026-02-20"
         }
@@ -22712,3 +23066,4 @@
     }
   }
 }
+
