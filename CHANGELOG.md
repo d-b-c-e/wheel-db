@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.14.0] - 2026-02-20
+
+### Fixed
+- Corrected 7 Namco motorcycle MAME entries from 45° to 60° (500 GP, Cyber Cycles, Downhill Bikers, Moto GP, Motocross Go!, Suzuka 8 Hours 1 & 2) based on confirmed VG75-03824-00 potentiometer spec (1K ohm, 60-degree)
+- Corrected Screamer (2026): ws=none, ffb=none, rotation=null (twin-stick architecture incompatible with wheels)
+
+### Changed
+- Screamer upgraded from medium to high confidence based on developer and preview evidence of twin-stick controls
+- Confidence distribution: verified=57, high=538, medium=16, low=2
+
 ## [2.13.0] - 2026-02-20
 
 ### Changed

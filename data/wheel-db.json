@@ -1,5 +1,5 @@
 {
-  "version": "2.13.0",
+  "version": "2.14.0",
   "generated": "2026-02-20T00:00:00Z",
   "games": {
     "outrun": {
@@ -5786,7 +5786,7 @@
       "developer": null,
       "publisher": null,
       "year": "1998",
-      "rotation_degrees": 45,
+      "rotation_degrees": 60,
       "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
@@ -5797,16 +5797,10 @@
           "date_accessed": "2026-02-19"
         },
         {
-          "type": "reference",
-          "description": "Namco motorcycle/bicycle cabinets: body-lean/handlebar potentiometer with ~45-degree range",
-          "url": null,
-          "date_accessed": "2026-02-19"
-        },
-        {
-          "type": "reference",
-          "description": "Namco motorcycle arcade cabinet: body-lean handlebar mechanism with ~45-degree tilt range. Consistent across Namco System 22/Super System 22 motorcycle games.",
-          "url": null,
-          "date_accessed": "2026-02-19"
+          "type": "parts",
+          "description": "Namco motorcycle handlebar potentiometer VG75-03824-00 (1K ohm, 60-degree rotation). Confirmed in Cybercycles (System 22) handle and pivot assembly. Standard across Namco motorcycle/body-lean cabinets.",
+          "url": "https://na.suzohapp.com/products/driving_controls/VG75-03824-00",
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -6786,7 +6780,7 @@
       "developer": null,
       "publisher": null,
       "year": "1995",
-      "rotation_degrees": 45,
+      "rotation_degrees": 60,
       "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
@@ -6797,16 +6791,10 @@
           "date_accessed": "2026-02-19"
         },
         {
-          "type": "reference",
-          "description": "Namco motorcycle/bicycle cabinets: body-lean/handlebar potentiometer with ~45-degree range",
-          "url": null,
-          "date_accessed": "2026-02-19"
-        },
-        {
-          "type": "reference",
-          "description": "Namco motorcycle arcade cabinet: body-lean handlebar mechanism with ~45-degree tilt range. Consistent across Namco System 22/Super System 22 motorcycle games.",
-          "url": null,
-          "date_accessed": "2026-02-19"
+          "type": "parts",
+          "description": "Namco motorcycle handlebar potentiometer VG75-03824-00 (1K ohm, 60-degree rotation). Confirmed in Cybercycles (System 22) handle and pivot assembly. Standard across Namco motorcycle/body-lean cabinets.",
+          "url": "https://na.suzohapp.com/products/driving_controls/VG75-03824-00",
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Namco System 22 hardware. Futuristic motorcycle racing.",
@@ -6982,7 +6970,7 @@
       "developer": null,
       "publisher": null,
       "year": "1997",
-      "rotation_degrees": 45,
+      "rotation_degrees": 60,
       "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
@@ -6993,16 +6981,10 @@
           "date_accessed": "2026-02-19"
         },
         {
-          "type": "reference",
-          "description": "Namco motorcycle/bicycle cabinets: body-lean/handlebar potentiometer with ~45-degree range",
-          "url": null,
-          "date_accessed": "2026-02-19"
-        },
-        {
-          "type": "reference",
-          "description": "Namco motorcycle arcade cabinet: body-lean handlebar mechanism with ~45-degree tilt range. Consistent across Namco System 22/Super System 22 motorcycle games.",
-          "url": null,
-          "date_accessed": "2026-02-19"
+          "type": "parts",
+          "description": "Namco motorcycle handlebar potentiometer VG75-03824-00 (1K ohm, 60-degree rotation). Confirmed in Cybercycles (System 22) handle and pivot assembly. Standard across Namco motorcycle/body-lean cabinets.",
+          "url": "https://na.suzohapp.com/products/driving_controls/VG75-03824-00",
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view) Bike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -8981,7 +8963,7 @@
       "developer": null,
       "publisher": null,
       "year": "2007",
-      "rotation_degrees": 45,
+      "rotation_degrees": 60,
       "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
@@ -8992,16 +8974,10 @@
           "date_accessed": "2026-02-19"
         },
         {
-          "type": "reference",
-          "description": "Namco motorcycle/bicycle cabinets: body-lean/handlebar potentiometer with ~45-degree range",
-          "url": null,
-          "date_accessed": "2026-02-19"
-        },
-        {
-          "type": "reference",
-          "description": "Namco motorcycle arcade cabinet: body-lean handlebar mechanism with ~45-degree tilt range. Consistent across Namco System 22/Super System 22 motorcycle games.",
-          "url": null,
-          "date_accessed": "2026-02-19"
+          "type": "parts",
+          "description": "Namco motorcycle handlebar potentiometer VG75-03824-00 (1K ohm, 60-degree rotation). Confirmed in Cybercycles (System 22) handle and pivot assembly. Standard across Namco motorcycle/body-lean cabinets.",
+          "url": "https://na.suzohapp.com/products/driving_controls/VG75-03824-00",
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -9019,7 +8995,7 @@
       "developer": null,
       "publisher": null,
       "year": "1997",
-      "rotation_degrees": 45,
+      "rotation_degrees": 60,
       "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
@@ -9030,16 +9006,10 @@
           "date_accessed": "2026-02-19"
         },
         {
-          "type": "reference",
-          "description": "Namco motorcycle/bicycle cabinets: body-lean/handlebar potentiometer with ~45-degree range",
-          "url": null,
-          "date_accessed": "2026-02-19"
-        },
-        {
-          "type": "reference",
-          "description": "Namco motorcycle arcade cabinet: body-lean handlebar mechanism with ~45-degree tilt range. Consistent across Namco System 22/Super System 22 motorcycle games.",
-          "url": null,
-          "date_accessed": "2026-02-19"
+          "type": "parts",
+          "description": "Namco motorcycle handlebar potentiometer VG75-03824-00 (1K ohm, 60-degree rotation). Confirmed in Cybercycles (System 22) handle and pivot assembly. Standard across Namco motorcycle/body-lean cabinets.",
+          "url": "https://na.suzohapp.com/products/driving_controls/VG75-03824-00",
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -10777,7 +10747,7 @@
       "developer": null,
       "publisher": null,
       "year": "1993",
-      "rotation_degrees": 45,
+      "rotation_degrees": 60,
       "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
@@ -10788,16 +10758,10 @@
           "date_accessed": "2026-02-19"
         },
         {
-          "type": "reference",
-          "description": "Namco motorcycle/bicycle cabinets: body-lean/handlebar potentiometer with ~45-degree range",
-          "url": null,
-          "date_accessed": "2026-02-19"
-        },
-        {
-          "type": "reference",
-          "description": "Namco motorcycle arcade cabinet: body-lean handlebar mechanism with ~45-degree tilt range. Consistent across Namco System 22/Super System 22 motorcycle games.",
-          "url": null,
-          "date_accessed": "2026-02-19"
+          "type": "parts",
+          "description": "Namco motorcycle handlebar potentiometer VG75-03824-00 (1K ohm, 60-degree rotation). Confirmed in Cybercycles (System 22) handle and pivot assembly. Standard across Namco motorcycle/body-lean cabinets.",
+          "url": "https://na.suzohapp.com/products/driving_controls/VG75-03824-00",
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -10815,7 +10779,7 @@
       "developer": null,
       "publisher": null,
       "year": "1992",
-      "rotation_degrees": 45,
+      "rotation_degrees": 60,
       "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
@@ -10826,16 +10790,10 @@
           "date_accessed": "2026-02-19"
         },
         {
-          "type": "reference",
-          "description": "Namco motorcycle/bicycle cabinets: body-lean/handlebar potentiometer with ~45-degree range",
-          "url": null,
-          "date_accessed": "2026-02-19"
-        },
-        {
-          "type": "reference",
-          "description": "Namco motorcycle arcade cabinet: body-lean handlebar mechanism with ~45-degree tilt range. Consistent across Namco System 22/Super System 22 motorcycle games.",
-          "url": null,
-          "date_accessed": "2026-02-19"
+          "type": "parts",
+          "description": "Namco motorcycle handlebar potentiometer VG75-03824-00 (1K ohm, 60-degree rotation). Confirmed in Cybercycles (System 22) handle and pivot assembly. Standard across Namco motorcycle/body-lean cabinets.",
+          "url": "https://na.suzohapp.com/products/driving_controls/VG75-03824-00",
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
@@ -20959,27 +20917,27 @@
       "developer": "Milestone S.r.l.",
       "publisher": "Milestone S.r.l.",
       "year": "2026",
-      "rotation_degrees": 540,
+      "rotation_degrees": null,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
-          "type": "research",
-          "description": "Milestone arcade racer reboot. Wheel support expected based on Milestone track record (RIDE, MotoGP, MXGP series).",
-          "url": "https://store.steampowered.com/app/2814990",
-          "date_accessed": "2026-02-19"
+          "type": "developer",
+          "description": "Milestone official page and multiple preview articles describe Twin Stick control system: \"Steer with the left stick, drift with the right, and blend both for smooth turns or aggressive slides.\" XInput and PlayStation controllers confirmed, including DualSense Adaptive Triggers.",
+          "url": "https://milestone.it/games/screamer/",
+          "date_accessed": "2026-02-20"
         },
         {
           "type": "research",
-          "description": "Steam community and developer documentation corroborate wheel support classification and rotation value.",
-          "url": null,
-          "date_accessed": "2026-02-19"
+          "description": "RacingGames.gg, Game Informer, The Gamer, PowerUp! previews all discuss twin-stick system with no mention of wheel support. Screamer Wiki notes partial support for USB controllers but no wheel mention. Community member noted game \"misses the wheel support.\"",
+          "url": "https://racinggames.gg/article/screamer-preview-hands-on-impressions",
+          "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Modern reimagining of 90s Screamer series with anime-inspired visuals. Releases March 2026.",
+      "notes": "Twin-stick arcade racer. Steer with left stick, drift with right stick. Multi-axis control fundamentally incompatible with single-axis steering wheel. Unreleased (March 2026).",
       "pc": {
-        "wheel_support": "unknown",
-        "force_feedback": "unknown",
+        "wheel_support": "none",
+        "force_feedback": "none",
         "controller_support": "full"
       },
       "platforms": {
@@ -23066,4 +23024,3 @@
     }
   }
 }
-
