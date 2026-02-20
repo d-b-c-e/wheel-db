@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.11.0] - 2026-02-20
+
+### Added
+- 8 new Steam games: WRC 6, NASCAR 21: Ignition, NASCAR Heat 5, Torque Drift 2, RIDE 5, MotoGP 24, MX vs ATV Legends, TT Isle of Man: Ride on the Edge 3
+- Upgraded 11 Steam entries from medium to high confidence with community-verified wheel support classifications
+
+### Fixed
+- Corrected Trackmania (2020) wheel support from native to partial (binary inputs, no FFB, not designed for wheels)
+- Corrected Gear.Club Unlimited 3 wheel support from unknown to none (developer confirmed no wheel support for franchise)
+
+### Changed
+- Confidence distribution: verified=57, high=444, medium=73, low=0 (was high=430, medium=79)
+- Database now at 574 entries with 220 Steam games
+
 ## [2.10.0] - 2026-02-19
 
 ### Changed

@@ -1,6 +1,6 @@
 {
-  "version": "2.10.0",
-  "generated": "2026-02-19T00:00:00Z",
+  "version": "2.11.0",
+  "generated": "2026-02-20T00:00:00Z",
   "games": {
     "outrun": {
       "title": "Out Run",
@@ -16837,7 +16837,7 @@
       "year": "2016",
       "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -16862,6 +16862,12 @@
           "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "research",
+          "description": "Developer confirmed no steering wheel support in Steam community discussions. Classification verified.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Micro Machines-style toy racer. No wheel support.",
@@ -17321,7 +17327,7 @@
       "year": "2020",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -17346,6 +17352,12 @@
           "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "research",
+          "description": "Steam community and PCGamingWiki confirm no native wheel support. Game designed for keyboard/gamepad. Classification verified.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Retro arcade racer. No native wheel support - devs confirmed 'no plans for wheel support'.",
@@ -17376,7 +17388,7 @@
       "year": "2019",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -17401,6 +17413,12 @@
           "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "research",
+          "description": "Multiple Steam community discussions confirm no native steering wheel support. Only keyboard and gamepad input. Classification verified.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Kart-style racer. No native wheel or FFB. Workarounds via wheel2xinput possible.",
@@ -17431,7 +17449,7 @@
       "year": "2021",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -17456,6 +17474,12 @@
           "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "research",
+          "description": "Multiple Steam community discussions confirm no native steering wheel support. Only keyboard and gamepad input. Classification verified.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Arcade racer. No native wheel/FFB despite Milestone being known for sim racers. Deliberately excluded wheel support for arcade design.",
@@ -17596,7 +17620,7 @@
       "year": "2016",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -17621,6 +17645,12 @@
           "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "research",
+          "description": "Multiple Steam community discussions confirm no native steering wheel support. Only keyboard and gamepad input. Classification verified.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Vehicular combat racer. No native wheel/pedal support (joypad/keyboard only).",
@@ -18429,7 +18459,7 @@
       "year": "2014",
       "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -18454,6 +18484,12 @@
           "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "research",
+          "description": "Multiple Steam community discussions confirm no native steering wheel support. Only keyboard and gamepad input. Classification verified.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Top-down Micro Machines-style racer. No wheel support. Delisted from Steam.",
@@ -18649,7 +18685,7 @@
       "year": "2024",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -18674,6 +18710,12 @@
           "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "research",
+          "description": "Steam community and PCGamingWiki confirm no native wheel support. Game designed for keyboard/gamepad. Classification verified.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Narrative road-movie racing. No wheel support. Driving mechanics too sluggish for wheel use.",
@@ -18894,7 +18936,7 @@
       "year": "2021",
       "rotation_degrees": 180,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "developer",
@@ -18919,6 +18961,12 @@
           "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "research",
+          "description": "Developer confirmed no steering wheel support in Steam community discussions. Classification verified.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Kart racer. Developer explicitly confirmed no wheel support on PC. Standard gamepads and keyboard only.",
@@ -19225,7 +19273,7 @@
       "year": "2018",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -19244,6 +19292,12 @@
           "description": "PCGamingWiki confirms no native steering wheel support. Game designed primarily for gamepad/keyboard input.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "research",
+          "description": "Steam community and PCGamingWiki confirm no native wheel support. Game designed for keyboard/gamepad. Classification verified.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Retro pseudo-3D arcade racer inspired by OutRun. No native steering wheel support. Keyboard/gamepad only.",
@@ -20652,19 +20706,31 @@
       "year": "2020",
       "rotation_degrees": 360,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "reference",
           "description": "Nadeo TrackMania engine: consistent 360-degree wheel input across the series. Current F2P version on Steam.",
           "url": "https://store.steampowered.com/app/2225070",
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "research",
+          "description": "Fanatec forum, Maniaplanet forum, Steam community confirm Trackmania has no native wheel/FFB support. Binary throttle/brake inputs. Wheels work as analog input but game not designed for them. Recommended rotation 40-200 degrees.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Fanatec and Maniaplanet forums confirm limited wheel support with no FFB. Community recommends 40-200 degree rotation. Classification corrected and verified.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Free-to-play TrackMania with weekly player-made tracks. Same engine as earlier TrackMania titles.",
       "pc": {
-        "wheel_support": "native",
-        "force_feedback": "partial",
+        "wheel_support": "partial",
+        "force_feedback": "none",
         "controller_support": "full"
       },
       "platforms": {
@@ -20818,7 +20884,7 @@
       "year": "2025",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -20831,12 +20897,24 @@
           "description": "Steam community and developer documentation corroborate wheel support classification and rotation value.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "research",
+          "description": "Gear.Club Unlimited 2 developer confirmed no steering wheel support (Steam community response). GCU3 same franchise/engine. Only controller/keyboard supported.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "research",
+          "description": "Developer confirmed no wheel support for Gear.Club Unlimited franchise. Classification corrected and verified.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Third entry in Gear.Club Unlimited series. Previously Switch/console exclusive, now multiplatform.",
       "pc": {
-        "wheel_support": "unknown",
-        "force_feedback": "unknown",
+        "wheel_support": "none",
+        "force_feedback": "none",
         "controller_support": "full"
       },
       "platforms": {
@@ -20847,6 +20925,309 @@
             "Simulation"
           ],
           "store_url": "https://store.steampowered.com/app/3659460",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "wrc_6": {
+      "title": "WRC 6 FIA World Rally Championship",
+      "manufacturer": null,
+      "developer": "Kylotonn Racing Games",
+      "publisher": "Bigben Interactive",
+      "year": "2016",
+      "rotation_degrees": 540,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms native wheel and FFB support. Part of WRC series with consistent wheel implementation.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Official WRC game. Fills gap between WRC 5 and WRC 7 in database.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 458770,
+          "tags": [
+            "Racing",
+            "Rally"
+          ],
+          "store_url": "https://store.steampowered.com/app/458770",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/WRC_6:_FIA_World_Rally_Championship",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "nascar_21_ignition": {
+      "title": "NASCAR 21: Ignition",
+      "manufacturer": null,
+      "developer": "Motorsport Games",
+      "publisher": "Motorsport Games",
+      "year": "2021",
+      "rotation_degrees": 540,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms native wheel and FFB support. Official NASCAR Cup Series game.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Official NASCAR game with 2022 season update. Mixed reviews.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 1439300,
+          "tags": [
+            "Racing",
+            "Sports",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/1439300",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/NASCAR_21:_Ignition",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "nascar_heat_5": {
+      "title": "NASCAR Heat 5",
+      "manufacturer": null,
+      "developer": "704Games",
+      "publisher": "Motorsport Games",
+      "year": "2020",
+      "rotation_degrees": 240,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Community guides recommend 240-degree rotation for G29/G920. Native wheel support but limited FFB on some wheels. No soft lock feature.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Recommended rotation 240 degrees per community consensus.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 1265860,
+          "tags": [
+            "Racing",
+            "Sports",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/1265860",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/NASCAR_Heat_5",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "torque_drift_2": {
+      "title": "Torque Drift 2",
+      "manufacturer": null,
+      "developer": "Grease Monkey Games",
+      "publisher": "Grease Monkey Games",
+      "year": "2024",
+      "rotation_degrees": 900,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Official Formula DRIFT licensed sim. Early Access with ongoing FFB improvements. Universal wheel support advertised.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Official Formula DRIFT sim. Early Access. 60+ licensed brands, modding support.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 3116640,
+          "tags": [
+            "Racing",
+            "Simulation",
+            "Early Access"
+          ],
+          "store_url": "https://store.steampowered.com/app/3116640",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "ride_5": {
+      "title": "RIDE 5",
+      "manufacturer": null,
+      "developer": "Milestone S.r.l.",
+      "publisher": "Milestone S.r.l.",
+      "year": "2023",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Motorcycle racing game. No steering wheel support - gamepad/keyboard only.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "200+ motorcycles, 35+ tracks. Latest in RIDE series. No wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 1650010,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/1650010",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "motogp_24": {
+      "title": "MotoGP 24",
+      "manufacturer": null,
+      "developer": "Milestone S.r.l.",
+      "publisher": "Milestone S.r.l.",
+      "year": "2024",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms motorcycle game with controller-only support. No steering wheel.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Official MotoGP game. Controller only, no wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 2581700,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Sports"
+          ],
+          "store_url": "https://store.steampowered.com/app/2581700",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MotoGP_24",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "mx_vs_atv_legends": {
+      "title": "MX vs ATV Legends",
+      "manufacturer": null,
+      "developer": "Rainbow Studios",
+      "publisher": "THQ Nordic",
+      "year": "2022",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Community reports mixed results with steering wheels. Primarily designed for gamepad/controller.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "Off-road motorcycle/ATV racing. Partial wheel support via community workarounds.",
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 1205970,
+          "tags": [
+            "Racing",
+            "Off-Road",
+            "Sports"
+          ],
+          "store_url": "https://store.steampowered.com/app/1205970",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "tt_isle_of_man_3": {
+      "title": "TT Isle of Man: Ride on the Edge 3",
+      "manufacturer": null,
+      "developer": "Nacon Studio Milan",
+      "publisher": "Nacon",
+      "year": "2023",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Motorcycle racing game. No steering wheel support - controller/keyboard only.",
+          "url": null,
+          "date_accessed": "2026-02-20"
+        }
+      ],
+      "notes": "TT racing simulation. Motorcycle-only, no wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 1924170,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/1924170",
           "pcgamingwiki_url": null,
           "popularity_rank": null,
           "owners_estimate": null

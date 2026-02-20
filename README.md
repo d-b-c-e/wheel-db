@@ -10,29 +10,29 @@ Modern USB racing wheels support 270-1080 degrees of rotation, but original arca
 
 The primary database is `data/wheel-db.json` -- a unified, game-centric JSON file where each entry represents a unique game. Platform-specific identifiers (MAME ROM names, TeknoParrot profiles, Steam app IDs, etc.) are stored in a `platforms` map so a game's data is never duplicated across platforms.
 
-### Current Stats (v2.10.0)
+### Current Stats (v2.11.0)
 
 | Metric | Count |
 |--------|-------|
-| Total game entries | 566 |
+| Total game entries | 574 |
 | With MAME mapping | 291 |
 | With TeknoParrot mapping | 81 |
-| With Steam mapping | 212 |
+| With Steam mapping | 220 |
 | With Supermodel mapping | 9 |
 | With Flycast mapping | 9 |
 | With Model 2 Emulator mapping | 6 |
 | With Dolphin mapping | 4 |
-| With known rotation value | 535 |
+| With known rotation value | 543 |
 | Unknown (needs research) | 0 |
 | Infinite rotation (encoders) | 31 |
 
-**Confidence:** verified (57), high (430), medium (79), low (0)
+**Confidence:** verified (57), high (444), medium (73), low (0)
 
-**Rotation values:** 270 (268 games), 540 (76), 360 (57), 900 (53), 45 (27), 180 (12), 56 (10), 60 (8), 1080 (4), 450 (4), 200 (3), 390 (3), 150 (2), 240 (2), 90 (2), 300 (1), 480 (1), 720 (1), 800 (1)
+**Rotation values:** 270 (272 games), 540 (78), 360 (57), 900 (54), 45 (27), 180 (12), 56 (10), 60 (8), 1080 (4), 450 (4), 200 (3), 240 (3), 390 (3), 150 (2), 90 (2), 300 (1), 480 (1), 720 (1), 800 (1)
 
-**PC wheel support:** native (133 games), partial (51), none (25)
+**PC wheel support:** native (136 games), partial (53), none (29)
 
-**PC force feedback:** native (98), partial (38), none (71)
+**PC force feedback:** native (101), partial (38), none (76)
 
 ### Special Values
 
@@ -73,7 +73,7 @@ All scripts are PowerShell 7+ and located in `scripts/`.
 ```
 wheel-db/
   data/
-    wheel-db.json                # Primary database (566 games)
+    wheel-db.json                # Primary database (574 games)
     schema/
       wheel-db.schema.json       # JSON Schema for validation
   scripts/
@@ -103,7 +103,7 @@ Each [GitHub Release](../../releases) includes these artifacts:
 | `mame-wheel-rotation.csv` | CSV | Flat MAME ROM-to-rotation lookup (known values only) |
 | `mame-wheel-rotation.xml` | XML | Same MAME data in XML format |
 | `steam-wheel-support.csv` | CSV | Steam games with wheel support, FFB, and rotation info |
-| `wheel-db.csv` | CSV | Unified flat CSV of all 566 games across all platforms |
+| `wheel-db.csv` | CSV | Unified flat CSV of all 574 games across all platforms |
 
 For detailed parsing instructions and code examples, see **[docs/INTEGRATION.md](docs/INTEGRATION.md)**.
 
