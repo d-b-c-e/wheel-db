@@ -10,7 +10,7 @@ Modern USB racing wheels support 270-1080 degrees of rotation, but original arca
 
 The primary database is `data/wheel-db.json` -- a unified, game-centric JSON file where each entry represents a unique game. Platform-specific identifiers (MAME ROM names, TeknoParrot profiles, Steam app IDs, etc.) are stored in a `platforms` map so a game's data is never duplicated across platforms.
 
-### Current Stats (v2.14.0)
+### Current Stats (v2.15.0)
 
 | Metric | Count |
 |--------|-------|
@@ -67,6 +67,7 @@ All scripts are PowerShell 7+ and located in `scripts/`.
 | `Get-SteamRacingGames.ps1` | Fetches top racing/driving games from SteamSpy and Steam Store APIs |
 | `Export-Formats.ps1` | Generates CSV and XML exports from JSON master into `dist/` |
 | `Validate-Database.ps1` | Validates database structure, enums, ranges, and uniqueness constraints |
+| `Audit-Database.ps1` | Comprehensive data quality report (rotation_type gaps, consistency, completeness) |
 
 ## Repository Structure
 
@@ -83,6 +84,7 @@ wheel-db/
     Get-SteamRacingGames.ps1     # Steam racing game discovery
     Export-Formats.ps1           # Generate CSV/XML exports into dist/
     Validate-Database.ps1        # Schema validation and data checks
+    Audit-Database.ps1           # Data quality audit and consistency report
     archive/                     # One-time migration scripts
   .github/
     workflows/

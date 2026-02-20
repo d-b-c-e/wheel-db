@@ -224,6 +224,48 @@ foreach ($prop in $gameProps) {
 if ($check7Errors -eq 0) { Write-Host "  Pass ($($mameRoms.Count) MAME entries)" -ForegroundColor Green }
 
 # ============================================================
+# Check 8: Infinite rotation must be optical_encoder
+# ============================================================
+Write-Host "[Check 8] Infinite rotation type consistency..." -ForegroundColor Yellow
+$check8Errors = 0
+foreach ($prop in $gameProps) {
+    $game = $prop.Value
+    if ($game.rotation_degrees -eq -1 -and $game.PSObject.Properties['rotation_type'] -and $game.rotation_type -ne 'optical_encoder') {
+        Write-Host "  ERROR: rotation=-1 but type='$($game.rotation_type)' in '$($prop.Name)' (must be optical_encoder)" -ForegroundColor Red
+        $errors++; $check8Errors++
+    }
+}
+if ($check8Errors -eq 0) { Write-Host "  Pass" -ForegroundColor Green }
+
+# ============================================================
+# Check 9: Steam entries should have pc sub-object
+# ============================================================
+Write-Host "[Check 9] Steam entries have pc metadata..." -ForegroundColor Yellow
+$check9Warnings = 0
+foreach ($prop in $gameProps) {
+    $game = $prop.Value
+    if ($game.platforms.PSObject.Properties['steam'] -and (-not $game.PSObject.Properties['pc'] -or $null -eq $game.pc)) {
+        Write-Host "  WARN: Steam entry '$($prop.Name)' has no pc sub-object" -ForegroundColor DarkYellow
+        $warnings++; $check9Warnings++
+    }
+}
+if ($check9Warnings -eq 0) { Write-Host "  Pass" -ForegroundColor Green }
+
+# ============================================================
+# Check 10: pc entries should have Steam platform
+# ============================================================
+Write-Host "[Check 10] pc metadata has Steam platform..." -ForegroundColor Yellow
+$check10Warnings = 0
+foreach ($prop in $gameProps) {
+    $game = $prop.Value
+    if ($game.PSObject.Properties['pc'] -and $null -ne $game.pc -and -not $game.platforms.PSObject.Properties['steam']) {
+        Write-Host "  WARN: '$($prop.Name)' has pc metadata but no Steam platform" -ForegroundColor DarkYellow
+        $warnings++; $check10Warnings++
+    }
+}
+if ($check10Warnings -eq 0) { Write-Host "  Pass" -ForegroundColor Green }
+
+# ============================================================
 # Statistics
 # ============================================================
 $withRotation = 0; $withNull = 0; $withInfinite = 0
@@ -294,10 +336,13 @@ if ($hasPc -gt 0) {
 
 Write-Host ""
 Write-Host "=== Validation Summary ===" -ForegroundColor Cyan
-if ($errors -eq 0) {
+if ($errors -eq 0 -and $warnings -eq 0) {
     Write-Host "  PASS - Database is valid ($gameCount games)" -ForegroundColor Green
     exit 0
+} elseif ($errors -eq 0) {
+    Write-Host "  PASS - Database is valid ($gameCount games, $warnings warning(s))" -ForegroundColor Green
+    exit 0
 } else {
-    Write-Host "  FAIL - Found $errors error(s)" -ForegroundColor Red
+    Write-Host "  FAIL - Found $errors error(s), $warnings warning(s)" -ForegroundColor Red
     exit 1
 }

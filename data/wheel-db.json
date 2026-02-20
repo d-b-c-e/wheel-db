@@ -1,5 +1,5 @@
 {
-  "version": "2.14.0",
+  "version": "2.15.0",
   "generated": "2026-02-20T00:00:00Z",
   "games": {
     "outrun": {
@@ -5065,7 +5065,7 @@
       "publisher": null,
       "year": "1994",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -5085,6 +5085,12 @@
           "description": "Strata/Incredible Technologies Driver's Edge: 270-degree steering assembly",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Strata/Incredible Technologies racing cabinet with standard 270-degree mechanical stop steering.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Very rare F1 racing game (~8 known units). 270 degrees assumed based on era standard. Incredible Technologies primarily known for Golden Tee.",
@@ -5995,7 +6001,7 @@
       "publisher": null,
       "year": "2000",
       "rotation_degrees": 540,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -6009,6 +6015,12 @@
           "description": "TeknoParrot metadata confirms 540-degree wheel rotation for Battle Gear series cabinets (Taito Type X+)",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Taito racing cabinet with mechanical stop steering assembly. Standard across Taito Z System and Type X racing games.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Taito hardware. Predecessor to Battle Gear 3 (540 degrees).",
@@ -6071,7 +6083,7 @@
       "publisher": null,
       "year": "1985",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -6085,6 +6097,12 @@
           "description": "Tatsumi Buggy Boy/Speed Buggy: 270-degree steering, shared hardware with TX-1 and Round Up series",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Tatsumi racing cabinet with 270-degree mechanical stop steering. Consistent with other Tatsumi racers (Apache 3, TX-1).",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Tatsumi hardware. Off-road racing classic.",
@@ -6147,7 +6165,7 @@
       "publisher": null,
       "year": "2000",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -6161,6 +6179,12 @@
           "description": "Midway/Atari Games racing cabinets used SuzoHapp Active 270 steering assembly, documented in arcade parts catalogs (TwistedQuarter, SuzoHapp)",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Midway racing cabinet with SuzoHapp Active 270 mechanical stop steering assembly. Documented standard for Midway arcade racers.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Midway Zeus hardware. CART open-wheel racing.",
@@ -6267,7 +6291,7 @@
       "publisher": null,
       "year": "1988",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -6281,6 +6305,12 @@
           "description": "Taito Z System steering confirmed via MAME source code (taito_z.cpp). Continental Circus uses same hardware; shared 270-degree steering assembly across platform.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Taito racing cabinet with mechanical stop steering assembly. Standard across Taito Z System and Type X racing games.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Taito Z-System hardware. Police chase racing.",
@@ -6337,7 +6367,7 @@
       "publisher": null,
       "year": "1998",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -6357,6 +6387,12 @@
           "description": "Sega SPG-2002 steering assembly (5K ohm potentiometer, 270 degrees). Supermodel emulator community confirms 1:1 ratio at 270 degrees.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Sega SPG-2002 steering assembly with mechanical stops at 270 degrees. Standard across Sega racing cabinets.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega NAOMI hardware. Choro Q toy car racing.",
@@ -6621,7 +6657,7 @@
       "publisher": null,
       "year": "1993",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -6641,6 +6677,12 @@
           "description": "Video System Co. racing standard: 270-degree steering",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Video System Co. racing cabinet with 270-degree mechanical stop steering assembly.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Video System hardware.",
@@ -6659,7 +6701,7 @@
       "publisher": null,
       "year": "2003",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -6667,6 +6709,12 @@
           "description": "SuzoHapp 5K potentiometer (220-5373) lists Crazy Taxi as compatible. High Roller uses same Chihiro hardware and cabinet.",
           "url": "https://www.arcadeshop.com/i/1282/5k-potentiometer-for-sega-games.htm",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "inference",
+          "description": "Sega SPG-2002 steering assembly with mechanical stops at 270 degrees. Standard across Sega racing cabinets.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega Chihiro hardware. Sequel to Crazy Taxi using same cabinet.",
@@ -6685,7 +6733,7 @@
       "publisher": null,
       "year": "1999",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -6693,6 +6741,12 @@
           "description": "Midway Cruis'n series uses SuzoHapp Active 270 steering assembly.",
           "url": "https://na.suzohapp.com/products/driving_controls/50-4041-90",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "inference",
+          "description": "Midway racing cabinet with SuzoHapp Active 270 mechanical stop steering assembly. Documented standard for Midway arcade racers.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Midway Zeus 2 hardware. Cruis'n series.",
@@ -6711,7 +6765,7 @@
       "publisher": null,
       "year": "1996",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -6719,6 +6773,12 @@
           "description": "Midway Cruis'n series uses SuzoHapp Active 270 steering assembly.",
           "url": "https://na.suzohapp.com/products/driving_controls/50-4041-90",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "inference",
+          "description": "Midway racing cabinet with SuzoHapp Active 270 mechanical stop steering assembly. Documented standard for Midway arcade racers.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Midway hardware. Cruis'n series.",
@@ -7085,7 +7145,7 @@
       "publisher": null,
       "year": "1991",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -7105,6 +7165,12 @@
           "description": "Video System Co. racing standard: 270-degree steering assembly",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Video System Co. racing cabinet with 270-degree mechanical stop steering assembly.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Video System hardware.",
@@ -7123,7 +7189,7 @@
       "publisher": null,
       "year": "1992",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -7143,6 +7209,12 @@
           "description": "Video System Co. racing standard: 270-degree steering assembly",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Video System Co. racing cabinet with 270-degree mechanical stop steering assembly.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Video System hardware.",
@@ -7161,7 +7233,7 @@
       "publisher": null,
       "year": "1993",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -7175,6 +7247,12 @@
           "description": "Sega SPG-2002 steering assembly (5K ohm potentiometer, 270 degrees). Supermodel emulator community confirms 1:1 ratio at 270 degrees.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Sega SPG-2002 steering assembly with mechanical stops at 270 degrees. Standard across Sega racing cabinets.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega Model 1 hardware. Formula 1 racing.",
@@ -7237,7 +7315,7 @@
       "publisher": null,
       "year": "1999",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -7245,6 +7323,12 @@
           "description": "SuzoHapp 5K potentiometer (220-5373) explicitly lists F355 Challenge as compatible. Standard Sega NAOMI driving assembly.",
           "url": "https://www.arcadeshop.com/i/1282/5k-potentiometer-for-sega-games.htm",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "inference",
+          "description": "Sega SPG-2002 steering assembly with mechanical stops at 270 degrees. Standard across Sega racing cabinets.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega NAOMI hardware. Deluxe cabinet (no network link). Same steering assembly as all Sega 270-degree racers.",
@@ -7266,7 +7350,7 @@
       "publisher": null,
       "year": "1999",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -7274,6 +7358,12 @@
           "description": "SuzoHapp 5K potentiometer (220-5373) explicitly lists F355 Challenge as compatible. Standard Sega NAOMI driving assembly.",
           "url": "https://www.arcadeshop.com/i/1282/5k-potentiometer-for-sega-games.htm",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "inference",
+          "description": "Sega SPG-2002 steering assembly with mechanical stops at 270 degrees. Standard across Sega racing cabinets.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega NAOMI hardware. Twin/Deluxe cabinet. Same steering assembly as all Sega 270-degree racers.",
@@ -7295,7 +7385,7 @@
       "publisher": null,
       "year": "2001",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -7303,6 +7393,12 @@
           "description": "SuzoHapp 5K potentiometer (220-5373) explicitly lists F355 Challenge as compatible. Standard Sega NAOMI driving assembly.",
           "url": "https://www.arcadeshop.com/i/1282/5k-potentiometer-for-sega-games.htm",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "inference",
+          "description": "Sega SPG-2002 steering assembly with mechanical stops at 270 degrees. Standard across Sega racing cabinets.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega NAOMI hardware. Challenge 2 International Course Edition. Same steering assembly.",
@@ -7324,7 +7420,7 @@
       "publisher": null,
       "year": "1995",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
         {
@@ -7332,6 +7428,12 @@
           "description": "Namco standard 1K ohm 270-degree potentiometer (VG75-07050-00 / DE475-15417-00). Confirmed by Final Lap 3 operator manual.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "inference",
+          "description": "Namco standard 1K ohm 270-degree potentiometer (VG75-07050-00). Documented across System 2/21/22/Super System 22/11/12.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Namco System FL hardware. Final installment of Final Lap series.",
@@ -7350,7 +7452,7 @@
       "publisher": null,
       "year": "1987",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
         {
@@ -7358,6 +7460,12 @@
           "description": "Namco standard 1K ohm 270-degree potentiometer (VG75-07050-00 / DE475-15417-00). Confirmed by Final Lap 3 operator manual.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "inference",
+          "description": "Namco standard 1K ohm 270-degree potentiometer (VG75-07050-00). Documented across System 2/21/22/Super System 22/11/12.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Namco System 2 hardware. First game in the Final Lap series. Same pot as Final Lap 3 (confirmed by operator manual).",
@@ -7458,7 +7566,7 @@
       "publisher": null,
       "year": "1976",
       "rotation_degrees": -1,
-      "rotation_type": "unknown",
+      "rotation_type": "optical_encoder",
       "confidence": "high",
       "sources": [
         {
@@ -7478,6 +7586,12 @@
           "description": "TTL-era arcade (1975-1979): optical disc encoder producing infinite rotation. Universal across all driving games of this period. Confirmed by MAME TTL input definitions.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "TTL-era game with infinite rotation dial/spinner input. Sega TTL hardware.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega TTL hardware. Very early motorcycle game.",
@@ -7534,7 +7648,7 @@
       "publisher": null,
       "year": "2004",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -7554,6 +7668,12 @@
           "description": "Sammy racing cabinet: 270-degree steering assembly standard",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Sammy racing cabinet with 270-degree mechanical stop steering assembly.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sammy Atomiswave hardware.",
@@ -7616,7 +7736,7 @@
       "publisher": null,
       "year": "1984",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -7642,6 +7762,12 @@
           "description": "Sega SPG-2002 steering assembly (5K ohm potentiometer, 270 degrees). Supermodel emulator community confirms 1:1 ratio at 270 degrees.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Sega SPG-2002 steering assembly with mechanical stops at 270 degrees. Standard across Sega racing cabinets.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Catver category: Driving / Race 1st Person. Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -7660,7 +7786,7 @@
       "publisher": null,
       "year": "1992",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -7674,6 +7800,12 @@
           "description": "Taito Z System steering confirmed via MAME source code (taito_z.cpp). Continental Circus uses same hardware; shared 270-degree steering assembly across platform.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Taito racing cabinet with mechanical stop steering assembly. Standard across Taito Z System and Type X racing games.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Taito hardware. F1-style racing.",
@@ -7692,7 +7824,7 @@
       "publisher": null,
       "year": "1996",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -7706,6 +7838,12 @@
           "description": "Konami racing cabinet standard: shared 270-degree steering assembly across GTI Club, Winding Heat, Thrill Drive, and Racing Jam series",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Konami racing cabinet with 270-degree mechanical stop steering assembly. Standard across Konami racing game lineup.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Konami GV System hardware.",
@@ -7724,7 +7862,7 @@
       "publisher": null,
       "year": "2001",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -7738,6 +7876,12 @@
           "description": "Konami racing cabinet standard: shared 270-degree steering assembly across GTI Club, Winding Heat, Thrill Drive, and Racing Jam series",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Konami racing cabinet with 270-degree mechanical stop steering assembly. Standard across Konami racing game lineup.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Konami Viper hardware. GTI Club sequel.",
@@ -7756,7 +7900,7 @@
       "publisher": null,
       "year": "1974",
       "rotation_degrees": -1,
-      "rotation_type": "unknown",
+      "rotation_type": "optical_encoder",
       "confidence": "high",
       "sources": [
         {
@@ -7770,6 +7914,12 @@
           "description": "Atari TTL-era arcade: optical disc encoder with infinite rotation, standard across all Atari driving/racing games 1974-1979. Confirmed by MAME input definitions.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "TTL-era game (1974) with infinite rotation steering. Atari/Kee optical encoder.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Atari/Kee TTL hardware. First arcade driving game with steering wheel. Infinite rotation.",
@@ -7788,7 +7938,7 @@
       "publisher": null,
       "year": "1974",
       "rotation_degrees": -1,
-      "rotation_type": "unknown",
+      "rotation_type": "optical_encoder",
       "confidence": "high",
       "sources": [
         {
@@ -7802,6 +7952,12 @@
           "description": "Atari TTL-era arcade: optical disc encoder with infinite rotation, standard across all Atari driving/racing games 1974-1979. Confirmed by MAME input definitions.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "TTL-era game (1974) with infinite rotation steering. Atari/Kee optical encoder.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Atari/Kee TTL hardware. Twin player version of Gran Trak 10.",
@@ -7896,7 +8052,7 @@
       "publisher": null,
       "year": "1979",
       "rotation_degrees": -1,
-      "rotation_type": "unknown",
+      "rotation_type": "optical_encoder",
       "confidence": "high",
       "sources": [
         {
@@ -7916,6 +8072,12 @@
           "description": "Early arcade era (pre-1982): optical or resistive encoder with infinite rotation. Standard steering technology before potentiometer adoption. Confirmed by MAME input definitions.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Early Sega game with infinite rotation dial input. Optical encoder steering.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega hardware. Early driving/maze game.",
@@ -8054,7 +8216,7 @@
       "publisher": null,
       "year": "1999",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -8068,6 +8230,12 @@
           "description": "Midway/Atari Games racing cabinets used SuzoHapp Active 270 steering assembly, documented in arcade parts catalogs (TwistedQuarter, SuzoHapp)",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Midway racing cabinet with SuzoHapp Active 270 mechanical stop steering assembly. Documented standard for Midway arcade racers.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Midway Seattle hardware. Boat racing.",
@@ -8086,7 +8254,7 @@
       "publisher": null,
       "year": "1998",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -8106,6 +8274,12 @@
           "description": "Midway/Atari Games racing cabinets used SuzoHapp Active 270 steering assembly, documented in arcade parts catalogs (TwistedQuarter, SuzoHapp)",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Midway racing cabinet with SuzoHapp Active 270 mechanical stop steering assembly. Documented standard for Midway arcade racers.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Midway Zeus hardware.",
@@ -8250,7 +8424,7 @@
       "publisher": null,
       "year": "1995",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -8264,6 +8438,12 @@
           "description": "Sega SPG-2002 steering assembly (5K ohm potentiometer, 270 degrees). Supermodel emulator community confirms 1:1 ratio at 270 degrees.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Sega SPG-2002 steering assembly with mechanical stops at 270 degrees. Standard across Sega racing cabinets.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega Model 2 hardware. Indy car racing.",
@@ -8476,7 +8656,7 @@
       "publisher": null,
       "year": "2000",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
         {
@@ -8496,6 +8676,12 @@
           "description": "Namco standard 1K ohm 270-degree potentiometer (part VG75-07050-00 / DE475-15417-00) documented across System 21/22/Super System 22 platforms",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Namco standard 1K ohm 270-degree potentiometer (VG75-07050-00). Documented across System 2/21/22/Super System 22/11/12.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Namco hardware. Go-kart racing.",
@@ -8590,7 +8776,7 @@
       "publisher": null,
       "year": "2002",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -8604,6 +8790,12 @@
           "description": "Sega SPG-2002 steering assembly (5K ohm potentiometer, 270 degrees). Supermodel emulator community confirms 1:1 ratio at 270 degrees.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Sega SPG-2002 steering assembly with mechanical stops at 270 degrees. Standard across Sega racing cabinets.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega Chihiro hardware. Truck racing game.",
@@ -8622,7 +8814,7 @@
       "publisher": null,
       "year": "1995",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
         {
@@ -8642,6 +8834,12 @@
           "description": "Gaelco racing cabinet standard: shared 270-degree steering assembly across World Rally, Speed Up, and related titles",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Gaelco racing cabinet potentiometer steering assembly. Documented standard across Gaelco racing lineup (Speed Up, World Rally, Xtreme Rally).",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Gaelco hardware. Cycling game.",
@@ -8698,7 +8896,7 @@
       "publisher": null,
       "year": "1983",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -8724,6 +8922,12 @@
           "description": "Taito racing cabinet: 270-degree steering assembly standard",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Taito racing cabinet with mechanical stop steering assembly. Standard across Taito Z System and Type X racing games.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
@@ -8780,7 +8984,7 @@
       "publisher": null,
       "year": "2003",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -8800,6 +9004,12 @@
           "description": "SIMS/Sammy racing cabinet: 270-degree steering assembly",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "SIMS/Sammy racing cabinet with 270-degree mechanical stop steering assembly.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sammy Atomiswave hardware.",
@@ -8818,7 +9028,7 @@
       "publisher": null,
       "year": "1995",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -8832,6 +9042,12 @@
           "description": "Konami racing cabinet standard: shared 270-degree steering assembly across GTI Club, Winding Heat, Thrill Drive, and Racing Jam series",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Konami racing cabinet with 270-degree mechanical stop steering assembly. Standard across Konami racing game lineup.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Konami GX hardware.",
@@ -8850,7 +9066,7 @@
       "publisher": null,
       "year": "1980",
       "rotation_degrees": -1,
-      "rotation_type": "unknown",
+      "rotation_type": "optical_encoder",
       "confidence": "high",
       "sources": [
         {
@@ -8864,6 +9080,12 @@
           "description": "Early arcade era (pre-1982): optical or resistive encoder with infinite rotation. Standard steering technology before potentiometer adoption. Confirmed by MAME input definitions.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Early Sega game (1979) with infinite rotation steering. Optical encoder.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega TTL/discrete hardware. Infinite rotation optical encoder.",
@@ -9028,7 +9250,7 @@
       "publisher": null,
       "year": "2003",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -9042,6 +9264,12 @@
           "description": "Global VR racing cabinet: standard 270-degree steering assembly used across Global VR NFS arcade series",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Global VR racing cabinet with standard 270-degree mechanical stop steering assembly.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Global VR hardware.",
@@ -9060,7 +9288,7 @@
       "publisher": null,
       "year": "2004",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -9074,6 +9302,12 @@
           "description": "Global VR racing cabinet: standard 270-degree steering assembly used across Global VR NFS arcade series",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Global VR racing cabinet with standard 270-degree mechanical stop steering assembly.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Global VR hardware.",
@@ -9092,7 +9326,7 @@
       "publisher": null,
       "year": "2005",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -9106,6 +9340,12 @@
           "description": "Global VR racing cabinet: standard 270-degree steering assembly used across Global VR NFS arcade series",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Global VR racing cabinet with standard 270-degree mechanical stop steering assembly.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Global VR hardware.",
@@ -9124,7 +9364,7 @@
       "publisher": null,
       "year": "2000",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -9138,6 +9378,12 @@
           "description": "Midway/Atari Games racing cabinets used SuzoHapp Active 270 steering assembly, documented in arcade parts catalogs (TwistedQuarter, SuzoHapp)",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Midway racing cabinet with SuzoHapp Active 270 mechanical stop steering assembly. Documented standard for Midway arcade racers.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Midway Zeus hardware. Off-road racing.",
@@ -9156,7 +9402,7 @@
       "publisher": null,
       "year": "2003",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -9164,6 +9410,12 @@
           "description": "SuzoHapp 5K potentiometer (220-5373) lists OutRun 2 as compatible. Sega Chihiro (Xbox-based) hardware.",
           "url": "https://www.arcadeshop.com/i/1282/5k-potentiometer-for-sega-games.htm",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "inference",
+          "description": "Sega SPG-2002 steering assembly with mechanical stops at 270 degrees. Standard across Sega racing cabinets.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega Chihiro hardware. Original OutRun 2 (not SP/Special Tours).",
@@ -9264,7 +9516,7 @@
       "publisher": null,
       "year": "1990",
       "rotation_degrees": 1080,
-      "rotation_type": "unknown",
+      "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
         {
@@ -9272,6 +9524,12 @@
           "description": "Sequel to Hard Drivin using identical 1080-degree (3-rotation) steering assembly with 10-turn potentiometer.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "inference",
+          "description": "Same 10-turn potentiometer as Hard Drivin (1080 degrees, 3-rotation mechanical stop). Atari Games racing cabinet.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Atari hardware. Same 1080-degree steering as Hard Drivin.",
@@ -9290,7 +9548,7 @@
       "publisher": null,
       "year": "1998",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
         {
@@ -9310,6 +9568,12 @@
           "description": "Namco standard 1K ohm 270-degree potentiometer (part VG75-07050-00 / DE475-15417-00) documented across System 21/22/Super System 22 platforms",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Namco standard 1K ohm 270-degree potentiometer (VG75-07050-00). Documented across System 2/21/22/Super System 22/11/12.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Namco System 23 hardware.",
@@ -9372,7 +9636,7 @@
       "publisher": null,
       "year": "1994",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -9386,6 +9650,12 @@
           "description": "Konami racing cabinet standard: shared 270-degree steering assembly across GTI Club, Winding Heat, Thrill Drive, and Racing Jam series",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Konami racing cabinet with 270-degree mechanical stop steering assembly. Standard across Konami racing game lineup.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Konami GX hardware.",
@@ -9404,7 +9674,7 @@
       "publisher": null,
       "year": "1991",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -9424,6 +9694,12 @@
           "description": "Taito Z System steering confirmed via MAME source code (taito_z.cpp). Continental Circus uses same hardware; shared 270-degree steering assembly across platform.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Taito racing cabinet with mechanical stop steering assembly. Standard across Taito Z System and Type X racing games.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Taito hardware.",
@@ -9442,7 +9718,7 @@
       "publisher": null,
       "year": "1998",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -9456,6 +9732,12 @@
           "description": "Konami racing cabinet standard: shared 270-degree steering assembly across GTI Club, Winding Heat, Thrill Drive, and Racing Jam series",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Konami racing cabinet with 270-degree mechanical stop steering assembly. Standard across Konami racing game lineup.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Konami NWK-TR hardware.",
@@ -9474,7 +9756,7 @@
       "publisher": null,
       "year": "1997",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -9488,6 +9770,12 @@
           "description": "Konami racing cabinet standard: shared 270-degree steering assembly across GTI Club, Winding Heat, Thrill Drive, and Racing Jam series",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Konami racing cabinet with 270-degree mechanical stop steering assembly. Standard across Konami racing game lineup.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Konami NWK-TR hardware.",
@@ -9506,7 +9794,7 @@
       "publisher": null,
       "year": "1990",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -9520,6 +9808,12 @@
           "description": "Sega SPG-2002 steering assembly (5K ohm potentiometer, 270 degrees). Supermodel emulator community confirms 1:1 ratio at 270 degrees.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Sega SPG-2002 steering assembly with mechanical stops at 270 degrees. Standard across Sega racing cabinets.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega Y-Board hardware. Deluxe sit-down cabinet with force feedback.",
@@ -9538,7 +9832,7 @@
       "publisher": null,
       "year": "1991",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -9552,6 +9846,12 @@
           "description": "Sega SPG-2002 steering assembly (5K ohm potentiometer, 270 degrees). Supermodel emulator community confirms 1:1 ratio at 270 degrees.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Sega SPG-2002 steering assembly with mechanical stops at 270 degrees. Standard across Sega racing cabinets.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega Y-Board hardware. Rally racing sequel to Rad Mobile.",
@@ -9608,7 +9908,7 @@
       "publisher": null,
       "year": "1994",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
         {
@@ -9616,6 +9916,12 @@
           "description": "Namco standard 1K ohm 270-degree potentiometer (VG75-07050-00 / DE475-15417-00). Confirmed by Final Lap 3 operator manual.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "inference",
+          "description": "Namco standard 1K ohm 270-degree potentiometer (VG75-07050-00). Documented across System 2/21/22/Super System 22/11/12.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Namco System 22 hardware. Same steering assembly as Ridge Racer.",
@@ -9634,7 +9940,7 @@
       "publisher": null,
       "year": "1999",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -9648,6 +9954,12 @@
           "description": "Sega SPG-2002 steering assembly (5K ohm potentiometer, 270 degrees). Supermodel emulator community confirms 1:1 ratio at 270 degrees.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Sega SPG-2002 steering assembly with mechanical stops at 270 degrees. Standard across Sega racing cabinets.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega Model 3 hardware. Off-road SUV combat racing.",
@@ -9666,7 +9978,7 @@
       "publisher": null,
       "year": "1991",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -9680,6 +9992,12 @@
           "description": "Midway/Atari Games racing cabinets used SuzoHapp Active 270 steering assembly, documented in arcade parts catalogs (TwistedQuarter, SuzoHapp)",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Atari Games racing cabinet with SuzoHapp 270-degree mechanical stop steering assembly.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Atari Games hardware. Off-road combat racing.",
@@ -9698,7 +10016,7 @@
       "publisher": null,
       "year": "1999",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
         {
@@ -9718,6 +10036,12 @@
           "description": "Gaelco racing cabinet standard: 270-degree steering assembly",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Gaelco racing cabinet potentiometer steering assembly. Documented standard across Gaelco racing lineup (Speed Up, World Rally, Xtreme Rally).",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Gaelco hardware. Inline skating.",
@@ -9736,7 +10060,7 @@
       "publisher": null,
       "year": "1990",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -9756,6 +10080,12 @@
           "description": "Sega SPG-2002 steering assembly (5K ohm potentiometer, 270 degrees). Supermodel emulator community confirms 1:1 ratio at 270 degrees.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Sega SPG-2002 steering assembly with mechanical stops at 270 degrees. Standard across Sega racing cabinets.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega System 32 hardware. Rally racing.",
@@ -9812,7 +10142,7 @@
       "publisher": null,
       "year": "2001",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
         {
@@ -9826,6 +10156,12 @@
           "description": "Namco standard 1K ohm 270-degree potentiometer (part VG75-07050-00 / DE475-15417-00) documented across System 21/22/Super System 22 platforms",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Namco standard 1K ohm 270-degree potentiometer (VG75-07050-00). Documented across System 2/21/22/Super System 22/11/12.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Namco System 246 hardware.",
@@ -9882,7 +10218,7 @@
       "publisher": null,
       "year": "1989",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -9896,6 +10232,12 @@
           "description": "Taito Z System steering confirmed via MAME source code (taito_z.cpp). Continental Circus uses same hardware; shared 270-degree steering assembly across platform.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Taito racing cabinet with mechanical stop steering assembly. Standard across Taito Z System and Type X racing games.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Taito Z-System hardware. Chase H.Q. sequel.",
@@ -9914,7 +10256,7 @@
       "publisher": null,
       "year": "1999",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -9922,6 +10264,12 @@
           "description": "Atari Games racing cabinets use SuzoHapp Active 270 steering assembly. Confirmed by parts catalogs.",
           "url": "https://na.suzohapp.com/products/driving_controls/50-4041-90",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "inference",
+          "description": "Atari Games racing cabinet with SuzoHapp 270-degree mechanical stop steering assembly.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Atari Games hardware. Rush 2049, same cabinet family.",
@@ -9940,7 +10288,7 @@
       "publisher": null,
       "year": "2000",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -9948,6 +10296,12 @@
           "description": "Atari Games racing cabinets use SuzoHapp Active 270 steering assembly. Confirmed by parts catalogs.",
           "url": "https://na.suzohapp.com/products/driving_controls/50-4041-90",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "inference",
+          "description": "Atari Games racing cabinet with SuzoHapp 270-degree mechanical stop steering assembly.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Atari Games hardware. Rush 2049 Tournament Edition.",
@@ -9966,7 +10320,7 @@
       "publisher": null,
       "year": "1996",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -9974,6 +10328,12 @@
           "description": "Atari Games racing cabinets use SuzoHapp Active 270 steering assembly. Confirmed by parts catalogs.",
           "url": "https://na.suzohapp.com/products/driving_controls/50-4041-90",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "inference",
+          "description": "Atari Games racing cabinet with SuzoHapp 270-degree mechanical stop steering assembly.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Atari Games hardware. SuzoHapp Active 270 steering.",
@@ -9992,7 +10352,7 @@
       "publisher": null,
       "year": "1997",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -10000,6 +10360,12 @@
           "description": "Atari Games racing cabinets use SuzoHapp Active 270 steering assembly. Confirmed by parts catalogs.",
           "url": "https://na.suzohapp.com/products/driving_controls/50-4041-90",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "inference",
+          "description": "Atari Games racing cabinet with SuzoHapp 270-degree mechanical stop steering assembly.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Atari Games hardware. Rush The Rock, same cabinet.",
@@ -10018,7 +10384,7 @@
       "publisher": null,
       "year": "2000",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -10026,6 +10392,12 @@
           "description": "SuzoHapp 5K potentiometer (220-5373) lists NASCAR as compatible. Standard Sega driving cabinet.",
           "url": "https://www.arcadeshop.com/i/1282/5k-potentiometer-for-sega-games.htm",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "inference",
+          "description": "Sega SPG-2002 steering assembly with mechanical stops at 270 degrees. Standard across Sega racing cabinets.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega Hikaru hardware. EA NASCAR license.",
@@ -10082,7 +10454,7 @@
       "publisher": null,
       "year": "1996",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -10096,6 +10468,12 @@
           "description": "Taito Z System steering confirmed via MAME source code (taito_z.cpp). Continental Circus uses same hardware; shared 270-degree steering assembly across platform.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Taito racing cabinet with mechanical stop steering assembly. Standard across Taito Z System and Type X racing games.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Taito JC System hardware.",
@@ -10114,7 +10492,7 @@
       "publisher": null,
       "year": "2000",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
         {
@@ -10128,6 +10506,12 @@
           "description": "Gaelco racing cabinet standard: shared 270-degree steering assembly across World Rally, Speed Up, and related titles",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Gaelco racing cabinet potentiometer steering assembly. Documented standard across Gaelco racing lineup (Speed Up, World Rally, Xtreme Rally).",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Gaelco/Namco hardware. Taxi racing.",
@@ -10272,7 +10656,7 @@
       "publisher": null,
       "year": "1996",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
         {
@@ -10286,6 +10670,12 @@
           "description": "Gaelco racing cabinet standard: shared 270-degree steering assembly across World Rally, Speed Up, and related titles",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Gaelco racing cabinet potentiometer steering assembly. Documented standard across Gaelco racing lineup (Speed Up, World Rally, Xtreme Rally).",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Gaelco hardware.",
@@ -10304,7 +10694,7 @@
       "publisher": null,
       "year": "1977",
       "rotation_degrees": -1,
-      "rotation_type": "unknown",
+      "rotation_type": "optical_encoder",
       "confidence": "high",
       "sources": [
         {
@@ -10318,6 +10708,12 @@
           "description": "Atari TTL-era arcade: optical disc encoder with infinite rotation, standard across all Atari driving/racing games 1974-1979. Confirmed by MAME input definitions.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "TTL-era Atari game (1977) with infinite rotation steering. Optical encoder.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Atari TTL hardware. Top-down sprint racing. Infinite rotation.",
@@ -10336,7 +10732,7 @@
       "publisher": null,
       "year": "1977",
       "rotation_degrees": -1,
-      "rotation_type": "unknown",
+      "rotation_type": "optical_encoder",
       "confidence": "high",
       "sources": [
         {
@@ -10350,6 +10746,12 @@
           "description": "Atari TTL-era arcade: optical disc encoder with infinite rotation, standard across all Atari driving/racing games 1974-1979. Confirmed by MAME input definitions.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "TTL-era Atari game (1977) with infinite rotation steering. Optical encoder.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Atari TTL hardware. 8-player sprint racing.",
@@ -10368,7 +10770,7 @@
       "publisher": null,
       "year": "1983",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -10388,6 +10790,12 @@
           "description": "Bally Midway SuzoHapp Active 270 steering assembly documented in arcade parts catalogs",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Midway racing cabinet with SuzoHapp Active 270 mechanical stop steering assembly. Documented standard for Midway arcade racers.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Bally Midway hardware. Driving/shooting game.",
@@ -10488,7 +10896,7 @@
       "publisher": null,
       "year": "1996",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -10502,6 +10910,12 @@
           "description": "Sega SPG-2002 steering assembly (5K ohm potentiometer, 270 degrees). Supermodel emulator community confirms 1:1 ratio at 270 degrees.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Sega SPG-2002 steering assembly with mechanical stops at 270 degrees. Standard across Sega racing cabinets.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega Model 2 hardware.",
@@ -10716,7 +11130,7 @@
       "publisher": null,
       "year": "1992",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -10730,6 +11144,12 @@
           "description": "Taito Z System steering confirmed via MAME source code (taito_z.cpp). Continental Circus uses same hardware; shared 270-degree steering assembly across platform.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Taito racing cabinet with mechanical stop steering assembly. Standard across Taito Z System and Type X racing games.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Taito hardware. Chase H.Q. series third entry.",
@@ -10812,7 +11232,7 @@
       "publisher": null,
       "year": "2000",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -10826,6 +11246,12 @@
           "description": "Sega SPG-2002 steering assembly (5K ohm potentiometer, 270 degrees). Supermodel emulator community confirms 1:1 ratio at 270 degrees.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Sega SPG-2002 steering assembly with mechanical stops at 270 degrees. Standard across Sega racing cabinets.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega Model 3 Step 2.1. Podracer-themed controls.",
@@ -10888,7 +11314,7 @@
       "publisher": null,
       "year": "2001",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -10902,6 +11328,12 @@
           "description": "Konami racing cabinet standard: shared 270-degree steering assembly across GTI Club, Winding Heat, Thrill Drive, and Racing Jam series",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Konami racing cabinet with 270-degree mechanical stop steering assembly. Standard across Konami racing game lineup.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Konami Viper hardware.",
@@ -10920,7 +11352,7 @@
       "publisher": null,
       "year": "1998",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -10934,6 +11366,12 @@
           "description": "Konami racing cabinet standard: shared 270-degree steering assembly across GTI Club, Winding Heat, Thrill Drive, and Racing Jam series",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Konami racing cabinet with 270-degree mechanical stop steering assembly. Standard across Konami racing game lineup.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Konami Hornet hardware.",
@@ -11242,7 +11680,7 @@
       "publisher": null,
       "year": "2004",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
         {
@@ -11250,6 +11688,12 @@
           "description": "Same series as WMMT3-6RR (all verified 270 degrees from TeknoParrot metadata). First WMMT installment uses the same Namco racing cabinet.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "inference",
+          "description": "Namco standard 1K ohm 270-degree potentiometer (VG75-07050-00). Documented across System 2/21/22/Super System 22/11/12.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega Chihiro hardware (Namco game). First WMMT installment.",
@@ -11268,7 +11712,7 @@
       "publisher": null,
       "year": "2005",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
         {
@@ -11276,6 +11720,12 @@
           "description": "Same series as WMMT3-6RR (all verified 270 degrees from TeknoParrot metadata). WMMT2 uses the same Namco racing cabinet.",
           "url": null,
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "inference",
+          "description": "Namco standard 1K ohm 270-degree potentiometer (VG75-07050-00). Documented across System 2/21/22/Super System 22/11/12.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega Chihiro hardware (Namco game). Second WMMT installment.",
@@ -11332,7 +11782,7 @@
       "publisher": null,
       "year": "1989",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -11346,6 +11796,12 @@
           "description": "Taito Z System steering confirmed via MAME source code (taito_z.cpp). Continental Circus uses same hardware; shared 270-degree steering assembly across platform.",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Taito racing cabinet with mechanical stop steering assembly. Standard across Taito Z System and Type X racing games.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Taito Z-System hardware. Formula racing.",
@@ -11408,7 +11864,7 @@
       "publisher": null,
       "year": "1996",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -11422,6 +11878,12 @@
           "description": "Konami racing cabinet standard: shared 270-degree steering assembly across GTI Club, Winding Heat, Thrill Drive, and Racing Jam series",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Konami racing cabinet with 270-degree mechanical stop steering assembly. Standard across Konami racing game lineup.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Konami GV System hardware.",
@@ -11440,7 +11902,7 @@
       "publisher": null,
       "year": "1991",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
         {
@@ -11454,6 +11916,12 @@
           "description": "Namco standard 1K ohm 270-degree potentiometer (part VG75-07050-00 / DE475-15417-00) documented across System 21/22/Super System 22 platforms",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Namco standard 1K ohm 270-degree potentiometer (VG75-07050-00). Documented across System 2/21/22/Super System 22/11/12.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Namco System 21 hardware. Early polygon racer.",
@@ -11472,7 +11940,7 @@
       "publisher": null,
       "year": "2001",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "mechanical_stop",
       "confidence": "high",
       "sources": [
         {
@@ -11480,6 +11948,12 @@
           "description": "SuzoHapp 5K potentiometer (220-5373) lists Wild Riders as compatible.",
           "url": "https://www.arcadeshop.com/i/1282/5k-potentiometer-for-sega-games.htm",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "type": "inference",
+          "description": "Sega SPG-2002 steering assembly with mechanical stops at 270 degrees. Standard across Sega racing cabinets.",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Sega NAOMI 2 hardware. Motorcycle game but with steering wheel controls.",
@@ -11498,7 +11972,7 @@
       "publisher": null,
       "year": "1995",
       "rotation_degrees": 270,
-      "rotation_type": "unknown",
+      "rotation_type": "potentiometer",
       "confidence": "high",
       "sources": [
         {
@@ -11512,6 +11986,12 @@
           "description": "Gaelco racing cabinet standard: shared 270-degree steering assembly across World Rally, Speed Up, and related titles",
           "url": null,
           "date_accessed": "2026-02-19"
+        },
+        {
+          "type": "inference",
+          "description": "Gaelco racing cabinet potentiometer steering assembly. Documented standard across Gaelco racing lineup (Speed Up, World Rally, Xtreme Rally).",
+          "url": null,
+          "date_accessed": "2026-02-20"
         }
       ],
       "notes": "Gaelco hardware. Rally racing.",
@@ -16962,7 +17442,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/450670",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Table_Top_Racing:_World_Tour",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -17849,7 +18329,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/447920",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Drift_(Over)_Drive",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -17904,7 +18384,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/1070580",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Drift86",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -18217,7 +18697,7 @@
             "Driving"
           ],
           "store_url": "https://store.steampowered.com/app/581200",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Nash_Racing",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -19171,7 +19651,7 @@
             "Simulation"
           ],
           "store_url": "https://store.steampowered.com/app/1222040",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Offroad_Mania",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -20770,7 +21250,7 @@
             "Simulation"
           ],
           "store_url": "https://store.steampowered.com/app/415600",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Kart_Racing_Pro",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -20819,7 +21299,7 @@
             "Free to Play"
           ],
           "store_url": "https://store.steampowered.com/app/2225070",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Trackmania_(2020)",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -20862,7 +21342,7 @@
             "Open World"
           ],
           "store_url": "https://store.steampowered.com/app/2483190",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Forza_Horizon_6",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -20905,7 +21385,7 @@
             "Simulation"
           ],
           "store_url": "https://store.steampowered.com/app/3226450",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/IRacing_Arcade",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -20948,7 +21428,7 @@
             "Arcade"
           ],
           "store_url": "https://store.steampowered.com/app/2814990",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Screamer_(2026)",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -21204,7 +21684,7 @@
             "Simulation"
           ],
           "store_url": "https://store.steampowered.com/app/1650010",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Ride_5",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -21292,7 +21772,7 @@
             "Sports"
           ],
           "store_url": "https://store.steampowered.com/app/1205970",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MX_vs._ATV_Legends",
           "popularity_rank": null,
           "owners_estimate": null
         }
@@ -21336,7 +21816,7 @@
             "Simulation"
           ],
           "store_url": "https://store.steampowered.com/app/1924170",
-          "pcgamingwiki_url": null,
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/TT_Isle_of_Man:_Ride_on_the_Edge_3",
           "popularity_rank": null,
           "owners_estimate": null
         }

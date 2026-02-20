@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.15.0] - 2026-02-20
+
+### Added
+- New `Audit-Database.ps1` script: comprehensive data quality report covering rotation_type gaps, cross-field consistency, completeness metrics, and source coverage
+- Enhanced `Validate-Database.ps1` with 3 new cross-field checks (8-10): infinite rotation type consistency, Steam/pc metadata alignment
+- Enriched 13 Steam entries with PCGamingWiki URLs (90% → 95% coverage)
+
+### Fixed
+- Classified rotation_type for all 80 remaining "unknown" arcade entries:
+  - 7 optical_encoder (TTL-era infinite rotation games)
+  - 15 potentiometer (Namco VG75-07050-00 standard + Gaelco + Race Drivin')
+  - 58 mechanical_stop (Sega SPG-2002, Konami, Taito, Midway SuzoHapp Active 270, Atari Games, Global VR, Video System, others)
+- Zero "unknown" rotation_type entries remaining in the database
+
+### Changed
+- rotation_type distribution: mechanical_stop=239, potentiometer=87, optical_encoder=31, null=256 (was unknown=80)
+
 ## [2.14.0] - 2026-02-20
 
 ### Fixed
