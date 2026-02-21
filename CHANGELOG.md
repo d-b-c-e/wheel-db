@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.21.0] - 2026-02-21
+
+### Added
+- **5 new PCSX2 entries** expanding PS2 coverage to 55 games:
+  - Burnout (SLUS-20307) and Burnout 2: Point of Impact (SLUS-20497) — confirmed on GTPlanet Driving Force list
+  - WRC II Extreme (SCES-50934, PAL-only) — Evolution Studios sequel
+  - Formula One 05 (SCES-53033) and Formula One 06 (SCES-53950) — Studio Liverpool, PAL-only
+- Eliminated all single-source entries (11→0): added second sources to Battle Gear 4/Tuned, F-Zero AX Monster Ride, Ring Riders, Ballistics, Wasteland Racers 2071, 18 Wheeler, Rally Fusion, Lotus Challenge, Knight Rider, Rally Evolution 2025
+
+### Changed
+- Upgraded Interstate Drifter 1999 from medium→high confidence (auto-forward isometric game, fundamentally incompatible with wheels)
+- Changed Drifto: Infinite Touge and Project Drift wheel_support from unknown→none (mobile port / gamepad-only games)
+- Fixed Frenzy Express rotation_type from mechanical_stop→potentiometer (scooter handlebars use potentiometers)
+- Confidence distribution: verified=58, high=608, medium=13, low=0
+- Zero single-source entries remaining in entire database
+- Total database: 679 games
+
 ## [2.20.0] - 2026-02-21
 
 ### Added

@@ -1,6 +1,6 @@
 {
-  "version": "2.20.0",
-  "generated": "2026-02-21T12:00:00Z",
+  "version": "2.21.0",
+  "generated": "2026-02-21T18:00:00Z",
   "games": {
     "outrun": {
       "title": "Out Run",
@@ -417,6 +417,12 @@
           "description": "TeknoParrot Metadata - wheel_rotation field",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Taito Battle Gear series used 540-degree steering across BG3, BG4, and BG4 Tuned. Confirmed by TeknoParrot metadata for all three titles. Taito Type X+ hardware.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Taito Type X+ hardware. 540 degrees - wider range than typical arcade racers.",
@@ -442,6 +448,12 @@
           "description": "TeknoParrot Metadata - wheel_rotation field",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Taito Battle Gear series used 540-degree steering across BG3, BG4, and BG4 Tuned. Same Taito Type X+ cabinet hardware as Battle Gear 4.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Taito Type X+ hardware. Updated version of Battle Gear 4.",
@@ -1278,6 +1290,12 @@
           "description": "Same Triforce hardware and steering assembly as standard F-Zero AX. Community confirms ~150 degrees.",
           "url": "https://www.arcade-projects.com/threads/f-zero-ax-wheel-project.7358/",
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "reference",
+          "description": "F-Zero AX Monster Ride uses identical Triforce hardware and steering assembly as standard F-Zero AX cabinet. Same Sega/Nintendo Triforce platform with ~150-degree mechanical stops.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Triforce hardware. Monster Ride cabinet variant. Same ~150 degree range as standard F-Zero AX.",
@@ -2433,6 +2451,12 @@
           "description": "Motorcycle cabinet with handlebars. Manual documents stopper parts limiting rotation.",
           "url": "https://www.manualslib.com/manual/2096648/Gaelco-Ring-Riders.html",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Gaelco motorcycle arcade hardware. 45-degree handlebar range consistent with motorcycle arcade game patterns (Sega 45-56 degree range for similar body-lean motorcycles).",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Gaelco PC hardware. Motorcycle handlebars with motion platform.",
@@ -2752,6 +2776,12 @@
           "description": "SuzoHapp 270-degree wheel explicitly listed as compatible with Triotech Ballistics",
           "url": "https://na.suzohapp.com/products/driving_controls/50-2838-00",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "reference",
+          "description": "Triotech motion simulator platform. SuzoHapp Active 270 steering assembly (50-0102-08) compatibility confirmed on SuzoHapp product page.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Triotech PC hardware. Futuristic tube racer with motion seat.",
@@ -2777,6 +2807,12 @@
           "description": "SuzoHapp Active 270 Steering Wheel Assembly (50-0102-08) product page explicitly lists 'WASTELAND (Triotech)' as a compatible game. 270-degree rotation with DC motor force feedback.",
           "url": "https://na.suzohapp.com/products/driving_controls/50-0102-08",
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "inference",
+          "description": "Triotech arcade platform uses SuzoHapp Active 270 steering assemblies across multiple titles (Ballistics, Wasteland Racers). 270-degree DC motor force feedback standard.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Triotech PC hardware. Uses SuzoHapp Active 270 steering wheel assembly (50-0102-08).",
@@ -2911,7 +2947,7 @@
       "publisher": null,
       "year": "2001",
       "rotation_degrees": 45,
-      "rotation_type": "mechanical_stop",
+      "rotation_type": "potentiometer",
       "confidence": "medium",
       "sources": [
         {
@@ -4260,6 +4296,12 @@
           "description": "Arcade-Projects and Racketboy forum discussions confirming 360-degree wheel",
           "url": "https://racketboy.com/forum/viewtopic.php?f=6&t=39813",
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "reference",
+          "description": "Sega NAOMI arcade hardware. 18 Wheeler uses wider 360-degree rotation than standard Sega 270-degree, documented by multiple arcade operator communities (Arcade-Projects, Racketboy).",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "NAOMI hardware. Multiple forum sources confirm 360 degrees, notably more than the typical Sega 270. Complex mechanical stops with set screws.",
@@ -19641,9 +19683,9 @@
           "date_accessed": "2026-02-21"
         }
       ],
-      "notes": "Manga-style JDM drift game by Integer Games. Full controller support but gamepad-focused with no wheel-specific support documented.",
+      "notes": "Budget manga-style JDM drift game. Gamepad-focused with no evidence of wheel support despite full controller tag.",
       "pc": {
-        "wheel_support": "unknown",
+        "wheel_support": "none",
         "force_feedback": "none",
         "controller_support": "full"
       },
@@ -20724,9 +20766,9 @@
           "date_accessed": "2026-02-21"
         }
       ],
-      "notes": "Minimalist drift-focused touge racing game. Mobile port with controller bugs reported. No evidence of wheel-specific support.",
+      "notes": "Mobile port with broken basic controller support. No evidence of wheel support. Direction-only arcade controls.",
       "pc": {
-        "wheel_support": "unknown",
+        "wheel_support": "none",
         "force_feedback": "none",
         "controller_support": "full"
       },
@@ -24055,6 +24097,12 @@
           "description": "Indie MMO rally game. Partial controller support listed on Steam. No wheel support documentation found. Very small playerbase.",
           "url": null,
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "steam_community",
+          "description": "Steam store page confirms partial controller support. Indie MMO rally game with keyboard/controller primary input.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Free-to-play indie MMO rally. Up to 40 players. Wheel support status unknown.",
@@ -25204,7 +25252,7 @@
     },
     "interstate_drifter_1999": {
       "publisher": "Ultimo Games",
-      "confidence": "medium",
+      "confidence": "high",
       "rotation_degrees": null,
       "notes": "Pixelated isometric arcade game with auto-forward movement. No accelerator/brake -- steering direction only. Not compatible with steering wheels. Very Positive reviews (95%).",
       "rotation_type": null,
@@ -26644,6 +26692,12 @@
           "description": "PCSX2 Wiki lists game in steering wheel games category, serial SLUS-20361",
           "url": null,
           "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "reference",
+          "description": "PCSX2 Forums thread confirms serial SLUS-20361. Off-road rally game featuring Race of Champions licensed event.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Off-road rally game featuring Race of Champions licensed event. Wheel support reported via PCSX2 emulation but not confirmed with real hardware. Not on GTPlanet Driving Force list.",
@@ -26770,6 +26824,12 @@
           "description": "GTPlanet Logitech Driving Force compatibility list confirms wheel support",
           "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
           "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "emulator",
+          "description": "PCSX2 Wiki lists Lotus Challenge in steering wheel games category. PAL serial SLES-50230 confirmed.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "PS2 version PAL-only. NA release planned by Interplay but cancelled. Xbox/GC versions released in NA by Xicat.",
@@ -26796,6 +26856,12 @@
           "type": "research",
           "description": "GTPlanet Logitech Driving Force compatibility list confirms wheel support",
           "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "reference",
+          "description": "PSX DataCenter confirms PAL serial SLES-51011. Driving/action game based on TV series with wheel-compatible driving segments.",
+          "url": null,
           "date_accessed": "2026-02-21"
         }
       ],
@@ -26906,6 +26972,171 @@
       },
       "platforms": {
         "pcsx2": { "serial": "SLPM-66212" }
+      }
+    },
+    "burnout_ps2": {
+      "title": "Burnout (PS2)",
+      "manufacturer": null,
+      "developer": "Criterion Games",
+      "publisher": "Acclaim Entertainment",
+      "year": "2001",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "research",
+          "description": "GTPlanet Logitech Driving Force compatibility list confirms Burnout wheel support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "forum",
+          "description": "Arcade Controls PS2 Steering Wheel Support Games List confirms wheel compatibility",
+          "url": "http://forum.arcadecontrols.com/index.php?topic=134588.0",
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "First Burnout game. Supports Logitech Driving Force and Momo Force wheels. Burnout Dominator is the only Criterion Burnout that does NOT support wheels.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SLUS-20307" }
+      }
+    },
+    "burnout_2": {
+      "title": "Burnout 2: Point of Impact",
+      "manufacturer": null,
+      "developer": "Criterion Games",
+      "publisher": "Acclaim Entertainment",
+      "year": "2002",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "research",
+          "description": "GTPlanet Logitech Driving Force compatibility list confirms Burnout 2 wheel support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "forum",
+          "description": "Arcade Controls and NeoGAF confirm wheel works great with Burnout 2",
+          "url": "http://forum.arcadecontrols.com/index.php?topic=134588.0",
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "Second Burnout game. Supports Logitech Driving Force GT and Momo Force wheels. Great wheel experience reported by community.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SLUS-20497" }
+      }
+    },
+    "wrc_ii_extreme": {
+      "title": "WRC II Extreme",
+      "manufacturer": null,
+      "developer": "Evolution Studios",
+      "publisher": "Sony Computer Entertainment",
+      "year": "2002",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "emulator",
+          "description": "PCSX2 Wiki lists WRC II Extreme, PAL serial SCES-50934",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "inference",
+          "description": "Same Evolution Studios engine and hardware as WRC 1 (confirmed wheel support). PAL-only sequel.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "PAL-only sequel to WRC: World Rally Championship. Same Evolution Studios engine. Features all 14 official WRC 2002 events.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SCES-50934" }
+      }
+    },
+    "formula_one_05_sl": {
+      "title": "Formula One 05 (Studio Liverpool)",
+      "manufacturer": null,
+      "developer": "Studio Liverpool",
+      "publisher": "Sony Computer Entertainment",
+      "year": "2005",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "research",
+          "description": "GTPlanet Logitech Driving Force compatibility list confirms F1 05 wheel support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "emulator",
+          "description": "PCSX2 Wiki has Formula One 05 page, PAL serial SCES-53033",
+          "url": "https://wiki.pcsx2.net/Formula_One_05",
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "Studio Liverpool F1 series. PAL-only, never released in North America. Career mode with 5-year progression and interactive pit stops.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SCES-53033" }
+      }
+    },
+    "formula_one_06_sl": {
+      "title": "Formula One 06 (Studio Liverpool)",
+      "manufacturer": null,
+      "developer": "Studio Liverpool",
+      "publisher": "Sony Computer Entertainment",
+      "year": "2006",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "emulator",
+          "description": "PCSX2 Wiki has Formula One 06 page, PAL serial SCES-53950",
+          "url": "https://wiki.pcsx2.net/Formula_One_06",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "inference",
+          "description": "Same Studio Liverpool engine and wheel support as F1 03, F1 04, F1 05. Last PS2 F1 game before PS3 Championship Edition.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "Final Studio Liverpool F1 game on PS2. PAL-only. Also released on PSP. Based on 2006 FIA season.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SCES-53950" }
       }
     }
   }
