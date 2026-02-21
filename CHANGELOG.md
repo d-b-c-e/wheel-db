@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.16.0] - 2026-02-20
+
+### Changed
+- Eliminated all low-confidence entries (2 → 0):
+  - Crazy Ride: low → medium (linked to Cruis'n Blast Motion platform, same SuzoHapp Active 270 steering)
+  - Crazy Speed: low → medium (enriched with Highway Games and Arcade Heroes sources)
+- Upgraded 5 medium-confidence entries to high (16 → 13 medium):
+  - Nirin, MotoGP (Namco): VG75-03824-00 (60-degree) potentiometer confirmed by 4 independent parts retailers
+  - Hot Wheels: King of the Road: 2 service manuals (BMI Gaming + Bandai Namco UK) + Betson parts
+  - NFS Heat Takedown: operation manual (ManualsLib) + shared Adrenaline Amusements steering platform
+  - ReVolt: HAPP UGCI Driving Board product page explicitly states "270 degree Pot wheel only"
+- Confidence distribution: verified=57, high=543, medium=13, low=0
+
+### Added
+- Enriched sources for all 7 upgraded entries with manufacturer documentation URLs
+
 ## [2.15.0] - 2026-02-20
 
 ### Added

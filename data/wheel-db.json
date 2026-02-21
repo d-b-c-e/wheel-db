@@ -1,5 +1,5 @@
 {
-  "version": "2.15.0",
+  "version": "2.16.0",
   "generated": "2026-02-20T00:00:00Z",
   "games": {
     "outrun": {
@@ -1305,18 +1305,24 @@
       "year": "2010",
       "rotation_degrees": 60,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
-        {
-          "type": "inference",
-          "description": "Namco ES1 motorcycle cabinet with authentic motorcycle swivel controllers and handlebar controls.",
-          "url": null,
-          "date_accessed": "2026-02-20"
-        },
         {
           "type": "parts",
           "description": "Namco motorcycle handlebar potentiometer VG75-03824-00 (1K ohm, 60-degree rotation) standard for Namco motorcycle cabinets. SuzoHapp has dedicated Nirin parts page.",
           "url": "https://na.suzohapp.com/parts/arcade_parts/namco/nirin/",
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "parts",
+          "description": "SuzoHapp VG75-03824-00 product page: 'Replacement 1k Potentiometer Namco 60 degree' used in Cybercycles Handle and Pivot Assembly.",
+          "url": "https://na.suzohapp.com/products/driving_controls/VG75-03824-00",
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "parts",
+          "description": "Bandai Namco official parts: VG75-03824-00 listed as 'POT, 1K 60 DEG' — confirms 60-degree rotation specification.",
+          "url": "https://www.bandainamco-am.com/Ecommerce/product/vg75-03824-00/pot1k-60-degpkg-of-1",
           "date_accessed": "2026-02-20"
         },
         {
@@ -1326,7 +1332,7 @@
           "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Namco ES1 hardware. Motorcycle swivel controller with handlebars. Steering is primarily lean-based.",
+      "notes": "Namco ES1 hardware. Motorcycle swivel controller with handlebars. Uses VG75-03824-00 (1K, 60-degree) potentiometer, standard across Namco motorcycle cabinet lineage from Cybercycles onward.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -1552,22 +1558,28 @@
       "year": "2000",
       "rotation_degrees": 60,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
-        {
-          "type": "inference",
-          "description": "Namco System 246 motorcycle arcade game with body-lean/handlebar steering.",
-          "url": null,
-          "date_accessed": "2026-02-20"
-        },
         {
           "type": "parts",
           "description": "Namco motorcycle handlebar potentiometer VG75-03824-00 (1K ohm, 60-degree rotation) is the standard across Namco motorcycle cabinets. Confirmed in Cybercycles (System 22) handle and pivot assembly.",
           "url": "https://na.suzohapp.com/products/driving_controls/VG75-03824-00",
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "parts",
+          "description": "Bandai Namco official parts: VG75-03824-00 listed as 'POT, 1K 60 DEG' — confirms 60-degree rotation specification.",
+          "url": "https://www.bandainamco-am.com/Ecommerce/product/vg75-03824-00/pot1k-60-degpkg-of-1",
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "parts",
+          "description": "TwistedQuarter: '1K POTENTIOMETER NAMCO 60 DEGREE REF# VG75-03824-00' — third independent parts retailer confirming 60-degree spec.",
+          "url": "https://twistedquarter.com/index.php?main_page=product_info&products_id=1820",
+          "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Namco System 246 hardware. Motorcycle handlebars, NOT a steering wheel.",
+      "notes": "Namco System 246 hardware. Motorcycle handlebars, NOT a steering wheel. Uses VG75-03824-00 (1K, 60-degree) potentiometer, standard across Namco motorcycle cabinet lineage.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -2322,8 +2334,20 @@
       "year": "2019",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
+        {
+          "type": "manual",
+          "description": "Hot Wheels King of the Road service manual from BMI Gaming/Adrenaline Amusements documents steering mechanism assembly with SuzoHapp parts.",
+          "url": "https://www.bmigaming.com/Games/Manuals/adrenaline-amusements/Hot-Wheels-King-Of-The-Road-Arcade-Videmption-Game-Service-Manual-Adrenaline-Amusements.pdf",
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "manual",
+          "description": "Bandai Namco UK service manual V3.3 for Hot Wheels: King of the Road — additional manual source documenting steering assembly.",
+          "url": "https://www.bandainamco-am.co.uk/files/f/149639/x/c2e4fde8f4/hot_wheels_manual_v3_3.pdf",
+          "date_accessed": "2026-02-20"
+        },
         {
           "type": "parts",
           "description": "Betson Parts lists Adrenaline Steering Wheel Potentiometer (ADR__AAG-13-0003-POT, replaced by ADR__AAG-13-0002-POT) for Hot Wheels King of the Road. Same steering mechanism shared with NFS Heat Takedown.",
@@ -2331,13 +2355,13 @@
           "date_accessed": "2026-02-20"
         },
         {
-          "type": "manual",
-          "description": "Hot Wheels King of the Road service manual from Bandai Namco/Adrenaline Amusements documents steering mechanism assembly with SuzoHapp parts.",
-          "url": "https://www.bmigaming.com/Games/Manuals/adrenaline-amusements/Hot-Wheels-King-Of-The-Road-Arcade-Videmption-Game-Service-Manual-Adrenaline-Amusements.pdf",
+          "type": "wiki",
+          "description": "Arcade Heroes: force feedback steering wheels, developed by Coin Crew and Adrenaline Amusements.",
+          "url": "https://arcadeheroes.com/2019/10/18/adrenaline-amusements-unveils-hot-wheels-king-of-the-road/",
           "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Adrenaline Amusements PC hardware. Uses proprietary steering wheel with potentiometer (AAG-13-0003-POT). Same steering platform shared with NFS Heat Takedown. 4-player and 6-player cabinet variants.",
+      "notes": "Adrenaline Amusements PC hardware. Uses SuzoHapp-standard 270-degree steering with potentiometer (AAG-13-0003-POT). Same steering platform shared with NFS Heat Takedown. 4-player and 6-player cabinet variants.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -2353,7 +2377,7 @@
       "year": "2023",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "manual",
@@ -2362,13 +2386,25 @@
           "date_accessed": "2026-02-20"
         },
         {
+          "type": "manual",
+          "description": "ManualsLib hosts full NFS Heat Takedown operation manual — documents steering wheel motor assembly AAG-13-0002.",
+          "url": "https://www.manualslib.com/manual/3283723/Adrenaline-Amusements-Nfs-75-1001.html",
+          "date_accessed": "2026-02-20"
+        },
+        {
           "type": "parts",
           "description": "Betson Parts lists Adrenaline HW NFS Steering Wheel Potentiometer w/Harness (ADR__AAG-13-0002-POT) shared between Hot Wheels and NFS Heat Takedown cabinets.",
           "url": "https://www.betsonparts.com/amusement-redemption/adr-aag-13-0002-pot.html",
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "wiki",
+          "description": "PrimeTime Amusements: 43\" HD screen with force-feedback steering, seat vibration, 5.1 surround sound. Standard and Motion Deluxe variants.",
+          "url": "https://primetimeamusements.com/product/nfs-heat-takedown/",
+          "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Adrenaline Amusements PC hardware. Uses AAG-13-0002 Steering Wheel with Motor Assembly. Same steering platform as Hot Wheels: King of the Road. Available in Standard (43\") and Motion Deluxe (75\") variants.",
+      "notes": "Adrenaline Amusements PC hardware. Uses SuzoHapp-standard 270-degree steering with motor assembly (AAG-13-0002). Same steering platform as Hot Wheels: King of the Road. Available in Standard (43\") and Motion Deluxe (75\") variants.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -2465,12 +2501,18 @@
       "year": "2004",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "parts",
-          "description": "Uses HAPP UGCI Driving board which supports 270-degree potentiometer wheels (5K ohm input impedance). Standard HAPP 270-degree steering wheel assembly.",
-          "url": "https://na.suzohapp.com/images/pdf/ugci.pdf",
+          "description": "SuzoHapp UGCI Driving Board product page explicitly states: 'Steering wheel (270 degree Pot wheel only - does not support Optic wheel).'",
+          "url": "https://na.suzohapp.com/products/joysticks/95-0800-10",
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "manual",
+          "description": "UGCI V1.2 manual confirms 270-degree potentiometer wheel support, 5 analog axes, 15 digital inputs.",
+          "url": "https://na.suzohapp.com/images/pdf/ins-0037.pdf",
           "date_accessed": "2026-02-20"
         },
         {
@@ -2480,7 +2522,7 @@
           "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Tsunami Visual Technologies TsuMo cabinet. Uses HAPP UGCI Driving board with standard 270-degree steering assembly. Released 2004, available in Standard and Deluxe (motion) versions.",
+      "notes": "Tsunami Visual Technologies TsuMo cabinet. HAPP UGCI Driving Board explicitly specifies '270 degree Pot wheel only'. Released 2004, available in Standard and Deluxe (motion) versions.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -2496,22 +2538,28 @@
       "year": "2019",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
-          "description": "UNIS sit-down racing cabinet with motion platform. Standard arcade steering wheel and pedals. 270 degrees assumed from industry standard SuzoHapp/HAPP potentiometer-based steering assemblies used in modern arcade racing cabinets.",
+          "description": "Cabinet is a variation of the Cruis'n Blast Motion platform (UNIS & Raw Thrills collaboration). Cruis'n Blast uses SuzoHapp Active 270 steering assembly, strongly suggesting same 270-degree steering in Crazy Ride.",
           "url": null,
           "date_accessed": "2026-02-20"
         },
         {
           "type": "wiki",
-          "description": "Arcade Heroes confirms 2019 release with 43-inch monitor, motion platform, and steering wheel controls. Crazy Taxi-inspired gameplay.",
+          "description": "Arcade Heroes confirms 2019 release: 'a variation of the Cruis'n Blast Motion game that UNIS & Raw Thrills did.' 43-inch monitor, motion platform, fan effects, steering wheel controls.",
           "url": "https://arcadeheroes.com/2019/08/29/the-spirit-of-crazy-taxi-lives-on-with-unis-crazy-ride/",
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "reference",
+          "description": "Cruis'n Blast (same cabinet platform) confirmed at 270 degrees via SuzoHapp Raw Thrills steering wheel hoop with Active 270 timing belt.",
+          "url": "https://www.betsonparts.com/amusement-redemption/raw-thrills-steering-wheel-hoop.html",
           "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "UNIS PC hardware. Crazy Taxi-inspired game with 43-inch monitor, motion platform, and fan effects. No manufacturer-specific steering documentation found.",
+      "notes": "UNIS PC hardware. Variation of Cruis'n Blast Motion cabinet (UNIS & Raw Thrills). 43-inch monitor, motion platform, fan effects. Same SuzoHapp Active 270 steering platform as Cruis'n Blast.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -2527,7 +2575,7 @@
       "year": "2010",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         {
           "type": "inference",
@@ -2540,9 +2588,21 @@
           "description": "PrimeTime Amusements product listing confirms steering wheel, gas/brake pedals, up/down gear shifter, and 4-arrow D-Pad controls. Cabinet dimensions H:75\" W:28\" D:40\", 400 lbs.",
           "url": "https://primetimeamusements.com/product/crazy-speed/",
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "wiki",
+          "description": "Highway Games: Crazy Speed by Universal Space. 32-inch horizontal screen, 102cm W x 155cm D x 195cm H, 278 kg. Steering controls with online tournament mode.",
+          "url": "https://www.highwaygames.com/arcade-machines/crazy-speed-11205/",
+          "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "wiki",
+          "description": "Arcade Heroes: developed by Long Entertainment, distributed by UNIS. Features online modes and card save system.",
+          "url": "https://arcadeheroes.com/2010/06/21/crazy-speed-arcade-by-long-entertainment-now-available-via-unis/",
+          "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "UNIS PC hardware. Released 2010, no longer in production. Upright cabinet with steering wheel, pedals, gear shifter. No manufacturer-specific steering documentation found.",
+      "notes": "UNIS PC hardware. Released 2010 by Long Entertainment, distributed by UNIS. Upright cabinet with steering wheel, pedals, gear shifter. Standard 270-degree steering assembly assumed from industry-standard SuzoHapp components.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
