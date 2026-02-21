@@ -29,11 +29,11 @@ The primary database is `data/wheel-db.json` -- a unified, game-centric JSON fil
 
 **Confidence:** verified (58), high (566), medium (14), low (0)
 
-**Rotation values:** 270 (296 games), 540 (82), 360 (57), 900 (58), 45 (19), 180 (16), 200 (9), 60 (14), 56 (10), 1080 (4), 450 (4), 240 (3), 390 (3), 150 (2), 90 (2), 300 (1), 480 (1), 720 (1), 800 (1)
+**Rotation values:** 270 (296 games), 540 (82), 360 (57), 900 (57), 45 (19), 180 (16), 200 (10), 60 (14), 56 (10), 1080 (4), 450 (4), 240 (3), 390 (3), 150 (2), 90 (2), 300 (1), 480 (1), 720 (1), 800 (1)
 
 **PC wheel support:** native (137 games), partial (72), none (77)
 
-**PC force feedback:** native (102), partial (47), none (132)
+**PC force feedback:** native (102), partial (51), none (132)
 
 ### Special Values
 
@@ -76,7 +76,7 @@ All scripts are PowerShell 7+ and located in `scripts/`.
 ```
 wheel-db/
   data/
-    wheel-db.json                # Primary database (612 games)
+    wheel-db.json                # Primary database (638 games)
     schema/
       wheel-db.schema.json       # JSON Schema for validation
   scripts/
@@ -107,7 +107,7 @@ Each [GitHub Release](../../releases) includes these artifacts:
 | `mame-wheel-rotation.csv` | CSV | Flat MAME ROM-to-rotation lookup (known values only) |
 | `mame-wheel-rotation.xml` | XML | Same MAME data in XML format |
 | `steam-wheel-support.csv` | CSV | Steam games with wheel support, FFB, and rotation info |
-| `wheel-db.csv` | CSV | Unified flat CSV of all 612 games across all platforms |
+| `wheel-db.csv` | CSV | Unified flat CSV of all 638 games across all platforms |
 
 For detailed parsing instructions and code examples, see **[docs/INTEGRATION.md](docs/INTEGRATION.md)**.
 

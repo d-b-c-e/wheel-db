@@ -29,6 +29,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 ### Fixed
 - Merged 2 duplicate entries (Chase H.Q. 2, Offroad Thunder) -- TeknoParrot+MAME now unified
 - Added 3 MAME romname links to existing TeknoParrot entries (chase_hq_2→chasehq2, offroad_thunder→offrthnd, fnf→fnf)
+- NFS Most Wanted 2005: corrected rotation 900°→200° (enormous deadzone at 900°, community recommends 200°)
+- Burnout 3, Burnout Revenge, Auto Modellista, NFS Most Wanted 2005: force_feedback unknown→partial (forum-confirmed)
 
 ## [2.17.0] - 2026-02-21
 

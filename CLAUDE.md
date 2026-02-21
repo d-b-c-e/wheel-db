@@ -39,9 +39,9 @@ Beyond MAME and TeknoParrot, many arcade racing games are emulated by standalone
 | **Cxbx-Reloaded** | Sega Chihiro (Xbox-based) | OutRun 2, House of the Dead III |
 | **Dolphin** | Triforce (GameCube-based) | 4 entries linked (F-Zero AX, Mario Kart GP 1&2) |
 | **RPCS3** | Namco System 357 (PS3-based) | Some newer arcade titles |
-| **PCSX2** | Namco System 246/256 (PS2-based) | Ridge Racer V, Wangan Midnight |
+| **PCSX2** | PS2 console games | 11 entries linked (GT3, GT4, NFS Underground 1-2, Enthusia, etc.) |
 
-A game like Daytona USA could be run on MAME, Model 2 Emulator, or even Supermodel (for the Model 3 sequel) - the physical cabinet's wheel rotation is the same regardless of which emulator runs it. The unified model captures this correctly. As of v2.5.0, cross-platform linking is implemented for Supermodel, Model 2 Emulator, Flycast, and Dolphin.
+A game like Daytona USA could be run on MAME, Model 2 Emulator, or even Supermodel (for the Model 3 sequel) - the physical cabinet's wheel rotation is the same regardless of which emulator runs it. The unified model captures this correctly. As of v2.5.0, cross-platform linking is implemented for Supermodel, Model 2 Emulator, Flycast, and Dolphin. In v2.18.0, PCSX2 support was added for PS2 console games with USB wheel emulation.
 
 ---
 
@@ -53,7 +53,7 @@ wheel-db/
 ├── README.md                    # Project documentation for humans
 ├── LICENSE                      # MIT License
 ├── data/
-│   ├── wheel-db.json            # Unified database (613 games)
+│   ├── wheel-db.json            # Unified database (638 games)
 │   └── schema/
 │       └── wheel-db.schema.json # JSON Schema for validation
 ├── scripts/
@@ -333,6 +333,24 @@ site:shmups.system11.org "{game_title}" wheel
 "{game_title}" arcade cabinet tour
 "{game_title}" original arcade gameplay
 ```
+
+---
+
+## MCP Tools (dbce-mcp-server)
+
+The `dbce-mcp-server` provides tools globally via MCP. Key tools for this project:
+
+### Web Research (Playwright MCP)
+
+- **`playwright` (headed Firefox)** — Opens a visible Firefox window to research game wheel rotation values from PCGamingWiki, Arcade Museum (KLOV), BYOAC forums, and YouTube. Claude can navigate pages, extract data from tables, and read forum posts.
+- **`playwright-bg` (headless Chromium)** — Batch-scrape PCGamingWiki pages or other sources for wheel support data without a visible browser.
+- Key Playwright tools: `browser_navigate`, `browser_snapshot` (accessibility tree for extracting structured data), `browser_evaluate` (JS for parsing page content).
+
+### Tool Selection
+
+- For researching individual games: use `playwright` (headed) so the user can see what pages Claude is reading.
+- For batch data enrichment: use `playwright-bg` (headless) to process multiple games efficiently.
+- Do NOT use InputBridge/screenshot tools for this project — it is a data project with no GUI.
 
 ---
 
