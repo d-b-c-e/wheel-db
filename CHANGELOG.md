@@ -4,6 +4,24 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.22.0] - 2026-02-21
+
+### Added
+- **6 new PCSX2 entries** expanding PS2 coverage to 61 games:
+  - WRC 3 (SCES-51684), WRC 4 PS2 (SCES-52389), WRC: Rally Evolved (SCES-53247) — completing the Evolution Studios WRC series on PS2
+  - Initial D: Special Stage (SLPM-65268) — Japan-only PS2 port of arcade stages 1-3, 540° matching arcade cabinets
+  - Ferrari F355 Challenge PS2 (SLUS-20558) — PS2 port of Sega arcade, 270° matching SPG-2002 cabinet
+  - F1 Career Challenge (SLUS-20693) — EA Sports multi-season F1 game
+
+### Fixed
+- Burnout PS2 and Burnout 2 rotation corrected from 270°→200° (pre-DFP era, matches Burnout 3/Revenge in database)
+- Burnout PS2 and Burnout 2 wheel_support corrected from native→partial (basic support, not full integration)
+
+### Changed
+- Total database: 685 games
+- PCSX2 coverage: 61 games
+- Confidence distribution: verified=58, high=614, medium=13, low=0
+
 ## [2.21.0] - 2026-02-21
 
 ### Added

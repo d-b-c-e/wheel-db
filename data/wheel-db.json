@@ -1,6 +1,6 @@
 {
-  "version": "2.21.0",
-  "generated": "2026-02-21T18:00:00Z",
+  "version": "2.22.0",
+  "generated": "2026-02-21T20:00:00Z",
   "games": {
     "outrun": {
       "title": "Out Run",
@@ -26980,7 +26980,7 @@
       "developer": "Criterion Games",
       "publisher": "Acclaim Entertainment",
       "year": "2001",
-      "rotation_degrees": 270,
+      "rotation_degrees": 200,
       "rotation_type": null,
       "confidence": "high",
       "sources": [
@@ -26997,9 +26997,9 @@
           "date_accessed": "2026-02-21"
         }
       ],
-      "notes": "First Burnout game. Supports Logitech Driving Force and Momo Force wheels. Burnout Dominator is the only Criterion Burnout that does NOT support wheels.",
+      "notes": "First Burnout game. Pre-DFP era (200° max). Supports Logitech Driving Force and Momo Force wheels. Burnout Dominator is the only Criterion Burnout that does NOT support wheels.",
       "pc": {
-        "wheel_support": "native",
+        "wheel_support": "partial",
         "force_feedback": "partial",
         "controller_support": "full"
       },
@@ -27013,7 +27013,7 @@
       "developer": "Criterion Games",
       "publisher": "Acclaim Entertainment",
       "year": "2002",
-      "rotation_degrees": 270,
+      "rotation_degrees": 200,
       "rotation_type": null,
       "confidence": "high",
       "sources": [
@@ -27030,9 +27030,9 @@
           "date_accessed": "2026-02-21"
         }
       ],
-      "notes": "Second Burnout game. Supports Logitech Driving Force GT and Momo Force wheels. Great wheel experience reported by community.",
+      "notes": "Second Burnout game. Pre-DFP era (200° max). Supports Logitech Driving Force GT and Momo Force wheels. Great wheel experience reported by community.",
       "pc": {
-        "wheel_support": "native",
+        "wheel_support": "partial",
         "force_feedback": "partial",
         "controller_support": "full"
       },
@@ -27137,6 +27137,204 @@
       },
       "platforms": {
         "pcsx2": { "serial": "SCES-53950" }
+      }
+    },
+    "wrc_3_ps2": {
+      "title": "WRC 3 (PS2)",
+      "manufacturer": null,
+      "developer": "Evolution Studios",
+      "publisher": "Sony Computer Entertainment",
+      "year": "2003",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "research",
+          "description": "GTPlanet Logitech Driving Force compatibility list confirms WRC 3 wheel support with force feedback",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "inference",
+          "description": "Same Evolution Studios engine as WRC 1-2. PAL serial SCES-51684. First in series to support DFP wheels.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "Third WRC game by Evolution Studios. PAL-only. Supports Logitech Driving Force Pro with force feedback. Pre-DFP era wheel still 200° max but DFP was 270°.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SCES-51684" }
+      }
+    },
+    "wrc_4_ps2": {
+      "title": "WRC 4: The Official Game of the FIA World Rally Championship (PS2)",
+      "manufacturer": null,
+      "developer": "Evolution Studios",
+      "publisher": "Sony Computer Entertainment",
+      "year": "2004",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "research",
+          "description": "GTPlanet Logitech Driving Force compatibility list confirms WRC 4 wheel support with force feedback",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "inference",
+          "description": "Same Evolution Studios engine as WRC 1-3. PAL serial SCES-52389. Different game from Milestone's 2013 Steam WRC 4.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "Fourth WRC game by Evolution Studios. PAL-only. Not related to Milestone's 2013 WRC 4 on Steam. Supports DFP with FFB.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SCES-52389" }
+      }
+    },
+    "wrc_rally_evolved": {
+      "title": "WRC: Rally Evolved",
+      "manufacturer": null,
+      "developer": "Evolution Studios",
+      "publisher": "Sony Computer Entertainment",
+      "year": "2005",
+      "rotation_degrees": 540,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "research",
+          "description": "GTPlanet Logitech Driving Force compatibility list confirms WRC Rally Evolved wheel and FFB support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "inference",
+          "description": "Final Evolution Studios WRC on PS2. Supports DFGT 900° but 540° is recommended rally setting. PAL serial SCES-53247.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "Final Evolution Studios WRC on PS2. PAL-only. Significant graphics upgrade. 540° recommended for rally driving style.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SCES-53247" }
+      }
+    },
+    "initial_d_special_stage": {
+      "title": "Initial D: Special Stage",
+      "manufacturer": null,
+      "developer": "Sega",
+      "publisher": "Sega",
+      "year": "2003",
+      "rotation_degrees": 540,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "research",
+          "description": "PS2 port of Initial D Arcade Stage 1-3 content. Arcade versions used 540° wheels (confirmed by TeknoParrot metadata for ID4-ID8).",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "forum",
+          "description": "GTPlanet and racing communities confirm Initial D Special Stage supports Logitech DFP and DFGT wheels on PS2",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "Japan-only PS2 port of Initial D Arcade Stage series. NTSC-J serial SLPM-65268. Supports DFP/DFGT wheels. 540° matches arcade cabinet specification.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SLPM-65268" }
+      }
+    },
+    "ferrari_f355_challenge_ps2": {
+      "title": "Ferrari F355 Challenge (PS2)",
+      "manufacturer": null,
+      "developer": "Sega AM2",
+      "publisher": "Acclaim Entertainment",
+      "year": "2002",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "research",
+          "description": "GTPlanet Logitech Driving Force compatibility list confirms F355 Challenge PS2 wheel support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "inference",
+          "description": "PS2 port of Sega arcade game (270° cabinet). NTSC-U serial SLUS-20558. Arcade original uses SPG-2002 270° steering.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "PS2 port of Sega's arcade F355 Challenge. 270° matches the arcade cabinet's SPG-2002 steering assembly. Supports Logitech Driving Force wheel.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SLUS-20558" }
+      }
+    },
+    "f1_career_challenge": {
+      "title": "F1 Career Challenge",
+      "manufacturer": null,
+      "developer": "EA Sports",
+      "publisher": "Electronic Arts",
+      "year": "2003",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "research",
+          "description": "GTPlanet Logitech Driving Force compatibility list confirms F1 Career Challenge wheel support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "forum",
+          "description": "Arcade Controls PS2 wheel compatibility list confirms F1 Career Challenge works with steering wheels",
+          "url": "http://forum.arcadecontrols.com/index.php?topic=134588.0",
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "EA Sports F1 game spanning 1999-2002 seasons. NTSC-U serial SLUS-20693. Career mode across multiple F1 seasons.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SLUS-20693" }
       }
     }
   }
