@@ -24995,7 +24995,7 @@
     "need_for_speed_most_wanted_2005": {
       "pc": {
         "wheel_support": "partial",
-        "force_feedback": "unknown",
+        "force_feedback": "partial",
         "controller_support": "full"
       },
       "manufacturer": null,
@@ -25003,13 +25003,13 @@
       "sources": [
         {
           "type": "research",
-          "description": "Full DFP 900-degree support confirmed in ArcadeControls PS2 wheel compatibility list.",
+          "description": "DFP compatible per ArcadeControls PS2 wheel list. 900-degree mode technically available but enormous deadzone makes it unplayable. Community recommends 200 degrees.",
           "url": "http://forum.arcadecontrols.com/index.php?topic=134588.0",
           "date_accessed": "2026-02-21"
         },
         {
           "type": "emulator",
-          "description": "PCSX2 USB wheel emulation works. PCSX2 Wiki lists wheel support.",
+          "description": "PCSX2 Wiki lists wheel support. USB wheel emulation works.",
           "url": null,
           "date_accessed": "2026-02-21"
         }
@@ -25021,10 +25021,10 @@
         }
       },
       "year": "2005",
-      "rotation_degrees": 900,
+      "rotation_degrees": 200,
       "rotation_type": null,
       "confidence": "high",
-      "notes": "2005 EA Black Box version (distinct from 2012 Criterion reboot). Full 900-degree wheel support.",
+      "notes": "2005 EA Black Box version (distinct from 2012 Criterion reboot). 900-degree technically supported but huge deadzone; 200 degrees recommended.",
       "developer": "EA Black Box"
     },
     "need_for_speed_carbon": {
@@ -25065,7 +25065,7 @@
     "burnout_3_takedown": {
       "pc": {
         "wheel_support": "partial",
-        "force_feedback": "unknown",
+        "force_feedback": "partial",
         "controller_support": "full"
       },
       "manufacturer": null,
@@ -25100,7 +25100,7 @@
     "burnout_revenge": {
       "pc": {
         "wheel_support": "partial",
-        "force_feedback": "unknown",
+        "force_feedback": "partial",
         "controller_support": "full"
       },
       "manufacturer": null,
@@ -25170,7 +25170,7 @@
     "auto_modellista": {
       "pc": {
         "wheel_support": "partial",
-        "force_feedback": "unknown",
+        "force_feedback": "partial",
         "controller_support": "full"
       },
       "manufacturer": null,
