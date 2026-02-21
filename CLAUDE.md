@@ -53,7 +53,7 @@ wheel-db/
 ├── README.md                    # Project documentation for humans
 ├── LICENSE                      # MIT License
 ├── data/
-│   ├── wheel-db.json            # Unified database (659 games)
+│   ├── wheel-db.json            # Unified database (674 games)
 │   └── schema/
 │       └── wheel-db.schema.json # JSON Schema for validation
 ├── scripts/
@@ -69,8 +69,12 @@ wheel-db/
 │   ├── downloads/               # Downloaded dependencies (gitignored)
 │   └── cache/                   # Cached inventories (gitignored)
 ├── dist/                        # Build artifacts (gitignored, in releases)
-└── docs/
-    └── INTEGRATION.md           # How to use this data in frontends/emulators
+├── docs/
+│   ├── INTEGRATION.md           # How to use this data in frontends/emulators
+│   └── STEAM-API-RESEARCH.md    # Steam/SteamSpy API research notes
+└── .github/
+    └── workflows/
+        └── release.yml          # GitHub Actions release workflow
 ```
 
 ---
