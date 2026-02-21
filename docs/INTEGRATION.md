@@ -21,7 +21,7 @@ Choose the format that fits your use case:
 | **MAME CSV** (`mame-wheel-rotation.csv`) | Simple MAME ROM-to-rotation lookup (known values only) |
 | **MAME XML** (`mame-wheel-rotation.xml`) | Same as MAME CSV in XML format |
 | **Steam CSV** (`steam-wheel-support.csv`) | Steam games with wheel support, FFB, and rotation info |
-| **Unified CSV** (`wheel-db.csv`) | All 659 games in one flat CSV across all platforms |
+| **Unified CSV** (`wheel-db.csv`) | All 674 games in one flat CSV across all platforms |
 
 ---
 

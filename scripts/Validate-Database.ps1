@@ -252,15 +252,18 @@ foreach ($prop in $gameProps) {
 if ($check9Warnings -eq 0) { Write-Host "  Pass" -ForegroundColor Green }
 
 # ============================================================
-# Check 10: pc entries should have Steam platform
+# Check 10: pc entries should have a PC-playable platform (Steam or PCSX2)
 # ============================================================
-Write-Host "[Check 10] pc metadata has Steam platform..." -ForegroundColor Yellow
+Write-Host "[Check 10] pc metadata has PC-playable platform..." -ForegroundColor Yellow
 $check10Warnings = 0
 foreach ($prop in $gameProps) {
     $game = $prop.Value
-    if ($game.PSObject.Properties['pc'] -and $null -ne $game.pc -and -not $game.platforms.PSObject.Properties['steam']) {
-        Write-Host "  WARN: '$($prop.Name)' has pc metadata but no Steam platform" -ForegroundColor DarkYellow
-        $warnings++; $check10Warnings++
+    if ($game.PSObject.Properties['pc'] -and $null -ne $game.pc) {
+        $hasPcPlatform = $game.platforms.PSObject.Properties['steam'] -or $game.platforms.PSObject.Properties['pcsx2']
+        if (-not $hasPcPlatform) {
+            Write-Host "  WARN: '$($prop.Name)' has pc metadata but no Steam or PCSX2 platform" -ForegroundColor DarkYellow
+            $warnings++; $check10Warnings++
+        }
     }
 }
 if ($check10Warnings -eq 0) { Write-Host "  Pass" -ForegroundColor Green }
@@ -269,7 +272,7 @@ if ($check10Warnings -eq 0) { Write-Host "  Pass" -ForegroundColor Green }
 # Statistics
 # ============================================================
 $withRotation = 0; $withNull = 0; $withInfinite = 0
-$hasMame = 0; $hasSteam = 0; $hasTP = 0; $hasPc = 0
+$hasMame = 0; $hasSteam = 0; $hasTP = 0; $hasPcsx2 = 0; $hasPc = 0
 $rotationValues = @{}
 
 foreach ($prop in $gameProps) {
@@ -289,6 +292,7 @@ foreach ($prop in $gameProps) {
     if ($plats.PSObject.Properties['mame']) { $hasMame++ }
     if ($plats.PSObject.Properties['steam']) { $hasSteam++ }
     if ($plats.PSObject.Properties['teknoparrot']) { $hasTP++ }
+    if ($plats.PSObject.Properties['pcsx2']) { $hasPcsx2++ }
     if ($gp['pc'] -and $null -ne $game.pc) { $hasPc++ }
 }
 
@@ -303,6 +307,7 @@ Write-Host "  Platform breakdown:"
 Write-Host "    MAME:             $hasMame"
 Write-Host "    TeknoParrot:      $hasTP"
 Write-Host "    Steam:            $hasSteam"
+Write-Host "    PCSX2:            $hasPcsx2"
 Write-Host "    With PC metadata: $hasPc"
 Write-Host ""
 Write-Host "  Rotation distribution:"

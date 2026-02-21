@@ -4,6 +4,25 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.20.0] - 2026-02-21
+
+### Added
+- **15 new PCSX2 entries** expanding PS2 coverage to 50 games:
+  - NTSC-U: NASCAR Thunder 2003, NASCAR Thunder 2004, NASCAR 2005: Chase for the Cup, Ford Mustang: The Legend Lives, V-Rally 3, WRC: World Rally Championship, Rally Fusion: Race of Champions
+  - PAL-only: Colin McRae Rally 04, Colin McRae Rally 2005, Richard Burns Rally (900-degree DFP support), Lotus Challenge, Knight Rider: The Game, Formula One 2003, Formula One 04 (Studio Liverpool)
+  - NTSC-J: Sega Rally 2006 (custom GT Force Pro wheel bundle)
+- 36 single-source entries enriched with second sources (manufacturer inference, Steam store, PCGamingWiki)
+
+### Changed
+- Upgraded 2 arcade medium→high confidence: Crazy Ride, Crazy Speed (SuzoHapp Active 270 hardware platform evidence)
+- Validator Check 10 updated to recognize PCSX2 as PC-playable platform (eliminates false warnings)
+- Validator now tracks and reports PCSX2 platform statistics
+- Confidence distribution: verified=58, high=602, medium=14, low=0
+- Total database: 674 games
+
+### Fixed
+- Validator `$hasPcsx2` variable initialized correctly (was undefined)
+
 ## [2.19.0] - 2026-02-21
 
 ### Added

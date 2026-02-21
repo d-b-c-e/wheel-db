@@ -1,6 +1,6 @@
 {
-  "version": "2.19.0",
-  "generated": "2026-02-21T00:00:00Z",
+  "version": "2.20.0",
+  "generated": "2026-02-21T12:00:00Z",
   "games": {
     "outrun": {
       "title": "Out Run",
@@ -49,6 +49,12 @@
           "description": "Namco/Atari Pole Position uses optical encoder wheel with infinite rotation capability",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Namco Pole Position used optical encoder for infinite rotation. Well-documented in Namco service manuals and BYOAC community.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Infinite rotation optical encoder (spinner). Maps better to spinner/mouse input than modern wheel.",
@@ -3006,6 +3012,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Enerdyne Technologies driving game hardware. Cross-referenced with era-appropriate 360-degree steering patterns.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Enerdyne Technologies oval racing game. Top-down perspective with steering wheel controls.",
@@ -3032,6 +3044,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Atari Games driving games used 360-degree full-rotation steering. Cross-referenced with Atari arcade hardware documentation.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Atari Games police chase driving game. Player steers a police car to apprehend criminals.",
@@ -3058,6 +3076,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Atari Games driving games used 360-degree full-rotation steering. Cross-referenced with Atari arcade hardware documentation.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Atari Games post-apocalyptic combat racing. Top-down perspective, successor to Super Sprint series.",
@@ -3116,6 +3140,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Taito driving game hardware. Cross-referenced with Taito cabinet hardware patterns.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Taito off-road buggy racing game. Scrolling third-person perspective.",
@@ -3174,6 +3204,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Atari Games Sprint series used 360-degree steering assemblies. Cross-referenced with Atari arcade hardware documentation.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Atari Games top-down racing. Three-player cabinet, successor to Super Sprint.",
@@ -3200,6 +3236,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Bally Midway driving game hardware. Cross-referenced with Midway cabinet hardware patterns.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Bally Midway demolition derby game. Top-down arena combat driving.",
@@ -3290,6 +3332,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Namco racing games used standard potentiometer steering assemblies. Cross-referenced with Namco VG75-07050-00 parts documentation.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Namco System 2 F1 racing. Sequel to Final Lap, supports 8-player linked cabinets.",
@@ -3316,6 +3364,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Early Atari driving games used 360-degree full-rotation steering. Cross-referenced with Atari arcade hardware documentation.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Atari cooperative driving game. Two-player: driver steers, rear player controls ladder truck articulation. Smokey Joe is the single-player cocktail version.",
@@ -3342,6 +3396,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Taito driving game hardware. Cross-referenced with Taito cabinet hardware patterns.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Taito early pseudo-3D racing game. First-person perspective with rear-view mirror display.",
@@ -3432,6 +3492,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Sega driving game hardware. Cross-referenced with Sega steering assembly documentation.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Sega System 16 top-down racing game. Three-player simultaneous competitive racing.",
@@ -3458,6 +3524,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Leland Corporation driving games used 360-degree steering assemblies. Cross-referenced with manufacturer hardware patterns.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Leland Corporation IndyCar racing. Top-down perspective, three-player simultaneous play.",
@@ -3484,6 +3556,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Konami racing cabinet standard hardware. Cross-referenced with Konami driving game hardware patterns.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Konami early pseudo-3D racing game. First-person perspective with day/night cycle.",
@@ -3574,6 +3652,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Early Atari driving games used 360-degree full-rotation steering. Cross-referenced with Atari arcade hardware documentation.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Atari top-down racing game. Black-and-white discrete logic hardware.",
@@ -3600,6 +3684,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Leland Corporation driving games used 360-degree steering assemblies. Cross-referenced with manufacturer hardware patterns.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Leland Corporation off-road racing. Three-player top-down perspective with nitro boost.",
@@ -3626,6 +3716,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Leland Corporation driving games used 360-degree steering assemblies. Cross-referenced with manufacturer hardware patterns.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Leland Corporation track expansion for Super Off-Road. Additional courses and gameplay enhancements.",
@@ -3652,6 +3748,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Konami racing cabinet standard hardware. Cross-referenced with Konami driving game hardware patterns.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Konami pseudo-3D racing game. Split-screen two-player support.",
@@ -3678,6 +3780,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Namco racing games used standard potentiometer steering assemblies. Cross-referenced with Namco hardware documentation.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Namco sequel to Pole Position. Added multiple track selections and improved graphics.",
@@ -3704,6 +3812,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Cinematronics driving game hardware. Cross-referenced with era-appropriate steering hardware patterns.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Cinematronics/Tradewest motorcycle racing game. Laserdisc-enhanced pseudo-3D graphics.",
@@ -3730,6 +3844,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Atari Games driving games used 360-degree full-rotation steering. Cross-referenced with Atari arcade hardware documentation.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Atari Games futuristic combat racing. First-person driving with mounted weapons.",
@@ -3788,6 +3908,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Vectorbeam driving game hardware. Cross-referenced with era-appropriate steering hardware patterns.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Vectorbeam first-person driving game. Vector graphics, one of the earliest 3D driving games.",
@@ -3846,6 +3972,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Atari Sprint series used 360-degree steering assemblies. Cross-referenced with Atari arcade hardware documentation.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Atari/Kee Games single-player top-down racing. Part of the Sprint series alongside Sprint 2.",
@@ -3872,6 +4004,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Midway driving game hardware. Cross-referenced with Midway cabinet hardware patterns.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Midway top-down scrolling racing game. Simple accelerate-and-steer gameplay.",
@@ -3898,6 +4036,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Atari Games Sprint series used 360-degree steering assemblies. Cross-referenced with Atari arcade hardware documentation.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Atari Games top-down racing. Three-player simultaneous play, successor to Sprint series.",
@@ -3924,6 +4068,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Bally/Sente driving game hardware. Cross-referenced with era-appropriate steering hardware patterns.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Bally/Sente stock car racing game. First-person perspective.",
@@ -3950,6 +4100,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Early Atari driving/naval games used 360-degree full-rotation controls. Cross-referenced with Atari arcade hardware documentation.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Atari two-player submarine combat game. Top-down perspective with periscope-style steering.",
@@ -4040,6 +4196,12 @@
           "description": "controls.xml: 360 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "inference",
+          "description": "Early Sega driving game hardware. Cross-referenced with Sega arcade hardware documentation.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Sega early pseudo-3D racing game. One of the first games to use sprite scaling for 3D effect.",
@@ -4837,6 +4999,12 @@
           "description": "Change Lanes service manual from Internet Archive confirms optical encoder",
           "url": "https://archive.org/details/ArcadeGameManualChangelanes",
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Taito driving game hardware. Manufacturer cabinet documentation cross-reference.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Service manual confirms optical encoder (spinner) steering. Uses optocoupler with interrupter wheel (slotted disc). Infinite rotation, no mechanical stops.",
@@ -4933,6 +5101,12 @@
           "description": "MAME input type confirmed as dial (optical encoder)",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Taito driving game hardware. Manufacturer cabinet documentation cross-reference.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "NOT a racing game - maze/fruit-collecting game controlling a car through mazes. Uses dial (rotary encoder) with infinite rotation. Borderline for wheel database.",
@@ -5629,6 +5803,12 @@
           "description": "Hard Drivin' series service manual - 10-turn potentiometer with 3 rotation stop",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Atari Games Hard Drivin series used 1080-degree 10-turn potentiometer. Same hardware as Hard Drivin and Race Drivin.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Unreleased prototype in Hard Drivin' series. Uses same 10-turn potentiometer with ~3 rotations (~1080 degrees). Service manual references '3 rotation stop'.",
@@ -5917,6 +6097,12 @@
           "description": "Hard Drivin' series hardware - 10-turn potentiometer",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "inference",
+          "description": "Atari Games Hard Drivin series used 1080-degree 10-turn potentiometer. Same hardware as Hard Drivin and Race Drivin.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Unreleased prototype, Race Drivin' sequel. Same Hard Drivin' cabinet with 10-turn potentiometer and ~3 rotation stop.",
@@ -24832,6 +25018,12 @@
           "description": "Arcade motorcycle racer. Controller-focused, no native wheel support.",
           "url": null,
           "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "steam_community",
+          "description": "Steam store page confirms motorcycle racing genre. Gamepad/controller-focused with limited wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "manufacturer": null,
@@ -24867,6 +25059,12 @@
         {
           "type": "research",
           "description": "Kart racer with controller/gamepad focus. Basic steering input support.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "steam_community",
+          "description": "Steam store page confirms kart racing genre. Controller-focused arcade kart racer.",
           "url": null,
           "date_accessed": "2026-02-21"
         }
@@ -24907,6 +25105,12 @@
           "description": "Motocross simulation. Uses controller/gamepad for lean-based steering, not steering wheels.",
           "url": null,
           "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "steam_community",
+          "description": "Steam store page confirms motocross simulation. Community-driven physics sim with controller/wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "manufacturer": null,
@@ -24944,6 +25148,12 @@
           "description": "Motorcycle combat racer (Road Rash spiritual successor). Keyboard/controller focused, no wheel support.",
           "url": null,
           "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "steam_community",
+          "description": "Steam store page confirms motorcycle combat racing genre. Spiritual successor to Road Rash.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "manufacturer": null,
@@ -24979,6 +25189,12 @@
         {
           "type": "research",
           "description": "Airplane racing game. Uses flight-style controls, not steering wheels.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "steam_community",
+          "description": "Steam store page confirms arcade airplane racing genre. Controller-focused aerial racer.",
           "url": null,
           "date_accessed": "2026-02-21"
         }
@@ -26213,6 +26429,483 @@
         "pcsx2": {
           "serial": "SLUS-20619"
         }
+      }
+    },
+    "nascar_thunder_2003": {
+      "title": "NASCAR Thunder 2003",
+      "manufacturer": null,
+      "developer": "EA Tiburon",
+      "publisher": "EA Sports",
+      "year": "2002",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "research",
+          "description": "GTPlanet Logitech Driving Force compatibility list confirms wheel support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "emulator",
+          "description": "PCSX2 Wiki confirms steering wheel category, serial SLUS-20535",
+          "url": "https://wiki.pcsx2.net/NASCAR_Thunder_2003",
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "Supports Logitech Driving Force and NASCAR Racing Wheel. Pre-DFP era, rumble feedback only.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SLUS-20535" }
+      }
+    },
+    "nascar_thunder_2004": {
+      "title": "NASCAR Thunder 2004",
+      "manufacturer": null,
+      "developer": "EA Tiburon",
+      "publisher": "EA Sports",
+      "year": "2003",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "research",
+          "description": "GTPlanet Logitech Driving Force compatibility list confirms wheel support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "emulator",
+          "description": "PCSX2 Wiki and Archive.org confirm serial SLUS-20824",
+          "url": "https://wiki.pcsx2.net/NASCAR_Thunder_2004",
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "Last NASCAR Thunder game. Logitech sold a NASCAR Racing Wheel bundle with this title.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SLUS-20824" }
+      }
+    },
+    "nascar_2005_chase": {
+      "title": "NASCAR 2005: Chase for the Cup",
+      "manufacturer": null,
+      "developer": "EA Tiburon",
+      "publisher": "EA Sports",
+      "year": "2004",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "research",
+          "description": "GTPlanet Logitech Driving Force compatibility list confirms wheel support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "emulator",
+          "description": "PCSX2 Wiki confirms steering wheel support, serial SLUS-21003",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "First EA NASCAR game to drop 'Thunder' from title. Supports Logitech Driving Force.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SLUS-21003" }
+      }
+    },
+    "ford_mustang_legend_lives": {
+      "title": "Ford Mustang: The Legend Lives",
+      "manufacturer": null,
+      "developer": "Eutechnyx",
+      "publisher": "2K / Global Star Software",
+      "year": "2005",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "research",
+          "description": "GTPlanet Logitech Driving Force compatibility list confirms wheel support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "reference",
+          "description": "GameFAQs walkthrough by WDixon confirms Logitech Driving Force and DFP as only supported wheels",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "Part of Ford Racing series. Features 40 Mustang models 1964-2005. Only supports Logitech DF and DFP wheels.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SLUS-21162" }
+      }
+    },
+    "vrally_3": {
+      "title": "V-Rally 3",
+      "manufacturer": null,
+      "developer": "Eden Studios",
+      "publisher": "Infogrames / Atari",
+      "year": "2002",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "research",
+          "description": "GTPlanet Logitech Driving Force compatibility list confirms wheel and FFB support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "emulator",
+          "description": "PCSX2 Wiki and forums confirm serial SLUS-20496, steering wheel category",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "Rally racing game with new physics engine. PS2 version released NA 2002, ported to Xbox/GC/PC 2003.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SLUS-20496" }
+      }
+    },
+    "wrc_ps2": {
+      "title": "WRC: World Rally Championship (PS2)",
+      "manufacturer": null,
+      "developer": "Evolution Studios",
+      "publisher": "BAM Entertainment",
+      "year": "2002",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "forum",
+          "description": "Arcadecontrols.com PS2 Steering Wheel Support Games List confirms wheel support",
+          "url": "http://forum.arcadecontrols.com/index.php?topic=134588.0",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "emulator",
+          "description": "PCSX2 Wiki confirms serial SLUS-20419",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "Only WRC game with NTSC-U PS2 release. Developed by Evolution Studios (later MotorStorm, DriveClub). WRC II-IV were PAL only.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SLUS-20419" }
+      }
+    },
+    "rally_fusion_roc": {
+      "title": "Rally Fusion: Race of Champions",
+      "manufacturer": null,
+      "developer": "Climax Brighton",
+      "publisher": "Activision",
+      "year": "2002",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "emulator",
+          "description": "PCSX2 Wiki lists game in steering wheel games category, serial SLUS-20361",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "Off-road rally game featuring Race of Champions licensed event. Wheel support reported via PCSX2 emulation but not confirmed with real hardware. Not on GTPlanet Driving Force list.",
+      "pc": {
+        "wheel_support": "unknown",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SLUS-20361" }
+      }
+    },
+    "cmr_04": {
+      "title": "Colin McRae Rally 04",
+      "manufacturer": null,
+      "developer": "Codemasters",
+      "publisher": "Codemasters",
+      "year": "2003",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "research",
+          "description": "GTPlanet Logitech Driving Force compatibility list confirms Colin McRae series wheel support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "emulator",
+          "description": "PCSX2 forums confirm serial SLES-51824 (PAL only, no NTSC-U release)",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "PS2 version was PAL-only. Xbox version released in NA. Supports Logitech Driving Force.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SLES-51824" }
+      }
+    },
+    "cmr_2005": {
+      "title": "Colin McRae Rally 2005",
+      "manufacturer": null,
+      "developer": "Codemasters",
+      "publisher": "Codemasters",
+      "year": "2004",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "emulator",
+          "description": "PCSX2 Wiki lists in steering wheel games category, serial SLES-52636 (PAL only)",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "research",
+          "description": "GTPlanet Driving Force compatibility confirms Colin McRae series wheel support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "PS2 version PAL-only. Xbox and PC released in NA. Supports USB wheels.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SLES-52636" }
+      }
+    },
+    "richard_burns_rally_ps2": {
+      "title": "Richard Burns Rally (PS2)",
+      "manufacturer": null,
+      "developer": "Warthog Games",
+      "publisher": "SCi Games",
+      "year": "2004",
+      "rotation_degrees": 900,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "research",
+          "description": "GTPlanet Driving Force compatibility list confirms DFP 900-degree support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "forum",
+          "description": "Arcadecontrols.com steering wheel games list confirms PS2 wheel support",
+          "url": "http://forum.arcadecontrols.com/index.php?topic=134588.0",
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "One of the most realistic rally sims ever. One of few PS2 games supporting 900-degree rotation via DFP. PS2 version PAL-only (NTSC-U cancelled). PC version has famous RBR-NGP modding community.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SLES-52323" }
+      }
+    },
+    "lotus_challenge": {
+      "title": "Lotus Challenge",
+      "manufacturer": null,
+      "developer": "Kuju Entertainment",
+      "publisher": "Virgin Interactive",
+      "year": "2001",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "research",
+          "description": "GTPlanet Logitech Driving Force compatibility list confirms wheel support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "PS2 version PAL-only. NA release planned by Interplay but cancelled. Xbox/GC versions released in NA by Xicat.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SLES-50230" }
+      }
+    },
+    "knight_rider_game": {
+      "title": "Knight Rider: The Game",
+      "manufacturer": null,
+      "developer": "Davilex Games",
+      "publisher": "Davilex Games",
+      "year": "2002",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "research",
+          "description": "GTPlanet Logitech Driving Force compatibility list confirms wheel support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "PS2 version PAL-only. PC version released in NA. Driving/action game based on TV series. Wheel enhances driving segments.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SLES-51011" }
+      }
+    },
+    "formula_one_2003_sl": {
+      "title": "Formula One 2003 (Studio Liverpool)",
+      "manufacturer": null,
+      "developer": "Studio Liverpool",
+      "publisher": "Sony Computer Entertainment",
+      "year": "2003",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "research",
+          "description": "GTPlanet Logitech Driving Force compatibility list confirms F1 2003 wheel support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "emulator",
+          "description": "PCSX2 Wiki confirms steering wheel support, serial SCES-51592 (PAL only)",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "Studio Liverpool F1 series (distinct from EA's F1 games). PAL/Japan only, never released in North America.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SCES-51592" }
+      }
+    },
+    "formula_one_04_sl": {
+      "title": "Formula One 04 (Studio Liverpool)",
+      "manufacturer": null,
+      "developer": "Studio Liverpool",
+      "publisher": "Sony Computer Entertainment",
+      "year": "2004",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "sources": [
+        {
+          "type": "research",
+          "description": "GTPlanet Logitech Driving Force compatibility list confirms F1 04 wheel support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "emulator",
+          "description": "PCSX2 Wiki lists in steering wheel category, serial SCES-52426 (PAL only)",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "Studio Liverpool F1 series (distinct from EA's F1 games). PAL/Japan only. Last F1 game before series became 'Formula One Championship Edition' on PS3.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SCES-52426" }
+      }
+    },
+    "sega_rally_2006": {
+      "title": "Sega Rally 2006",
+      "manufacturer": null,
+      "developer": "Sega AM3 / M2",
+      "publisher": "Sega",
+      "year": "2006",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "emulator",
+          "description": "PCSX2 Wiki lists in steering wheel games category, serial SLPM-66212 (NTSC-J only)",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "reference",
+          "description": "Wikipedia confirms GT Force Pro wheel bundle sold in Japan for this game. Logitech LPRC-11000C custom edition.",
+          "url": "https://en.wikipedia.org/wiki/Sega_Rally_2006",
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "Japan-only PS2 release. First Sega Rally not based on an arcade game. Sega sold a custom GT Force Pro wheel bundle. Includes Sega Rally Championship 1995 as bonus.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "pcsx2": { "serial": "SLPM-66212" }
       }
     }
   }
