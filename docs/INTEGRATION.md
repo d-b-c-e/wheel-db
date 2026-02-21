@@ -21,7 +21,7 @@ Choose the format that fits your use case:
 | **MAME CSV** (`mame-wheel-rotation.csv`) | Simple MAME ROM-to-rotation lookup (known values only) |
 | **MAME XML** (`mame-wheel-rotation.xml`) | Same as MAME CSV in XML format |
 | **Steam CSV** (`steam-wheel-support.csv`) | Steam games with wheel support, FFB, and rotation info |
-| **Unified CSV** (`wheel-db.csv`) | All 829 games in one flat CSV across all platforms |
+| **Unified CSV** (`wheel-db.csv`) | All 659 games in one flat CSV across all platforms |
 
 ---
 
@@ -33,8 +33,8 @@ The full database. Structure:
 
 ```json
 {
-  "version": "2.1.0",
-  "generated": "2026-02-15T00:00:00Z",
+  "version": "2.19.0",
+  "generated": "2026-02-21T00:00:00Z",
   "games": {
     "outrun": {
       "title": "Out Run",
@@ -90,7 +90,7 @@ Same data as CSV in XML attribute format:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<wheelRotationDb version="1.4.0" generated="2026-02-01T20:32:50Z" gameCount="102">
+<wheelRotationDb version="2.19.0" generated="2026-02-21T00:00:00Z" gameCount="294">
   <game romname="outrun" title="Out Run" manufacturer="Sega" year="1986"
         rotation="270" type="mechanical_stop" confidence="high" />
 </wheelRotationDb>
@@ -115,7 +115,7 @@ Common values in the database: 270 (most common), 360, 540, 45, 60, 90, 150, 108
 
 **Infinite rotation (`-1`)**: These games used optical encoders or spinners with no physical stops. They measure relative movement, not absolute position. A modern racing wheel is a poor match -- these games work better with a mouse or spinner controller. If you must use a wheel, a high sensitivity setting with a small rotation range (e.g., 180°-270°) is a reasonable approximation, but the experience won't be authentic.
 
-**Unknown (`null`)**: The game is in the database but its rotation hasn't been researched. Most of the 454 unknown entries are catver.ini-classified driving games that likely use joysticks rather than wheels. A safe default for unknown wheel games is 270°, as this was the most common arcade standard.
+**Unknown (`null`)**: The game is in the database but its rotation hasn't been researched or is not applicable (anti-gravity racers, drag racing, motorcycle games where wheels aren't the intended input). Only 24 entries have null rotation. A safe default for unknown wheel games is 270°, as this was the most common arcade standard.
 
 ### rotation_type
 
@@ -168,6 +168,7 @@ A map of platform keys to platform-specific identifiers. Possible keys:
 | `supermodel` | `romname` | Supermodel ROM identifier |
 | `m2emulator` | `romname` | Model 2 Emulator ROM identifier |
 | `flycast` | `romname` | Flycast ROM identifier |
+| `pcsx2` | `serial` | PS2 disc serial number (e.g., SCUS-97328) |
 
 A game may have entries under multiple platforms. For example, Crazy Taxi has `mame` and `steam` mappings.
 
@@ -205,7 +206,12 @@ mame_lookup = {}
 for game_id, game in db["games"].items():
     mame = game.get("platforms", {}).get("mame")
     if mame:
-        mame_lookup[mame["romname"]] = game
+        # Handle both singular "romname" and "romnames" array
+        if "romnames" in mame:
+            for rn in mame["romnames"]:
+                mame_lookup[rn] = game
+        else:
+            mame_lookup[mame["romname"]] = game
 
 # Look up a game
 game = mame_lookup.get("outrun")
@@ -224,8 +230,15 @@ foreach (var game in games.EnumerateObject())
     if (game.Value.TryGetProperty("platforms", out var platforms) &&
         platforms.TryGetProperty("mame", out var mame))
     {
-        var romname = mame.GetProperty("romname").GetString();
-        if (romname == "outrun")
+        // Handle both singular "romname" and "romnames" array
+        var romnames = new List<string>();
+        if (mame.TryGetProperty("romnames", out var rns))
+            foreach (var rn in rns.EnumerateArray())
+                romnames.Add(rn.GetString()!);
+        else
+            romnames.Add(mame.GetProperty("romname").GetString()!);
+
+        if (romnames.Contains("outrun"))
         {
             var rotation = game.Value.GetProperty("rotation_degrees");
             if (rotation.ValueKind != JsonValueKind.Null)
@@ -351,11 +364,22 @@ lookup = {}
 for game_id, game in db["games"].items():
     for platform, info in game.get("platforms", {}).items():
         if platform == "mame":
-            lookup[("mame", info["romname"])] = game
+            # Handle both singular "romname" and "romnames" array
+            if "romnames" in info:
+                for rn in info["romnames"]:
+                    lookup[("mame", rn)] = game
+            else:
+                lookup[("mame", info["romname"])] = game
         elif platform == "teknoparrot":
-            lookup[("teknoparrot", info["profile"])] = game
+            if "profiles" in info:
+                for p in info["profiles"]:
+                    lookup[("teknoparrot", p)] = game
+            else:
+                lookup[("teknoparrot", info["profile"])] = game
         elif platform == "dolphin":
             lookup[("dolphin", info["game_id"])] = game
+        elif platform == "pcsx2":
+            lookup[("pcsx2", info["serial"])] = game
         else:
             lookup[(platform, info.get("romname", ""))] = game
 
