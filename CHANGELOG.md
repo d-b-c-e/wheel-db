@@ -4,6 +4,30 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.19.0] - 2026-02-21
+
+### Added
+- **21 new PCSX2 entries** for PS2 racing games with confirmed USB wheel support:
+  - Codemasters series: Pro Race Driver, TOCA Race Driver 2, TOCA Race Driver 3, Colin McRae Rally 3
+  - EA series: NFS Hot Pursuit 2, NFS ProStreet, F1 2001, F1 2002, NASCAR 06: Total Team Control
+  - Rockstar: Midnight Club 3: DUB Edition
+  - Polyphony Digital: Tourist Trophy (GT4 engine, 900-degree wheel support)
+  - Namco: R: Racing Evolution
+  - Other: Juiced, Tokyo Xtreme Racer Zero/3/Drift 2, Test Drive: Eve of Destruction, Corvette, Total Immersion Racing, Starsky & Hutch
+- PCSX2 platform mapping added to 3 existing entries: FlatOut (SLUS-20901), Street Racing Syndicate (SLUS-20582), Midnight Club 2 (SLUS-20209)
+- ~30 single-source entries enriched with second sources (Steam store pages, PCGamingWiki citations, series inference, manufacturer patterns)
+
+### Changed
+- PCSX2 coverage expanded from 11 to 35 games
+- Upgraded 5 PCSX2 medium→high confidence: NFS Carbon, Driving Emotion Type-S, Burnout 3: Takedown, Burnout Revenge, Auto Modellista
+- Resolved all unknown force_feedback values (2→0) and unknown wheel_support (1→0)
+- Confidence distribution: verified=58, high=592, medium=9, low=0
+- Total database: 659 games
+
+### Fixed
+- 5 Steam entries corrected for accuracy: Nash Racing (year, wheel_support), Project Drift (developer, pcgamingwiki_url), Drifto: Infinite Touge (wheel_support), Interstate Drifter 1999 (developer, year, rotation, wheel_support)
+- INTEGRATION.md updated from stale v2.1.0 references to current stats, added PCSX2 platform to tables and code examples
+
 ## [2.18.0] - 2026-02-21
 
 ### Added

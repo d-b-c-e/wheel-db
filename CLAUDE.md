@@ -63,6 +63,7 @@ wheel-db/
 │   ├── Get-SteamRacingGames.ps1 # Steam racing game discovery via APIs
 │   ├── Export-Formats.ps1       # Generates CSV, XML from JSON master
 │   ├── Validate-Database.ps1    # Validates against schema
+│   ├── Audit-Database.ps1       # Data quality audit and consistency report
 │   └── archive/                 # One-time migration scripts
 ├── sources/
 │   ├── downloads/               # Downloaded dependencies (gitignored)
