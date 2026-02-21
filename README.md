@@ -10,29 +10,30 @@ Modern USB racing wheels support 270-1080 degrees of rotation, but original arca
 
 The primary database is `data/wheel-db.json` -- a unified, game-centric JSON file where each entry represents a unique game. Platform-specific identifiers (MAME ROM names, TeknoParrot profiles, Steam app IDs, etc.) are stored in a `platforms` map so a game's data is never duplicated across platforms.
 
-### Current Stats (v2.17.0)
+### Current Stats (v2.18.0)
 
 | Metric | Count |
 |--------|-------|
-| Total game entries | 612 |
-| With MAME mapping | 293 |
+| Total game entries | 638 |
+| With MAME mapping | 294 |
 | With TeknoParrot mapping | 81 |
-| With Steam mapping | 259 |
+| With Steam mapping | 276 |
 | With Supermodel mapping | 9 |
 | With Flycast mapping | 9 |
 | With Model 2 Emulator mapping | 6 |
 | With Dolphin mapping | 4 |
-| With known rotation value | 571 |
-| Rotation N/A | 10 |
+| With PCSX2 mapping | 11 |
+| With known rotation value | 583 |
+| Rotation N/A | 24 |
 | Infinite rotation (encoders) | 31 |
 
-**Confidence:** verified (57), high (544), medium (11), low (0)
+**Confidence:** verified (58), high (566), medium (14), low (0)
 
-**Rotation values:** 270 (296 games), 540 (80), 360 (57), 900 (54), 45 (19), 180 (16), 60 (14), 56 (10), 1080 (4), 450 (4), 200 (3), 240 (3), 390 (3), 150 (2), 90 (2), 300 (1), 480 (1), 720 (1), 800 (1)
+**Rotation values:** 270 (296 games), 540 (82), 360 (57), 900 (58), 45 (19), 180 (16), 200 (9), 60 (14), 56 (10), 1080 (4), 450 (4), 240 (3), 390 (3), 150 (2), 90 (2), 300 (1), 480 (1), 720 (1), 800 (1)
 
-**PC wheel support:** native (136 games), partial (60), none (63)
+**PC wheel support:** native (137 games), partial (72), none (77)
 
-**PC force feedback:** native (101), partial (42), none (116)
+**PC force feedback:** native (102), partial (47), none (132)
 
 ### Special Values
 
@@ -52,6 +53,7 @@ The database covers games across multiple platforms in a single entry:
 | Model 2 Emulator | `m2emulator` | `romname` | Sega Model 2 |
 | Flycast | `flycast` | `romname` | Naomi/Atomiswave |
 | Dolphin | `dolphin` | `game_id` | Triforce/GameCube |
+| PCSX2 | `pcsx2` | `serial` | PS2 games via emulation |
 
 Games that exist on multiple platforms (e.g., Crazy Taxi on both MAME and Steam) have a single entry with all platform mappings.
 

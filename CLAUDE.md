@@ -78,7 +78,7 @@ wheel-db/
 
 ### Primary Database Format (JSON)
 
-The database uses a **unified game-centric model** with 613 entries as of v2.13.0. Each entry represents a unique game (arcade or PC). Platform-specific identifiers are stored in a `platforms` map. PC-specific metadata (wheel support, force feedback) is in a `pc` sub-object.
+The database uses a **unified game-centric model** with 638 entries as of v2.18.0. Each entry represents a unique game (arcade or PC). Platform-specific identifiers are stored in a `platforms` map. PC-specific metadata (wheel support, force feedback) is in a `pc` sub-object.
 
 ```json
 {
@@ -171,6 +171,7 @@ Each key in `platforms` is a platform identifier. Known platforms:
 | `m2emulator` | Model 2 Emulator | `romname` | Sega Model 2 ROM name |
 | `flycast` | Flycast/Demul | `romname` | Naomi/Atomiswave ROM name |
 | `dolphin` | Dolphin | `game_id` | Triforce/GameCube game ID |
+| `pcsx2` | PCSX2 | `serial` | PS2 disc serial number (e.g., SCUS-97328) |
 
 Additional platform keys can be added as needed. The `platforms` map allows a single game to be linked to multiple emulation platforms.
 
@@ -238,7 +239,7 @@ Parses three MAME data sources to inventory all racing/driving games with wheel 
 
 Results: 1,488 total games, 484 with wheel controls, 1,040 parent ROMs, 63 from controls.xml with verified rotation values. After cleanup, 291 MAME entries remain in the database.
 
-**MAME Research Progress**: MAME inventory cleanup is complete as of v2.7.0. All 291 MAME entries now have rotation values. The cleanup involved: removing ~271 non-driving entries (clones, tanks, shooters, flight sims, console ports, Neo Geo joystick games, fitness equipment), setting ~173 rotation values using manufacturer documentation (SuzoHapp catalogs, service manuals, TwistedQuarter parts lists, BYOAC forum, Arcade-Projects), and merging ~23 duplicate entries. In v2.8.0, 33 motorcycle/watercraft entries were corrected from 270° (car default) to proper handlebar ranges (45-60°), Hard Drivin' was corrected to 1080°, and Cycle Warriors was removed (joystick game). **The database currently has 0 unknown rotation values**. Confidence distribution: verified=57, high=538, medium=16, low=2. In v2.15.0, all 80 remaining rotation_type=unknown entries were classified using manufacturer patterns (mechanical_stop=239, potentiometer=87, optical_encoder=31). PCGamingWiki coverage at 95% (247 of 259 Steam entries).
+**MAME Research Progress**: MAME inventory cleanup is complete as of v2.7.0. All 291 MAME entries now have rotation values. The cleanup involved: removing ~271 non-driving entries (clones, tanks, shooters, flight sims, console ports, Neo Geo joystick games, fitness equipment), setting ~173 rotation values using manufacturer documentation (SuzoHapp catalogs, service manuals, TwistedQuarter parts lists, BYOAC forum, Arcade-Projects), and merging ~23 duplicate entries. In v2.8.0, 33 motorcycle/watercraft entries were corrected from 270° (car default) to proper handlebar ranges (45-60°), Hard Drivin' was corrected to 1080°, and Cycle Warriors was removed (joystick game). **The database currently has 0 unknown rotation values**. Confidence distribution: verified=58, high=566, medium=14, low=0. In v2.15.0, all 80 remaining rotation_type=unknown entries were classified using manufacturer patterns (mechanical_stop=239, potentiometer=87, optical_encoder=31). PCGamingWiki coverage at 95% (247 of 259 Steam entries). In v2.18.0, 11 PS2 console games added via PCSX2 platform, 17 new Steam games from SteamSpy discovery, and ~118 single-source entries enriched with second sources.
 
 #### Get-TeknoparrotGames.ps1
 Scans local TeknoParrot installation for wheel-equipped games. Reads GameProfiles XML for `<AnalogType>Wheel</AnalogType>`, enriches from Metadata JSON. Outputs to `sources/cache/teknoparrot-games.json`.

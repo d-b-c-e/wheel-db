@@ -4,6 +4,32 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.18.0] - 2026-02-21
+
+### Added
+- **11 PS2 console games via PCSX2** -- new platform support:
+  - Gran Turismo 3: A-Spec, Gran Turismo 4 (verified), Enthusia Professional Racing
+  - Need for Speed: Underground, Underground 2, Most Wanted (2005), Carbon
+  - Burnout 3: Takedown, Burnout Revenge
+  - Auto Modellista, Driving Emotion Type-S
+- **17 new Steam games** from SteamSpy discovery:
+  - MotoGP series (13, 14, 15, 17, 18, 19, 20, 21, 22, 23) -- motorcycle, no wheel support
+  - RACE: The WTCC Game (SimBin, native wheel/FFB)
+  - Moto Racer 4, Garfield Kart: Furious Racing, MX Bikes, Road Redemption, SkyDrift, Interstate Drifter 1999
+- New `pcsx2` platform key with `serial` field for PS2 disc serial numbers
+- Schema definition for PCSX2 platform validation
+- ~118 second sources added to single-source entries:
+  - 59 arcade entries: manufacturer hardware documentation (Sega SPG-2002, Namco VG75-07050-00, SuzoHapp Active 270, etc.)
+  - 59 Steam entries: PCGamingWiki second sources
+
+### Changed
+- Upgraded 3 medium→high confidence (Drift Reign, Clutch: The Drift Simulation, Drift Tafheet) with developer source confirmation
+- Confidence distribution: verified=58, high=566, medium=14, low=0
+
+### Fixed
+- Merged 2 duplicate entries (Chase H.Q. 2, Offroad Thunder) -- TeknoParrot+MAME now unified
+- Added 3 MAME romname links to existing TeknoParrot entries (chase_hq_2→chasehq2, offroad_thunder→offrthnd, fnf→fnf)
+
 ## [2.17.0] - 2026-02-21
 
 ### Fixed

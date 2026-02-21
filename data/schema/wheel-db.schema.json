@@ -108,7 +108,8 @@
             "m2emulator": { "$ref": "#/$defs/platformGeneric" },
             "flycast": { "$ref": "#/$defs/platformGeneric" },
             "dolphin": { "$ref": "#/$defs/platformDolphin" },
-            "steam": { "$ref": "#/$defs/platformSteam" }
+            "steam": { "$ref": "#/$defs/platformSteam" },
+            "pcsx2": { "$ref": "#/$defs/platformPcsx2" }
           },
           "additionalProperties": {
             "$ref": "#/$defs/platformGeneric"
@@ -255,6 +256,18 @@
         "owners_estimate": {
           "type": ["string", "null"],
           "description": "SteamSpy ownership range estimate"
+        }
+      },
+      "additionalProperties": false
+    },
+    "platformPcsx2": {
+      "type": "object",
+      "required": ["serial"],
+      "properties": {
+        "serial": {
+          "type": "string",
+          "pattern": "^[A-Z]{4}-\\d{5}$",
+          "description": "PS2 disc serial number (e.g., SCUS-97328)"
         }
       },
       "additionalProperties": false

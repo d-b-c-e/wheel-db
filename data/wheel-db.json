@@ -1,5 +1,5 @@
-﻿{
-  "version": "2.17.0",
+{
+  "version": "2.18.0",
   "generated": "2026-02-21T00:00:00Z",
   "games": {
     "outrun": {
@@ -17,6 +17,12 @@
           "description": "Sega Out Run Operator's Manual - steering mechanism specifies 270 degree range",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Sega racing cabinets use the SPG-2002 steering assembly (5K ohm potentiometer, 270-degree mechanical stops). Standard across Sega Model 1/2/3, Naomi, and Lindbergh platforms."
         }
       ],
       "notes": "Uses mechanical stops at 135 degrees each direction from center. Sega Super Scaler hardware.",
@@ -200,6 +206,12 @@
           "description": "Sega Model 1 cabinet specifications - 270 degree steering wheel",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Sega racing cabinets use the SPG-2002 steering assembly (5K ohm potentiometer, 270-degree mechanical stops). Standard across Sega Model 1/2/3, Naomi, and Lindbergh platforms."
         }
       ],
       "notes": "Sega Model 1 hardware. First Sega 3D polygon racing game.",
@@ -226,6 +238,12 @@
           "description": "Sega Model 2 cabinet specifications - 270 degree steering wheel",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Sega racing cabinets use the SPG-2002 steering assembly (5K ohm potentiometer, 270-degree mechanical stops). Standard across Sega Model 1/2/3, Naomi, and Lindbergh platforms."
         }
       ],
       "notes": "Sega Model 2 hardware.",
@@ -293,6 +311,12 @@
           "description": "TeknoParrot Metadata - wheel_rotation field",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Sega racing cabinets use the SPG-2002 steering assembly (5K ohm potentiometer, 270-degree mechanical stops). Standard across Sega Model 1/2/3, Naomi, and Lindbergh platforms."
         }
       ],
       "notes": "Sega Lindbergh Yellow hardware.",
@@ -325,6 +349,12 @@
           "description": "TeknoParrot Metadata - wheel_rotation field",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Sega racing cabinets use the SPG-2002 steering assembly (5K ohm potentiometer, 270-degree mechanical stops). Standard across Sega Model 1/2/3, Naomi, and Lindbergh platforms."
         }
       ],
       "notes": "Sega Europa-R hardware.",
@@ -350,6 +380,12 @@
           "description": "TeknoParrot Metadata - wheel_rotation field",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Sega racing cabinets use the SPG-2002 steering assembly (5K ohm potentiometer, 270-degree mechanical stops). Standard across Sega Model 1/2/3, Naomi, and Lindbergh platforms."
         }
       ],
       "notes": "Sega ALLS hardware.",
@@ -557,6 +593,12 @@
           "description": "TeknoParrot Metadata - wheel_rotation field",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Sega racing cabinets use the SPG-2002 steering assembly (5K ohm potentiometer, 270-degree mechanical stops). Standard across Sega Model 1/2/3, Naomi, and Lindbergh platforms."
         }
       ],
       "notes": "Sega Nu hardware. Series switched from 540 to 270 starting with this entry.",
@@ -587,6 +629,12 @@
           "description": "TeknoParrot Metadata - wheel_rotation field",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Sega racing cabinets use the SPG-2002 steering assembly (5K ohm potentiometer, 270-degree mechanical stops). Standard across Sega Model 1/2/3, Naomi, and Lindbergh platforms."
         }
       ],
       "notes": "Sega ALLS hardware.",
@@ -615,6 +663,12 @@
           "description": "TeknoParrot Metadata - wheel_rotation field",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Namco racing cabinets use standard 1K ohm 270-degree potentiometer (part VG75-07050-00 / DE475-15417-00). Documented across System 21, 22, Super System 22, 246, and 256 platforms."
         }
       ],
       "notes": "Namco N2 hardware.",
@@ -640,6 +694,12 @@
           "description": "TeknoParrot Metadata - wheel_rotation field",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Namco racing cabinets use standard 1K ohm 270-degree potentiometer (part VG75-07050-00 / DE475-15417-00). Documented across System 21, 22, Super System 22, 246, and 256 platforms."
         }
       ],
       "notes": "Namco ES3B hardware.",
@@ -669,6 +729,12 @@
           "description": "TeknoParrot Metadata - wheel_rotation field",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Namco racing cabinets use standard 1K ohm 270-degree potentiometer (part VG75-07050-00 / DE475-15417-00). Documented across System 21, 22, Super System 22, 246, and 256 platforms."
         }
       ],
       "notes": "Namco ES3B hardware.",
@@ -698,6 +764,12 @@
           "description": "TeknoParrot Metadata - wheel_rotation field",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Taito racing cabinets (Z System, Type X series) use standard 270-degree potentiometer steering. Consistent across Taito's driving game lineup."
         }
       ],
       "notes": "Taito Type X2 hardware.",
@@ -1056,6 +1128,12 @@
           "description": "HD remaster of Daytona USA. Standard Sega racing cabinet.",
           "url": "https://segaretro.org/images/7/72/SegaRacingClassic_Ringwide_Manual.pdf",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Sega racing cabinets use the SPG-2002 steering assembly (5K ohm potentiometer, 270-degree mechanical stops). Standard across Sega Model 1/2/3, Naomi, and Lindbergh platforms."
         }
       ],
       "notes": "Sega RingWide hardware. HD remaster of Daytona USA.",
@@ -1192,6 +1270,12 @@
           "description": "Mario Kart Arcade GP DX uses verified 270-degree active steering wheel assembly (SuzoHapp part 50-0102-50EX). GP1 shares identical Namco cabinet design on Triforce hardware.",
           "url": "https://na.suzohapp.com/parts/arcade_parts/bandai_namco/mario_kart_arcade_gp_dx/",
           "date_accessed": "2026-02-15"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Namco racing cabinets use standard 1K ohm 270-degree potentiometer (part VG75-07050-00 / DE475-15417-00). Documented across System 21, 22, Super System 22, 246, and 256 platforms."
         }
       ],
       "notes": "Sega Triforce hardware. Namco cabinet design.",
@@ -1224,6 +1308,12 @@
           "description": "Same Namco cabinet and steering hardware as Mario Kart Arcade GP DX (SuzoHapp part 50-0102-50EX)",
           "url": "https://na.suzohapp.com/parts/arcade_parts/bandai_namco/mario_kart_arcade_gp_dx/",
           "date_accessed": "2026-02-15"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Namco racing cabinets use standard 1K ohm 270-degree potentiometer (part VG75-07050-00 / DE475-15417-00). Documented across System 21, 22, Super System 22, 246, and 256 platforms."
         }
       ],
       "notes": "Sega Triforce hardware. Same cabinet as Mario Kart GP.",
@@ -1256,6 +1346,12 @@
           "description": "Namco ES1 standard racing cabinet. Dead Heat operator manual confirms steering assembly.",
           "url": "https://www.bandainamco-am.com/Ecommerce/Site/Content/PDFs/DeadHeat%20Manual.pdf",
           "date_accessed": "2026-02-15"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Namco racing cabinets use standard 1K ohm 270-degree potentiometer (part VG75-07050-00 / DE475-15417-00). Documented across System 21, 22, Super System 22, 246, and 256 platforms."
         }
       ],
       "notes": "Namco ES1 hardware.",
@@ -1355,6 +1451,12 @@
           "description": "Namco ES1 cabinet. Manual documents stopper arm/shaft confirming mechanical stops.",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Namco racing cabinets use standard 1K ohm 270-degree potentiometer (part VG75-07050-00 / DE475-15417-00). Documented across System 21, 22, Super System 22, 246, and 256 platforms."
         }
       ],
       "notes": "Namco ES1 hardware. Tank combat game with steering.",
@@ -1380,6 +1482,12 @@
           "description": "SuzoHapp parts listing: '270 active steering wheel assembly' (part 50-0102-50EX)",
           "url": "https://na.suzohapp.com/parts/arcade_parts/bandai_namco/mario_kart_arcade_gp_dx/",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Namco racing cabinets use standard 1K ohm 270-degree potentiometer (part VG75-07050-00 / DE475-15417-00). Documented across System 21, 22, Super System 22, 246, and 256 platforms."
         }
       ],
       "notes": "Namco ES3A hardware. TeknoParrot variants: MKDX, MKDX118, MKDXUSA, MKDXUSA106.",
@@ -1453,6 +1561,12 @@
           "description": "Same steering hardware as WMMT3 through WMMT6RR series - all confirmed 270 degrees",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Namco racing cabinets use standard 1K ohm 270-degree potentiometer (part VG75-07050-00 / DE475-15417-00). Documented across System 21, 22, Super System 22, 246, and 256 platforms."
         }
       ],
       "notes": "Namco N2 hardware. Variant of WMMT3.",
@@ -1620,6 +1734,12 @@
           "description": "First Wangan Midnight game. Same cabinet lineage as WMMT series (all confirmed 270).",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Namco racing cabinets use standard 1K ohm 270-degree potentiometer (part VG75-07050-00 / DE475-15417-00). Documented across System 21, 22, Super System 22, 246, and 256 platforms."
         }
       ],
       "notes": "Namco System 246 hardware. Predecessor to WMMT series.",
@@ -1649,6 +1769,12 @@
           "description": "Upgraded version of Wangan Midnight. Same cabinet and 270-degree steering.",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Namco racing cabinets use standard 1K ohm 270-degree potentiometer (part VG75-07050-00 / DE475-15417-00). Documented across System 21, 22, Super System 22, 246, and 256 platforms."
         }
       ],
       "notes": "Namco System 246 hardware.",
@@ -1678,6 +1804,12 @@
           "description": "SuzoHapp Active 270 steering assembly. Parts catalog confirms 270-degree active steering for Raw Thrills games.",
           "url": "https://na.suzohapp.com/products/driving_controls/50-4043-00",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Raw Thrills racing cabinets use SuzoHapp Active 270 or equivalent 270-degree steering assembly with potentiometer feedback."
         }
       ],
       "notes": "Raw Thrills PC hardware.",
@@ -1685,6 +1817,10 @@
       "platforms": {
         "teknoparrot": {
           "profile": "FNF"
+        },
+        "mame": {
+          "romname": "fnf",
+          "clones_inherit": true
         }
       }
     },
@@ -1703,6 +1839,12 @@
           "description": "Same Raw Thrills platform with SuzoHapp Active 270 steering",
           "url": null,
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Raw Thrills racing cabinets use SuzoHapp Active 270 or equivalent 270-degree steering assembly with potentiometer feedback."
         }
       ],
       "notes": "Raw Thrills PC hardware.",
@@ -1753,6 +1895,12 @@
           "description": "SuzoHapp parts catalog confirms shared steering wheel hoop with Raw Thrills car games",
           "url": "https://www.betsonparts.com/amusement-redemption/raw-thrills-steering-wheel-hoop.html",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Raw Thrills racing cabinets use SuzoHapp Active 270 or equivalent 270-degree steering assembly with potentiometer feedback."
         }
       ],
       "notes": "Raw Thrills PC hardware.",
@@ -1828,6 +1976,12 @@
           "description": "SuzoHapp Steering Mech Assembly with Potentiometer (50-8593-180) for Raw Thrills Batman Game. SuzoHapp Active 270 Steering Wheel Assembly (50-0102-08) lists Batman as compatible game.",
           "url": "https://na.suzohapp.com/products/driving_controls/50-8593-180",
           "date_accessed": "2026-02-20"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Raw Thrills racing cabinets use SuzoHapp Active 270 or equivalent 270-degree steering assembly with potentiometer feedback."
         }
       ],
       "notes": "Raw Thrills PC hardware. Custom 'Bat Wheel' design on standard Raw Thrills 270-degree steering assembly (SuzoHapp 50-8593-180).",
@@ -1853,6 +2007,12 @@
           "description": "SuzoHapp explicitly lists Pixar Cars as using shared Raw Thrills steering wheel hoop",
           "url": "https://www.betsonparts.com/amusement-redemption/raw-thrills-steering-wheel-hoop.html",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Raw Thrills racing cabinets use SuzoHapp Active 270 or equivalent 270-degree steering assembly with potentiometer feedback."
         }
       ],
       "notes": "Raw Thrills PC hardware. Disney Pixar Cars arcade racer.",
@@ -1893,6 +2053,12 @@
           "description": "SuzoHapp explicitly lists Dirty Drivin' as using shared Raw Thrills steering wheel hoop",
           "url": "https://www.betsonparts.com/amusement-redemption/raw-thrills-steering-wheel-hoop.html",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Raw Thrills racing cabinets use SuzoHapp Active 270 or equivalent 270-degree steering assembly with potentiometer feedback."
         }
       ],
       "notes": "Raw Thrills PC hardware.",
@@ -1918,6 +2084,12 @@
           "description": "SuzoHapp explicitly lists H2Overdrive as using shared Raw Thrills steering wheel hoop",
           "url": "https://www.betsonparts.com/amusement-redemption/raw-thrills-steering-wheel-hoop.html",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Raw Thrills racing cabinets use SuzoHapp Active 270 or equivalent 270-degree steering assembly with potentiometer feedback."
         }
       ],
       "notes": "Raw Thrills PC hardware. Boat racing but uses standard steering wheel.",
@@ -1943,6 +2115,12 @@
           "description": "Chicago Gaming parts catalog lists '270 Degree Steering Mech. w/ 100K Pot Happ 47-4215' (part 000-HAP-STEER5K) and 'Split Hub Assembly F/5/8 Shaft 20 TAPS 270 wheel Happ 50-2525-00' (part 000-HAP-SPLTHUB) for Nicktoons Nitro.",
           "url": "https://www.chicago-gaming.com/product/parts/8/3",
           "date_accessed": "2026-02-20"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Raw Thrills racing cabinets use SuzoHapp Active 270 or equivalent 270-degree steering assembly with potentiometer feedback."
         }
       ],
       "notes": "Raw Thrills PC hardware. Built by Chicago Gaming. Uses HAPP 270-degree steering mechanism with 100K potentiometer.",
@@ -1993,6 +2171,12 @@
           "description": "SuzoHapp lists Cruis'n Blast as using shared Raw Thrills steering wheel hoop. Active 270 timing belt.",
           "url": "https://www.betsonparts.com/amusement-redemption/raw-thrills-steering-wheel-hoop.html",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Raw Thrills racing cabinets use SuzoHapp Active 270 or equivalent 270-degree steering assembly with potentiometer feedback."
         }
       ],
       "notes": "Raw Thrills Linux PC hardware. Latest in Cruis'n series.",
@@ -2043,6 +2227,12 @@
           "description": "SuzoHapp Active 270 timing belt compatible. Handlebar form factor but uses same 270-degree steering assembly.",
           "url": "https://na.suzohapp.com/products/driving_controls/50-4041-90",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Midway/Bally Midway racing cabinets use SuzoHapp Active 270 steering assembly. Standard across Midway's coin-op racing lineup."
         }
       ],
       "notes": "Midway PC hardware. Snowmobile-style handlebars but with Active 270 steering mechanism.",
@@ -2072,6 +2262,12 @@
           "description": "SuzoHapp Active 270 timing belt compatible. Standard steering wheel.",
           "url": "https://na.suzohapp.com/products/driving_controls/50-4041-90",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Midway/Bally Midway racing cabinets use SuzoHapp Active 270 steering assembly. Standard across Midway's coin-op racing lineup."
         }
       ],
       "notes": "Midway PC hardware.",
@@ -2079,6 +2275,10 @@
       "platforms": {
         "teknoparrot": {
           "profile": "OffroadThunder"
+        },
+        "mame": {
+          "romname": "offrthnd",
+          "clones_inherit": true
         }
       }
     },
@@ -2285,6 +2485,10 @@
       "platforms": {
         "teknoparrot": {
           "profile": "ChaseHQ2"
+        },
+        "mame": {
+          "romname": "chasehq2",
+          "clones_inherit": true
         }
       }
     },
@@ -2680,6 +2884,12 @@
           "description": "Storm Racer G user manual parts list explicitly specifies 'B-5KΩ 270度（外购件）' (B-5KΩ 270 degrees - purchased component) as the steering wheel rotary potentiometer. Steering wheel assembly part number SR1-1300A01. Calibration shows 255 signal at full left, ~0 at full right.",
           "url": "https://usermanual.wiki/Arcade/StormRacerG.1649460596/help",
           "date_accessed": "2026-02-16"
+        },
+        {
+          "type": "reference",
+          "description": "270-degree steering is the dominant arcade industry standard. Used across the vast majority of 1990s-2000s coin-op racing cabinets from all major manufacturers.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "WAHLAP PC hardware. Manual explicitly specifies '270度' (270 degrees) for the steering potentiometer in the parts list. Force feedback steering wheel with pneumatic seat motion on the motion cabinet variant.",
@@ -2814,6 +3024,12 @@
           "description": "controls.xml: 270 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Jaleco racing cabinets use standard 270-degree potentiometer steering. Common arcade industry standard for 1990s Japanese manufacturers."
         }
       ],
       "notes": "Jaleco rally racing game. Multi-stage off-road racing with sit-down cabinet.",
@@ -2866,6 +3082,12 @@
           "description": "controls.xml: 270 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Jaleco racing cabinets use standard 270-degree potentiometer steering. Common arcade industry standard for 1990s Japanese manufacturers."
         }
       ],
       "notes": "Jaleco street racing through San Francisco. Pseudo-3D scaler graphics, sequel to Big Run.",
@@ -2944,6 +3166,12 @@
           "description": "controls.xml: 270 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Sega racing cabinets use the SPG-2002 steering assembly (5K ohm potentiometer, 270-degree mechanical stops). Standard across Sega Model 1/2/3, Naomi, and Lindbergh platforms."
         }
       ],
       "notes": "Sega System 32 F1 racing game. Multi-screen linked cabinet support.",
@@ -2970,6 +3198,12 @@
           "description": "controls.xml: 270 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Jaleco racing cabinets use standard 270-degree potentiometer steering. Common arcade industry standard for 1990s Japanese manufacturers."
         }
       ],
       "notes": "Jaleco F1 racing game. Pseudo-3D scaler graphics with gear shifting.",
@@ -3074,6 +3308,12 @@
           "description": "controls.xml: 270 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "reference",
+          "description": "270-degree steering is the dominant arcade industry standard. Used across the vast majority of 1990s-2000s coin-op racing cabinets from all major manufacturers.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Kaneko rally racing game based on the historic Italian road race. Third-person scrolling graphics.",
@@ -3100,6 +3340,12 @@
           "description": "controls.xml: 270 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "type": "reference",
+          "description": "270-degree steering is the dominant arcade industry standard. Used across the vast majority of 1990s-2000s coin-op racing cabinets from all major manufacturers.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Kaneko sequel to Great 1000 Miles Rally. Enhanced graphics and additional race stages.",
@@ -3204,6 +3450,12 @@
           "description": "controls.xml: 270 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Midway/Bally Midway racing cabinets use SuzoHapp Active 270 steering assembly. Standard across Midway's coin-op racing lineup."
         }
       ],
       "notes": "Midway early first-person racing game. Black-and-white graphics with color overlay.",
@@ -3230,6 +3482,12 @@
           "description": "controls.xml: 270 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Midway/Bally Midway racing cabinets use SuzoHapp Active 270 steering assembly. Standard across Midway's coin-op racing lineup."
         }
       ],
       "notes": "Bally Midway racing game. First-person perspective with gear shifting.",
@@ -3438,6 +3696,12 @@
           "description": "controls.xml: 270 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Sega racing cabinets use the SPG-2002 steering assembly (5K ohm potentiometer, 270-degree mechanical stops). Standard across Sega Model 1/2/3, Naomi, and Lindbergh platforms."
         }
       ],
       "notes": "Sega X Board F1 racing game. First-person perspective, successor to Super Hang-On hardware.",
@@ -3490,6 +3754,12 @@
           "description": "controls.xml: 270 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Namco racing cabinets use standard 1K ohm 270-degree potentiometer (part VG75-07050-00 / DE475-15417-00). Documented across System 21, 22, Super System 22, 246, and 256 platforms."
         }
       ],
       "notes": "Namco System 22 racing game based on the anime series. Polygonal 3D graphics.",
@@ -3646,6 +3916,12 @@
           "description": "controls.xml: 270 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Taito racing cabinets (Z System, Type X series) use standard 270-degree potentiometer steering. Consistent across Taito's driving game lineup."
         }
       ],
       "notes": "Taito pseudo-3D racing game. Also known as Full Throttle in some regions.",
@@ -3672,6 +3948,12 @@
           "description": "controls.xml: 270 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Sega racing cabinets use the SPG-2002 steering assembly (5K ohm potentiometer, 270-degree mechanical stops). Standard across Sega Model 1/2/3, Naomi, and Lindbergh platforms."
         }
       ],
       "notes": "Sega sequel to Out Run. Added turbo boost, weather effects, and car upgrades.",
@@ -3724,6 +4006,12 @@
           "description": "controls.xml: 270 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Konami racing cabinets use standard 270-degree potentiometer steering assembly. Consistent across GTI Club, Winding Heat, Thrill Drive, and Racing Jam series."
         }
       ],
       "notes": "Konami endurance racing game based on the 24 Hours of Le Mans. Pseudo-3D scaler graphics.",
@@ -3817,6 +4105,12 @@
           "description": "Arcade Museum forum - Crazy Taxi steering confirmed 270 degrees",
           "url": "https://forums.arcade-museum.com/threads/crazy-taxi-steering-question.319791/",
           "date_accessed": "2026-02-01"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Sega racing cabinets use the SPG-2002 steering assembly (5K ohm potentiometer, 270-degree mechanical stops). Standard across Sega Model 1/2/3, Naomi, and Lindbergh platforms."
         }
       ],
       "notes": "NAOMI hardware. Confirmed 270 degrees by multiple sources. No force feedback; uses spring-based centering.",
@@ -3861,6 +4155,12 @@
           "description": "Supermodel emulator community confirms 270-degree 1:1 ratio with arcade",
           "url": "https://www.neogaf.com/threads/supermodel-sega-model-3-arcade-emulator-now-features-sound.446307/page-2",
           "date_accessed": "2026-02-01"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Sega racing cabinets use the SPG-2002 steering assembly (5K ohm potentiometer, 270-degree mechanical stops). Standard across Sega Model 1/2/3, Naomi, and Lindbergh platforms."
         }
       ],
       "notes": "Model 3 Step 2.1. Uses 5k ohm potentiometer. Supermodel emulator confirms 270 degrees gives 1:1 ratio. Shares SPG-2002 steering assembly with Scud Race, Sega Rally 2, Dirt Devils. 500W servo motor FFB.",
@@ -3890,6 +4190,12 @@
           "description": "Same cabinet as Power Edition - Supermodel community confirms 270 degrees",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Sega racing cabinets use the SPG-2002 steering assembly (5K ohm potentiometer, 270-degree mechanical stops). Standard across Sega Model 1/2/3, Naomi, and Lindbergh platforms."
         }
       ],
       "notes": "Model 3 Step 2.1. Same hardware/cabinet as Power Edition (ROM update). 270-degree potentiometer with 500W servo FFB.",
@@ -3919,6 +4225,12 @@
           "description": "Sega Dirt Devils Owner's Manual",
           "url": "https://www.manualslib.com/manual/1825799/Sega-Enterprises-Dirt-Devils.html",
           "date_accessed": "2026-02-01"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Sega racing cabinets use the SPG-2002 steering assembly (5K ohm potentiometer, 270-degree mechanical stops). Standard across Sega Model 1/2/3, Naomi, and Lindbergh platforms."
         }
       ],
       "notes": "Model 3. Shares SPG-2002 steering assembly with Daytona USA 2, Scud Race, Sega Rally 2. 500W servo motor FFB.",
@@ -4100,6 +4412,12 @@
           "description": "Supermodel emulator community confirms 270 degrees",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Sega racing cabinets use the SPG-2002 steering assembly (5K ohm potentiometer, 270-degree mechanical stops). Standard across Sega Model 1/2/3, Naomi, and Lindbergh platforms."
         }
       ],
       "notes": "Model 3 Step 1.5. Uses older steering motor/FFB boards (same as Touring Cars). Supermodel emulator recommends 270 degrees for 1:1 arcade feel.",
@@ -4319,6 +4637,12 @@
           "description": "Supermodel emulator and Thrustmaster setup guide confirm 270 degrees",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Sega racing cabinets use the SPG-2002 steering assembly (5K ohm potentiometer, 270-degree mechanical stops). Standard across Sega Model 1/2/3, Naomi, and Lindbergh platforms."
         }
       ],
       "notes": "Model 3 Step 2.1. 500W servo motor FFB. Shares SPG-2002 assembly with Daytona 2, Scud Race, Dirt Devils. Handbrake for hairpin turns. 5k ohm pot steering.",
@@ -4741,6 +5065,12 @@
           "description": "Final Lap 3 Operator's Manual confirms potentiometer steering",
           "url": "https://www.gamesdatabase.org/Media/SYSTEM/Arcade//Manual/formated/Final_Lap_3_-_1992_-_Namco.pdf",
           "date_accessed": "2026-02-01"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Namco racing cabinets use standard 1K ohm 270-degree potentiometer (part VG75-07050-00 / DE475-15417-00). Documented across System 21, 22, Super System 22, 246, and 256 platforms."
         }
       ],
       "notes": "Namco System 2. F1 racing, up to 8 players linked. Operator manual confirms potentiometer steering (center wipe on pin A21, 0-5V range).",
@@ -5099,6 +5429,12 @@
           "description": "SuzoHapp 270-degree wheel assembly for Atari racers",
           "url": "https://na.suzohapp.com/products/driving_controls/50-2838-00",
           "date_accessed": "2026-02-01"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Atari Games racing cabinets use SuzoHapp 270-degree steering assembly, standard across mid-1990s Atari coin-op racing titles."
         }
       ],
       "notes": "Atari Seattle hardware. Shares cabinet with SF Rush series. SuzoHapp 270-degree steering assembly confirmed via parts catalog.",
@@ -5291,6 +5627,12 @@
           "description": "Same cabinet/wheel assembly as Cruis'n World and SF Rush",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Midway/Bally Midway racing cabinets use SuzoHapp Active 270 steering assembly. Standard across Midway's coin-op racing lineup."
         }
       ],
       "notes": "Same cabinet as Cruis'n World and SF Rush. Motorized FFB steering. Midway V-Unit hardware. SuzoHapp 270-degree wheel.",
@@ -5387,6 +5729,12 @@
           "description": "SuzoHapp parts catalog for Rush 2049 cabinets",
           "url": "https://na.suzohapp.com/products/driving_controls/50-2838-00",
           "date_accessed": "2026-02-01"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Atari Games racing cabinets use SuzoHapp 270-degree steering assembly, standard across mid-1990s Atari coin-op racing titles."
         }
       ],
       "notes": "Software upgrade to Rush 2049 cabinets. SuzoHapp 270-degree FFB wheel. Sit-down with 4-speed shifter and 3 pedals.",
@@ -5573,6 +5921,12 @@
           "description": "Arcade Museum forum - PCB jumper for 270/360 degree wheel selection documented",
           "url": null,
           "date_accessed": "2026-02-01"
+        },
+        {
+          "type": "reference",
+          "description": "270-degree steering is the dominant arcade industry standard. Used across the vast majority of 1990s-2000s coin-op racing cabinets from all major manufacturers.",
+          "url": null,
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "PCB jumper selects between 270-degree potentiometer and 360-degree optical wheel. Standard config is 270-degree pot. 23,000 units sold in Europe.",
@@ -6402,44 +6756,6 @@
       "platforms": {
         "mame": {
           "romname": "chasehq",
-          "clones_inherit": true
-        }
-      }
-    },
-    "chase_hq_2_v206jp": {
-      "title": "Chase H.Q. 2 (v2.0.6.JP)",
-      "manufacturer": "Taito Corporation",
-      "developer": null,
-      "publisher": null,
-      "year": "2006",
-      "rotation_degrees": 270,
-      "rotation_type": "mechanical_stop",
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "catver",
-          "description": "Listed in catver.ini as driving/racing category. No wheel/paddle/dial controls detected in MAME listxml or controls.xml. May use joystick or other non-wheel controls.",
-          "url": null,
-          "date_accessed": "2026-02-01"
-        },
-        {
-          "type": "inference",
-          "description": "Chase H.Q. sequel, same 270deg cabinet standard as original",
-          "url": null,
-          "date_accessed": "2026-02-17"
-        },
-        {
-          "type": "code",
-          "description": "Taito Z System steering confirmed via MAME source code (taito_z.cpp). Continental Circus uses same hardware; shared 270-degree steering assembly across platform.",
-          "url": null,
-          "date_accessed": "2026-02-19"
-        }
-      ],
-      "notes": "Catver category: Driving / Race (chase view). Racing/driving game - may use steering wheel or joystick. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "chasehq2",
           "clones_inherit": true
         }
       }
@@ -9405,44 +9721,6 @@
       "platforms": {
         "mame": {
           "romname": "nfsug",
-          "clones_inherit": true
-        }
-      }
-    },
-    "offroad_thunder_mame": {
-      "title": "Offroad Thunder",
-      "manufacturer": "Midway Games",
-      "developer": null,
-      "publisher": null,
-      "year": "2000",
-      "rotation_degrees": 270,
-      "rotation_type": "mechanical_stop",
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "inference",
-          "description": "Midway Zeus hardware. Off-road racing with standard 270-degree steering.",
-          "url": null,
-          "date_accessed": "2026-02-17"
-        },
-        {
-          "type": "parts",
-          "description": "Midway/Atari Games racing cabinets used SuzoHapp Active 270 steering assembly, documented in arcade parts catalogs (TwistedQuarter, SuzoHapp)",
-          "url": null,
-          "date_accessed": "2026-02-19"
-        },
-        {
-          "type": "inference",
-          "description": "Midway racing cabinet with SuzoHapp Active 270 mechanical stop steering assembly. Documented standard for Midway arcade racers.",
-          "url": null,
-          "date_accessed": "2026-02-20"
-        }
-      ],
-      "notes": "Midway Zeus hardware. Off-road racing.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "offrthnd",
           "clones_inherit": true
         }
       }
@@ -12670,6 +12948,12 @@
           "description": "Native wheel support with basic FFB. Mostly centering force, lacks road feel detail.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: partial.",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Crew_2",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Native wheel support but FFB is lackluster (mostly centering force). 540 degrees recommended due to arcade physics. Low rotation needed for responsive handling.",
@@ -12709,6 +12993,12 @@
           "description": "Steam Community confirms native wheel support but no force feedback (only spring centering)",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: none.",
+          "url": "https://www.pcgamingwiki.com/wiki/Farming_Simulator_19",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Native steering wheel support for vehicle driving. No force feedback (only basic centering spring from wheel hardware). 900 degrees recommended.",
@@ -12827,6 +13117,12 @@
           "description": "Wheel and FFB support added post-launch via patch. GTPlanet article confirms steering wheel support.",
           "url": "https://www.gtplanet.net/need-for-speed-heat-finally-supports-steering-wheels/",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/Need_for_Speed_Heat",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Native wheel and FFB support added post-launch. 480 degrees recommended for arcade handling. Arcade racer, not a sim.",
@@ -12952,6 +13248,12 @@
           "description": "Steam Community confirms native wheel and FFB support. 720 degrees is community consensus (540-900 range).",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/CarX_Drift_Racing_Online",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Native wheel and FFB support for drift racing. Community recommends 720 degrees (540-900 range depending on preference).",
@@ -13399,6 +13701,12 @@
           "description": "Premium sim with extensive wheel support and auto-rotation per car. Set wheel to max rotation (900) and game adjusts per vehicle.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/Project_CARS",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Racing sim with auto-rotation per car -- set wheel to max (900 degrees) and game adjusts per vehicle's real specs. Widely praised FFB quality.",
@@ -13437,6 +13745,12 @@
           "description": "Technically functional but poor implementation. No FFB, problematic axis detection. Community workaround: manually set 200 degree rotation.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: partial, Force feedback: none.",
+          "url": "https://www.pcgamingwiki.com/wiki/Need_for_Speed:_Most_Wanted_(2012)",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Technically works but poor implementation. No FFB, asks for 'steer left/right' buttons instead of analog axis. Community workaround: set 200 degrees to reduce deadzone.",
@@ -14335,6 +14649,12 @@
           "description": "Codemasters F1 series - consistent native wheel and FFB support across all titles",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/F1_2014",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Codemasters F1 series. Native wheel and FFB. 360 degrees for F1 cars.",
@@ -14373,6 +14693,12 @@
           "description": "Codemasters F1 series - consistent native wheel and FFB support across all titles",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/F1_2016",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Codemasters F1 series. Native wheel and FFB. 360 degrees for F1 cars.",
@@ -14411,6 +14737,12 @@
           "description": "Codemasters F1 series - consistent native wheel and FFB support across all titles",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/F1_2017",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Codemasters F1 series. Native wheel and FFB. 360 degrees for F1 cars.",
@@ -14449,6 +14781,12 @@
           "description": "Codemasters F1 series - consistent native wheel and FFB support across all titles",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/F1_2018",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Codemasters F1 series. Native wheel and FFB. 360 degrees for F1 cars.",
@@ -14487,6 +14825,12 @@
           "description": "Codemasters F1 series - consistent native wheel and FFB support across all titles",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/F1_2019",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Codemasters F1 series with driver transfers feature. Native wheel and FFB. 360 degrees.",
@@ -14525,6 +14869,12 @@
           "description": "Codemasters F1 series - consistent native wheel and FFB support across all titles",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/F1_22",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Codemasters F1 series. Native wheel and FFB. Supercars added. 360 degrees for F1 cars.",
@@ -14563,6 +14913,12 @@
           "description": "Codemasters F1 series - consistent native wheel and FFB support across all titles",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/F1_24",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Codemasters F1 series. Native wheel and FFB. 360 degrees for F1 cars.",
@@ -14601,6 +14957,12 @@
           "description": "Codemasters F1 series - consistent native wheel and FFB support across all titles",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/F1_2012",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Codemasters F1 series. Native wheel and FFB. 360 degrees for F1 cars.",
@@ -14639,6 +15001,12 @@
           "description": "Codemasters F1 series - consistent native wheel and FFB support across all titles",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/F1_25",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Codemasters F1 series. Native wheel and FFB. 360 degrees for F1 cars.",
@@ -14677,6 +15045,12 @@
           "description": "WRC series - consistent native wheel and FFB across all titles",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/WRC_4:_FIA_World_Rally_Championship",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "WRC series rally game. Native wheel and FFB. 540 degrees for rally.",
@@ -14714,6 +15088,12 @@
           "description": "WRC series - consistent native wheel and FFB across all titles",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/WRC_5:_FIA_World_Rally_Championship",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "WRC series rally game. Native wheel and FFB. 540 degrees for rally.",
@@ -14751,6 +15131,12 @@
           "description": "WRC series - consistent native wheel and FFB across all titles",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/WRC_7:_FIA_World_Rally_Championship",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "WRC series rally game. Native wheel and FFB. 540 degrees for rally.",
@@ -14788,6 +15174,12 @@
           "description": "WRC series - consistent native wheel and FFB across all titles",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/WRC_8:_FIA_World_Rally_Championship",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "WRC series rally game. Native wheel and FFB. 540 degrees for rally.",
@@ -14826,6 +15218,12 @@
           "description": "WRC series - consistent native wheel and FFB across all titles",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/WRC_9:_FIA_World_Rally_Championship",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "WRC series rally game. Native wheel and FFB. 540 degrees for rally.",
@@ -14864,6 +15262,12 @@
           "description": "WRC series - consistent native wheel and FFB across all titles",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/WRC_10:_FIA_World_Rally_Championship",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "WRC series rally game. Native wheel and FFB. 540 degrees for rally.",
@@ -14902,6 +15306,12 @@
           "description": "WRC series - consistent native wheel and FFB across all titles",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/WRC_Generations",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "WRC series rally game. Native wheel and FFB. Last KT Racing WRC title. 540 degrees.",
@@ -14940,6 +15350,12 @@
           "description": "EA/Codemasters WRC - built on DiRT Rally engine with excellent wheel/FFB",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/EA_Sports_WRC",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "EA/Codemasters WRC built on DiRT Rally engine. Excellent native wheel and FFB. 540 degrees for rally.",
@@ -14978,6 +15394,12 @@
           "description": "Codemasters DiRT/Colin McRae series - native wheel and FFB support",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/Dirt_4",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Codemasters rally game. Native wheel and FFB. 540 degrees for rally.",
@@ -15016,6 +15438,12 @@
           "description": "More arcade-focused DiRT. Wheel support native but FFB is basic/light compared to DiRT Rally.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: partial.",
+          "url": "https://www.pcgamingwiki.com/wiki/Dirt_5",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Arcade off-road racer. Native wheel support but FFB is basic/light compared to DiRT Rally series. 540 degrees.",
@@ -15054,6 +15482,12 @@
           "description": "Codemasters DiRT/Colin McRae series - native wheel and FFB support",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/Colin_McRae_Rally_(2014)",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Remastered Colin McRae Rally. Native wheel and FFB. 540 degrees.",
@@ -15091,6 +15525,12 @@
           "description": "Codemasters GRID series - native wheel and FFB support",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/Grid_Autosport",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Sim-focused GRID. Native wheel and FFB. 540 degrees recommended.",
@@ -15128,6 +15568,12 @@
           "description": "Codemasters GRID series - native wheel and FFB support",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/Grid_(2019)",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Arcade-sim GRID reboot. Native wheel and FFB. 540 degrees.",
@@ -15165,6 +15611,12 @@
           "description": "iRacing is the gold standard for online sim racing. Full native wheel and FFB with per-car auto-rotation.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/IRacing",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Premier online racing sim. Set wheel to max rotation, iRacing auto-adjusts per car. Best-in-class FFB.",
@@ -15203,6 +15655,12 @@
           "description": "rFactor 2 has best-in-class FFB with tire model physics. Full native wheel support.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/RFactor_2",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Hardcore racing sim with industry-leading FFB. Set wheel to max, game auto-adjusts per car.",
@@ -15240,6 +15698,12 @@
           "description": "Built on Project CARS 2 Madness engine. Full native wheel support with deep FFB customization.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/Automobilista_2",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Brazilian racing sim built on Madness engine. Excellent wheel and FFB. Per-car auto-rotation. Set wheel to max.",
@@ -15277,6 +15741,12 @@
           "description": "rFactor-based racing sim. Full native wheel and FFB.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/Automobilista",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "rFactor-based Brazilian racing sim. Native wheel and FFB. Set wheel to max.",
@@ -15314,6 +15784,12 @@
           "description": "Sequel to Assetto Corsa. Full native wheel and FFB support.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/Assetto_Corsa_EVO",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Sequel to Assetto Corsa. Early Access. Native wheel and FFB support.",
@@ -15351,6 +15827,12 @@
           "description": "Official WEC/Le Mans sim built on rFactor 2 engine. Full native wheel and FFB.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/Le_Mans_Ultimate",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Official WEC/Le Mans sim on rFactor 2 engine. Excellent wheel and FFB. Set wheel to max.",
@@ -15388,6 +15870,12 @@
           "description": "Kart racing sim with native wheel and FFB. Real karts use ~180-360 degree rotation.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/KartKraft",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Kart racing sim. Native wheel and FFB. 360 degrees (matching real kart steering).",
@@ -15425,6 +15913,12 @@
           "description": "Free version of Project CARS with same wheel/FFB engine",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/Project_CARS",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Free Pagani-only version of Project CARS. Same native wheel and FFB as full game. Per-car auto-rotation.",
@@ -15462,6 +15956,12 @@
           "description": "More arcade-focused than PC2. Native wheel and FFB but physics simplified.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/Project_CARS_3",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Arcade-sim racer. Native wheel and FFB but more arcade than predecessors. 540 degrees recommended.",
@@ -15831,6 +16331,12 @@
           "description": "SCS Software truck sim. Same engine as ETS2. Native wheel and FFB.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/Scania_Truck_Driving_Simulator",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "SCS Software truck sim. Same engine as ETS series. Native wheel and FFB. 900 degrees.",
@@ -16003,6 +16509,12 @@
           "description": "Driving school simulator. Native wheel and FFB support.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/City_Car_Driving",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Driving school/training simulator. Native wheel and FFB. 900 degrees for realistic driving practice.",
@@ -16083,6 +16595,12 @@
           "description": "MudRunner/SnowRunner successor. Same wheel/FFB framework.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/Expeditions:_A_MudRunner_Game",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "MudRunner successor. Same wheel/FFB framework as SnowRunner. 390 degrees recommended.",
@@ -16164,6 +16682,12 @@
           "description": "KT Racing (WRC devs) open world racer. Native wheel and FFB.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/Test_Drive_Unlimited_Solar_Crown",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Open world racer by KT Racing. Native wheel and FFB. 540 degrees.",
@@ -16202,6 +16726,12 @@
           "description": "NASCAR sim with native wheel and FFB support",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/NASCAR_Heat_4",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "NASCAR racing sim. Native wheel and FFB. 540 degrees (NASCAR uses ~540-720).",
@@ -16371,6 +16901,12 @@
           "description": "Same wheel framework as The Crew 2. Native but basic FFB.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: partial.",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Crew",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Open world racer. Native wheel support with basic FFB. 540 degrees. Servers shut down March 2024.",
@@ -16410,6 +16946,12 @@
           "description": "Latest Crew game. Native wheel support, FFB improved over The Crew 2.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: partial.",
+          "url": "https://www.pcgamingwiki.com/wiki/The_Crew_Motorfest",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Open world racer. Native wheel support. FFB improved over The Crew 2. 540 degrees.",
@@ -16448,6 +16990,12 @@
           "description": "Destruction derby racer. Native wheel and FFB via DirectInput.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/FlatOut_2",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Destruction derby racer. Native wheel and FFB. 540 degrees recommended.",
@@ -16528,6 +17076,12 @@
           "description": "FlatOut 2 remaster. Native wheel and FFB.",
           "url": null,
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/FlatOut:_Ultimate_Carnage",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "FlatOut 2 remake. Native wheel and FFB. 540 degrees.",
@@ -18500,6 +19054,12 @@
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/589760",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: none.",
+          "url": "https://www.pcgamingwiki.com/wiki/Revhead",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Car building and racing. Dedicated 'Use Wheel' option in steering settings. Auto-detects known wheels. NO FFB (devs say low priority). Community recommends ~450 deg.",
@@ -18537,6 +19097,12 @@
           "description": "Steam community research",
           "url": "https://store.steampowered.com/app/1480560",
           "date_accessed": "2026-02-14"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: none.",
+          "url": "https://www.pcgamingwiki.com/wiki/Lawn_Mowing_Simulator",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Mowing sim. Native Logitech wheel support (G920/G29/G923). Recommended 360 deg (not 900). Other brands need x360ce.",
@@ -19461,6 +20027,12 @@
           "description": "Developer-posted Steam discussion confirms DirectInput 8 wheel support with FFB. Recommended 540-720 degree rotation.",
           "url": null,
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/Rush_Rally_3",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Wheel support via DirectInput 8 with force feedback. Developer recommends 540-720 degrees. Logitech G923/G920/G29 and Thrustmaster confirmed working.",
@@ -19724,6 +20296,12 @@
           "description": "Steam community guide recommends 450 degrees as good middle ground; configurable via Controller.ini Steering Wheel Range setting",
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=402072199",
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/RFactor",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Classic PC sim racer. 450 degrees recommended as most car mods won't use steering lock above 30 degrees. RealFeel FFB plugin recommended over default.",
@@ -19761,6 +20339,12 @@
           "description": "OverTake.gg thread confirms GTR 2 is hard-wired to 240 degrees FFB wheel rotation; cannot be changed",
           "url": "https://www.overtake.gg/threads/did-you-know-gtr2-is-hard-wired-to-240-degrees-ffb-wheel-rotation-and-why-it-matters.188737/",
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/GTR_2",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "GTR 2 has a hard-wired 240 degree wheel rotation that cannot be changed. Set physical wheel to 240 degrees for 1:1 match.",
@@ -20018,6 +20602,12 @@
           "description": "Built as a sim racer with full direct drive wheelbase optimization. Force feedback calibrated for all major ecosystems.",
           "url": "https://store.steampowered.com/app/2077750/RENNSPORT/",
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/Rennsport",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Free-to-play competitive sim racer. Full VR support. Designed for direct drive wheelbases.",
@@ -20056,6 +20646,12 @@
           "description": "Formerly DRIFT21. Physics 2.0 update overhauled FFB with Moza wheel support. 540 standard for drift sim.",
           "url": "https://store.steampowered.com/app/520950/DRIFT_CE/",
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/DRIFT_CE",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Drift racing sim on EBISU circuits. Renamed from DRIFT21 in 2023. 1800+ replaceable car components.",
@@ -20094,6 +20690,12 @@
           "description": "Patch 1.6.0 overhauled FFB support from ground up with customizable settings. 540 aligns with JDM drift standard.",
           "url": "https://store.steampowered.com/app/1153410/JDM_Japanese_Drift_Master/",
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/JDM:_Japanese_Drift_Master",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Open-world drift racing through Japan. Steering wheel FFB overhauled in patch 1.6.0.",
@@ -20132,6 +20734,12 @@
           "description": "Built on Assetto Corsa physics engine refined for rally. 3D laser-scanned stages. Native wheel+FFB.",
           "url": "https://store.steampowered.com/app/3917090/Assetto_Corsa_Rally/",
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/Assetto_Corsa_Rally",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Rally sim by Supernova in partnership with Kunos Simulazioni. UE5 engine. Early Access Nov 2025. 85% positive reviews.",
@@ -20170,6 +20778,12 @@
           "description": "Built by iRacing with laser scanned cars and tracks. Advanced tire/suspension modeling. FFB calibrated for direct drive.",
           "url": "https://store.steampowered.com/app/3873970/NASCAR_25/",
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/NASCAR_25",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Official NASCAR game featuring all four National Series. iRacing-derived physics engine.",
@@ -20252,6 +20866,12 @@
           "description": "Community confirms wheel+FFB support. Officially supported wheels include Logitech, Thrustmaster, Fanatec ranges.",
           "url": "https://steamcommunity.com/app/2494780/discussions/0/4844274293910709338/",
           "date_accessed": "2026-02-15"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: native.",
+          "url": "https://www.pcgamingwiki.com/wiki/%23DRIVE_Rally",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Retro-styled arcade rally inspired by 1990s racing. Controller and wheel support with force feedback.",
@@ -20334,6 +20954,12 @@
           "description": "controls.xml: 270 Steering Wheel",
           "url": "https://github.com/benbaker76/ControlsDat",
           "date_accessed": "2026-01-31"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Sega racing cabinets use the SPG-2002 steering assembly (5K ohm potentiometer, 270-degree mechanical stops). Standard across Sega Model 1/2/3, Naomi, and Lindbergh platforms."
         }
       ],
       "notes": "Sega Y Board (Super Scaler). Go-kart racing by Yu Suzuki. Deluxe cab has hydraulics. Uses gear/cog steering system with FFB. pdriftl is the Link (multi-cab) version.",
@@ -20363,6 +20989,12 @@
           "description": "SuzoHapp 5K potentiometer (220-5373) explicitly lists Club Kart as compatible. Standard Sega NAOMI driving cabinet.",
           "url": "https://www.arcadeshop.com/i/1282/5k-potentiometer-for-sega-games.htm",
           "date_accessed": "2026-02-17"
+        },
+        {
+          "date_accessed": "2026-02-21",
+          "url": null,
+          "type": "parts",
+          "description": "Sega racing cabinets use the SPG-2002 steering assembly (5K ohm potentiometer, 270-degree mechanical stops). Standard across Sega Model 1/2/3, Naomi, and Lindbergh platforms."
         }
       ],
       "notes": "Sega NAOMI hardware. Multiple variants: European Session, Prize, Cycraft. All share the same standard Sega 270-degree steering assembly.",
@@ -21631,6 +22263,12 @@
           "description": "Community guides recommend 240-degree rotation for G29/G920. Native wheel support but limited FFB on some wheels. No soft lock feature.",
           "url": null,
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: native, Force feedback: partial.",
+          "url": "https://www.pcgamingwiki.com/wiki/NASCAR_Heat_5",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Recommended rotation 240 degrees per community consensus.",
@@ -21882,13 +22520,19 @@
       "year": "2023",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "Steam store page confirms Logitech and Thrustmaster wheel support via G HUB only. No FFB info found. Community reports compatibility issues.",
           "url": null,
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "developer",
+          "description": "Official Steam page states: 'Steering wheels are supported: Logitech and Thrustmaster (with Logitech GHUB)'. User guides confirm G920/G29/G923 settings.",
+          "url": "https://store.steampowered.com/app/2368220",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Drift career game. Wheel support requires Logitech G HUB software. Early Access.",
@@ -21920,13 +22564,19 @@
       "year": "2025",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "Developer wiki confirms steering wheel support with beta Force Feedback. USB wheel support and FFB device detection implemented. VR support included.",
           "url": null,
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "developer",
+          "description": "Official Steam page states: 'Whether you're using USB steering wheels, controllers, or other devices, Clutch ensures seamless support for your preferred setup.'",
+          "url": "https://store.steampowered.com/app/3411570",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Dedicated drift sim. Wheel and FFB in beta. Free-to-play. Early Access.",
@@ -21959,13 +22609,19 @@
       "year": "2026",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
           "description": "Steam store page advertises full racing wheel and force feedback support. Community reports suggest FFB implementation is inconsistent across wheel models.",
           "url": null,
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "developer",
+          "description": "Official Steam page states: 'Experience next-level realism with racing wheel support: Full force feedback, Enhanced immersion.'",
+          "url": "https://store.steampowered.com/app/4110410",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Open-world drift game. Arabic developer. 30+ cars with customization.",
@@ -23059,6 +23715,12 @@
           "description": "Developer confirmed in Steam community: \"Street Outlaws: The List does not support wheels and pedals.\" No plans announced.",
           "url": null,
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki documents controller/wheel support information. Wheel support: none, Force feedback: none.",
+          "url": "https://www.pcgamingwiki.com/wiki/Street_Outlaws:_The_List",
+          "date_accessed": "2026-02-21"
         }
       ],
       "notes": "Drag racing game. Rotation not applicable. Developer confirmed no wheel/pedal support.",
@@ -23553,6 +24215,1021 @@
           "owners_estimate": null
         }
       }
+    },
+    "motogp_13": {
+      "publisher": "Milestone S.r.l.",
+      "confidence": "high",
+      "rotation_degrees": null,
+      "notes": "Official MotoGP game. Controller only, no wheel support.",
+      "rotation_type": null,
+      "platforms": {
+        "steam": {
+          "appid": 240600,
+          "tags": [
+            "Racing",
+            "Motorcycle"
+          ],
+          "store_url": "https://store.steampowered.com/app/240600",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MotoGP_13",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "developer": "Milestone S.r.l.",
+      "year": "2013",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "sources": [
+        {
+          "type": "research",
+          "description": "Milestone MotoGP series. Motorcycle racing - controller only, no steering wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "manufacturer": null,
+      "title": "MotoGP 13"
+    },
+    "motogp_14": {
+      "publisher": "Milestone S.r.l.",
+      "confidence": "high",
+      "rotation_degrees": null,
+      "notes": "Official MotoGP game. Controller only, no wheel support.",
+      "rotation_type": null,
+      "platforms": {
+        "steam": {
+          "appid": 256390,
+          "tags": [
+            "Racing",
+            "Motorcycle"
+          ],
+          "store_url": "https://store.steampowered.com/app/256390",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MotoGP_14",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "developer": "Milestone S.r.l.",
+      "year": "2014",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "sources": [
+        {
+          "type": "research",
+          "description": "Milestone MotoGP series. Motorcycle racing - controller only, no steering wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "manufacturer": null,
+      "title": "MotoGP 14"
+    },
+    "motogp_15": {
+      "publisher": "Milestone S.r.l.",
+      "confidence": "high",
+      "rotation_degrees": null,
+      "notes": "Official MotoGP game. Controller only, no wheel support.",
+      "rotation_type": null,
+      "platforms": {
+        "steam": {
+          "appid": 355130,
+          "tags": [
+            "Racing",
+            "Motorcycle"
+          ],
+          "store_url": "https://store.steampowered.com/app/355130",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MotoGP_15",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "developer": "Milestone S.r.l.",
+      "year": "2015",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "sources": [
+        {
+          "type": "research",
+          "description": "Milestone MotoGP series. Motorcycle racing - controller only, no steering wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "manufacturer": null,
+      "title": "MotoGP 15"
+    },
+    "motogp_17": {
+      "publisher": "Milestone S.r.l.",
+      "confidence": "high",
+      "rotation_degrees": null,
+      "notes": "Official MotoGP game. Controller only, no wheel support.",
+      "rotation_type": null,
+      "platforms": {
+        "steam": {
+          "appid": 561610,
+          "tags": [
+            "Racing",
+            "Motorcycle"
+          ],
+          "store_url": "https://store.steampowered.com/app/561610",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MotoGP_17",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "developer": "Milestone S.r.l.",
+      "year": "2017",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "sources": [
+        {
+          "type": "research",
+          "description": "Milestone MotoGP series. Motorcycle racing - controller only, no steering wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "manufacturer": null,
+      "title": "MotoGP 17"
+    },
+    "motogp_18": {
+      "publisher": "Milestone S.r.l.",
+      "confidence": "high",
+      "rotation_degrees": null,
+      "notes": "Official MotoGP game. Controller only, no wheel support.",
+      "rotation_type": null,
+      "platforms": {
+        "steam": {
+          "appid": 775900,
+          "tags": [
+            "Racing",
+            "Motorcycle"
+          ],
+          "store_url": "https://store.steampowered.com/app/775900",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MotoGP_18",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "developer": "Milestone S.r.l.",
+      "year": "2018",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "sources": [
+        {
+          "type": "research",
+          "description": "Milestone MotoGP series. Motorcycle racing - controller only, no steering wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "manufacturer": null,
+      "title": "MotoGP 18"
+    },
+    "motogp_19": {
+      "publisher": "Milestone S.r.l.",
+      "confidence": "high",
+      "rotation_degrees": null,
+      "notes": "Official MotoGP game. Controller only, no wheel support.",
+      "rotation_type": null,
+      "platforms": {
+        "steam": {
+          "appid": 984780,
+          "tags": [
+            "Racing",
+            "Motorcycle"
+          ],
+          "store_url": "https://store.steampowered.com/app/984780",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MotoGP_19",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "developer": "Milestone S.r.l.",
+      "year": "2019",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "sources": [
+        {
+          "type": "research",
+          "description": "Milestone MotoGP series. Motorcycle racing - controller only, no steering wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "manufacturer": null,
+      "title": "MotoGP 19"
+    },
+    "motogp_20": {
+      "publisher": "Milestone S.r.l.",
+      "confidence": "high",
+      "rotation_degrees": null,
+      "notes": "Official MotoGP game. Controller only, no wheel support.",
+      "rotation_type": null,
+      "platforms": {
+        "steam": {
+          "appid": 1161490,
+          "tags": [
+            "Racing",
+            "Motorcycle"
+          ],
+          "store_url": "https://store.steampowered.com/app/1161490",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MotoGP_20",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "developer": "Milestone S.r.l.",
+      "year": "2020",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "sources": [
+        {
+          "type": "research",
+          "description": "Milestone MotoGP series. Motorcycle racing - controller only, no steering wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "manufacturer": null,
+      "title": "MotoGP 20"
+    },
+    "motogp_21": {
+      "publisher": "Milestone S.r.l.",
+      "confidence": "high",
+      "rotation_degrees": null,
+      "notes": "Official MotoGP game. Controller only, no wheel support.",
+      "rotation_type": null,
+      "platforms": {
+        "steam": {
+          "appid": 1447000,
+          "tags": [
+            "Racing",
+            "Motorcycle"
+          ],
+          "store_url": "https://store.steampowered.com/app/1447000",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MotoGP_21",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "developer": "Milestone S.r.l.",
+      "year": "2021",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "sources": [
+        {
+          "type": "research",
+          "description": "Milestone MotoGP series. Motorcycle racing - controller only, no steering wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "manufacturer": null,
+      "title": "MotoGP 21"
+    },
+    "motogp_22": {
+      "publisher": "Milestone S.r.l.",
+      "confidence": "high",
+      "rotation_degrees": null,
+      "notes": "Official MotoGP game. Controller only, no wheel support.",
+      "rotation_type": null,
+      "platforms": {
+        "steam": {
+          "appid": 1710580,
+          "tags": [
+            "Racing",
+            "Motorcycle"
+          ],
+          "store_url": "https://store.steampowered.com/app/1710580",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MotoGP_22",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "developer": "Milestone S.r.l.",
+      "year": "2022",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "sources": [
+        {
+          "type": "research",
+          "description": "Milestone MotoGP series. Motorcycle racing - controller only, no steering wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "manufacturer": null,
+      "title": "MotoGP 22"
+    },
+    "motogp_23": {
+      "publisher": "Milestone S.r.l.",
+      "confidence": "high",
+      "rotation_degrees": null,
+      "notes": "Official MotoGP game. Controller only, no wheel support.",
+      "rotation_type": null,
+      "platforms": {
+        "steam": {
+          "appid": 2295700,
+          "tags": [
+            "Racing",
+            "Motorcycle"
+          ],
+          "store_url": "https://store.steampowered.com/app/2295700",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MotoGP_23",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "developer": "Milestone S.r.l.",
+      "year": "2023",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "sources": [
+        {
+          "type": "research",
+          "description": "Milestone MotoGP series. Motorcycle racing - controller only, no steering wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "manufacturer": null,
+      "title": "MotoGP 23"
+    },
+    "race_wtcc": {
+      "publisher": "SimBin Studios",
+      "confidence": "high",
+      "rotation_degrees": 540,
+      "notes": "SimBin ISIMotor-engine touring car sim. Native wheel/FFB support.",
+      "rotation_type": null,
+      "platforms": {
+        "steam": {
+          "appid": 4240,
+          "tags": [
+            "Racing",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/4240",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/RACE:_The_WTCC_Game",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "developer": "SimBin Studios",
+      "year": "2006",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms full wheel and force feedback support.",
+          "url": "https://www.pcgamingwiki.com/wiki/RACE:_The_WTCC_Game",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "research",
+          "description": "SimBin ISIMotor-engine touring car sim. Native wheel and FFB support, same engine family as GTR/GTR2.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "manufacturer": null,
+      "title": "RACE - The WTCC Game"
+    },
+    "moto_racer_4": {
+      "publisher": "Microids",
+      "confidence": "high",
+      "rotation_degrees": null,
+      "notes": "Arcade motorcycle racer. Controller only.",
+      "rotation_type": null,
+      "platforms": {
+        "steam": {
+          "appid": 417430,
+          "tags": [
+            "Racing",
+            "Motorcycle"
+          ],
+          "store_url": "https://store.steampowered.com/app/417430",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Moto_Racer_4",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "developer": "Artefacts Studio",
+      "year": "2016",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "sources": [
+        {
+          "type": "research",
+          "description": "Arcade motorcycle racer. Controller-focused, no native wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "manufacturer": null,
+      "title": "Moto Racer 4"
+    },
+    "garfield_kart_furious_racing": {
+      "publisher": "Microids",
+      "confidence": "high",
+      "rotation_degrees": 270,
+      "notes": "Kart racer. Basic controller support, no dedicated wheel mode.",
+      "rotation_type": null,
+      "platforms": {
+        "steam": {
+          "appid": 1085510,
+          "tags": [
+            "Racing",
+            "Kart"
+          ],
+          "store_url": "https://store.steampowered.com/app/1085510",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "developer": "Artefacts Studio",
+      "year": "2019",
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "sources": [
+        {
+          "type": "research",
+          "description": "Kart racer with controller/gamepad focus. Basic steering input support.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "manufacturer": null,
+      "title": "Garfield Kart - Furious Racing"
+    },
+    "mx_bikes": {
+      "publisher": "PiBoSo",
+      "confidence": "high",
+      "rotation_degrees": null,
+      "notes": "Hardcore motocross sim by PiBoSo. Body-lean controls, no wheel support.",
+      "rotation_type": null,
+      "platforms": {
+        "steam": {
+          "appid": 655500,
+          "tags": [
+            "Racing",
+            "Simulation",
+            "Motorcycle"
+          ],
+          "store_url": "https://store.steampowered.com/app/655500",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/MX_Bikes",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "developer": "PiBoSo",
+      "year": "2019",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "sources": [
+        {
+          "type": "research",
+          "description": "Motocross simulation. Uses controller/gamepad for lean-based steering, not steering wheels.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "manufacturer": null,
+      "title": "MX Bikes"
+    },
+    "road_redemption": {
+      "publisher": "Tripwire Presents",
+      "confidence": "high",
+      "rotation_degrees": null,
+      "notes": "Motorcycle combat racer, spiritual successor to Road Rash. No wheel support.",
+      "rotation_type": null,
+      "platforms": {
+        "steam": {
+          "appid": 300380,
+          "tags": [
+            "Racing",
+            "Action"
+          ],
+          "store_url": "https://store.steampowered.com/app/300380",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Road_Redemption",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "developer": "EQ-Games",
+      "year": "2017",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "sources": [
+        {
+          "type": "research",
+          "description": "Motorcycle combat racer (Road Rash spiritual successor). Keyboard/controller focused, no wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "manufacturer": null,
+      "title": "Road Redemption"
+    },
+    "skydrift": {
+      "publisher": "Digital Reality",
+      "confidence": "high",
+      "rotation_degrees": null,
+      "notes": "Airplane racing game. Flight controls, not wheel-compatible.",
+      "rotation_type": null,
+      "platforms": {
+        "steam": {
+          "appid": 91100,
+          "tags": [
+            "Racing",
+            "Flight"
+          ],
+          "store_url": "https://store.steampowered.com/app/91100",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/SkyDrift",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "developer": "Digital Reality",
+      "year": "2011",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "sources": [
+        {
+          "type": "research",
+          "description": "Airplane racing game. Uses flight-style controls, not steering wheels.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "manufacturer": null,
+      "title": "SkyDrift"
+    },
+    "interstate_drifter_1999": {
+      "publisher": "Internet Machine Games",
+      "confidence": "medium",
+      "rotation_degrees": 540,
+      "notes": "Retro-styled drift racer inspired by 1990s arcade games.",
+      "rotation_type": null,
+      "platforms": {
+        "steam": {
+          "appid": 1383770,
+          "tags": [
+            "Racing",
+            "Drift"
+          ],
+          "store_url": "https://store.steampowered.com/app/1383770",
+          "pcgamingwiki_url": null,
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      },
+      "developer": "Internet Machine Games",
+      "year": "2022",
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "sources": [
+        {
+          "type": "research",
+          "description": "Retro-styled drift racing game. Partial controller support, steering wheel compatibility unclear.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "manufacturer": null,
+      "title": "Interstate Drifter 1999"
+    },
+    "gran_turismo_3": {
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "manufacturer": null,
+      "publisher": "Sony Computer Entertainment",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Logitech GT Force was the official wheel (LPRC-10000), released alongside GT3. Supports 200 degrees of rotation. DFP auto-switches to 200-degree legacy mode.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "emulator",
+          "description": "PCSX2 USB wheel support via GT Force emulation type. Steering and FFB work but only with GT Force mode selected.",
+          "url": "https://github.com/PCSX2/pcsx2/issues/3926",
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "title": "Gran Turismo 3: A-Spec",
+      "platforms": {
+        "pcsx2": {
+          "serial": "SCUS-97102"
+        }
+      },
+      "year": "2001",
+      "rotation_degrees": 200,
+      "rotation_type": null,
+      "confidence": "high",
+      "notes": "First PS2 Gran Turismo. 200-degree wheel rotation only (pre-DFP era). PCSX2 requires GT Force wheel emulation type.",
+      "developer": "Polyphony Digital"
+    },
+    "gran_turismo_4": {
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "manufacturer": null,
+      "publisher": "Sony Computer Entertainment",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Logitech Driving Force Pro was co-designed with Polyphony Digital for GT4. First PS2 game to support full 900-degree rotation.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "emulator",
+          "description": "PCSX2 USB wheel works with DFP rev11.02. FFB cuts out intermittently (every 1-1.5 min). Known issues: GitHub #8612, #11128.",
+          "url": "https://github.com/PCSX2/pcsx2/issues/8612",
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "title": "Gran Turismo 4",
+      "platforms": {
+        "pcsx2": {
+          "serial": "SCUS-97328"
+        }
+      },
+      "year": "2004",
+      "rotation_degrees": 900,
+      "rotation_type": null,
+      "confidence": "verified",
+      "notes": "Definitive PS2 sim racer. 900-degree rotation via DFP. SELECT+R3+RIGHT_PADDLE activates 900-degree mode. PCSX2 FFB has intermittent dropout issues.",
+      "developer": "Polyphony Digital"
+    },
+    "need_for_speed_underground": {
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "manufacturer": null,
+      "publisher": "Electronic Arts",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Compatible with Logitech Driving Force and DFP (200-degree legacy mode). Force feedback supported natively on PS2.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "emulator",
+          "description": "PCSX2 USB wheel emulation works. Arcade handling makes wheel use challenging.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "title": "Need for Speed: Underground",
+      "platforms": {
+        "pcsx2": {
+          "serial": "SLUS-20811"
+        }
+      },
+      "year": "2003",
+      "rotation_degrees": 200,
+      "rotation_type": null,
+      "confidence": "high",
+      "notes": "Arcade racer with PS2 wheel support. Controller often preferred for drift events.",
+      "developer": "EA Black Box"
+    },
+    "need_for_speed_underground_2": {
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "manufacturer": null,
+      "publisher": "Electronic Arts",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Full Logitech DFP 900-degree support. In-game force settings for wheel center strength. Listed in ArcadeControls PS2 wheel compatibility list.",
+          "url": "http://forum.arcadecontrols.com/index.php?topic=134588.0",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "emulator",
+          "description": "PCSX2 USB wheel emulation works via DFP mode.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "title": "Need for Speed: Underground 2",
+      "platforms": {
+        "pcsx2": {
+          "serial": "SLUS-21065"
+        }
+      },
+      "year": "2004",
+      "rotation_degrees": 900,
+      "rotation_type": null,
+      "confidence": "high",
+      "notes": "Improved wheel support over NFSU1. Full 900-degree DFP support with in-game FFB strength settings.",
+      "developer": "EA Black Box"
+    },
+    "need_for_speed_most_wanted_2005": {
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "manufacturer": null,
+      "publisher": "Electronic Arts",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Full DFP 900-degree support confirmed in ArcadeControls PS2 wheel compatibility list.",
+          "url": "http://forum.arcadecontrols.com/index.php?topic=134588.0",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "emulator",
+          "description": "PCSX2 USB wheel emulation works. PCSX2 Wiki lists wheel support.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "title": "Need for Speed: Most Wanted (2005)",
+      "platforms": {
+        "pcsx2": {
+          "serial": "SLUS-21267"
+        }
+      },
+      "year": "2005",
+      "rotation_degrees": 900,
+      "rotation_type": null,
+      "confidence": "high",
+      "notes": "2005 EA Black Box version (distinct from 2012 Criterion reboot). Full 900-degree wheel support.",
+      "developer": "EA Black Box"
+    },
+    "need_for_speed_carbon": {
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "manufacturer": null,
+      "publisher": "Electronic Arts",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Logitech DF/DFP compatible. 900-degree support disputed; conservative 270-degree recommendation.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "forum",
+          "description": "GTPlanet G25 discussion and ArcadeControls PS2 wheel list confirm wheel compatibility.",
+          "url": "http://forum.arcadecontrols.com/index.php?topic=134588.0",
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "title": "Need for Speed: Carbon",
+      "platforms": {
+        "pcsx2": {
+          "serial": "SLUS-21493"
+        }
+      },
+      "year": "2006",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "medium",
+      "notes": "Wheel compatible but 900-degree support is contested. Conservative 270-degree recommendation.",
+      "developer": "EA Black Box"
+    },
+    "burnout_3_takedown": {
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "manufacturer": null,
+      "publisher": "Electronic Arts",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Listed as compatible with Logitech Driving Force/DFP in ArcadeControls PS2 wheel game list. Arcade crash-focused racer.",
+          "url": "http://forum.arcadecontrols.com/index.php?topic=134588.0",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "forum",
+          "description": "NeoGAF discussion confirms PS2 FF wheel compatibility.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "title": "Burnout 3: Takedown",
+      "platforms": {
+        "pcsx2": {
+          "serial": "SLUS-21050"
+        }
+      },
+      "year": "2004",
+      "rotation_degrees": 200,
+      "rotation_type": null,
+      "confidence": "medium",
+      "notes": "Primarily a controller game. Wheel technically compatible but crash-focused gameplay doesn't benefit much from wheel input.",
+      "developer": "Criterion Games"
+    },
+    "burnout_revenge": {
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "manufacturer": null,
+      "publisher": "Electronic Arts",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Compatible with Logitech Driving Force/DFP per ArcadeControls PS2 wheel list. Same engine as Burnout 3.",
+          "url": "http://forum.arcadecontrols.com/index.php?topic=134588.0",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "forum",
+          "description": "GameFAQs confirms Logitech Driving Force usage.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "title": "Burnout Revenge",
+      "platforms": {
+        "pcsx2": {
+          "serial": "SLUS-21242"
+        }
+      },
+      "year": "2005",
+      "rotation_degrees": 200,
+      "rotation_type": null,
+      "confidence": "medium",
+      "notes": "Arcade crash racer. Wheel compatible but gameplay doesn't benefit greatly from wheel input.",
+      "developer": "Criterion Games"
+    },
+    "enthusia_professional_racing": {
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "manufacturer": null,
+      "publisher": "Konami",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Full 900-degree support with DFP, DFGT, and G25. Force feedback supported. Highly regarded PS2 sim racer.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "emulator",
+          "description": "PCSX2 wheel works but FFB steering resistance only functions with 'Driving Force' type selected (not DFP). GitHub #8935.",
+          "url": "https://github.com/PCSX2/pcsx2/issues/8935",
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "title": "Enthusia Professional Racing",
+      "platforms": {
+        "pcsx2": {
+          "serial": "SLUS-20967"
+        }
+      },
+      "year": "2005",
+      "rotation_degrees": 900,
+      "rotation_type": null,
+      "confidence": "high",
+      "notes": "Konami's only sim racer. Underrated. PCSX2 users must select 'Driving Force' (not DFP) as emulated wheel type for proper FFB.",
+      "developer": "Konami"
+    },
+    "auto_modellista": {
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "manufacturer": null,
+      "publisher": "Capcom",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Compatible with Logitech Driving Force/DFP per ArcadeControls PS2 wheel list. Steering better with wheel than overly sensitive DualShock 2 sticks.",
+          "url": "http://forum.arcadecontrols.com/index.php?topic=134588.0",
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "title": "Auto Modellista",
+      "platforms": {
+        "pcsx2": {
+          "serial": "SLUS-20642"
+        }
+      },
+      "year": "2003",
+      "rotation_degrees": 200,
+      "rotation_type": null,
+      "confidence": "medium",
+      "notes": "Cel-shaded racer by Capcom. US version subtitled 'US Tuned'. Wheel provides better control than oversensitive analog sticks.",
+      "developer": "Capcom"
+    },
+    "driving_emotion_type_s": {
+      "pc": {
+        "wheel_support": "unknown",
+        "force_feedback": "unknown",
+        "controller_support": "full"
+      },
+      "manufacturer": null,
+      "publisher": "Square Electronic Arts",
+      "sources": [
+        {
+          "type": "research",
+          "description": "Supports steering wheel as input type. Notoriously difficult steering with controller; wheel provides better control. Early PS2 title (pre-DFP).",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "wiki",
+          "description": "PCSX2 Wiki lists game compatibility.",
+          "url": "https://wiki.pcsx2.net/Driving_Emotion_Type-S",
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "title": "Driving Emotion Type-S",
+      "platforms": {
+        "pcsx2": {
+          "serial": "SLUS-20113"
+        }
+      },
+      "year": "2001",
+      "rotation_degrees": 200,
+      "rotation_type": null,
+      "confidence": "medium",
+      "notes": "Square's only PS2 racing game (developed by Escape subsidiary). Punishing handling, reportedly better with wheel.",
+      "developer": "Escape"
     }
   }
 }
