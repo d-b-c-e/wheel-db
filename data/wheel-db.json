@@ -1,6 +1,6 @@
-{
-  "version": "2.16.0",
-  "generated": "2026-02-20T00:00:00Z",
+﻿{
+  "version": "2.17.0",
+  "generated": "2026-02-21T00:00:00Z",
   "games": {
     "outrun": {
       "title": "Out Run",
@@ -1119,7 +1119,7 @@
       "publisher": null,
       "year": "2009",
       "rotation_degrees": 90,
-      "rotation_type": "mechanical_stop",
+      "rotation_type": "potentiometer",
       "confidence": "medium",
       "sources": [
         {
@@ -1130,7 +1130,7 @@
         },
         {
           "type": "manual",
-          "description": "Sega Retro has Harley-Davidson King of the Road Lindbergh Manual (Deluxe). Sega motorcycle cabinets use 5K ohm potentiometers. Cruiser handlebars have wider range than sportbike lean.",
+          "description": "Sega Retro has Harley-Davidson King of the Road Lindbergh Manual (Deluxe). Sega motorcycle cabinets use 5K ohm potentiometers (Sega 220-5737 with ROSTA centering). Cruiser handlebars have wider range than sportbike lean.",
           "url": "https://segaretro.org/images/a/a0/HDKotR_Lindbergh_Manual_Deluxe.pdf",
           "date_accessed": "2026-02-20"
         },
@@ -1141,7 +1141,7 @@
           "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Sega Lindbergh hardware. Motorcycle handlebars, NOT a steering wheel. Rotation is much less than car games.",
+      "notes": "Sega Lindbergh hardware. Motorcycle handlebars, NOT a steering wheel. Uses Sega 220-5737 5K ohm potentiometer with ROSTA centering mechanism.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -1403,7 +1403,7 @@
       "year": "2011",
       "rotation_degrees": 60,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
@@ -1418,13 +1418,19 @@
           "date_accessed": "2026-02-20"
         },
         {
+          "type": "parts",
+          "description": "Bandai Namco official parts: VG75-03824-00 listed as 'POT, 1K 60 DEG' — confirms 60-degree rotation specification.",
+          "url": "https://www.bandainamco-am.com/Ecommerce/product/vg75-03824-00/pot1k-60-degpkg-of-1",
+          "date_accessed": "2026-02-20"
+        },
+        {
           "type": "wiki",
           "description": "PrimeTime Amusements: Dead Heat Riders features force feedback swivel bike seat with realistic motorcycle handlebar controller. Cabinet H:90.5\" W:43.3\" D:82\", 665 lbs.",
           "url": "https://primetimeamusements.com/product/dead-heat-riders/",
           "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Namco hardware. Motorcycle handlebars, NOT a steering wheel.",
+      "notes": "Namco ES1 hardware. Motorcycle handlebars, NOT a steering wheel. Uses VG75-03824-00 (1K, 60-degree) potentiometer — same as all Namco motorcycle cabinets.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -1485,6 +1491,10 @@
       "platforms": {
         "teknoparrot": {
           "profile": "acedriv3"
+        },
+        "mame": {
+          "romname": "acedriv3",
+          "clones_inherit": true
         }
       }
     },
@@ -1516,6 +1526,10 @@
       "platforms": {
         "teknoparrot": {
           "profile": "batlgr3"
+        },
+        "mame": {
+          "romname": "batlgr3",
+          "clones_inherit": true
         }
       }
     },
@@ -1584,6 +1598,10 @@
       "platforms": {
         "teknoparrot": {
           "profile": "motogp2000"
+        },
+        "mame": {
+          "romname": "motogp",
+          "clones_inherit": true
         }
       }
     },
@@ -2204,24 +2222,30 @@
       "developer": null,
       "publisher": null,
       "year": "1998",
-      "rotation_degrees": 45,
-      "rotation_type": "mechanical_stop",
-      "confidence": "medium",
+      "rotation_degrees": 270,
+      "rotation_type": "potentiometer",
+      "confidence": "high",
       "sources": [
         {
           "type": "manual",
-          "description": "Radikal Bikers Dedicated Game Operation Manual (Atari 16-30038-101) documents 5K OHM potentiometer for handlebar steering. Test mode HANDLE values: 000 full left, 256 full right, center 108-148.",
+          "description": "Radikal Bikers Dedicated Game Operation Manual (Atari 16-30038-101) documents 5K OHM potentiometer for handlebar steering. Test mode HANDLE values: 000 full left, 256 full right, center 108-148. Full 0-256 ADC range indicates ~270° pot travel.",
           "url": "https://archive.org/stream/RadikalBikersDedicatedGameOperationManual16-30038-101_810/RadikalBikersDedicatedGameOperationManual16-30038-101_djvu.txt",
           "date_accessed": "2026-02-20"
         },
         {
+          "type": "forum",
+          "description": "Arcade Controls Forum 270-degree wheel compatibility list includes Radikal Bikers alongside other 270° standard games.",
+          "url": "http://forum.arcadecontrols.com/index.php?topic=140139.0",
+          "date_accessed": "2026-02-21"
+        },
+        {
           "type": "reference",
-          "description": "Gaelco/Atari scooter (Italjet Dragster) cabinet with handlebar controls. Scooter handlebars have limited rotation range, approximately 45 degrees total.",
+          "description": "5K ohm potentiometer matches standard 270° arcade steering spec (same as Sega SPG-2002, Gaelco car games). Manual documents geared linkage mechanism from handlebars to pot — physical rotation mechanically reduced to pot range.",
           "url": null,
-          "date_accessed": "2026-02-20"
+          "date_accessed": "2026-02-21"
         }
       ],
-      "notes": "Gaelco PC hardware. Scooter/bicycle handlebars.",
+      "notes": "Gaelco PC hardware. Scooter handlebars with geared linkage to 5K/270° potentiometer — handlebar movement maps to full pot range via mechanical reduction.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -2714,7 +2738,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Enerdyne Technologies oval racing game. Top-down perspective with steering wheel controls.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -2740,7 +2764,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Atari Games police chase driving game. Player steers a police car to apprehend criminals.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -2766,7 +2790,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Atari Games post-apocalyptic combat racing. Top-down perspective, successor to Super Sprint series.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -2792,7 +2816,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Jaleco rally racing game. Multi-stage off-road racing with sit-down cabinet.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -2818,7 +2842,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Taito off-road buggy racing game. Scrolling third-person perspective.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -2844,7 +2868,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Jaleco street racing through San Francisco. Pseudo-3D scaler graphics, sequel to Big Run.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -2870,7 +2894,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Atari Games top-down racing. Three-player cabinet, successor to Super Sprint.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -2896,7 +2920,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Bally Midway demolition derby game. Top-down arena combat driving.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -2922,7 +2946,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Sega System 32 F1 racing game. Multi-screen linked cabinet support.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -2948,7 +2972,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Jaleco F1 racing game. Pseudo-3D scaler graphics with gear shifting.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -2974,7 +2998,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Namco System 2 F1 racing. Sequel to Final Lap, supports 8-player linked cabinets.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3000,7 +3024,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Atari cooperative driving game. Two-player: driver steers, rear player controls ladder truck articulation. Smokey Joe is the single-player cocktail version.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3026,7 +3050,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Taito early pseudo-3D racing game. First-person perspective with rear-view mirror display.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3052,7 +3076,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Kaneko rally racing game based on the historic Italian road race. Third-person scrolling graphics.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3078,7 +3102,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Kaneko sequel to Great 1000 Miles Rally. Enhanced graphics and additional race stages.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3104,7 +3128,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Sega System 16 top-down racing game. Three-player simultaneous competitive racing.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3130,7 +3154,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Leland Corporation IndyCar racing. Top-down perspective, three-player simultaneous play.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3156,7 +3180,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Konami early pseudo-3D racing game. First-person perspective with day/night cycle.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3182,7 +3206,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Midway early first-person racing game. Black-and-white graphics with color overlay.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3208,7 +3232,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Bally Midway racing game. First-person perspective with gear shifting.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3234,7 +3258,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Atari top-down racing game. Black-and-white discrete logic hardware.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3260,7 +3284,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Leland Corporation off-road racing. Three-player top-down perspective with nitro boost.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3286,7 +3310,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Leland Corporation track expansion for Super Off-Road. Additional courses and gameplay enhancements.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3312,7 +3336,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Konami pseudo-3D racing game. Split-screen two-player support.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3338,7 +3362,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Namco sequel to Pole Position. Added multiple track selections and improved graphics.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3364,7 +3388,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Cinematronics/Tradewest motorcycle racing game. Laserdisc-enhanced pseudo-3D graphics.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3390,7 +3414,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Atari Games futuristic combat racing. First-person driving with mounted weapons.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3416,7 +3440,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Sega X Board F1 racing game. First-person perspective, successor to Super Hang-On hardware.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3442,7 +3466,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Vectorbeam first-person driving game. Vector graphics, one of the earliest 3D driving games.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3468,7 +3492,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Namco System 22 racing game based on the anime series. Polygonal 3D graphics.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3494,7 +3518,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Atari/Kee Games single-player top-down racing. Part of the Sprint series alongside Sprint 2.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3520,7 +3544,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Midway top-down scrolling racing game. Simple accelerate-and-steer gameplay.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3546,7 +3570,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Atari Games top-down racing. Three-player simultaneous play, successor to Sprint series.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3572,7 +3596,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Bally/Sente stock car racing game. First-person perspective.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3598,7 +3622,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Atari two-player submarine combat game. Top-down perspective with periscope-style steering.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3624,7 +3648,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Taito pseudo-3D racing game. Also known as Full Throttle in some regions.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3650,7 +3674,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Sega sequel to Out Run. Added turbo boost, weather effects, and car upgrades.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3676,7 +3700,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Sega early pseudo-3D racing game. One of the first games to use sprite scaling for 3D effect.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -3702,7 +3726,7 @@
           "date_accessed": "2026-01-31"
         }
       ],
-      "notes": null,
+      "notes": "Konami endurance racing game based on the 24 Hours of Le Mans. Pseudo-3D scaler graphics.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -8841,7 +8865,7 @@
       "sources": [
         {
           "type": "inference",
-          "description": "Sega Chihiro hardware with standard Sega 270-degree steering assembly. Same platform and steering mechanism as OutRun 2.",
+          "description": "Sega NAOMI 2 hardware with standard Sega 270-degree steering assembly.",
           "url": null,
           "date_accessed": "2026-02-17"
         },
@@ -8858,7 +8882,7 @@
           "date_accessed": "2026-02-20"
         }
       ],
-      "notes": "Sega Chihiro hardware. Truck racing game.",
+      "notes": "Sega NAOMI 2 hardware. Truck racing game.",
       "pc": null,
       "platforms": {
         "mame": {
@@ -9235,38 +9259,6 @@
       "platforms": {
         "mame": {
           "romname": "motofren",
-          "clones_inherit": true
-        }
-      }
-    },
-    "moto_gp_mgp1004nab": {
-      "title": "Moto GP (MGP1004-NA-B)",
-      "manufacturer": "Namco",
-      "developer": null,
-      "publisher": null,
-      "year": "2007",
-      "rotation_degrees": 60,
-      "rotation_type": "potentiometer",
-      "confidence": "high",
-      "sources": [
-        {
-          "type": "research",
-          "description": "Moto GP (2001) - Namco System 246 motorcycle racer.",
-          "url": null,
-          "date_accessed": "2026-02-19"
-        },
-        {
-          "type": "parts",
-          "description": "Namco motorcycle handlebar potentiometer VG75-03824-00 (1K ohm, 60-degree rotation). Confirmed in Cybercycles (System 22) handle and pivot assembly. Standard across Namco motorcycle/body-lean cabinets.",
-          "url": "https://na.suzohapp.com/products/driving_controls/VG75-03824-00",
-          "date_accessed": "2026-02-20"
-        }
-      ],
-      "notes": "Catver category: Driving / Motorbike. Motorcycle/bike game - may use handlebars rather than steering wheel. No wheel controls detected in MAME input definitions.",
-      "pc": null,
-      "platforms": {
-        "mame": {
-          "romname": "motogp",
           "clones_inherit": true
         }
       }
@@ -17109,10 +17101,10 @@
           "date_accessed": "2026-02-19"
         }
       ],
-      "notes": "F2P MMO racing game. Has wheel support but limited community info on FFB/rotation.",
+      "notes": "F2P MMO racing game. Wheel detection is unreliable — some wheels work natively (disable Steam Input), others require X360CE. FFB settings exist in-game (Force Strength, Vibration Strength) but are buggy with multi-controller setups.",
       "pc": {
-        "wheel_support": "native",
-        "force_feedback": "unknown",
+        "wheel_support": "partial",
+        "force_feedback": "partial",
         "controller_support": "full"
       },
       "platforms": {
@@ -19865,8 +19857,8 @@
       ],
       "notes": "Drift-focused touge racing game. Full controller support but no documented wheel-specific information.",
       "pc": {
-        "wheel_support": "unknown",
-        "force_feedback": "unknown",
+        "wheel_support": "partial",
+        "force_feedback": "none",
         "controller_support": "full"
       },
       "platforms": {
@@ -21012,7 +21004,7 @@
       "rotation_type": null,
       "title": "STCC - The Game",
       "manufacturer": null,
-      "notes": null,
+      "notes": "SimBin expansion for RACE 07 featuring the Swedish Touring Car Championship. Standalone and DLC versions available.",
       "developer": "SimBin Studios",
       "sources": [
         {
@@ -21135,7 +21127,7 @@
     "tourist_bus_simulator": {
       "pc": {
         "wheel_support": "native",
-        "force_feedback": "unknown",
+        "force_feedback": "partial",
         "controller_support": "full"
       },
       "rotation_type": null,
@@ -21902,7 +21894,7 @@
       "notes": "Drift career game. Wheel support requires Logitech G HUB software. Early Access.",
       "pc": {
         "wheel_support": "partial",
-        "force_feedback": "unknown",
+        "force_feedback": "none",
         "controller_support": "full"
       },
       "platforms": {
@@ -23108,8 +23100,8 @@
       ],
       "notes": "Free-to-play indie MMO rally. Up to 40 players. Wheel support status unknown.",
       "pc": {
-        "wheel_support": "unknown",
-        "force_feedback": "unknown",
+        "wheel_support": "none",
+        "force_feedback": "none",
         "controller_support": "partial"
       },
       "platforms": {

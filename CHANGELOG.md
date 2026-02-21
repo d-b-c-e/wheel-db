@@ -4,6 +4,31 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.17.0] - 2026-02-21
+
+### Fixed
+- Corrected Radikal Bikers rotation 45°→270° (5K ohm potentiometer with geared linkage, full 0-256 ADC range, on Arcade Controls 270° list)
+- Corrected Harley-Davidson: King of the Road rotation_type mechanical_stop→potentiometer (Sega 220-5737 5K pot)
+- Corrected The King of Route 66 hardware attribution from "Sega Chihiro" to "Sega NAOMI 2"
+- Merged duplicate MotoGP entry (moto_gp_mgp1004nab into motogp_namco)
+
+### Changed
+- Upgraded 3 medium-confidence entries to high (13 → 11 medium):
+  - Radikal Bikers: operation manual + Arcade Controls Forum + 5K pot evidence
+  - Dead Heat Riders: 4 independent sources (VG75-03824-00 parts from SuzoHapp, Bandai Namco, PrimeTime)
+  - Drifto: Infinite Touge: wheel_support unknown→partial (full controller support)
+- Resolved 5 unknown force_feedback entries and 2 unknown wheel_support entries
+- Added contextual notes to 40 entries previously missing them (100% notes coverage)
+- Confidence distribution: verified=57, high=544, medium=11, low=0
+
+### Added
+- 3 MAME romname mappings for existing TeknoParrot-only entries:
+  - Ace Driver 3 (acedriv3), Battle Gear 3 (batlgr3), MotoGP (motogp)
+- Enriched sources for upgraded entries with manufacturer documentation URLs
+
+### Removed
+- Duplicate MotoGP MAME entry (merged into unified motogp_namco entry)
+
 ## [2.16.0] - 2026-02-20
 
 ### Changed
