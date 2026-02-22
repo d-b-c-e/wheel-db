@@ -10,11 +10,11 @@ Modern USB racing wheels support 270-1080 degrees of rotation, but original arca
 
 The primary database is `data/wheel-db.json` -- a unified, game-centric JSON file where each entry represents a unique game. Platform-specific identifiers (MAME ROM names, TeknoParrot profiles, Steam app IDs, etc.) are stored in a `platforms` map so a game's data is never duplicated across platforms.
 
-### Current Stats (v2.22.0)
+### Current Stats (v2.23.0)
 
 | Metric | Count |
 |--------|-------|
-| Total game entries | 685 |
+| Total game entries | 709 |
 | With MAME mapping | 294 |
 | With TeknoParrot mapping | 81 |
 | With Steam mapping | 276 |
@@ -23,17 +23,18 @@ The primary database is `data/wheel-db.json` -- a unified, game-centric JSON fil
 | With Model 2 Emulator mapping | 6 |
 | With Dolphin mapping | 4 |
 | With PCSX2 mapping | 61 |
-| With known rotation value | 629 |
+| With RPCS3 mapping | 43 |
+| With known rotation value | 653 |
 | Rotation N/A | 25 |
 | Infinite rotation (encoders) | 31 |
 
-**Confidence:** verified (58), high (614), medium (13), low (0)
+**Confidence:** verified (60), high (635), medium (14), low (0)
 
-**Rotation values:** 270 (326 games), 540 (91), 360 (57), 900 (59), 45 (19), 200 (15), 180 (16), 60 (14), 56 (10), 1080 (4), 450 (4), 240 (3), 390 (3), 150 (2), 90 (2), 300 (1), 480 (1), 720 (1), 800 (1)
+**Rotation values:** 270 (332 games), 540 (102), 360 (61), 900 (62), 45 (19), 200 (15), 180 (16), 60 (14), 56 (10), 1080 (4), 450 (4), 240 (3), 390 (3), 150 (2), 90 (2), 300 (1), 480 (1), 720 (1), 800 (1)
 
-**PC wheel support:** native (165 games), partial (86), none (81)
+**PC wheel support:** native (182 games), partial (93), none (81)
 
-**PC force feedback:** native (114), partial (72), none (137)
+**PC force feedback:** native (135), partial (73), none (138)
 
 ### Special Values
 
@@ -54,6 +55,7 @@ The database covers games across multiple platforms in a single entry:
 | Flycast | `flycast` | `romname` | Naomi/Atomiswave |
 | Dolphin | `dolphin` | `game_id` | Triforce/GameCube |
 | PCSX2 | `pcsx2` | `serial` | PS2 games via emulation |
+| RPCS3 | `rpcs3` | `serial` | PS3 games via emulation |
 
 Games that exist on multiple platforms (e.g., Crazy Taxi on both MAME and Steam) have a single entry with all platform mappings.
 
@@ -76,7 +78,7 @@ All scripts are PowerShell 7+ and located in `scripts/`.
 ```
 wheel-db/
   data/
-    wheel-db.json                # Primary database (685 games)
+    wheel-db.json                # Primary database (709 games)
     schema/
       wheel-db.schema.json       # JSON Schema for validation
   scripts/
@@ -109,7 +111,7 @@ Each [GitHub Release](../../releases) includes these artifacts:
 | `mame-wheel-rotation.csv` | CSV | Flat MAME ROM-to-rotation lookup (known values only) |
 | `mame-wheel-rotation.xml` | XML | Same MAME data in XML format |
 | `steam-wheel-support.csv` | CSV | Steam games with wheel support, FFB, and rotation info |
-| `wheel-db.csv` | CSV | Unified flat CSV of all 685 games across all platforms |
+| `wheel-db.csv` | CSV | Unified flat CSV of all 709 games across all platforms |
 
 For detailed parsing instructions and code examples, see **[docs/INTEGRATION.md](docs/INTEGRATION.md)**.
 

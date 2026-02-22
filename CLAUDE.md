@@ -38,10 +38,10 @@ Beyond MAME and TeknoParrot, many arcade racing games are emulated by standalone
 | **Flycast / Demul** | Sega Naomi/Naomi 2, Atomiswave | 9 entries linked (Initial D 1-3, F355 x3, etc.) |
 | **Cxbx-Reloaded** | Sega Chihiro (Xbox-based) | OutRun 2, House of the Dead III |
 | **Dolphin** | Triforce (GameCube-based) | 4 entries linked (F-Zero AX, Mario Kart GP 1&2) |
-| **RPCS3** | Namco System 357 (PS3-based) | Some newer arcade titles |
+| **RPCS3** | PS3 console games | 43 entries linked (GT5, GT6, DiRT 1-3, GRID 1-2, F1 2010-2014, NFS series, WRC series, etc.) |
 | **PCSX2** | PS2 console games | 61 entries linked (GT3, GT4, NFS series, Burnout 1-3, TOCA series, NASCAR, WRC 1-4/Evolved, Initial D, F355, Richard Burns Rally, etc.) |
 
-A game like Daytona USA could be run on MAME, Model 2 Emulator, or even Supermodel (for the Model 3 sequel) - the physical cabinet's wheel rotation is the same regardless of which emulator runs it. The unified model captures this correctly. As of v2.5.0, cross-platform linking is implemented for Supermodel, Model 2 Emulator, Flycast, and Dolphin. In v2.18.0, PCSX2 support was added for PS2 console games with USB wheel emulation.
+A game like Daytona USA could be run on MAME, Model 2 Emulator, or even Supermodel (for the Model 3 sequel) - the physical cabinet's wheel rotation is the same regardless of which emulator runs it. The unified model captures this correctly. As of v2.5.0, cross-platform linking is implemented for Supermodel, Model 2 Emulator, Flycast, and Dolphin. In v2.18.0, PCSX2 support was added for PS2 console games with USB wheel emulation. In v2.23.0, RPCS3 support was added for PS3 console games with emulated Logitech G27 wheel.
 
 ---
 
@@ -53,7 +53,7 @@ wheel-db/
 ├── README.md                    # Project documentation for humans
 ├── LICENSE                      # MIT License
 ├── data/
-│   ├── wheel-db.json            # Unified database (685 games)
+│   ├── wheel-db.json            # Unified database (709 games)
 │   └── schema/
 │       └── wheel-db.schema.json # JSON Schema for validation
 ├── scripts/
@@ -83,7 +83,7 @@ wheel-db/
 
 ### Primary Database Format (JSON)
 
-The database uses a **unified game-centric model** with 685 entries as of v2.22.0. Each entry represents a unique game (arcade or PC). Platform-specific identifiers are stored in a `platforms` map. PC-specific metadata (wheel support, force feedback) is in a `pc` sub-object.
+The database uses a **unified game-centric model** with 709 entries as of v2.23.0. Each entry represents a unique game (arcade or PC). Platform-specific identifiers are stored in a `platforms` map. PC-specific metadata (wheel support, force feedback) is in a `pc` sub-object.
 
 ```json
 {
@@ -177,6 +177,7 @@ Each key in `platforms` is a platform identifier. Known platforms:
 | `flycast` | Flycast/Demul | `romname` | Naomi/Atomiswave ROM name |
 | `dolphin` | Dolphin | `game_id` | Triforce/GameCube game ID |
 | `pcsx2` | PCSX2 | `serial` | PS2 disc serial number (e.g., SCUS-97328) |
+| `rpcs3` | RPCS3 | `serial` | PS3 disc serial number (e.g., BLUS-30050) |
 
 Additional platform keys can be added as needed. The `platforms` map allows a single game to be linked to multiple emulation platforms.
 
@@ -244,7 +245,7 @@ Parses three MAME data sources to inventory all racing/driving games with wheel 
 
 Results: 1,488 total games, 484 with wheel controls, 1,040 parent ROMs, 63 from controls.xml with verified rotation values. After cleanup, 291 MAME entries remain in the database.
 
-**MAME Research Progress**: MAME inventory cleanup is complete as of v2.7.0. All 291 MAME entries now have rotation values. The cleanup involved: removing ~271 non-driving entries (clones, tanks, shooters, flight sims, console ports, Neo Geo joystick games, fitness equipment), setting ~173 rotation values using manufacturer documentation (SuzoHapp catalogs, service manuals, TwistedQuarter parts lists, BYOAC forum, Arcade-Projects), and merging ~23 duplicate entries. In v2.8.0, 33 motorcycle/watercraft entries were corrected from 270° (car default) to proper handlebar ranges (45-60°), Hard Drivin' was corrected to 1080°, and Cycle Warriors was removed (joystick game). **The database currently has 0 unknown rotation values**. Confidence distribution: verified=58, high=614, medium=13, low=0. In v2.15.0, all 80 remaining rotation_type=unknown entries were classified using manufacturer patterns (mechanical_stop=239, potentiometer=87, optical_encoder=31). PCGamingWiki coverage at 95% (247 of 259 Steam entries). In v2.18.0, 11 PS2 console games added via PCSX2 platform, 17 new Steam games from SteamSpy discovery, and ~118 single-source entries enriched with second sources. In v2.19.0, 21 new PCSX2 entries added (TOCA Race Driver 2-3, NFS Hot Pursuit 2/ProStreet, Colin McRae Rally 3, Midnight Club 3, Tourist Trophy, etc.) plus PCSX2 platform added to 3 existing entries (FlatOut, SRS, Midnight Club 2), bringing total PCSX2 coverage to 35 games. In v2.20.0, 15 more PCSX2 entries added (NASCAR Thunder 2003-2004, NASCAR 2005, Ford Mustang, V-Rally 3, WRC PS2, Colin McRae Rally 04/2005, Richard Burns Rally, Sega Rally 2006, etc.) including PAL/NTSC-J exclusives, plus 36 single-source entries enriched with second sources, 2 arcade medium→high upgrades (Crazy Ride, Crazy Speed), and validator updated for PCSX2 support. Total PCSX2: 50 games, total database: 674 games. In v2.21.0, 5 more PCSX2 entries added (Burnout 1-2, WRC II Extreme, Formula One 05-06), eliminated all single-source entries (11→0), upgraded interstate_drifter_1999 to high, fixed frenzy_express rotation_type to potentiometer, changed drifto/project_drift wheel_support to none. Total PCSX2: 55 games, total database: 679 games. In v2.22.0, 6 more PCSX2 entries added (WRC 3-4 PS2, WRC Rally Evolved, Initial D Special Stage, F355 Challenge PS2, F1 Career Challenge), fixed Burnout 1-2 rotation 270°→200° and wheel_support native→partial. Total PCSX2: 61 games, total database: 685 games.
+**MAME Research Progress**: MAME inventory cleanup is complete as of v2.7.0. All 291 MAME entries now have rotation values. The cleanup involved: removing ~271 non-driving entries (clones, tanks, shooters, flight sims, console ports, Neo Geo joystick games, fitness equipment), setting ~173 rotation values using manufacturer documentation (SuzoHapp catalogs, service manuals, TwistedQuarter parts lists, BYOAC forum, Arcade-Projects), and merging ~23 duplicate entries. In v2.8.0, 33 motorcycle/watercraft entries were corrected from 270° (car default) to proper handlebar ranges (45-60°), Hard Drivin' was corrected to 1080°, and Cycle Warriors was removed (joystick game). **The database currently has 0 unknown rotation values**. Confidence distribution: verified=60, high=635, medium=14, low=0. In v2.15.0, all 80 remaining rotation_type=unknown entries were classified using manufacturer patterns (mechanical_stop=239, potentiometer=87, optical_encoder=31). PCGamingWiki coverage at 95% (247 of 259 Steam entries). In v2.18.0, 11 PS2 console games added via PCSX2 platform, 17 new Steam games from SteamSpy discovery, and ~118 single-source entries enriched with second sources. In v2.19.0, 21 new PCSX2 entries added (TOCA Race Driver 2-3, NFS Hot Pursuit 2/ProStreet, Colin McRae Rally 3, Midnight Club 3, Tourist Trophy, etc.) plus PCSX2 platform added to 3 existing entries (FlatOut, SRS, Midnight Club 2), bringing total PCSX2 coverage to 35 games. In v2.20.0, 15 more PCSX2 entries added (NASCAR Thunder 2003-2004, NASCAR 2005, Ford Mustang, V-Rally 3, WRC PS2, Colin McRae Rally 04/2005, Richard Burns Rally, Sega Rally 2006, etc.) including PAL/NTSC-J exclusives, plus 36 single-source entries enriched with second sources, 2 arcade medium→high upgrades (Crazy Ride, Crazy Speed), and validator updated for PCSX2 support. Total PCSX2: 50 games, total database: 674 games. In v2.21.0, 5 more PCSX2 entries added (Burnout 1-2, WRC II Extreme, Formula One 05-06), eliminated all single-source entries (11→0), upgraded interstate_drifter_1999 to high, fixed frenzy_express rotation_type to potentiometer, changed drifto/project_drift wheel_support to none. Total PCSX2: 55 games, total database: 679 games. In v2.22.0, 6 more PCSX2 entries added (WRC 3-4 PS2, WRC Rally Evolved, Initial D Special Stage, F355 Challenge PS2, F1 Career Challenge), fixed Burnout 1-2 rotation 270°→200° and wheel_support native→partial. Total PCSX2: 61 games, total database: 685 games. In v2.23.0, RPCS3/PS3 platform added with 43 entries (24 new + 19 linked to existing), including GT5/GT6, DiRT 1-3, GRID 1-2, F1 2010-2014, NFS series, Milestone WRC 1-3, Midnight Club LA, MotorStorm Apocalypse, Initial D Extreme Stage. RPCS3 emulates Logitech G27 wheel via USB device emulation (beta). Total database: 709 games.
 
 #### Get-TeknoparrotGames.ps1
 Scans local TeknoParrot installation for wheel-equipped games. Reads GameProfiles XML for `<AnalogType>Wheel</AnalogType>`, enriches from Metadata JSON. Outputs to `sources/cache/teknoparrot-games.json`.

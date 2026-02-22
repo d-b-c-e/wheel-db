@@ -4,6 +4,41 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.23.0] - 2026-02-21
+
+### Added
+- **New RPCS3/PS3 platform** -- ninth emulator platform in the database
+  - Schema definition for `rpcs3` platform with PS3 disc serial identifiers
+  - Validator updated to track RPCS3 statistics and recognize as PC-playable platform
+- **24 new RPCS3 entries** for PS3 racing games with wheel support:
+  - Gran Turismo 5 (verified), Gran Turismo 6 (verified), Gran Turismo 5 Prologue -- PS3-exclusive flagship sim racers
+  - Codemasters DiRT series: DiRT, DiRT 2, DiRT 3, DiRT Showdown -- native wheel and FFB
+  - Codemasters GRID series: Race Driver: GRID, GRID 2 -- native wheel and FFB
+  - Codemasters F1 series: F1 2010, F1 2011, F1 2013 -- native wheel and FFB, 360-degree rotation
+  - Need for Speed: The Run -- partial wheel support
+  - Milestone WRC series: WRC (2010), WRC 2, WRC 3 -- PAL-only releases, native wheel and FFB
+  - Midnight Club: Los Angeles -- PS3/360 exclusive, partial wheel with FFB
+  - MotorStorm: Apocalypse -- partial wheel (patched in), PS3 exclusive
+  - Initial D: Extreme Stage -- Japan/Asia-only, 540-degree matching arcade cabinets
+  - Sega Rally Revo -- partial wheel with FFB
+  - Ferrari Challenge: Trofeo Pirelli -- partial wheel and FFB
+  - Blur -- arcade racer, delisted everywhere
+  - Formula One Championship Edition -- Studio Liverpool PS3 exclusive
+- **RPCS3 platform added to 19 existing entries**:
+  - NFS: Carbon, Hot Pursuit 2010, Most Wanted 2012, Rivals, Shift, Shift 2, Undercover, ProStreet, The Run
+  - F1 2012, F1 2014
+  - GRID Autosport, WRC 4, WRC 5
+  - Burnout Paradise, Split/Second, Ridge Racer Unbounded
+  - Sonic & SEGA All-Stars Racing, Sonic & All-Stars Racing Transformed
+  - Test Drive: Ferrari Racing Legends
+
+### Changed
+- Total database: 709 games (was 685)
+- RPCS3 coverage: 43 games
+- Confidence distribution: verified=60, high=635, medium=14, low=0
+- PC wheel support: native=182, partial=93, none=81
+- PC force feedback: native=135, partial=73, none=138
+
 ## [2.22.0] - 2026-02-21
 
 ### Added

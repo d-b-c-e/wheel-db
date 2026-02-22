@@ -109,7 +109,8 @@
             "flycast": { "$ref": "#/$defs/platformGeneric" },
             "dolphin": { "$ref": "#/$defs/platformDolphin" },
             "steam": { "$ref": "#/$defs/platformSteam" },
-            "pcsx2": { "$ref": "#/$defs/platformPcsx2" }
+            "pcsx2": { "$ref": "#/$defs/platformPcsx2" },
+            "rpcs3": { "$ref": "#/$defs/platformRpcs3" }
           },
           "additionalProperties": {
             "$ref": "#/$defs/platformGeneric"
@@ -268,6 +269,18 @@
           "type": "string",
           "pattern": "^[A-Z]{4}-\\d{5}$",
           "description": "PS2 disc serial number (e.g., SCUS-97328)"
+        }
+      },
+      "additionalProperties": false
+    },
+    "platformRpcs3": {
+      "type": "object",
+      "required": ["serial"],
+      "properties": {
+        "serial": {
+          "type": "string",
+          "pattern": "^[A-Z]{4}-\\d{5}$",
+          "description": "PS3 disc serial number (e.g., BLUS-30050)"
         }
       },
       "additionalProperties": false

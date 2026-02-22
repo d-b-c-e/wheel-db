@@ -6,28 +6,33 @@
 - **Branch:** main
 
 ## What Was Done
-- v2.21.0: Added 5 PCSX2 entries (Burnout 1-2, WRC II Extreme, Formula One 05-06), eliminated all single-source entries (11→0), upgraded interstate_drifter_1999 medium→high, fixed frenzy_express rotation_type to potentiometer, changed drifto/project_drift wheel_support to none
-- v2.22.0: Added 6 PCSX2 entries (WRC 3-4 PS2, WRC Rally Evolved, Initial D Special Stage, F355 Challenge PS2, F1 Career Challenge), fixed Burnout 1-2 rotation 270°→200° and wheel_support native→partial
-- Enriched all remaining single-source entries: 7 MAME/TP high entries + 4 PCSX2/Steam entries = 0 single-source remaining
-- Research agents completed for arcade mediums (harley_davidson, frenzy_express) and Steam mediums (nash_racing, project_drift, drifto_infinite_touge, rally_evolution_2025, interstate_drifter_1999)
+- v2.23.0: Added RPCS3/PS3 platform support — ninth emulator platform in the database
+- 24 new PS3 game entries: GT5 (verified), GT6 (verified), GT5 Prologue, DiRT 1-3, DiRT Showdown, Race Driver: GRID, GRID 2, F1 2010/2011/2013, NFS The Run, WRC 1-3 (Milestone), Midnight Club LA, MotorStorm Apocalypse, Initial D Extreme Stage, Sega Rally Revo, Ferrari Challenge, Blur, Formula One Championship Edition
+- RPCS3 platform added to 19 existing entries: NFS Carbon/HP/MW/Rivals/Shift/Shift2/Undercover/ProStreet, F1 2012/2014, GRID Autosport, WRC 4-5, Burnout Paradise, Split/Second, RR Unbounded, Sonic Racing 1-2, Test Drive Ferrari
+- Schema updated with platformRpcs3 definition (serial field, same pattern as PCSX2)
+- Validator updated: rpcs3 counted in stats, recognized as PC-playable platform in Check 10
+- All docs updated: CHANGELOG, README, CLAUDE.md
 
 ## Decisions Made
-- Burnout 1-2 set to 200° not 270°: pre-DFP era wheels maxed at 200°, matches Burnout 3/Revenge already in DB
-- Burnout 1-2 wheel_support set to partial not native: basic support, not full integration like GT/NFS
-- WRC Rally Evolved set to 540°: later Evolution Studios title supports DFGT, 540° recommended for rally
-- Initial D Special Stage set to 540°: matches arcade cabinet specs (ID4-ID8 all 540° per TeknoParrot metadata)
-- Excluded Twisted Metal Black and Ridge Racer V from PCSX2: borderline/limited wheel support, not worth adding
-- 13 medium-confidence entries stay medium: no additional sources found to upgrade them
+- PS3 serials use NTSC-U (BLUS/BCUS) when available, PAL (BLES/BCES) for PAL-only releases (WRC 1-3, Formula One CE)
+- RPCS3 wheel emulation is beta (emulated G27 via USB) — database tracks the PS3 game's native wheel support, not RPCS3 compat status
+- MotorStorm 1-2 excluded (no wheel support at all); only Apocalypse included (partial, patched in)
+- Initial D Extreme Stage included despite broken RPCS3 wheel input — works on real hardware, RPCS3 bug will be fixed
+- DiRT Rally NOT added (PS4/PC only, not PS3)
+- F1 2015 NOT added (PS4/PC only, not PS3)
 
 ## Open Items
-- [ ] 13 medium-confidence entries remain (harley_davidson, frenzy_express, nash_racing, project_drift, drifto_infinite_touge, rally_evolution_2025, + 7 others)
-- [ ] Shox (SLUS-20533) still needs hands-on wheel verification
+- [ ] 14 medium-confidence entries remain (13 from before + motorstorm_apocalypse + blur)
+- [ ] Shox (PCSX2) still needs hands-on wheel verification
+- [ ] Some RPCS3 serials may need verification against GameTDB/RPCS3 wiki (used research agent data)
+- [ ] Commit and push v2.23.0, create GitHub release
 
 ## Next Steps
-1. Add RPCS3/PS3 platform (GT5/6, NFS titles — large untapped platform)
+1. Commit and push v2.23.0, create GitHub release with dist/ artifacts
 2. Run Steam discovery pass (`Get-SteamRacingGames.ps1`) for newly released racing games
-3. Consider Cxbx-Reloaded/Chihiro platform (OutRun 2)
-4. Generate dist/ artifacts and create GitHub release for v2.22.0
+3. Consider Cxbx-Reloaded/Chihiro platform (OutRun 2 SP)
+4. Consider adding more PS3 games: NASCAR 08-09, Superstars V8, TDU2, Juiced 2
+5. Harley-Davidson research — operator manual on Manualzz may need Playwright
 
 ## Context for Next Session
-v2.22.0 committed and pushed. Database at 685 games, PCSX2=61, zero single-source entries, 13 mediums remaining. The Evolution Studios WRC series on PS2 is fully covered (WRC 1-4 + II Extreme + Rally Evolved). GTPlanet DF compatibility list and PCSX2 Wiki are exhausted for PS2 games. Next major expansion opportunity is PS3/RPCS3 or fresh Steam discovery. The Harley-Davidson operator manual on Manualzz returned 403 — may need Playwright to access.
+v2.23.0 ready to commit. Database at 709 games, RPCS3=43 (24 new + 19 linked), PCSX2=61. All validation passes, exports generated. The RPCS3 G27 emulation is still beta — some games like Initial D Extreme Stage and F1 2010 have known issues with the virtual G27. GT5 is the best-tested RPCS3 wheel game. Milestone WRC 1-3 are PAL-only (BLES serials). Next major expansion opportunities: Steam discovery pass, Cxbx-Reloaded platform, or additional PS3 niche titles.
