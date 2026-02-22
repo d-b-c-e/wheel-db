@@ -4,6 +4,27 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.25.0] - 2026-02-22
+
+### Changed
+- **Upgraded 12 medium-confidence entries to high:**
+  - Crazy Ride: SuzoHapp 270° confirmed via Cruis'n Blast platform parts catalog
+  - Nash Racing: wheel_support unknown→none (dead G-27 thread, no wheel evidence)
+  - Project Drift: wheel_support=none confirmed (unanswered wheel support thread)
+  - Drifto: Infinite Touge: wheel_support none→partial (Steam review confirms wheel works with menu bugs)
+  - Rally Evolution 2025: wheel_support=none confirmed (arcade MMO design)
+  - Rally Fusion: Race of Champions: wheel_support unknown→native (GTPlanet Driving Force compatibility list)
+  - Lotus Challenge: wheel_support unknown→native (3 independent PS2 wheel compatibility lists)
+  - Knight Rider: The Game: wheel_support unknown→native (4 sources including Amazon confirm native)
+  - Formula One 2003 (Studio Liverpool): force_feedback unknown→native (F1 2001 series lineage)
+  - Formula One 04 (Studio Liverpool): force_feedback unknown→native (Wikipedia + PCSX2 Wiki)
+  - MotorStorm: Apocalypse: force_feedback unknown→native (PlayStation Blog official Monster Update announcement)
+  - Blur: wheel_support partial→none (no native wheel support on any platform, intentionally gamepad-only)
+- 3 entries enriched but staying medium: Harley-Davidson: King of the Road, Crazy Speed, Frenzy Express
+- Confidence distribution: verified=60, high=649, medium=3, low=0
+- PC wheel support: native=183, partial=94, none=84
+- PC force feedback: native=138, partial=74, none=140
+
 ## [2.24.0] - 2026-02-21
 
 ### Added
