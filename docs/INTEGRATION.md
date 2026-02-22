@@ -21,7 +21,7 @@ Choose the format that fits your use case:
 | **MAME CSV** (`mame-wheel-rotation.csv`) | Simple MAME ROM-to-rotation lookup (known values only) |
 | **MAME XML** (`mame-wheel-rotation.xml`) | Same as MAME CSV in XML format |
 | **Steam CSV** (`steam-wheel-support.csv`) | Steam games with wheel support, FFB, and rotation info |
-| **Unified CSV** (`wheel-db.csv`) | All 709 games in one flat CSV across all platforms |
+| **Unified CSV** (`wheel-db.csv`) | All 712 games in one flat CSV across all platforms |
 
 ---
 
@@ -33,7 +33,7 @@ The full database. Structure:
 
 ```json
 {
-  "version": "2.23.0",
+  "version": "2.24.0",
   "generated": "2026-02-21T00:00:00Z",
   "games": {
     "outrun": {
@@ -90,7 +90,7 @@ Same data as CSV in XML attribute format:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<wheelRotationDb version="2.23.0" generated="2026-02-21T00:00:00Z" gameCount="294">
+<wheelRotationDb version="2.24.0" generated="2026-02-21T00:00:00Z" gameCount="294">
   <game romname="outrun" title="Out Run" manufacturer="Sega" year="1986"
         rotation="270" type="mechanical_stop" confidence="high" />
 </wheelRotationDb>

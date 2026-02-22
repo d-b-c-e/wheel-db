@@ -1,5 +1,5 @@
 {
-  "version": "2.23.0",
+  "version": "2.24.0",
   "generated": "2026-02-21T00:00:00Z",
   "games": {
     "outrun": {
@@ -28295,6 +28295,137 @@
       "platforms": {
         "rpcs3": {
           "serial": "BCES-00003"
+        }
+      }
+    },
+    "on_the_road_truck_simulator": {
+      "title": "On The Road - The Truck Simulator",
+      "manufacturer": null,
+      "developer": "toxtronyx interactive GmbH",
+      "publisher": "Aerosoft GmbH",
+      "year": "2019",
+      "rotation_degrees": 900,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "steam_community",
+          "description": "Steam store page and community confirm steering wheel support with known FFB compatibility issues across wheel models",
+          "url": "https://store.steampowered.com/app/285380",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "reference",
+          "description": "Truck simulator standard: 900-degree wheel rotation matches real truck steering, confirmed by genre convention (ETS2, ATS, Alaskan Road Truckers)",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "Truck simulator competing with ETS2/ATS. Wheel support implemented but FFB inconsistent across wheel models. Developer provides dedicated FFB Test App.",
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 285380,
+          "tags": [
+            "Simulation",
+            "Driving",
+            "Automobile Sim"
+          ],
+          "store_url": "https://store.steampowered.com/app/285380",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/On_The_Road",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "ride_6": {
+      "title": "RIDE 6",
+      "manufacturer": null,
+      "developer": "Milestone S.r.l.",
+      "publisher": "Milestone S.r.l.",
+      "year": "2026",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "Motorcycle racing game. Consistent with all prior RIDE titles - no steering wheel support.",
+          "url": "https://www.pcgamingwiki.com/wiki/Ride_6",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "research",
+          "description": "Motorcycle racing game from well-known developer. All titles in this developer's catalog consistently have no wheel support - motorcycles use body lean and dual-stick controls, not steering wheels.",
+          "url": null,
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "Latest RIDE entry. Motorcycle racing, no wheel support. 200+ motorcycles.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 2815070,
+          "tags": [
+            "Racing",
+            "Motorcycle",
+            "Simulation"
+          ],
+          "store_url": "https://store.steampowered.com/app/2815070",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/Ride_6",
+          "popularity_rank": null,
+          "owners_estimate": null
+        }
+      }
+    },
+    "nascar_arcade_rush": {
+      "title": "NASCAR Arcade Rush",
+      "manufacturer": null,
+      "developer": "Team6 Game Studios",
+      "publisher": "GameMill Entertainment",
+      "year": "2023",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki confirms arcade-style NASCAR game with controller support but no dedicated steering wheel support",
+          "url": "https://www.pcgamingwiki.com/wiki/NASCAR_Arcade_Rush",
+          "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "steam_community",
+          "description": "Steam community discussions confirm no wheel support. Pure arcade racer with boosts and jumps.",
+          "url": "https://store.steampowered.com/app/2192060",
+          "date_accessed": "2026-02-21"
+        }
+      ],
+      "notes": "Arcade-style NASCAR game with boosts, jumps, nitro. No dedicated wheel support.",
+      "pc": {
+        "wheel_support": "none",
+        "force_feedback": "none",
+        "controller_support": "partial"
+      },
+      "platforms": {
+        "steam": {
+          "appid": 2192060,
+          "tags": [
+            "Racing",
+            "Arcade"
+          ],
+          "store_url": "https://store.steampowered.com/app/2192060",
+          "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/NASCAR_Arcade_Rush",
+          "popularity_rank": null,
+          "owners_estimate": null
         }
       }
     }

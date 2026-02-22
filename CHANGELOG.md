@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.24.0] - 2026-02-21
+
+### Added
+- **3 new Steam entries** from Steam discovery pass (SteamSpy cross-reference):
+  - On The Road - The Truck Simulator (appid 285380) -- truck sim with partial wheel and FFB support, 900-degree rotation
+  - RIDE 6 (appid 2815070) -- latest Milestone motorcycle racer, no wheel support (series completeness)
+  - NASCAR Arcade Rush (appid 2192060) -- arcade-style NASCAR game, no wheel support
+
+### Changed
+- Total database: 712 games (was 709)
+- Steam coverage: 279 games (was 276)
+- Confidence distribution: verified=60, high=638, medium=14, low=0
+- PC wheel support: native=182, partial=94, none=83
+- PC force feedback: native=135, partial=74, none=140
+
 ## [2.23.0] - 2026-02-21
 
 ### Added
