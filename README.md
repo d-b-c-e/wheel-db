@@ -88,6 +88,8 @@ wheel-db/
     Validate-Database.ps1        # Schema validation and data checks
     Audit-Database.ps1           # Data quality audit and consistency report
     archive/                     # One-time migration scripts
+  docs/
+    INTEGRATION.md               # How to consume this data in frontends/emulators
   .github/
     workflows/
       release.yml                # Auto-release on database version change
