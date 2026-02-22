@@ -21,7 +21,7 @@ Choose the format that fits your use case:
 | **MAME CSV** (`mame-wheel-rotation.csv`) | Simple MAME ROM-to-rotation lookup (known values only) |
 | **MAME XML** (`mame-wheel-rotation.xml`) | Same as MAME CSV in XML format |
 | **Steam CSV** (`steam-wheel-support.csv`) | Steam games with wheel support, FFB, and rotation info |
-| **Unified CSV** (`wheel-db.csv`) | All 685 games in one flat CSV across all platforms |
+| **Unified CSV** (`wheel-db.csv`) | All 709 games in one flat CSV across all platforms |
 
 ---
 
@@ -33,7 +33,7 @@ The full database. Structure:
 
 ```json
 {
-  "version": "2.22.0",
+  "version": "2.23.0",
   "generated": "2026-02-21T00:00:00Z",
   "games": {
     "outrun": {
@@ -90,7 +90,7 @@ Same data as CSV in XML attribute format:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<wheelRotationDb version="2.22.0" generated="2026-02-21T00:00:00Z" gameCount="294">
+<wheelRotationDb version="2.23.0" generated="2026-02-21T00:00:00Z" gameCount="294">
   <game romname="outrun" title="Out Run" manufacturer="Sega" year="1986"
         rotation="270" type="mechanical_stop" confidence="high" />
 </wheelRotationDb>
@@ -115,7 +115,7 @@ Common values in the database: 270 (most common), 360, 540, 45, 60, 90, 150, 108
 
 **Infinite rotation (`-1`)**: These games used optical encoders or spinners with no physical stops. They measure relative movement, not absolute position. A modern racing wheel is a poor match -- these games work better with a mouse or spinner controller. If you must use a wheel, a high sensitivity setting with a small rotation range (e.g., 180°-270°) is a reasonable approximation, but the experience won't be authentic.
 
-**Unknown (`null`)**: The game is in the database but its rotation hasn't been researched or is not applicable (anti-gravity racers, drag racing, motorcycle games where wheels aren't the intended input). Only 24 entries have null rotation. A safe default for unknown wheel games is 270°, as this was the most common arcade standard.
+**Unknown (`null`)**: The game is in the database but its rotation hasn't been researched or is not applicable (anti-gravity racers, drag racing, motorcycle games where wheels aren't the intended input). Only 25 entries have null rotation. A safe default for unknown wheel games is 270°, as this was the most common arcade standard.
 
 ### rotation_type
 
@@ -169,6 +169,7 @@ A map of platform keys to platform-specific identifiers. Possible keys:
 | `m2emulator` | `romname` | Model 2 Emulator ROM identifier |
 | `flycast` | `romname` | Flycast ROM identifier |
 | `pcsx2` | `serial` | PS2 disc serial number (e.g., SCUS-97328) |
+| `rpcs3` | `serial` | PS3 disc serial number (e.g., BLUS-30050) |
 
 A game may have entries under multiple platforms. For example, Crazy Taxi has `mame` and `steam` mappings.
 
@@ -380,6 +381,8 @@ for game_id, game in db["games"].items():
             lookup[("dolphin", info["game_id"])] = game
         elif platform == "pcsx2":
             lookup[("pcsx2", info["serial"])] = game
+        elif platform == "rpcs3":
+            lookup[("rpcs3", info["serial"])] = game
         else:
             lookup[(platform, info.get("romname", ""))] = game
 

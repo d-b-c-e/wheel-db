@@ -51,6 +51,7 @@ A game like Daytona USA could be run on MAME, Model 2 Emulator, or even Supermod
 wheel-db/
 ├── CLAUDE.md                    # This file - AI assistant instructions
 ├── README.md                    # Project documentation for humans
+├── CHANGELOG.md                 # Version history (Keep a Changelog format)
 ├── LICENSE                      # MIT License
 ├── data/
 │   ├── wheel-db.json            # Unified database (709 games)
