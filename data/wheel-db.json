@@ -1,6 +1,6 @@
 {
-  "version": "2.24.0",
-  "generated": "2026-02-21T00:00:00Z",
+  "version": "2.25.0",
+  "generated": "2026-02-22T00:00:00Z",
   "games": {
     "outrun": {
       "title": "Out Run",
@@ -1268,9 +1268,15 @@
           "description": "Real Harley-Davidson cruisers have approximately 52-66 degrees lock-to-lock. 90 degrees provides gameplay-appropriate exaggeration for arcade responsiveness.",
           "url": null,
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "forum",
+          "description": "Arcade Belgium confirms cruiser-style handlebars that turn left/right with auto body lean (different from older Sega Model 3 tilt-only motorcycles). SuzoHapp carries replacement parts for KotR cabinet.",
+          "url": "https://www.arcadebelgium.net/t2199-harley-davidson-king-of-the-road",
+          "date_accessed": "2026-02-22"
         }
       ],
-      "notes": "Sega Lindbergh hardware. Motorcycle handlebars, NOT a steering wheel. Uses Sega 220-5737 5K ohm potentiometer with ROSTA centering mechanism.",
+      "notes": "Sega Lindbergh hardware. Cruiser-style motorcycle handlebars that turn (NOT tilt-only like older Sega motorcycles). Auto body lean in response to handlebar input. Uses Sega 220-5737 5K ohm potentiometer with ROSTA centering mechanism.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -2871,7 +2877,7 @@
       "year": "2019",
       "rotation_degrees": 270,
       "rotation_type": "potentiometer",
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "inference",
@@ -2890,6 +2896,12 @@
           "description": "Cruis'n Blast (same cabinet platform) confirmed at 270 degrees via SuzoHapp Raw Thrills steering wheel hoop with Active 270 timing belt.",
           "url": "https://www.betsonparts.com/amusement-redemption/raw-thrills-steering-wheel-hoop.html",
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "reference",
+          "description": "SuzoHapp 270-degree steering wheel assembly (50-2838-00 DigiPot) confirmed for Raw Thrills racing games including Cruis'n Blast. Same SuzoHapp steering hoop (50-1035-00HD) listed in Cruis'n Blast parts catalog.",
+          "url": "https://na.suzohapp.com/products/driving_controls/50-2838-00",
+          "date_accessed": "2026-02-22"
         }
       ],
       "notes": "UNIS PC hardware. Variation of Cruis'n Blast Motion cabinet (UNIS & Raw Thrills). 43-inch monitor, motion platform, fan effects. Same SuzoHapp Active 270 steering platform as Cruis'n Blast.",
@@ -2933,9 +2945,15 @@
           "description": "Arcade Heroes: developed by Long Entertainment, distributed by UNIS. Features online modes and card save system.",
           "url": "https://arcadeheroes.com/2010/06/21/crazy-speed-arcade-by-long-entertainment-now-available-via-unis/",
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "wiki",
+          "description": "Funspace product page: cabinet 146x246x262cm, 550KG, 1000W. Notes 'force feedback system' that 'simulates vibrations, bumps, and collisions' -- confirms motorized steering wheel, consistent with 270-degree active steering assemblies.",
+          "url": "https://fun-space.com/arcade-game-machine-1/racing-arcade/crazy-speed.html",
+          "date_accessed": "2026-02-22"
         }
       ],
-      "notes": "UNIS PC hardware. Released 2010 by Long Entertainment, distributed by UNIS. Upright cabinet with steering wheel, pedals, gear shifter. Standard 270-degree steering assembly assumed from industry-standard SuzoHapp components.",
+      "notes": "UNIS PC hardware. Released 2010 by Long Entertainment, distributed by UNIS. Upright cabinet with steering wheel, pedals, gear shifter, force feedback. 270-degree steering assembly assumed from industry-standard components.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -2964,9 +2982,15 @@
           "description": "Highway Games product listing: Frenzy Express kick scooter arcade game. Cabinet 73cm W x 174cm D x 182cm H, 152kg. Released 2001 by Uniana.",
           "url": "https://www.highwaygames.com/arcade-machines/frenzy-express-8636/",
           "date_accessed": "2026-02-20"
+        },
+        {
+          "type": "reference",
+          "description": "MAME driver (ice/frenzyxprss.cpp) confirms ICE/Uniana on Pentium III PC hardware, but driver is MACHINE_NOT_WORKING with empty input ports -- no analog range data. Arcade Museum confirms 'razor scooter-like controller' with handlebar steering.",
+          "url": null,
+          "date_accessed": "2026-02-22"
         }
       ],
-      "notes": "Uniana PC hardware. Kick scooter with handlebars.",
+      "notes": "Uniana/ICE PC hardware. Full-size kick scooter replica with handlebar steering, rear brake, and grip wheel acceleration.",
       "pc": null,
       "platforms": {
         "teknoparrot": {
@@ -19673,11 +19697,11 @@
       "year": "2017",
       "rotation_degrees": 360,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
-          "description": "Steam store page confirms generic controller support, no wheel-specific documentation. Released Aug 2, 2017.",
+          "description": "Steam store page confirms generic controller support only, no wheel-specific documentation. Released Aug 2, 2017.",
           "url": "https://store.steampowered.com/app/581200",
           "date_accessed": "2026-02-21"
         },
@@ -19686,11 +19710,17 @@
           "description": "Small indie Unreal Engine racer. 360 is safe middle-ground default. No community reports of wheel usage found.",
           "url": null,
           "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "steam_community",
+          "description": "Steam community has a dead G-27 thread with no replies. Multiple negative reviews about controls with zero wheel mentions. Not on PCGamingWiki Logitech wheel support list. Asset-flip UE4 game with no input customization.",
+          "url": "https://steamcommunity.com/app/581200/discussions/",
+          "date_accessed": "2026-02-22"
         }
       ],
       "notes": "Indie Unreal Engine racer with asset-flip reputation. Generic controller support via UE4 DirectInput. No evidence of intentional wheel support. Mixed reviews (47%).",
       "pc": {
-        "wheel_support": "unknown",
+        "wheel_support": "none",
         "force_feedback": "none",
         "controller_support": "full"
       },
@@ -19716,7 +19746,7 @@
       "year": "2023",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -19729,9 +19759,15 @@
           "description": "Manga-style JDM drift game. 540 aligns with JDM drift genre standard. No community reports of wheel usage.",
           "url": null,
           "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "steam_community",
+          "description": "Steam community 'Wheel Support?' thread (May 2023) went unanswered for 6+ months with multiple users asking. PS4 controller keybinding issues reported. No wheel mentions in any reviews.",
+          "url": "https://steamcommunity.com/app/2305520/discussions/0/6274121610017666390/",
+          "date_accessed": "2026-02-22"
         }
       ],
-      "notes": "Budget manga-style JDM drift game. Gamepad-focused with no evidence of wheel support despite full controller tag.",
+      "notes": "Budget manga-style JDM drift game. Gamepad-focused with no wheel support. Unanswered community thread asking about wheels confirms no support.",
       "pc": {
         "wheel_support": "none",
         "force_feedback": "none",
@@ -20799,7 +20835,7 @@
       "year": "2024",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "steam_community",
@@ -20809,14 +20845,20 @@
         },
         {
           "type": "inference",
-          "description": "Touge drifting game, 270 degrees inferred from genre. Originally a mobile game ported to PC. No wheel-specific support documented.",
+          "description": "Touge drifting game, 270 degrees inferred from genre. Originally a mobile game ported to PC. Steering-only arcade controls (no gas/brake).",
           "url": null,
           "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "steam_community",
+          "description": "Steam review by CodeArrow (Aug 2024) confirms wheel play works: 'man is it the best experience to play with. This should be labeled as a workout if you plan to use this with a wheel.' Notes menu bugs when using wheel.",
+          "url": "https://store.steampowered.com/app/2949020",
+          "date_accessed": "2026-02-22"
         }
       ],
-      "notes": "Mobile port with broken basic controller support. No evidence of wheel support. Direction-only arcade controls.",
+      "notes": "Mobile port. Steering-only arcade controls (no gas/brake). Wheels work for gameplay but cause menu bugs. Not intentionally designed for wheel play.",
       "pc": {
-        "wheel_support": "none",
+        "wheel_support": "partial",
         "force_feedback": "none",
         "controller_support": "full"
       },
@@ -24141,7 +24183,7 @@
       "year": "2025",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -24151,12 +24193,18 @@
         },
         {
           "type": "steam_community",
-          "description": "Steam store page confirms partial controller support. Indie MMO rally game with keyboard/controller primary input.",
-          "url": null,
+          "description": "Steam store page confirms partial controller support. Indie MMO rally game with keyboard/controller primary input. Early Access since Dec 2025.",
+          "url": "https://store.steampowered.com/app/3273700",
           "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "research",
+          "description": "Developer Petr Simůnek is a Czech PhD student focused on procedural generation (Anzu interview). F2P arcade MMO with simplified controls and in-game advertising. No community discussion of wheel support across 14 active Steam threads. Previous games (Motorbike Evolution, Engine Evolution 2023) also have no wheel support.",
+          "url": "https://www.anzu.io/blog/developer-interviews-petr",
+          "date_accessed": "2026-02-22"
         }
       ],
-      "notes": "Free-to-play indie MMO rally. Up to 40 players. Wheel support status unknown.",
+      "notes": "Free-to-play indie MMO rally. Up to 40 players. Arcade/casual design with simplified controls, no wheel support.",
       "pc": {
         "wheel_support": "none",
         "force_feedback": "none",
@@ -26754,7 +26802,7 @@
       "year": "2002",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "emulator",
@@ -26767,11 +26815,17 @@
           "description": "PCSX2 Forums thread confirms serial SLUS-20361. Off-road rally game featuring Race of Champions licensed event.",
           "url": null,
           "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "reference",
+          "description": "GTPlanet Logitech Driving Force PS2 compatibility list and Bordersdown NTSC-uk list both confirm native wheel support on real PS2 hardware",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-22"
         }
       ],
-      "notes": "Off-road rally game featuring Race of Champions licensed event. Wheel support reported via PCSX2 emulation but not confirmed with real hardware. Not on GTPlanet Driving Force list.",
+      "notes": "Off-road rally game featuring Race of Champions licensed event. Native USB wheel support confirmed on PS2 via Logitech Driving Force compatibility lists.",
       "pc": {
-        "wheel_support": "unknown",
+        "wheel_support": "native",
         "force_feedback": "unknown",
         "controller_support": "full"
       },
@@ -26894,7 +26948,7 @@
       "year": "2001",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -26907,6 +26961,12 @@
           "description": "PCSX2 Wiki lists Lotus Challenge in steering wheel games category. PAL serial SLES-50230 confirmed.",
           "url": null,
           "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "reference",
+          "description": "Narkive PS2 steering wheel compatible games list and Bordersdown NTSC-uk Logitech Driving Force game list both confirm native wheel support",
+          "url": "https://online.games.narkive.com/hVdmVGHv/what-are-the-ps2-racing-games-that-are-compatible-with-the-steering-wheel",
+          "date_accessed": "2026-02-22"
         }
       ],
       "notes": "PS2 version PAL-only. NA release planned by Interplay but cancelled. Xbox/GC versions released in NA by Xicat.",
@@ -26929,7 +26989,7 @@
       "year": "2002",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -26942,9 +27002,15 @@
           "description": "PSX DataCenter confirms PAL serial SLES-51011. Driving/action game based on TV series with wheel-compatible driving segments.",
           "url": null,
           "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "reference",
+          "description": "Narkive PS2 wheel compatibility list, Bordersdown Driving Force list, and Arcade Controls forum all confirm native wheel support. Amazon product page explicitly states 'you can use a joystick and steering wheel if you use the PS2 version.'",
+          "url": "https://online.games.narkive.com/hVdmVGHv/what-are-the-ps2-racing-games-that-are-compatible-with-the-steering-wheel",
+          "date_accessed": "2026-02-22"
         }
       ],
-      "notes": "PS2 version PAL-only. PC version released in NA. Driving/action game based on TV series. Wheel enhances driving segments.",
+      "notes": "PS2 version PAL-only. PC version released in NA. Driving/action game based on TV series. Native wheel support confirmed by multiple PS2 compatibility lists.",
       "pc": {
         "wheel_support": "native",
         "force_feedback": "unknown",
@@ -26964,7 +27030,7 @@
       "year": "2003",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -26977,12 +27043,18 @@
           "description": "PCSX2 Wiki confirms steering wheel support, serial SCES-51592 (PAL only)",
           "url": null,
           "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "wiki",
+          "description": "Formula One 2001 (Studio Liverpool) was the first PS2 game to support Logitech GT Force wheel with FFB, establishing the series' wheel+FFB lineage through F1 2003/04",
+          "url": "https://en.wikipedia.org/wiki/Formula_One_2001_(video_game)",
+          "date_accessed": "2026-02-22"
         }
       ],
-      "notes": "Studio Liverpool F1 series (distinct from EA's F1 games). PAL/Japan only, never released in North America.",
+      "notes": "Studio Liverpool F1 series (distinct from EA's F1 games). PAL/Japan only. Series pioneered PS2 USB wheel support with FFB starting from F1 2001.",
       "pc": {
         "wheel_support": "native",
-        "force_feedback": "unknown",
+        "force_feedback": "native",
         "controller_support": "full"
       },
       "platforms": {
@@ -26999,7 +27071,7 @@
       "year": "2004",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
           "type": "research",
@@ -27012,12 +27084,18 @@
           "description": "PCSX2 Wiki lists in steering wheel category, serial SCES-52426 (PAL only)",
           "url": null,
           "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "wiki",
+          "description": "Wikipedia confirms Formula One 04 supports racing/steering wheel input devices as optional peripherals. PCSX2 Wiki categorizes under 'Games support steering wheel'.",
+          "url": "https://en.wikipedia.org/wiki/Formula_One_04",
+          "date_accessed": "2026-02-22"
         }
       ],
-      "notes": "Studio Liverpool F1 series (distinct from EA's F1 games). PAL/Japan only. Last F1 game before series became 'Formula One Championship Edition' on PS3.",
+      "notes": "Studio Liverpool F1 series (distinct from EA's F1 games). PAL/Japan only. Last F1 game before series became 'Formula One Championship Edition' on PS3. Native FFB inherited from F1 2001 series lineage.",
       "pc": {
         "wheel_support": "native",
-        "force_feedback": "unknown",
+        "force_feedback": "native",
         "controller_support": "full"
       },
       "platforms": {
@@ -28096,25 +28174,25 @@
       "year": "2011",
       "rotation_degrees": 540,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
-          "type": "forum",
-          "description": "Community reports indicate wheel support added in a post-launch patch. MotorStorm 1 and Pacific Rift had no wheel support.",
-          "url": "",
-          "date_accessed": "2026-02-21"
+          "type": "developer",
+          "description": "PlayStation Blog announcement of Monster Update (Aug 2011): wheel support added for G25, G27, DFGT, DFP with customizable sensitivity and force feedback settings.",
+          "url": "https://blog.playstation.com/2011/08/11/motorstorm-apocalypse-monster-update-mode-editor-steering-wheels-and-move/",
+          "date_accessed": "2026-02-22"
         },
         {
-          "type": "inference",
-          "description": "Evolution Studios added wheel support for Apocalypse unlike predecessors. Off-road racing benefits from 540 degrees.",
-          "url": "",
-          "date_accessed": "2026-02-21"
+          "type": "forum",
+          "description": "GTPlanet user reports: FFB present but light (adjustable 0-100%), sensitivity adjustable (30% recommended), no button remapping, supercars/trucks have best FFB.",
+          "url": "https://www.gtplanet.net/forum/threads/motorstorm-apocalypse-wheel-support.200467/",
+          "date_accessed": "2026-02-22"
         }
       ],
-      "notes": "PS3-exclusive off-road racer. Partial wheel support added via patch (MotorStorm 1-2 had none). Playable on RPCS3.",
+      "notes": "PS3-exclusive off-road racer. Wheel support (G25/G27/DFGT/DFP) added via Monster Update patch (Aug 2011). FFB with adjustable intensity. MotorStorm 1-2 had no wheel support. Playable on RPCS3.",
       "pc": {
         "wheel_support": "partial",
-        "force_feedback": "unknown",
+        "force_feedback": "native",
         "controller_support": "full"
       },
       "platforms": {
@@ -28236,24 +28314,30 @@
       "year": "2010",
       "rotation_degrees": 270,
       "rotation_type": null,
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         {
-          "type": "inference",
-          "description": "Power-up arcade racer. Basic wheel mapping likely works. 270 degrees for arcade handling.",
-          "url": "",
-          "date_accessed": "2026-02-21"
+          "type": "steam_community",
+          "description": "Steam Community discussion confirms no native wheel support. Thread titled 'I know wheels aren't supported, but...' -- x360ce workaround possible on PC with G920 mapping wheel to XInput.",
+          "url": "https://steamcommunity.com/app/42640/discussions/0/1643167006259562865/",
+          "date_accessed": "2026-02-22"
+        },
+        {
+          "type": "pcgamingwiki",
+          "description": "PCGamingWiki Blur page: XInput controller support only, no wheel or FFB support listed.",
+          "url": "https://www.pcgamingwiki.com/wiki/Blur",
+          "date_accessed": "2026-02-22"
         },
         {
           "type": "forum",
-          "description": "Community reports mixed wheel compatibility. Delisted from all storefronts.",
-          "url": "",
-          "date_accessed": "2026-02-21"
+          "description": "GameFAQs PS3 board threads asking about wheel support confirm no native wheel support on any platform. Game intentionally designed as gamepad-only arcade combat racer.",
+          "url": null,
+          "date_accessed": "2026-02-22"
         }
       ],
-      "notes": "Power-up arcade racer from Project Gotham Racing devs. Wheel support unconfirmed. Delisted everywhere. RPCS3 status: Ingame.",
+      "notes": "Power-up arcade combat racer from PGR devs. No native wheel support on any platform (intentionally gamepad-only). PC version delisted from Steam (Jan 2013). x360ce workaround possible on PC. RPCS3 status: Ingame.",
       "pc": {
-        "wheel_support": "partial",
+        "wheel_support": "none",
         "force_feedback": "none",
         "controller_support": "full"
       },
