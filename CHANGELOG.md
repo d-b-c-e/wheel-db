@@ -4,6 +4,29 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.26.0] - 2026-02-22
+
+### Added
+- **10 new RPCS3/PS3 entries:**
+  - NASCAR 08 (EA Tiburon, 2007) — native wheel/FFB, 540°
+  - NASCAR 09 (EA Tiburon, 2008) — native wheel/FFB, 540°
+  - NASCAR The Game 2011 (Eutechnyx, 2011) — native wheel/FFB, 540°
+  - NASCAR The Game: Inside Line (Eutechnyx, 2012) — native wheel/FFB, 540°
+  - NASCAR '14 (Eutechnyx, 2014) — native wheel/FFB, 540°
+  - Test Drive Unlimited 2 (Eden Games, 2011) — native wheel, partial FFB, 200°
+  - Superstars V8 Racing (Milestone, 2009) — native wheel/FFB, 900°
+  - Baja: Edge of Control (2XL Games, 2008) — native wheel, partial FFB, 900°
+  - Supercar Challenge (Milestone, 2009) — EU-exclusive, native wheel/FFB, 900°
+  - Stuntman: Ignition (Paradigm, 2007) — partial wheel, no FFB, 270°
+- **1 RPCS3 platform mapping added to existing entry:**
+  - NASCAR '15 Victory Edition: added PS3 serial BLUS-31560
+
+### Changed
+- Total games: 712 → 722
+- RPCS3 entries: 43 → 54
+- PC wheel support: native=192, partial=95, none=84
+- PC force feedback: native=145, partial=76, none=141
+
 ## [2.25.0] - 2026-02-22
 
 ### Changed

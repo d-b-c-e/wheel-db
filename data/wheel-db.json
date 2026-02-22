@@ -1,5 +1,5 @@
 {
-  "version": "2.25.0",
+  "version": "2.26.0",
   "generated": "2026-02-22T00:00:00Z",
   "games": {
     "outrun": {
@@ -17192,6 +17192,9 @@
           "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/NASCAR_%2715_Victory_Edition",
           "popularity_rank": 188,
           "owners_estimate": null
+        },
+        "rpcs3": {
+          "serial": "BLUS-31560"
         }
       }
     },
@@ -28510,6 +28513,356 @@
           "pcgamingwiki_url": "https://www.pcgamingwiki.com/wiki/NASCAR_Arcade_Rush",
           "popularity_rank": null,
           "owners_estimate": null
+        }
+      }
+    },
+    "nascar_08": {
+      "title": "NASCAR 08",
+      "manufacturer": null,
+      "developer": "EA Tiburon",
+      "publisher": "EA Sports",
+      "year": "2007",
+      "rotation_degrees": 540,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "reference",
+          "description": "AVForums PS3 steering wheel games list confirms Logitech DFP/G25/G27 wheel support with force feedback",
+          "url": "https://www.avforums.com/threads/ps3-steering-wheel-games.1549982/",
+          "date_accessed": "2026-02-22"
+        },
+        {
+          "type": "emulator",
+          "description": "RPCS3 compatibility list: Ingame status (BLUS-30040). Performance issues at 18-22 FPS.",
+          "url": "https://rpcs3.net/compatibility?g=nascar",
+          "date_accessed": "2026-02-22"
+        }
+      ],
+      "notes": "PS3 NASCAR sim by EA Tiburon. Native wheel support with strong FFB (limited tuning). 540° matches real NASCAR stock cars.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "rpcs3": {
+          "serial": "BLUS-30040"
+        }
+      }
+    },
+    "nascar_09": {
+      "title": "NASCAR 09",
+      "manufacturer": null,
+      "developer": "EA Tiburon",
+      "publisher": "EA Sports",
+      "year": "2008",
+      "rotation_degrees": 540,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "reference",
+          "description": "AVForums PS3 steering wheel games list confirms G25/G27 wheel support",
+          "url": "https://www.avforums.com/threads/ps3-steering-wheel-games.1549982/",
+          "date_accessed": "2026-02-22"
+        },
+        {
+          "type": "emulator",
+          "description": "RPCS3 compatibility list: Playable (BLUS-30139). Default settings work.",
+          "url": "https://rpcs3.net/compatibility?g=nascar",
+          "date_accessed": "2026-02-22"
+        }
+      ],
+      "notes": "PS3 NASCAR sim by EA Tiburon. Native wheel support, FFB described as strong with limited configurability.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "rpcs3": {
+          "serial": "BLUS-30139"
+        }
+      }
+    },
+    "nascar_the_game_2011": {
+      "title": "NASCAR The Game 2011",
+      "manufacturer": null,
+      "developer": "Eutechnyx",
+      "publisher": "Activision",
+      "year": "2011",
+      "rotation_degrees": 540,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "forum",
+          "description": "OverTake.gg confirms G27, Fanatec, and DFGT wheel support with configurable FFB",
+          "url": "https://www.overtake.gg/threads/nascar-the-game-2011.16990/page-4",
+          "date_accessed": "2026-02-22"
+        },
+        {
+          "type": "emulator",
+          "description": "RPCS3 compatibility list: Playable (BLUS-30604). No major issues.",
+          "url": "https://rpcs3.net/compatibility?g=nascar",
+          "date_accessed": "2026-02-22"
+        }
+      ],
+      "notes": "First Eutechnyx NASCAR title. Native wheel/FFB support. 540° matches real NASCAR stock cars.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "rpcs3": {
+          "serial": "BLUS-30604"
+        }
+      }
+    },
+    "nascar_inside_line": {
+      "title": "NASCAR The Game: Inside Line",
+      "manufacturer": null,
+      "developer": "Eutechnyx",
+      "publisher": "Activision",
+      "year": "2012",
+      "rotation_degrees": 540,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "emulator",
+          "description": "RPCS3 compatibility list: Playable (BLUS-30932). Same Eutechnyx engine as NASCAR 2011 with improvements.",
+          "url": "https://rpcs3.net/compatibility?g=nascar",
+          "date_accessed": "2026-02-22"
+        },
+        {
+          "type": "database",
+          "description": "GameTDB confirms PS3 serial BLUS-30932. Eutechnyx NASCAR series with native wheel support.",
+          "url": "https://www.gametdb.com/PS3/BLUS30932",
+          "date_accessed": "2026-02-22"
+        }
+      ],
+      "notes": "Sequel to NASCAR The Game 2011. Same engine with improvements. Native wheel/FFB support.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "rpcs3": {
+          "serial": "BLUS-30932"
+        }
+      }
+    },
+    "nascar_14": {
+      "title": "NASCAR '14",
+      "manufacturer": null,
+      "developer": "Eutechnyx",
+      "publisher": "Deep Silver",
+      "year": "2014",
+      "rotation_degrees": 540,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "forum",
+          "description": "OverTake.gg confirms Thrustmaster and Logitech wheel support with configurable linearity for FFB",
+          "url": "https://www.overtake.gg/threads/nascar-14.81925/",
+          "date_accessed": "2026-02-22"
+        },
+        {
+          "type": "emulator",
+          "description": "RPCS3 compatibility list: Playable (BLUS-31378). Default settings work.",
+          "url": "https://rpcs3.net/compatibility?g=nascar",
+          "date_accessed": "2026-02-22"
+        }
+      ],
+      "notes": "Last Eutechnyx NASCAR title before Dusenberry Martin. Native wheel/FFB support. Requires linearity adjustment for proper feel.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "rpcs3": {
+          "serial": "BLUS-31378"
+        }
+      }
+    },
+    "test_drive_unlimited_2": {
+      "title": "Test Drive Unlimited 2",
+      "manufacturer": null,
+      "developer": "Eden Games",
+      "publisher": "Atari",
+      "year": "2011",
+      "rotation_degrees": 200,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "forum",
+          "description": "GTPlanet TDU2 wheel setups thread: community consensus is 200-220° for best handling. Arcade-oriented game handles poorly at higher rotation.",
+          "url": "https://www.gtplanet.net/forum/threads/tdu2-wheel-setups-post-yours-here.178422/",
+          "date_accessed": "2026-02-22"
+        },
+        {
+          "type": "emulator",
+          "description": "RPCS3 compatibility: Ingame status (BLUS-30527). Requires OpenGL for initial boot, then Vulkan.",
+          "url": "https://wiki.rpcs3.net/index.php?title=Test_Drive_Unlimited_2",
+          "date_accessed": "2026-02-22"
+        }
+      ],
+      "notes": "Open world racer. Wheel works but FFB is weak/minimal — no resistance on straight roads. Vibration should be OFF. 200° recommended by community.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "rpcs3": {
+          "serial": "BLUS-30527"
+        }
+      }
+    },
+    "superstars_v8_racing": {
+      "title": "Superstars V8 Racing",
+      "manufacturer": null,
+      "developer": "Milestone",
+      "publisher": "Black Bean Games",
+      "year": "2009",
+      "rotation_degrees": 900,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "reference",
+          "description": "AVForums PS3 steering wheel games list confirms native wheel and FFB support",
+          "url": "https://www.avforums.com/threads/ps3-steering-wheel-games.1549982/",
+          "date_accessed": "2026-02-22"
+        },
+        {
+          "type": "emulator",
+          "description": "RPCS3 compatibility: Playable (BLES-00529). No issues, default settings.",
+          "url": "https://wiki.rpcs3.net/index.php?title=Superstars_V8_Racing",
+          "date_accessed": "2026-02-22"
+        }
+      ],
+      "notes": "Touring car sim based on Italian V8 Superstars series. EU disc BLES-00529, US PSN-only NPUB-30338. 900° for touring car simulation.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "rpcs3": {
+          "serial": "BLES-00529"
+        }
+      }
+    },
+    "baja_edge_of_control": {
+      "title": "Baja: Edge of Control",
+      "manufacturer": null,
+      "developer": "2XL Games",
+      "publisher": "THQ",
+      "year": "2008",
+      "rotation_degrees": 900,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "forum",
+          "description": "race-deZert forums confirm G25/G27/DFGT wheel support with H-shifter on PS3",
+          "url": "https://www.race-dezert.com/forum/threads/steering-wheel-for-ps3.49867/",
+          "date_accessed": "2026-02-22"
+        },
+        {
+          "type": "emulator",
+          "description": "RPCS3 compatibility: Playable (BLUS-30191). No issues, default settings.",
+          "url": "https://wiki.rpcs3.net/index.php?title=Baja:_Edge_of_Control",
+          "date_accessed": "2026-02-22"
+        }
+      ],
+      "notes": "Off-road racing based on Baja 1000. Wheel works but FFB is weak/nonexistent on PS3. 900° for large off-road steering inputs.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "rpcs3": {
+          "serial": "BLUS-30191"
+        }
+      }
+    },
+    "supercar_challenge": {
+      "title": "Supercar Challenge",
+      "manufacturer": null,
+      "developer": "Milestone",
+      "publisher": "System 3",
+      "year": "2009",
+      "rotation_degrees": 900,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "reference",
+          "description": "AVForums PS3 steering wheel games list confirms native wheel and FFB support. Thrustmaster tips PDF confirms compatibility.",
+          "url": "https://www.avforums.com/threads/ps3-steering-wheel-games.1549982/",
+          "date_accessed": "2026-02-22"
+        },
+        {
+          "type": "emulator",
+          "description": "RPCS3 compatibility: Playable (BLES-00581). No issues, default settings.",
+          "url": "https://wiki.rpcs3.net/index.php?title=Supercar_Challenge",
+          "date_accessed": "2026-02-22"
+        }
+      ],
+      "notes": "EU-exclusive GT racing sim by Milestone (no US release). Native 900° wheel support with FFB.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "rpcs3": {
+          "serial": "BLES-00581"
+        }
+      }
+    },
+    "stuntman_ignition": {
+      "title": "Stuntman: Ignition",
+      "manufacturer": null,
+      "developer": "Paradigm Entertainment",
+      "publisher": "THQ",
+      "year": "2007",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "reference",
+          "description": "AVForums PS3 steering wheel games list and GTPlanet confirm DFP/G25 wheel input works for steering/throttle/brake",
+          "url": "https://www.avforums.com/threads/ps3-steering-wheel-games.1549982/",
+          "date_accessed": "2026-02-22"
+        },
+        {
+          "type": "emulator",
+          "description": "RPCS3 compatibility: Ingame (BLUS-30073). Crashes during in-game cutscenes.",
+          "url": "https://wiki.rpcs3.net/index.php?title=Stuntman:_Ignition",
+          "date_accessed": "2026-02-22"
+        }
+      ],
+      "notes": "Arcade stunt driving game. Wheel input works but no FFB. 270° for quick arcade-style turns.",
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "none",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "rpcs3": {
+          "serial": "BLUS-30073"
         }
       }
     }
