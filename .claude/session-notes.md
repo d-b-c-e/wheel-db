@@ -7,41 +7,34 @@
 
 ## What Was Done
 - v2.25.0: Upgraded 12 medium-confidence entries to high via targeted research
-- v2.26.0: Added 10 new RPCS3/PS3 entries + 1 RPCS3 platform mapping to existing entry
-  - NASCAR 08 (BLUS-30040): native wheel/FFB, 540°
-  - NASCAR 09 (BLUS-30139): native wheel/FFB, 540°
-  - NASCAR The Game 2011 (BLUS-30604): native wheel/FFB, 540°
-  - NASCAR Inside Line (BLUS-30932): native wheel/FFB, 540°
-  - NASCAR '14 (BLUS-31378): native wheel/FFB, 540°
-  - NASCAR '15: added RPCS3 serial BLUS-31560 to existing Steam entry
-  - Test Drive Unlimited 2 (BLUS-30527): native wheel, partial FFB, 200°
-  - Superstars V8 Racing (BLES-00529): native wheel/FFB, 900°
-  - Baja: Edge of Control (BLUS-30191): native wheel, partial FFB, 900°
-  - Supercar Challenge (BLES-00581): EU-exclusive, native wheel/FFB, 900°
-  - Stuntman: Ignition (BLUS-30073): partial wheel, no FFB, 270°
-- Evaluated Cxbx-Reloaded/Chihiro platform: NOT recommended (emulation too immature, all 5 racing games already in DB via MAME)
-- Checked Endurance Motorsport Series: not released yet, still "Coming Soon" targeting Q1 2026
-- Docs updated: CHANGELOG, README, CLAUDE.md, session-notes — all stats bumped to v2.26.0
+- v2.26.0: Added 10 new RPCS3/PS3 entries + 1 RPCS3 platform mapping (NASCAR 08-14, TDU2, Superstars V8, Baja, Supercar Challenge, Stuntman Ignition, NASCAR '15 mapping)
+- v2.27.0: Added 4 new RPCS3 entries + 3 platform mappings + 9 FFB upgrades
+  - New: Gran Turismo HD Concept, Superstars V8: Next Challenge, Ferrari: The Race Experience, Absolute Supercars
+  - Platform mappings: Daytona USA PSN (NPUB-30493), OutRun Online Arcade (NPEB-00073), SEGA Rally Online Arcade (NPUB-30375)
+  - FFB unknown→native: WRC PS2, Rally Fusion RoC, Lotus Challenge, Knight Rider, WRC II Extreme, F1 05, F1 06, Initial D Special Stage, F1 Career Challenge
+- Re-researched 3 medium entries (Harley-Davidson, Crazy Speed, Frenzy Express) — all stay medium, no new evidence found
+- Evaluated Cxbx-Reloaded/Chihiro: NOT recommended (emulation too immature)
+- Endurance Motorsport Series: not released yet (Q1 2026 target)
 
 ## Decisions Made
-- Cxbx-Reloaded/Chihiro platform skipped: only 5 racing games exist, all already in DB via MAME. Emulation is too immature for wheel support.
-- Juiced 2 skipped: no native wheel support on PS3
-- Superstars V8 Racing: used EU disc serial BLES-00529 as primary (US version NPUB-30338 is PSN digital-only)
-- Supercar Challenge: EU-exclusive title, used BLES-00581 (no US release)
-- TDU2 rotation set to 200° per community consensus (arcade handling feels wrong at higher values)
-- NASCAR PS3 series all set to 540° matching real NASCAR stock car steering
+- All 9 PS2 FFB upgrades based on Logitech DFGT official compatibility list — being on an FFB wheel's compatibility list inherently confirms FFB support
+- Absolute Supercars kept as separate entry from Supercar Challenge (different game content despite shared lineage)
+- Daytona USA PSN, OutRun Online Arcade, SEGA Rally Online Arcade mapped to existing arcade entries (same game content)
+- Medium entries definitively stuck: Harley-Davidson manual exists online but PDF inaccessible, Crazy Speed has no manufacturer specs, Frenzy Express too rare
 
 ## Open Items
-- [ ] 3 medium-confidence entries remain: Harley-Davidson KotR, Crazy Speed, Frenzy Express
-- [ ] Harley-Davidson KotR needs Sega Lindbergh Red EX cabinet documentation for medium→high
+- [ ] 3 medium-confidence entries remain: Harley-Davidson KotR, Crazy Speed, Frenzy Express (effectively permanent)
+- [ ] 76 entries have null controller_support in pc sub-object (batch-enrichable from Steam API)
+- [ ] 16 RPCS3-only entries could get Steam appids (delisted Codemasters/EA titles)
+- [ ] 25 null rotation_degrees entries (~6 need research, rest are N/A by design)
 - [ ] Shox (PCSX2) still needs hands-on wheel verification
-- [ ] Endurance Motorsport Series — add when released (expected Q1 2026)
+- [ ] Endurance Motorsport Series — add when released
 
 ## Next Steps
-1. Research Harley-Davidson KotR for medium→high (Sega Lindbergh cabinet docs or BYOAC owner reports)
-2. Consider additional PS3 games if community identifies more candidates
-3. Monitor Endurance Motorsport Series release for addition
-4. Consider expanding to other platforms or enriching existing entries
+1. Batch-enrich controller_support for 76 entries (Steam Store API or PCGamingWiki)
+2. Add Steam appids to RPCS3-only entries that had PC releases (DiRT 1-3, GRID 1-2, F1 2010-2013, etc.)
+3. Research null rotation for ~6 applicable entries (Screamer, MX vs ATV Legends, etc.)
+4. Monitor Endurance Motorsport Series release
 
 ## Context for Next Session
-v2.26.0 committed. Database at 722 games (+10 new RPCS3 entries). RPCS3 coverage now at 54 entries (was 43). Only 3 medium-confidence entries remain (all obscure arcade games). PC wheel support: native=192, partial=95, none=84. PC FFB: native=145, partial=76, none=141. Confidence: verified=60, high=659, medium=3, low=0.
+v2.27.0 committed. Database at 726 games, RPCS3 at 61 entries. Zero unknown FFB entries remain. Only 3 medium-confidence entries (all effectively permanent — obscure arcade games with inaccessible documentation). Major quality gaps: 76 null controller_support, 16 RPCS3-only entries missing Steam appids. PC stats: ws native=195/partial=96/none=84, ffb native=157/partial=77/none=141.

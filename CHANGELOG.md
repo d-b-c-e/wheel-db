@@ -4,6 +4,29 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.27.0] - 2026-02-22
+
+### Added
+- **4 new RPCS3/PS3 entries:**
+  - Gran Turismo HD Concept (Polyphony Digital, 2006) — native wheel/FFB, 900°
+  - Superstars V8: Next Challenge (Milestone, 2010) — EU-exclusive, native wheel/FFB, 900°
+  - Ferrari: The Race Experience (Eutechnyx, 2010) — partial wheel/FFB, 270°
+  - Absolute Supercars (Eutechnyx, 2012) — EU-exclusive, native wheel/FFB, 900°
+- **3 RPCS3 platform mappings added to existing entries:**
+  - Daytona USA: PS3 PSN port (NPUB-30493)
+  - OutRun 2 SP SDX: OutRun Online Arcade PSN (NPEB-00073)
+  - Sega Rally 3: SEGA Rally Online Arcade PSN (NPUB-30375)
+
+### Changed
+- **9 PS2 entries upgraded from force_feedback=unknown to native:**
+  - WRC: World Rally Championship, Rally Fusion: Race of Champions, Lotus Challenge, Knight Rider: The Game, WRC II Extreme, Formula One 05, Formula One 06, Initial D: Special Stage, F1 Career Challenge
+  - All confirmed via Logitech Driving Force GT official PS2 compatibility list
+- Zero unknown force_feedback entries remain in database
+- Total games: 722 → 726
+- RPCS3 entries: 54 → 61
+- PC wheel support: native=195, partial=96, none=84
+- PC force feedback: native=157, partial=77, none=141
+
 ## [2.26.0] - 2026-02-22
 
 ### Added

@@ -1,5 +1,5 @@
 {
-  "version": "2.26.0",
+  "version": "2.27.0",
   "generated": "2026-02-22T00:00:00Z",
   "games": {
     "outrun": {
@@ -130,6 +130,9 @@
         },
         "m2emulator": {
           "romname": "daytona"
+        },
+        "rpcs3": {
+          "serial": "NPUB-30493"
         }
       }
     },
@@ -337,6 +340,9 @@
             "outr2sdx",
             "outr2st"
           ]
+        },
+        "rpcs3": {
+          "serial": "NPEB-00073"
         }
       }
     },
@@ -368,6 +374,9 @@
       "platforms": {
         "teknoparrot": {
           "profile": "SR3"
+        },
+        "rpcs3": {
+          "serial": "NPUB-30375"
         }
       }
     },
@@ -26783,12 +26792,18 @@
           "description": "PCSX2 Wiki confirms serial SLUS-20419",
           "url": null,
           "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "reference",
+          "description": "Logitech Driving Force GT official PS2 compatibility list confirms wheel and force feedback support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-22"
         }
       ],
-      "notes": "Only WRC game with NTSC-U PS2 release. Developed by Evolution Studios (later MotorStorm, DriveClub). WRC II-IV were PAL only.",
+      "notes": "Only WRC game with NTSC-U PS2 release. Developed by Evolution Studios (later MotorStorm, DriveClub). WRC II-IV were PAL only. Native FFB confirmed.",
       "pc": {
         "wheel_support": "native",
-        "force_feedback": "unknown",
+        "force_feedback": "native",
         "controller_support": "full"
       },
       "platforms": {
@@ -26829,7 +26844,7 @@
       "notes": "Off-road rally game featuring Race of Champions licensed event. Native USB wheel support confirmed on PS2 via Logitech Driving Force compatibility lists.",
       "pc": {
         "wheel_support": "native",
-        "force_feedback": "unknown",
+        "force_feedback": "native",
         "controller_support": "full"
       },
       "platforms": {
@@ -26975,7 +26990,7 @@
       "notes": "PS2 version PAL-only. NA release planned by Interplay but cancelled. Xbox/GC versions released in NA by Xicat.",
       "pc": {
         "wheel_support": "native",
-        "force_feedback": "unknown",
+        "force_feedback": "native",
         "controller_support": "full"
       },
       "platforms": {
@@ -27016,7 +27031,7 @@
       "notes": "PS2 version PAL-only. PC version released in NA. Driving/action game based on TV series. Native wheel support confirmed by multiple PS2 compatibility lists.",
       "pc": {
         "wheel_support": "native",
-        "force_feedback": "unknown",
+        "force_feedback": "native",
         "controller_support": "full"
       },
       "platforms": {
@@ -27233,12 +27248,18 @@
           "description": "Same Evolution Studios engine and hardware as WRC 1 (confirmed wheel support). PAL-only sequel.",
           "url": null,
           "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "reference",
+          "description": "Logitech Driving Force GT official PS2 compatibility list confirms wheel and force feedback support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-22"
         }
       ],
-      "notes": "PAL-only sequel to WRC: World Rally Championship. Same Evolution Studios engine. Features all 14 official WRC 2002 events.",
+      "notes": "PAL-only sequel to WRC: World Rally Championship. Same Evolution Studios engine. Features all 14 official WRC 2002 events. Native FFB confirmed.",
       "pc": {
         "wheel_support": "native",
-        "force_feedback": "unknown",
+        "force_feedback": "native",
         "controller_support": "full"
       },
       "platforms": {
@@ -27273,7 +27294,7 @@
       "notes": "Studio Liverpool F1 series. PAL-only, never released in North America. Career mode with 5-year progression and interactive pit stops.",
       "pc": {
         "wheel_support": "native",
-        "force_feedback": "unknown",
+        "force_feedback": "native",
         "controller_support": "full"
       },
       "platforms": {
@@ -27303,12 +27324,18 @@
           "description": "Same Studio Liverpool engine and wheel support as F1 03, F1 04, F1 05. Last PS2 F1 game before PS3 Championship Edition.",
           "url": null,
           "date_accessed": "2026-02-21"
+        },
+        {
+          "type": "reference",
+          "description": "Logitech Driving Force GT official PS2 compatibility list and GameSpot user review confirm wheel with force feedback support",
+          "url": "https://www.gtplanet.net/forum/threads/logitech-driving-force-steering-wheel-compatabilty.82771/",
+          "date_accessed": "2026-02-22"
         }
       ],
-      "notes": "Final Studio Liverpool F1 game on PS2. PAL-only. Also released on PSP. Based on 2006 FIA season.",
+      "notes": "Final Studio Liverpool F1 game on PS2. PAL-only. Also released on PSP. Based on 2006 FIA season. Native FFB confirmed.",
       "pc": {
         "wheel_support": "native",
-        "force_feedback": "unknown",
+        "force_feedback": "native",
         "controller_support": "full"
       },
       "platforms": {
@@ -27448,7 +27475,7 @@
       "notes": "Japan-only PS2 port of Initial D Arcade Stage series. NTSC-J serial SLPM-65268. Supports DFP/DFGT wheels. 540° matches arcade cabinet specification.",
       "pc": {
         "wheel_support": "native",
-        "force_feedback": "unknown",
+        "force_feedback": "native",
         "controller_support": "full"
       },
       "platforms": {
@@ -27518,7 +27545,7 @@
       "notes": "EA Sports F1 game spanning 1999-2002 seasons. NTSC-U serial SLUS-20693. Career mode across multiple F1 seasons.",
       "pc": {
         "wheel_support": "native",
-        "force_feedback": "unknown",
+        "force_feedback": "native",
         "controller_support": "full"
       },
       "platforms": {
@@ -28863,6 +28890,146 @@
       "platforms": {
         "rpcs3": {
           "serial": "BLUS-30073"
+        }
+      }
+    },
+    "gran_turismo_hd_concept": {
+      "title": "Gran Turismo HD Concept",
+      "manufacturer": null,
+      "developer": "Polyphony Digital",
+      "publisher": "Sony Computer Entertainment",
+      "year": "2006",
+      "rotation_degrees": 900,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "forum",
+          "description": "HardForum confirms v1.2 update added G25 force feedback support. Logitech DF/DFP/DF EX/DFGT also supported.",
+          "url": "https://hardforum.com/threads/gran-turismo-hd-now-has-force-feedback.1176887/",
+          "date_accessed": "2026-02-22"
+        },
+        {
+          "type": "emulator",
+          "description": "RPCS3 compatibility: Playable (NPUA-80019). Gran Turismo series standard 900° rotation.",
+          "url": "https://wiki.rpcs3.net/index.php?title=Gran_Turismo_HD_Concept",
+          "date_accessed": "2026-02-22"
+        }
+      ],
+      "notes": "Free PSN tech demo. First GT on PS3. Wheel/FFB added in v1.2 patch (April 2007). One track (Eiger Nordwand).",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "rpcs3": {
+          "serial": "NPUA-80019"
+        }
+      }
+    },
+    "superstars_v8_next_challenge": {
+      "title": "Superstars V8: Next Challenge",
+      "manufacturer": null,
+      "developer": "Milestone",
+      "publisher": "Black Bean Games",
+      "year": "2010",
+      "rotation_degrees": 900,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "forum",
+          "description": "GTPlanet confirms G27 wheel support. Sequel to Superstars V8 Racing with improved physics.",
+          "url": "https://www.gtplanet.net/forum/threads/recommend-me-ps3-racing-games-good-for-g27.304888/",
+          "date_accessed": "2026-02-22"
+        },
+        {
+          "type": "emulator",
+          "description": "RPCS3 compatibility: Playable (BLES-00771). No reported issues.",
+          "url": "https://wiki.rpcs3.net/index.php?title=Superstars_V8:_Next_Challenge",
+          "date_accessed": "2026-02-22"
+        }
+      ],
+      "notes": "EU-exclusive sequel to Superstars V8 Racing. Touring car sim with native 900° wheel/FFB support.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "rpcs3": {
+          "serial": "BLES-00771"
+        }
+      }
+    },
+    "ferrari_the_race_experience": {
+      "title": "Ferrari: The Race Experience",
+      "manufacturer": null,
+      "developer": "Eutechnyx",
+      "publisher": "System 3",
+      "year": "2010",
+      "rotation_degrees": 270,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "forum",
+          "description": "GTPlanet confirms G25 wheel works well. G27/DFGT have manual transmission issues. Wheel support added in v01.22 update.",
+          "url": "https://www.gtplanet.net/forum/threads/ferrari-the-race-experience.248409/",
+          "date_accessed": "2026-02-22"
+        },
+        {
+          "type": "emulator",
+          "description": "RPCS3 compatibility: Playable (NPEB-00185). PSN digital release.",
+          "url": "https://wiki.rpcs3.net/index.php?title=Ferrari:_The_Race_Experience",
+          "date_accessed": "2026-02-22"
+        }
+      ],
+      "notes": "PSN digital Ferrari racer by Eutechnyx. G25 works well, G27/DFGT have reduced manual shifting support. 270° arcade handling.",
+      "pc": {
+        "wheel_support": "partial",
+        "force_feedback": "partial",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "rpcs3": {
+          "serial": "NPEB-00185"
+        }
+      }
+    },
+    "absolute_supercars": {
+      "title": "Absolute Supercars",
+      "manufacturer": null,
+      "developer": "Eutechnyx",
+      "publisher": "System 3",
+      "year": "2012",
+      "rotation_degrees": 900,
+      "rotation_type": null,
+      "confidence": "high",
+      "sources": [
+        {
+          "type": "forum",
+          "description": "GTPlanet confirms G25 and DFGT wheel support. Enhanced re-release of Supercar Challenge.",
+          "url": "https://www.gtplanet.net/forum/threads/absolute-super-cars.270851/",
+          "date_accessed": "2026-02-22"
+        },
+        {
+          "type": "emulator",
+          "description": "RPCS3 compatibility: Playable (BLES-01500). No reported issues.",
+          "url": "https://wiki.rpcs3.net/index.php?title=Absolute_Supercars",
+          "date_accessed": "2026-02-22"
+        }
+      ],
+      "notes": "EU-exclusive enhanced re-release of Supercar Challenge. GT racing sim with native 900° wheel/FFB.",
+      "pc": {
+        "wheel_support": "native",
+        "force_feedback": "native",
+        "controller_support": "full"
+      },
+      "platforms": {
+        "rpcs3": {
+          "serial": "BLES-01500"
         }
       }
     }
